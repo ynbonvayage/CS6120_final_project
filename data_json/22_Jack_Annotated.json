@@ -1,0 +1,499 @@
+{
+  "session_id": "22_Jack",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "22_Jack",
+    "name": "Jack",
+    "age": 86,
+    "role": "Carpenter",
+    "timeline": [
+      { "stage": "Youth", "topic": "Building his own house", "context": "Self-reliance." },
+      { "stage": "Adulthood", "topic": "Injury on the job", "context": "Financial fear." },
+      { "stage": "Old Age", "topic": "Carving toys", "context": "Gentle work." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you came to build your own house. What was that experience like for you?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it was back in the mid-1950s.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "mid-1950s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "I was just a young man then, full of ambition.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Self-Image",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My wife and I had just gotten married, and we needed a place of our own.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Motivation",
+            "emotions": ["Determination"],
+            "entities": [
+              { "text": "wife", "type": "PERSON", "role": "spouse" }
+            ]
+          }
+        },
+        {
+          "text": "I didn't have much money, but I had my skills as a carpenter.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Resourcefulness",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "carpenter", "type": "OCCUPATION", "role": "job" }
+            ]
+          }
+        },
+        {
+          "text": "So, I decided to do it myself.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Decision",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you took on quite a challenge. What were some of the toughest parts of building your house?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The hardest part was probably the foundation.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Construction",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "foundation", "type": "LOCATION", "role": "base" }
+            ]
+          }
+        },
+        {
+          "text": "I remember digging it out by hand.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Labor",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Took me weeks, but I wanted it done right.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Perfectionism",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Weather didn't always cooperate, either.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Obstacle",
+            "emotions": ["Anger/Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I had this vision in my mind, and that kept me going.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Motivation",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially with the weather not cooperating. So when did things change for you during this period?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After a couple of months, the house was finally coming together.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Progress",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "house", "type": "LOCATION", "role": "home" }
+            ]
+          }
+        },
+        {
+          "text": "It was a relief to have a shelter over our heads.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Milestone",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you after building the house?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it was a few years later, when I was working on another project.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was up on a ladder, and I took a bad fall.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Accident",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "ladder", "type": "ARTIFACT", "role": "tool" }
+            ]
+          }
+        },
+        {
+          "text": "Landed wrong, and it messed up my back pretty good.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Injury",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "back", "type": "ARTIFACT", "role": "body part" }
+            ]
+          }
+        },
+        {
+          "text": "I had to take a break from work for quite a while after that.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like a significant moment. How did that injury impact your life and work?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The injury was tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I couldn't handle the heavy lifting anymore, which was frustrating because that's what I had been doing all my life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Limitation",
+            "emotions": ["Anger/Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a real blow to my confidence.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly tough, Jack. How did you manage during that recovery period?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, to be honest, it wasn't easy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Honesty",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to rely on others more than I was comfortable with.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Dependency",
+            "emotions": ["Anger/Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Financially, things got tight.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Strain",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember feeling pretty helpless at times, but gradually I started finding ways to contribute again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": ["Relief", "Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear what you turned to as you were finding new ways to contribute. What led you to start carving toys?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, during that downtime, I found myself with a lot of hours to fill.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My hands were itching to be busy, you know?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Need",
+            "emotions": ["Anger/Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "So, I picked up a knife and started whittling again.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "knife", "type": "ARTIFACT", "role": "tool" }
+            ]
+          }
+        },
+        {
+          "text": "I started making little wooden toys for my grandkids.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Creation",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "wooden toys", "type": "ARTIFACT", "role": "creation" },
+              { "text": "grandkids", "type": "PERSON", "role": "family" }
+            ]
+          }
+        },
+        {
+          "text": "Seeing their faces light up when they got a new toy was just the kind of motivation I needed.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reward",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like turning to carving was an important step for you. How did it feel to see your creations appreciated by your grandkids?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was a real joy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Joy",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It gave me a sense of purpose, something to look forward to every day.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was different than building houses, but satisfying in its own way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "houses", "type": "LOCATION", "role": "past work" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It must have been rewarding to find that sense of purpose again. How do you reflect on those changes in your life now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, looking back, it's funny how things turn out.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "That injury, it seemed like the end of the world at the time.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But it pushed me in a direction I never would have taken otherwise.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Carving toys turned into a real passion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Passion",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Jack, what would you say is the biggest lesson you've learned from these experiences?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I'd say the biggest lesson is to adapt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life throws all sorts of curveballs, and you can't always stick to what you know.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "When I couldn't work as a carpenter anymore, I had to find a new path.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Resilience",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It wasn't easy, but leaning into something unexpected like carving taught me there's always another way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

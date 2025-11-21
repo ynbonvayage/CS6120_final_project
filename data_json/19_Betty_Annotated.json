@@ -1,0 +1,452 @@
+{
+  "session_id": "19_Betty",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "19_Betty",
+    "name": "Betty",
+    "age": 83,
+    "role": "Flight Attendant",
+    "timeline": [
+      { "stage": "Youth", "topic": "Golden Age of Flying", "context": "Glamour and travel." },
+      { "stage": "Adulthood", "topic": "Deregulation era", "context": "Strikes and chaos." },
+      { "stage": "Old Age", "topic": "Grounding", "context": "Missing the sky." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences during the Golden Age of Flying."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were truly magical times.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started flying in the late 1950s, and I remember the glamour and excitement that surrounded air travel back then.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "late 1950s", "type": "TIME", "role": "era" },
+              { "text": "air travel", "type": "EVENT", "role": "industry" }
+            ]
+          }
+        },
+        {
+          "text": "We wore these elegant uniforms, and every flight felt like a grand event.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Experience",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "uniforms", "type": "ARTIFACT", "role": "clothing" }
+            ]
+          }
+        },
+        {
+          "text": "The airplanes were smaller, and the service was much more personalized.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "airplanes", "type": "ARTIFACT", "role": "vehicle" }
+            ]
+          }
+        },
+        {
+          "text": "We even had to carve chateaubriand steak in the aisle for first-class passengers.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Service",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "chateaubriand steak", "type": "ARTIFACT", "role": "food" },
+              { "text": "passengers", "type": "PERSON", "role": "clients" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the work was demanding but rewarding."
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely, it was.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Agreement",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Each flight was an adventure, and I loved meeting people from all walks of life.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Adventure",
+            "emotions": ["Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was a real sense of camaraderie among the crew.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "crew", "type": "PERSON", "role": "colleagues" }
+            ]
+          }
+        },
+        {
+          "text": "We even had to learn how to swim in case of an emergency water landing!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Training",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing all those expectations. So when did things change for you in the industry?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, things started to shift during the 1970s with the introduction of larger airplanes and more passengers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "1970s", "type": "TIME", "role": "decade" }
+            ]
+          }
+        },
+        {
+          "text": "Then, in the 1980s, deregulation hit, and everything really transformed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Deregulation",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "1980s", "type": "TIME", "role": "decade" },
+              { "text": "deregulation", "type": "EVENT", "role": "policy change" }
+            ]
+          }
+        },
+        {
+          "text": "Airlines were cutting costs, and the service level we were known for began to decline.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decline",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "airlines", "type": "ORGANIZATION", "role": "employer" }
+            ]
+          }
+        },
+        {
+          "text": "It was challenging to adapt, but we did our best to maintain that sense of elegance in the air.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Adaptation",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like those changes brought a lot of challenges. How did you and your colleagues adapt to such a different landscape?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Adapting was indeed tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "We worked closely together, shared tips on how to manage the increased workload, and always reminded each other of the joy flying brought us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember once, during a particularly turbulent time in the industry, we organized a little in-flight concert for the passengers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Innovation",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "concert", "type": "EVENT", "role": "entertainment" }
+            ]
+          }
+        },
+        {
+          "text": "It was moments like these that kept the magic alive, both for us and for them.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Magic",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like a beautiful moment, Betty. How did your time as a flight attendant eventually come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, as much as I loved flying, things were getting harder with the continuous changes in the industry.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Difficulty",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "In the late 1990s, after a long and satisfying career, I decided it was time to retire.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Retirement",
+            "emotions": ["Relief", "Joy/Pride"],
+            "entities": [
+              { "text": "late 1990s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "Retirement was bittersweet because I missed the skies, the crew, and the passengers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": ["Sadness/Loss", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "skies", "type": "LOCATION", "role": "workplace" }
+            ]
+          }
+        },
+        {
+          "text": "But it felt like the right time for me to step back and enjoy other things in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Betty, after you retired, how did you transition into life on the ground?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was quite an adjustment, I must say.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adjustment",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "After spending so many years in the air, being grounded felt strange at first.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But soon enough, I found joy in the simple things—spending time with my family, gardening, and traveling for leisure instead of work.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobbies",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "kin" },
+              { "text": "gardening", "type": "EVENT", "role": "hobby" }
+            ]
+          }
+        },
+        {
+          "text": "I even joined a community group of retired flight attendants.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Community",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "group", "type": "ORGANIZATION", "role": "club" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like that sense of community has stayed with you. How do you feel looking back on your career now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, I feel incredibly grateful for the life I've led.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Being a flight attendant was more than just a job; it was a passion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sure, there were tough times, but those experiences shaped me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Now, in my old age, I find joy in sharing stories and reflecting on the adventures I've had.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Storytelling",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Betty, is there a final lesson or memory you’d like to leave us with?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, absolutely! One memory that stands out is from my last flight before retirement.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Last Flight",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the crew surprised me with a little ceremony on board.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Ceremony",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "ceremony", "type": "EVENT", "role": "celebration" }
+            ]
+          }
+        },
+        {
+          "text": "They gathered the passengers and announced my retirement.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Announcement",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was so touching.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Emotion",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My final lesson would be to treasure those little moments of joy and gratitude.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "They’re what make the journey worthwhile.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

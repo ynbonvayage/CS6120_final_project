@@ -1,0 +1,673 @@
+{
+  "session_id": "50_Butch",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "50_Butch",
+    "name": "Butch",
+    "age": 79,
+    "role": "Butcher",
+    "timeline": [
+      { "stage": "Youth", "topic": "Family shop apprentice", "context": "Tradition." },
+      { "stage": "Adulthood", "topic": "Supermarkets taking over", "context": "Competition." },
+      { "stage": "Old Age", "topic": "Vegan granddaughter", "context": "Cultural shift." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time as an apprentice in your family's butcher shop."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, those were different times.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was just a lad, around 15, when I started working with my father in the shop.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "15", "type": "TIME", "role": "age" },
+              { "text": "father", "type": "PERSON", "role": "mentor" },
+              { "text": "shop", "type": "LOCATION", "role": "workplace" }
+            ]
+          }
+        },
+        {
+          "text": "It was a small place, but it was always bustling with customers.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Atmosphere",
+            "emotions": ["Excitement"],
+            "entities": [
+              { "text": "customers", "type": "PERSON", "role": "clientele" }
+            ]
+          }
+        },
+        {
+          "text": "My father taught me everything—how to choose the right cuts, how to keep the knives sharp.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Learning",
+            "emotions": ["Respect/Admiration"],
+            "entities": [
+              { "text": "cuts", "type": "ARTIFACT", "role": "product" },
+              { "text": "knives", "type": "ARTIFACT", "role": "tool" }
+            ]
+          }
+        },
+        {
+          "text": "It was a real craft back then.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Pride",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like working there was more than just a job. What was the community like around the shop?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh yes, it was very much more than just a job.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The shop was in the heart of our neighborhood, and everyone knew each other.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Community",
+            "emotions": ["Belonging"],
+            "entities": [
+              { "text": "neighborhood", "type": "LOCATION", "role": "area" }
+            ]
+          }
+        },
+        {
+          "text": "People would come in, not just to buy meat, but to chat and catch up on the latest news.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Interaction",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "meat", "type": "ARTIFACT", "role": "product" }
+            ]
+          }
+        },
+        {
+          "text": "I remember the laughter and the stories exchanged over the counter.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "counter", "type": "ARTIFACT", "role": "fixture" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard when things started to change. So, when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was around the late 70s, I think.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Timeline",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "late 70s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "That's when the big supermarkets started cropping up everywhere.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "supermarkets", "type": "ORGANIZATION", "role": "competitor" }
+            ]
+          }
+        },
+        {
+          "text": "They could offer prices we just couldn't compete with.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Competition",
+            "emotions": ["Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Slowly, we saw fewer familiar faces coming through our door.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decline",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It felt like the heart of our little community was fading away.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That sounds like a challenging transition. How did that period eventually come to an end for you?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it wasn't easy, that's for sure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My father was heartbroken, and eventually, we had no choice but to close the doors for good.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Closure",
+            "emotions": ["Sadness/Loss", "Grief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I stayed in the trade for a bit, working in other small butcheries, but it was never the same.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was like a part of my identity had closed along with that shop.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Identity",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "It must have been tough to see such changes. What was it like trying to adapt to this new landscape?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was difficult, truly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Difficulty",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The supermarkets changed the game entirely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Observation",
+            "emotions": ["Resignation"],
+            "entities": []
+          }
+        },
+        {
+          "text": "They had everything under one roof: groceries, household items, and of course, meat.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Comparison",
+            "emotions": ["Frustration"],
+            "entities": [
+              { "text": "groceries", "type": "ARTIFACT", "role": "goods" }
+            ]
+          }
+        },
+        {
+          "text": "People liked the convenience, I suppose.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Understanding",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But for us, small business owners, it felt like being pushed out slowly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": ["Anger/Frustration"],
+            "entities": [
+              { "text": "small business owners", "type": "PERSON", "role": "group" }
+            ]
+          }
+        },
+        {
+          "text": "We tried to adapt, offering discounts and special cuts, but it wasn't enough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Effort",
+            "emotions": ["Disappointment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly tough. Did the sense of community ever return in any form, or did it feel like it was lost forever?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, the community changed, that's for sure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It never quite came back to what it was in those early days at the shop.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "People became more dispersed, more focused on their own lives, without the same kind of neighborhood bond.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Isolation",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I suppose the local pub became the new meeting place, but it was different.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Shift",
+            "emotions": ["Indifference"],
+            "entities": [
+              { "text": "pub", "type": "LOCATION", "role": "venue" }
+            ]
+          }
+        },
+        {
+          "text": "The sense of knowing everyone's name and story was lost.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to face. Did you ever consider leaving the trade altogether?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, I did think about it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Doubt",
+            "emotions": ["Uncertainty"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were times when it all seemed too much, and I thought maybe I should try something different.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Contemplation",
+            "emotions": ["Exhaustion"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But there was always something that kept me tied to it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Commitment",
+            "emotions": ["Passion"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The work itself was in my blood, you might say.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Identity",
+            "emotions": ["Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Even when the shop closed, I found myself drawn to other butcheries.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Action",
+            "emotions": ["Comfort"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I suppose it was a way of holding onto the past, to something familiar when everything else was changing.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like those were tough years. I'd love to hear about how you managed to keep going despite all the changes."
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it wasn't easy, I'll tell you that.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Admission",
+            "emotions": ["Honesty"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were days when it felt like I was fighting a losing battle.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I think it was the love for the craft that kept me going.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": ["Love"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There's something about working with your hands, creating something from a raw piece of meat.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Craftsmanship",
+            "emotions": ["Satisfaction"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I also had a family to support, and that was a big motivator.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Responsibility",
+            "emotions": ["Determination"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "dependents" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did things change again for you, especially with your family and the younger generation?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, well, times have definitely changed again, especially with my granddaughter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Update",
+            "emotions": ["Surprise"],
+            "entities": [
+              { "text": "granddaughter", "type": "PERSON", "role": "kin" }
+            ]
+          }
+        },
+        {
+          "text": "You see, she's a vegan now.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Revelation",
+            "emotions": ["Surprise"],
+            "entities": [
+              { "text": "vegan", "type": "EVENT", "role": "lifestyle" }
+            ]
+          }
+        },
+        {
+          "text": "It's funny how life comes full circle, isn't it?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Amusement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Never thought I'd see the day when someone in my family wouldn't touch meat.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Irony",
+            "emotions": ["Amusement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The world is shifting, and I guess we have to shift with it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It must be quite a change to see your granddaughter embrace a lifestyle so different from the one you've known. How has that impacted you personally?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it certainly gives you something to think about.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": ["Curiosity"],
+            "entities": []
+          }
+        },
+        {
+          "text": "At first, I was a bit taken aback.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reaction",
+            "emotions": ["Surprise"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I mean, meat has been such a big part of my life for as long as I can remember.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But as I've gotten older, I've come to realize that the world is always moving, always changing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's given me a chance to learn and see things from a new perspective.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": ["Openness"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I guess it's a reminder that every generation has its own way of doing things, and that’s okay.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Understanding",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Butch, if you could share a lesson or a thought with future generations, something you've learned from all your experiences, what would it be?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I suppose if there's one thing I'd want to pass down, it's that change is a constant in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "You can't stop it, and sometimes it hurts, but it's also a chance to grow and learn.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reality",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "So, don't be afraid of change.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Encouragement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Embrace it, learn from it, and let it guide you to new opportunities.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "And always hold dear the memories and lessons of the past—they're a part of you, and they'll help you make sense of whatever comes next.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}
