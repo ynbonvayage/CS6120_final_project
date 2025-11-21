@@ -1,0 +1,505 @@
+{
+  "session_id": "27_Cliff",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "27_Cliff",
+    "name": "Cliff",
+    "age": 84,
+    "role": "Postman",
+    "timeline": [
+      { "stage": "Youth", "topic": "Walking the route", "context": "Knowing everyone." },
+      { "stage": "Adulthood", "topic": "The dog bite incident", "context": "Hazard of the job." },
+      { "stage": "Old Age", "topic": "Letters vs Email", "context": "Nostalgia." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your days walking the route as a postman."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, those were the days.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember starting early in the morning, just before sunrise.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Routine",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had my usual route, a good couple of miles each day.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "route", "type": "LOCATION", "role": "path" }
+            ]
+          }
+        },
+        {
+          "text": "It was a small town, so I got to know everyone on the route quite well.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Community",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "small town", "type": "LOCATION", "role": "community" }
+            ]
+          }
+        },
+        {
+          "text": "I’d stop and chat with Mrs. Thompson about her garden, or help Mr. Green with his groceries.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Interaction",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "Mrs. Thompson", "type": "PERSON", "role": "resident" },
+              { "text": "Mr. Green", "type": "PERSON", "role": "resident" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those connections were really important to you."
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "They truly were.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There’s something special about handing someone a letter and seeing the joy on their face.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Delivery",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "letter", "type": "ARTIFACT", "role": "mail" }
+            ]
+          }
+        },
+        {
+          "text": "It wasn’t just about delivering mail; it was about being part of their lives.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Purpose",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things started to change when the dog bite incident happened.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "dog bite", "type": "EVENT", "role": "accident" }
+            ]
+          }
+        },
+        {
+          "text": "I was on my usual route when out of nowhere, old Mrs. Jenkins’ dog, a big brown thing, came barreling out of the yard.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": ["Surprise", "Fear/Anxiety"],
+            "entities": [
+              { "text": "Mrs. Jenkins", "type": "PERSON", "role": "owner" },
+              { "text": "dog", "type": "PERSON", "role": "animal" }
+            ]
+          }
+        },
+        {
+          "text": "Before I knew it, it had sunk its teeth into my leg.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Injury",
+            "emotions": ["Pain"],
+            "entities": []
+          }
+        },
+        {
+          "text": "That incident really shook me up.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to go through. How did that incident affect your work?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after the bite, I had to take a bit of time off to heal.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It wasn't just the physical wound; it was the fear of it happening again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Trauma",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It made the job feel a bit different, you know?",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "That sense of carefree familiarity was shaken.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "Did the incident change how people on your route interacted with you?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, definitely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "People would come out to greet me more often, just to make sure I was okay.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": ["Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was touching, really, but it also highlighted how vulnerable I had felt.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Mixed Feelings",
+            "emotions": ["Nostalgia/Gratitude", "Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "And how did this incident change your view on continuing as a postman?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It made me think a lot about my safety and my place in the community.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "With emails and new technologies coming in, I wasn't sure how long my services would be needed in the same way.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Obsolescence",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "emails", "type": "ARTIFACT", "role": "technology" }
+            ]
+          }
+        },
+        {
+          "text": "The incident with the dog was kind of a wake-up call.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you adjusted to the changes. What was it like shifting from letters to emails?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it was quite the adjustment, let me tell you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But as emails started becoming more common, the piles of letters began to dwindle.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decline",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "letters", "type": "ARTIFACT", "role": "mail" }
+            ]
+          }
+        },
+        {
+          "text": "It was like watching the world slowly change from something tangible to something digital.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was as if a part of the job's soul was being lost.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Loss",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a shift. How did you personally adapt to this new digital world?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Adapting wasn't easy, I'll tell you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Struggle",
+            "emotions": ["Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My grandchildren helped me set up an email account, showed me the ropes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Learning",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "grandchildren", "type": "PERSON", "role": "family" }
+            ]
+          }
+        },
+        {
+          "text": "It's not the same as a handwritten letter, but it has its own charm, I suppose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": ["Contentment"],
+            "entities": [
+              { "text": "handwritten letter", "type": "ARTIFACT", "role": "object" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like you hold a lot of nostalgia for the old ways. What do you miss the most about delivering letters?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I think what I miss the most is the intimacy of it all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Nostalgia",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "When you deliver a letter, it’s like you’re part of a secret exchange.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I miss the anticipation, the surprise, the joy of a letter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It seems like there was a real emotional connection in those days. How do you feel about the way things are now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I suppose I feel a bit left behind sometimes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Emotion",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I watch people tap away on their phones, and I can't help but feel a pang of longing for the days when a simple envelope could carry so much significance.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": ["Nostalgia/Gratitude", "Sadness/Loss"],
+            "entities": [
+              { "text": "phones", "type": "ARTIFACT", "role": "device" },
+              { "text": "envelope", "type": "ARTIFACT", "role": "letter" }
+            ]
+          }
+        },
+        {
+          "text": "But I also understand that change is part of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Cliff, if you could share one final lesson from your life as a postman, what would it be?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Hmm, well, I'd say, hold onto those small, everyday moments.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's those daily connections, the simple exchanges with people, that build the fabric of our lives.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Even if the world's changing, like it always does, the value of human connection never really fades.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Philosophy",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

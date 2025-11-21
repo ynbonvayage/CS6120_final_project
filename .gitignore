@@ -1,0 +1,21 @@
+# === 必须忽略的大文件和系统文件 ===
+
+# 1. 虚拟环境 (体积巨大，不上传)
+venv/
+env/
+.env
+
+# 2. 训练好的模型输出 (体积巨大，GitHub 传不上去)
+ner_model_output/
+bert-memoir-adapted/
+*.bin
+*.safetensors
+pytorch_model.bin
+checkpoint-*/
+
+# 3. Python 缓存文件 (垃圾文件)
+__pycache__/
+*.pyc
+
+# 4. Mac 系统生成的文件
+.DS_Store

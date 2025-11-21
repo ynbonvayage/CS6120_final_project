@@ -1,0 +1,493 @@
+{
+  "session_id": "24_Yuri",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "24_Yuri",
+    "name": "Yuri",
+    "age": 72,
+    "role": "Ballet Dancer",
+    "timeline": [
+      { "stage": "Youth", "topic": "Defecting to the West", "context": "Leaving family." },
+      { "stage": "Adulthood", "topic": "The knee injury", "context": "Career ending." },
+      { "stage": "Old Age", "topic": "Teaching kids", "context": "Finding joy again." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you ended up defecting to the West."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was in the late 70s, during a tour with the ballet company.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "late 70s", "type": "TIME", "role": "era" },
+              { "text": "ballet company", "type": "ORGANIZATION", "role": "employer" }
+            ]
+          }
+        },
+        {
+          "text": "We were in Paris.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Location",
+            "emotions": ["Excitement"],
+            "entities": [
+              { "text": "Paris", "type": "LOCATION", "role": "city" }
+            ]
+          }
+        },
+        {
+          "text": "I decided to stay.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Defection",
+            "emotions": ["Determination", "Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like a bold decision. What was going through your mind at the time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I felt trapped, you know?",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The restrictions, the constant surveillance.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Oppression",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "In Paris, I saw freedom.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Realization",
+            "emotions": ["Hope/Inspired"],
+            "entities": [
+              { "text": "Paris", "type": "LOCATION", "role": "symbol" }
+            ]
+          }
+        },
+        {
+          "text": "It was an opportunity I couldn’t pass up.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Decision",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, leaving everything behind. How did you cope with being in a new place?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was difficult at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I missed my family, my friends.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "kin" },
+              { "text": "friends", "type": "PERSON", "role": "companions" }
+            ]
+          }
+        },
+        {
+          "text": "But the ballet community here was welcoming.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "ballet community", "type": "ORGANIZATION", "role": "support system" }
+            ]
+          }
+        },
+        {
+          "text": "They helped me find my footing.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Integration",
+            "emotions": ["Relief", "Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you after you settled in the West?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things really changed when I injured my knee.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Injury",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "knee", "type": "ARTIFACT", "role": "body part" }
+            ]
+          }
+        },
+        {
+          "text": "It was a turning point.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been devastating, especially for a dancer. How did it happen?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "During a rehearsal, I landed awkwardly after a jump.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Accident",
+            "emotions": ["Shock"],
+            "entities": [
+              { "text": "rehearsal", "type": "EVENT", "role": "activity" }
+            ]
+          }
+        },
+        {
+          "text": "It was immediate pain, and I knew it was bad.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pain",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "What were some of the core challenges you faced during your recovery?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The hardest part was accepting that my career as a performer was over.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Acceptance",
+            "emotions": ["Sadness/Loss", "Grief"],
+            "entities": [
+              { "text": "career", "type": "EVENT", "role": "profession" }
+            ]
+          }
+        },
+        {
+          "text": "The doctors said I wouldn't dance again professionally.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Prognosis",
+            "emotions": ["Devastation"],
+            "entities": [
+              { "text": "doctors", "type": "PERSON", "role": "medical staff" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly tough to hear. How did you manage to move forward after that?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I had to find a new purpose.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Search",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Teaching became my focus.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": ["Hope/Inspired"],
+            "entities": [
+              { "text": "teaching", "type": "EVENT", "role": "new career" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "Teaching must have been a big adjustment. What was it like transitioning from performing to teaching?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Transitioning wasn't easy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Difficulty",
+            "emotions": ["Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to learn patience.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Learning",
+            "emotions": ["Growth"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Teaching is different; you guide others rather than express yourself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Insight",
+            "emotions": ["Reflection"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear how teaching kids has been for you now."
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Teaching kids is rewarding.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Satisfaction",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "kids", "type": "PERSON", "role": "students" }
+            ]
+          }
+        },
+        {
+          "text": "They have so much energy and potential.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It feels good to pass on what I've learned.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": ["Fulfillment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like teaching has brought you a lot of fulfillment. How do you feel looking back at your journey from dancer to teacher?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, I see it as a full circle.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I miss performing, but teaching gives me a sense of purpose I didn't expect.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Realization",
+            "emotions": ["Nostalgia/Gratitude", "Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So, how do you feel about the impact you've had on your students over the years?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I hope I've inspired them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "That's all a teacher can ask for.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Philosophy",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "That's a wonderful sentiment. What's one of your proudest moments as a teacher?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "There's a student who went on to join a professional company.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Success Story",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "student", "type": "PERSON", "role": "protege" },
+              { "text": "professional company", "type": "ORGANIZATION", "role": "career" }
+            ]
+          }
+        },
+        {
+          "text": "Seeing them succeed felt like a piece of my own journey continued.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what's one final lesson you'd share with those aspiring to follow in your footsteps?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Never stop learning.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life will change, and you must adapt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Resilience"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Embrace every stage.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

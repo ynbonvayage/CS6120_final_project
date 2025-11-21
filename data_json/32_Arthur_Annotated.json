@@ -1,0 +1,546 @@
+{
+  "session_id": "32_Arthur",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "32_Arthur",
+    "name": "Arthur",
+    "age": 77,
+    "role": "Banker",
+    "timeline": [
+      { "stage": "Youth", "topic": "Wall Street 80s", "context": "Greed and excess." },
+      { "stage": "Adulthood", "topic": "The 2008 Crash", "context": "Guilt and panic." },
+      { "stage": "Old Age", "topic": "Charity work", "context": "Atonement." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences on Wall Street during the 1980s."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the 80s on Wall Street were something else.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "80s", "type": "TIME", "role": "decade" },
+              { "text": "Wall Street", "type": "LOCATION", "role": "financial district" }
+            ]
+          }
+        },
+        {
+          "text": "It was a time of excess and ambition, where the sky felt like the limit.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Atmosphere",
+            "emotions": ["Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was a young banker then, and the energy was palpable.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "banker", "type": "OCCUPATION", "role": "job" }
+            ]
+          }
+        },
+        {
+          "text": "We were all about big deals, fast deals.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work Culture",
+            "emotions": ["Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The culture was competitive, sometimes ruthless, but incredibly rewarding for those who were driven.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": ["Joy/Pride", "Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like a dynamic period. What was your day-to-day like during that time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "My day-to-day was hectic, to say the least.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Routine",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "We were constantly on the move, starting early in the morning and often working late into the night.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Workload",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Each day was a mix of meetings, calls, and strategy sessions.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Activity",
+            "emotions": ["Focus"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The pressure was immense, but it was all part of the thrill.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": ["Excitement", "Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "You had to stay sharp and be ready to seize any opportunity that came your way.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Requirement",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to keep up with. So when did things change for you on Wall Street?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, by the late 80s, you could feel the shift starting.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "late 80s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "The market was taking on a different tone, and regulations were beginning to tighten.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Regulation",
+            "emotions": ["Concern"],
+            "entities": [
+              { "text": "regulations", "type": "EVENT", "role": "constraint" }
+            ]
+          }
+        },
+        {
+          "text": "For me personally, the change became more evident in the early 90s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Timeline",
+            "emotions": ["Realization"],
+            "entities": [
+              { "text": "early 90s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "I began to feel the weight of constant pressure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Stress",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It wasn't just about the deals anymore; it was about sustainability and finding a balance.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Shift",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Eventually, I decided it was time to step back a bit and reassess my priorities.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "What were some of the core challenges you faced, particularly leading up to the 2008 crash?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The years leading up to the 2008 crash were quite challenging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Period",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "2008 crash", "type": "EVENT", "role": "crisis" }
+            ]
+          }
+        },
+        {
+          "text": "I had moved into a senior position by then and was responsible for managing large portfolios.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Role",
+            "emotions": ["Responsibility"],
+            "entities": [
+              { "text": "senior position", "type": "OCCUPATION", "role": "rank" }
+            ]
+          }
+        },
+        {
+          "text": "One of the biggest challenges was navigating the increasingly complex financial instruments that were becoming prevalent.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Complexity",
+            "emotions": ["Confusion"],
+            "entities": [
+              { "text": "financial instruments", "type": "ARTIFACT", "role": "product" }
+            ]
+          }
+        },
+        {
+          "text": "There was a lot of pressure to show returns, and the market was becoming more volatile.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The crash itself was a wake-up call.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Shock",
+            "emotions": ["Shock"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was devastating to see the impact on the economy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Devastation",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "economy", "type": "ORGANIZATION", "role": "system" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "The crash itself must have been a turning point. How did you personally navigate that period?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The 2008 crash was indeed a significant turning point.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Personally, it was a period of intense reflection.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a time of sleepless nights and difficult decisions.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Stress",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had to be transparent with our clients and adjust our strategies to align with the new economic realities.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Adjustment",
+            "emotions": ["Determination"],
+            "entities": [
+              { "text": "clients", "type": "PERSON", "role": "customers" }
+            ]
+          }
+        },
+        {
+          "text": "It was a challenging phase, but it taught me a lot about resilience and the importance of ethical practices in banking.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you transitioned into charity work after your banking career."
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After the 2008 crash and the years that followed, I realized that I wanted to shift my focus to something more meaningful.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Realization",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The financial world had been my life for so long, but I felt a strong pull to give back to the community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Motivation",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "community", "type": "PERSON", "role": "society" }
+            ]
+          }
+        },
+        {
+          "text": "I retired from banking and started getting involved with various charitable organizations.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": ["Relief"],
+            "entities": [
+              { "text": "charitable organizations", "type": "ORGANIZATION", "role": "non-profit" }
+            ]
+          }
+        },
+        {
+          "text": "It was a natural transition for me, from managing financial assets to helping manage resources for causes I cared about.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "How has your perspective on your career changed now that you've transitioned into charity work?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my career, I see it as a journey that taught me so much about the world and myself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Working on Wall Street was exhilarating, but it also had its costs.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Evaluation",
+            "emotions": ["Joy/Pride", "Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Charity work has been fulfilling, as it allows me to use my skills in a way that directly benefits others.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've learned that while financial success is important, the true measure of a career lies in the positive change it brings to others.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a shift, moving from high finance to charity work. How did you find that transition personally?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The transition from banking to charity work was surprisingly smooth for me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think it was because I was ready for a change after decades in the financial sector.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Readiness",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It felt like I was finally aligning my work with my personal values.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Alignment",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I found it refreshing to focus on community impact rather than just financial gain.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Impact",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It gave me a renewed sense of purpose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Arthur, if you were to give a final lesson or piece of advice from your journey, what would that be?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "From my journey, the most important lesson I've learned is the value of integrity and adaptability.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Whether in banking or charity work, staying true to your principles and being willing to adapt to change is crucial.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The financial world taught me the importance of being diligent and ethical.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My time in charity has shown me the power of compassion and community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Success isn't just about personal gain but about contributing positively to the world around you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

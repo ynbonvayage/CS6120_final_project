@@ -1,0 +1,490 @@
+{
+  "session_id": "18_Stan",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "18_Stan",
+    "name": "Stan",
+    "age": 80,
+    "role": "Steel Worker",
+    "timeline": [
+      { "stage": "Youth", "topic": "Following dad to the mill", "context": "Tradition." },
+      { "stage": "Adulthood", "topic": "The Rust Belt crash", "context": "Unemployment." },
+      { "stage": "Old Age", "topic": "Health checkups", "context": "Physical toll." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you started following your dad to the mill."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I reckon I was about eight or nine when I first went with him.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "eight", "type": "TIME", "role": "age" },
+              { "text": "nine", "type": "TIME", "role": "age" }
+            ]
+          }
+        },
+        {
+          "text": "Dad worked long shifts at the steel mill, and sometimes he’d take me along.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": ["Admiration"],
+            "entities": [
+              { "text": "Dad", "type": "PERSON", "role": "father" },
+              { "text": "steel mill", "type": "LOCATION", "role": "workplace" }
+            ]
+          }
+        },
+        {
+          "text": "I remember the noise, the heat—it was something else.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Sensory Memory",
+            "emotions": ["Fear/Anxiety", "Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But to me, it was like stepping into a different world.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Impression",
+            "emotions": ["Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Dad was always so focused, and I wanted to be just like him.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Inspiration",
+            "emotions": ["Admiration"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those early visits with your dad made quite an impression on you. What was it like growing up in a community centered around the steel mill?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yeah, those visits really did stick with me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Growing up, everything revolved around the mill.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "mill", "type": "LOCATION", "role": "center" }
+            ]
+          }
+        },
+        {
+          "text": "Most folks in town worked there, or they had some connection to it.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Community",
+            "emotions": ["Belonging"],
+            "entities": [
+              { "text": "town", "type": "LOCATION", "role": "community" }
+            ]
+          }
+        },
+        {
+          "text": "It was like one big family.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was a kind of pride in being part of that, you know?",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Pride",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things start to change for you and the community?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I guess the big changes started happening in the late 70s and early 80s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Concern"],
+            "entities": [
+              { "text": "late 70s", "type": "TIME", "role": "era" },
+              { "text": "early 80s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "The steel industry was going through a hard time, and mills started shutting down.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Industry Decline",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "steel industry", "type": "ORGANIZATION", "role": "sector" }
+            ]
+          }
+        },
+        {
+          "text": "Folks began losing jobs, and you could feel the tension and worry in the air.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Unemployment",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "jobs", "type": "OCCUPATION", "role": "livelihood" }
+            ]
+          }
+        },
+        {
+          "text": "It was like the rug was being pulled out from under us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Shock",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been hard seeing your community go through such a tough time. How did this period eventually come to an end for you?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yeah, it was tough alright.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Agreement",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Eventually, I had to find work elsewhere.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": ["Resignation"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was 1984 when I finally left the mill.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Leaving",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "1984", "type": "TIME", "role": "year" }
+            ]
+          }
+        },
+        {
+          "text": "I took a job in construction, which was a big change, but I was grateful for the work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "New Job",
+            "emotions": ["Relief", "Gratitude"],
+            "entities": [
+              { "text": "construction", "type": "OCCUPATION", "role": "new job" }
+            ]
+          }
+        },
+        {
+          "text": "The mill was still there, but it was just a shadow of what it used to be.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Observation",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was hard to see it like that, but life goes on, you know?",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Acceptance",
+            "emotions": ["Sadness/Loss", "Resilience"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So now that we're moving towards the present, how are you doing health-wise after everything you've been through?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, these days, I make sure to keep up with my health checkups.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Health Care",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "With the kind of work I did for so many years, there's always a concern about the long-term effects.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Concern",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Luckily, I haven't had any major issues, just the usual aches and pains.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Health Status",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The doc says I'm in pretty good shape for my age, which I suppose is a blessing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Diagnosis",
+            "emotions": ["Joy/Pride", "Gratitude"],
+            "entities": [
+              { "text": "doc", "type": "PERSON", "role": "doctor" }
+            ]
+          }
+        },
+        {
+          "text": "I've got a bit of arthritis, but that's to be expected, isn't it?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Condition",
+            "emotions": ["Acceptance"],
+            "entities": [
+              { "text": "arthritis", "type": "EVENT", "role": "ailment" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That sounds like a blessing indeed. How do you feel reflecting on your journey through the years, especially given the hardships you've faced?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, looking back, I'd say it's been quite a journey.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "From following my dad to the mill to seeing the community change, it's been a rollercoaster.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Summary",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, you know, I've learned to be grateful for what I have.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The hardships taught me to value the simple things in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Family, friends, a roof over your head—it's these things that really count in the end.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "kin" },
+              { "text": "friends", "type": "PERSON", "role": "loved ones" },
+              { "text": "roof", "type": "ARTIFACT", "role": "shelter" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It seems like you've really taken a lot from your experiences over the years. How do you spend your time these days?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, these days, I like to keep busy in my own way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lifestyle",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I spend time in the garden, take walks around the neighborhood, and sometimes tinker around with small projects in the garage.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobbies",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "garden", "type": "LOCATION", "role": "hobby" },
+              { "text": "garage", "type": "LOCATION", "role": "workshop" }
+            ]
+          }
+        },
+        {
+          "text": "I've got some grandkids now, and they keep me on my toes whenever they visit.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Family",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "grandkids", "type": "PERSON", "role": "descendants" }
+            ]
+          }
+        },
+        {
+          "text": "It's important to stay active, both for the body and the mind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Philosophy",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Stan, what lesson would you want to share with future generations based on all you've experienced?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I'd say, don't take anything for granted.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Serious"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life can change on a dime, and what you have today might not be there tomorrow.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Appreciate the people around you and the little things in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Work hard, stay humble, and always look out for each other.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "In the end, it's the connections you make and the kindness you show that really matter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

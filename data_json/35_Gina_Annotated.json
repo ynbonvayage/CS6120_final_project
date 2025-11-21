@@ -1,0 +1,543 @@
+{
+  "session_id": "35_Gina",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "35_Gina",
+    "name": "Gina",
+    "age": 70,
+    "role": "Hairdresser",
+    "timeline": [
+      { "stage": "Youth", "topic": "Beauty school", "context": "Dreams of glamour." },
+      { "stage": "Adulthood", "topic": "Secrets in the chair", "context": "Being a therapist." },
+      { "stage": "Old Age", "topic": "Closing the salon", "context": "Missing the gossip." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time in beauty school."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, beauty school was back when I was just a young woman, eager to learn and get my hands into hair.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Start",
+            "emotions": ["Excitement"],
+            "entities": [
+              { "text": "beauty school", "type": "ORGANIZATION", "role": "school" }
+            ]
+          }
+        },
+        {
+          "text": "I remember the excitement of learning new techniques and the camaraderie among the students.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Learning",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was as much about the skills as it was about building relationships.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you really cherished the connections you made there. Can you tell me more about what those early days were like for you?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Those early days were a mix of nerves and thrill.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": ["Nervousness", "Excitement"],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was one lady, Annie, who became a close friend.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Friendship",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "Annie", "type": "PERSON", "role": "friend" }
+            ]
+          }
+        },
+        {
+          "text": "We both had a knack for cutting, and we'd practice on each other after hours.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Practice",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a time of discovery and growth, not just in skills but in understanding people.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Growth",
+            "emotions": ["Satisfaction"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, stepping into such a focused environment. So, what was it that drew you to becoming a hairdresser in the first place?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Honestly, it was the creativity and the chance to make people feel good about themselves.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Motivation",
+            "emotions": ["Passion"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I always loved styling my sisters' hair when we were kids.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "sisters", "type": "PERSON", "role": "family" }
+            ]
+          }
+        },
+        {
+          "text": "Being able to transform someone's look and boost their confidence – that's what really drove me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Purpose",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things start changing for you after beauty school?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After beauty school, I jumped right into working at a small salon.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Work",
+            "emotions": ["Excitement"],
+            "entities": [
+              { "text": "salon", "type": "LOCATION", "role": "workplace" }
+            ]
+          }
+        },
+        {
+          "text": "Eventually, I saved up enough to open my own place.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a dream come true, but as the years went on, I realized how demanding it was to run a business.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reality",
+            "emotions": ["Stress"],
+            "entities": []
+          }
+        },
+        {
+          "text": "In the end, I decided to close the salon and retire.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": ["Sadness/Loss", "Relief"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd like to understand more about the challenges you faced while running your own salon. What were some of the core challenges you encountered?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Running the salon was a huge learning curve.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Learning",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Managing a business meant dealing with everything from staff issues to financial concerns.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Management",
+            "emotions": ["Stress"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to keep up with changing trends, order supplies, and ensure our services were top-notch.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Responsibility",
+            "emotions": ["Determination"],
+            "entities": [
+              { "text": "supplies", "type": "ARTIFACT", "role": "materials" }
+            ]
+          }
+        },
+        {
+          "text": "It was tough balancing the creative side of things with the business demands.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Balance",
+            "emotions": ["Frustration"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds overwhelming. How did you manage to balance all these responsibilities?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was definitely a juggling act.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Determination"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to learn to delegate and trust my staff with responsibilities.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Leadership",
+            "emotions": ["Trust"],
+            "entities": [
+              { "text": "staff", "type": "PERSON", "role": "employees" }
+            ]
+          }
+        },
+        {
+          "text": "We worked hard to create a warm, welcoming atmosphere for our clients.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Goal",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I always tried to keep a positive outlook and focused on why I started the salon in the first place.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Optimism",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "So, what kind of unexpected challenges came up that you hadn't anticipated when you first opened the salon?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the biggest challenges was staffing.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": ["Frustration"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sometimes people would leave unexpectedly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Turnover",
+            "emotions": ["Stress"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Then there were the economic downturns.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Economy",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I also didn't expect how much time I'd spend on administrative work, like taxes and bookkeeping.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Admin",
+            "emotions": ["Boredom"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, what ultimately led you to the decision to close the salon and retire?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after many years in the business, it just felt like the right time.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Timing",
+            "emotions": ["Acceptance"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had poured so much of my energy into the salon, and while it was rewarding, it was also exhausting.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Burnout",
+            "emotions": ["Exhaustion"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The industry was changing rapidly with new technologies and styles.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Change",
+            "emotions": ["Overwhelm"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Plus, the physical demands were taking a toll on me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Health",
+            "emotions": ["Pain"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was bittersweet, of course, but in the end, I knew it was the right decision for my health and happiness.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Sadness/Loss", "Relief"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how you feel now, looking back at your career as a hairdresser."
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, I feel a great sense of pride and accomplishment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I spent decades doing something I truly loved, and I was able to touch people's lives in small but meaningful ways.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Impact",
+            "emotions": ["Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I have no regrets about the path I chose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "No Regrets",
+            "emotions": ["Contentment"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So, Gina, as you reflect on your career now, how do you feel about the relationships you built over the years with your clients?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those relationships were everything to me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": ["Love"],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, as a hairdresser, you're not just cutting hair.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Role",
+            "emotions": ["Pride"],
+            "entities": [
+              { "text": "hair", "type": "ARTIFACT", "role": "medium" }
+            ]
+          }
+        },
+        {
+          "text": "You're part therapist, part confidante, and sometimes even a friend.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Clients would share their lives with you—their joys, their struggles—and I cherished that trust.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Trust",
+            "emotions": ["Gratitude"],
+            "entities": [
+              { "text": "clients", "type": "PERSON", "role": "customers" }
+            ]
+          }
+        },
+        {
+          "text": "It's one of the things I miss the most since retiring.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Longing",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Gina, what would you say is the most important lesson you’ve learned from your career that you’d like to share?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The biggest lesson I’ve learned is that it's important to follow your passion but also to be adaptable.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": ["Wisdom"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The beauty industry—and life itself—are constantly changing, and you have to be able to roll with the punches.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptability",
+            "emotions": ["Resilience"],
+            "entities": [
+              { "text": "beauty industry", "type": "ORGANIZATION", "role": "field" }
+            ]
+          }
+        },
+        {
+          "text": "Trust in yourself, keep learning, and don’t be afraid to ask for help when you need it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Hope/Inspired"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The connections you build along the way will help you through the tough times.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}
