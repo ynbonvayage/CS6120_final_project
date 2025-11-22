@@ -10,14 +10,16 @@ from transformers import (
     DataCollatorForTokenClassification
 )
 
-# ================= 配置 =================
-DATA_DIR = "./data_bio"  # 您的数据文件夹
-MODEL_CHECKPOINT = "bert-base-cased" # 使用的基础模型
-OUTPUT_DIR = "./ner_model_output" # 模型保存路径
+# ================= 核心配置 =================
+DATA_DIR = "./data_bio"              # 数据文件夹
+MODEL_CHECKPOINT = "roberta-base"    # 直接使用原始 RoBERTa，不做 DAPT
+OUTPUT_DIR = "./ner_model_roberta_base" # 输出目录
+
 BATCH_SIZE = 16
-LEARNING_RATE = 5e-5
-NUM_EPOCHS = 15 
-# =======================================
+LEARNING_RATE = 1.5e-4      
+NUM_EPOCHS = 25           
+WARMUP_RATIO = 0.1        # 预热，防止训练初期崩盘
+# ===========================================
 
 # 1. 定义标签列表 (必须与 preprocess.py 生成的一致)
 LABEL_LIST = [
@@ -35,9 +37,7 @@ label2id = {label: i for i, label in enumerate(LABEL_LIST)}
 id2label = {i: label for i, label in enumerate(LABEL_LIST)}
 
 def load_custom_dataset(data_files):
-    """
-    辅助函数：读取 .txt 文件并转换为 Hugging Face Dataset 格式
-    """
+    """读取 .txt 文件并转换为 Hugging Face Dataset"""
     def read_conll(filename):
         sentences = []
         labels = []
@@ -86,8 +86,9 @@ def main():
     }
     dataset = load_custom_dataset(data_files)
 
-    print("2. 加载 Tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_CHECKPOINT)
+    print(f"2. 加载 Tokenizer ({MODEL_CHECKPOINT})...")
+    # ⚠️ RoBERTa 关键设置：必须加 add_prefix_space=True
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_CHECKPOINT, add_prefix_space=True)
 
     def tokenize_and_align_labels(examples):
         tokenized_inputs = tokenizer(
@@ -143,26 +144,32 @@ def main():
             "accuracy": results["overall_accuracy"],
         }
 
-    # --- 这里是关键修改点 ---
+    # 4. 设置训练参数 (RoBERTa 优化版)
     args = TrainingArguments(
         output_dir=OUTPUT_DIR,
-        eval_strategy="epoch", # 修改了这里：evaluation_strategy -> eval_strategy
-        save_strategy="epoch",
+        eval_strategy="epoch",      # 每个epoch评估一次
+        save_strategy="epoch",      # 每个epoch保存一次
         learning_rate=LEARNING_RATE,
         per_device_train_batch_size=BATCH_SIZE,
         per_device_eval_batch_size=BATCH_SIZE,
         num_train_epochs=NUM_EPOCHS,
         weight_decay=0.01,
-        load_best_model_at_end=True,
+        
+        # === 关键优化参数 ===
+        warmup_ratio=WARMUP_RATIO,    # 预热，对 RoBERTa 很重要
+        load_best_model_at_end=True,  # 训练结束后加载最好的模型
+        metric_for_best_model="f1",   # 以 F1 分数作为判断标准
+        save_total_limit=2,           # 只保存最好的2个checkpoint，节省空间
+        # ===================
+        
         logging_steps=50,
     )
-    # ---------------------
 
     data_collator = DataCollatorForTokenClassification(tokenizer)
 
     trainer = Trainer(
-        model,
-        args,
+        model=model,
+        args=args,
         train_dataset=tokenized_datasets["train"],
         eval_dataset=tokenized_datasets["validation"],
         data_collator=data_collator,
@@ -175,13 +182,15 @@ def main():
 
     print("5. 在测试集上评估...")
     test_results = trainer.evaluate(tokenized_datasets["test"])
-    print("\n测试集结果 (Test Results):")
+    print("\n" + "="*30)
+    print("测试集最终结果 (Test Results)")
+    print("="*30)
     print(f"Precision: {test_results['eval_precision']:.4f}")
     print(f"Recall:    {test_results['eval_recall']:.4f}")
     print(f"F1 Score:  {test_results['eval_f1']:.4f}")
 
     trainer.save_model(os.path.join(OUTPUT_DIR, "final_model"))
-    print(f"模型已保存至: {os.path.join(OUTPUT_DIR, 'final_model')}")
+    print(f"\n模型已保存至: {os.path.join(OUTPUT_DIR, 'final_model')}")
 
 if __name__ == "__main__":
     main()
