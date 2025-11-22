@@ -6,8 +6,7 @@ env/
 .env
 
 # 2. 训练好的模型输出 (体积巨大，GitHub 传不上去)
-ner_model_output/
-bert-memoir-adapted/
+ner_model_roberta_base/
 *.bin
 *.safetensors
 pytorch_model.bin
