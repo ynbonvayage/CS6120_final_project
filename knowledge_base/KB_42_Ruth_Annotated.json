@@ -1,0 +1,198 @@
+{
+  "session_id": "42_Ruth",
+  "profile": {
+    "id": "42_Ruth",
+    "name": "Ruth",
+    "age": 85,
+    "role": "Judge",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Law school discrimination",
+        "context": "Being the only woman."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The death penalty case",
+        "context": "Heavy burden."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement hobbies",
+        "context": "Gardening judgment free."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Attending law school in the 1950s as a woman was not without its challenges.",
+      "predicted_entities": [
+        {
+          "text": " law school",
+          "type": "ORGANIZATION",
+          "confidence": "0.9974"
+        },
+        {
+          "text": " 1950s",
+          "type": "TIME",
+          "confidence": "0.9962"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember one professor who outright said that women didn't belong in the legal field.",
+      "predicted_entities": [
+        {
+          "text": " professor",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "My family believed in me immensely.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I found a few allies among my classmates who respected my determination.",
+      "predicted_entities": [
+        {
+          "text": " classmates",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I also made it a point to engage actively in class discussions and seek out mentors who could guide me.",
+      "predicted_entities": [
+        {
+          "text": " mentors",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I was invited to join the law review, which was a significant achievement at the time, especially for a woman.",
+      "predicted_entities": [
+        {
+          "text": " law review",
+          "type": "ORGANIZATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was also around this time that some of the faculty began to acknowledge my potential, not just as a woman, but as a legal scholar.",
+      "predicted_entities": [
+        {
+          "text": " faculty",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Things really took a dramatic turn when I found myself involved in a landmark death penalty case early in my judicial career.",
+      "predicted_entities": [
+        {
+          "text": " death penalty case",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It was a highly publicized case, and there was a lot of pressure from both the media and the public.",
+      "predicted_entities": [
+        {
+          "text": " media",
+          "type": "ORGANIZATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "There were also ethical dilemmas, like addressing the moral implications of the death penalty itself.",
+      "predicted_entities": [
+        {
+          "text": " death penalty",
+          "type": "EVENT",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I had to ensure the defendant received a fair trial despite the overwhelming public opinion.",
+      "predicted_entities": [
+        {
+          "text": " defendant",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "It was also a time when I had to rely heavily on my legal team, who were invaluable in providing different perspectives and support.",
+      "predicted_entities": [
+        {
+          "text": " legal team",
+          "type": "ORGANIZATION",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I've always been fascinated by gardening, so I've dedicated a lot of time to cultivating a beautiful garden.",
+      "predicted_entities": [
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9960"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I've also taken up painting, something I dabbled with in my youth but never pursued seriously.",
+      "predicted_entities": [
+        {
+          "text": " painting",
+          "type": "EVENT",
+          "confidence": "0.9977"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "And, of course, I still love reading legal journals and keeping up with the developments in the field.",
+      "predicted_entities": [
+        {
+          "text": " legal journals",
+          "type": "ARTIFACT",
+          "confidence": "0.9910"
+        }
+      ]
+    }
+  ]
+}

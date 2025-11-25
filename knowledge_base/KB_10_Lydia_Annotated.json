@@ -1,0 +1,189 @@
+{
+  "session_id": "10_Lydia",
+  "profile": {
+    "id": "10_Lydia",
+    "name": "Lydia",
+    "age": 76,
+    "role": "Retired Teacher",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Peace Corps",
+        "context": "Idealism abroad."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Teaching during protests",
+        "context": "Civil rights era."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Writing memoirs",
+        "context": "Reflection."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Ah, the Peace Corps.",
+      "predicted_entities": [
+        {
+          "text": " Peace Corps",
+          "type": "ORGANIZATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I went to Ghana.",
+      "predicted_entities": [
+        {
+          "text": " Ghana",
+          "type": "LOCATION",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was my first time leaving the country.",
+      "predicted_entities": [
+        {
+          "text": " country",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The culture was vibrant and welcoming, but there were challenging moments too, like adapting to the climate and language barriers.",
+      "predicted_entities": [
+        {
+          "text": " climate",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        },
+        {
+          "text": " language",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, I picked up some basic phrases in Twi and Ewe, and the locals were patient with me.",
+      "predicted_entities": [
+        {
+          "text": " Tw",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        },
+        {
+          "text": "i",
+          "type": "EVENT",
+          "confidence": "0.9973"
+        },
+        {
+          "text": " E",
+          "type": "EVENT",
+          "confidence": "0.9983"
+        },
+        {
+          "text": "we",
+          "type": "EVENT",
+          "confidence": "0.9868"
+        },
+        {
+          "text": " locals",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "After the Peace Corps, I came back to the States and started teaching.",
+      "predicted_entities": [
+        {
+          "text": " States",
+          "type": "LOCATION",
+          "confidence": "0.9985"
+        },
+        {
+          "text": " teaching",
+          "type": "OCCUPATION",
+          "confidence": "0.9968"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It was around the time of the protests in the late 60s, early 70s.",
+      "predicted_entities": [
+        {
+          "text": " protests",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " late 60s",
+          "type": "TIME",
+          "confidence": "0.9959"
+        },
+        {
+          "text": " early",
+          "type": "TIME",
+          "confidence": "0.9863"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "The classroom was a microcosm of the world outside.",
+      "predicted_entities": [
+        {
+          "text": " classroom",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Some parents were supportive, but others thought I was overstepping.",
+      "predicted_entities": [
+        {
+          "text": " parents",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Then there were the protests outside the school; sometimes it felt like teaching was the least of my responsibilities.",
+      "predicted_entities": [
+        {
+          "text": " school",
+          "type": "LOCATION",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Yes, I've been writing my memoirs.",
+      "predicted_entities": [
+        {
+          "text": " memoirs",
+          "type": "ARTIFACT",
+          "confidence": "0.9886"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "session_id": "46_Fiona",
+  "profile": {
+    "id": "46_Fiona",
+    "name": "Fiona",
+    "age": 74,
+    "role": "Potter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Living in a commune",
+        "context": "Art over money."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The gallery fire",
+        "context": "Losing work."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Arthritis in hands",
+        "context": "Adapting technique."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I was in my late twenties, full of energy and idealism.",
+      "predicted_entities": [
+        {
+          "text": " late twenties",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The commune was located in the countryside, surrounded by rolling hills and endless fields.",
+      "predicted_entities": [
+        {
+          "text": " commune",
+          "type": "LOCATION",
+          "confidence": "0.9966"
+        },
+        {
+          "text": " countryside",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I had just finished art school and was feeling a bit disillusioned with the traditional career path.",
+      "predicted_entities": [
+        {
+          "text": " art school",
+          "type": "ORGANIZATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember arriving with just a backpack and my potter’s wheel, ready to embrace this new lifestyle.",
+      "predicted_entities": [
+        {
+          "text": " potter’s wheel",
+          "type": "ARTIFACT",
+          "confidence": "0.9866"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I started creating pieces that reflected our collective ideals—things like pottery that was practical for our shared meals.",
+      "predicted_entities": [
+        {
+          "text": " pot",
+          "type": "ARTIFACT",
+          "confidence": "0.9978"
+        },
+        {
+          "text": "tery",
+          "type": "ARTIFACT",
+          "confidence": "0.9670"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Things really shifted when the gallery that exhibited our art caught fire.",
+      "predicted_entities": [
+        {
+          "text": " gallery",
+          "type": "LOCATION",
+          "confidence": "0.9973"
+        },
+        {
+          "text": " fire",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I remember one series I created was entirely inspired by the concept of the phoenix rising from the ashes.",
+      "predicted_entities": [
+        {
+          "text": " phoenix",
+          "type": "ARTIFACT",
+          "confidence": "0.9803"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I was in my late fifties when I first noticed something wasn't quite right.",
+      "predicted_entities": [
+        {
+          "text": " late fifties",
+          "type": "TIME",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I was diagnosed with arthritis.",
+      "predicted_entities": [
+        {
+          "text": " arthritis",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ]
+    }
+  ]
+}

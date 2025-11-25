@@ -1,0 +1,415 @@
+{
+  "session_id": "15_Mary",
+  "profile": {
+    "id": "15_Mary",
+    "name": "Mary",
+    "age": 84,
+    "role": "Librarian",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The quiet reading room",
+        "context": "Love for books."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The computer revolution",
+        "context": "Adapting to digital."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "The library closing",
+        "context": "Community loss."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I remember the smell of the old books and the sound of pages turning.",
+      "predicted_entities": [
+        {
+          "text": " books",
+          "type": "ARTIFACT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a small place, really, but it felt like a whole world to me.",
+      "predicted_entities": [
+        {
+          "text": " place",
+          "type": "LOCATION",
+          "confidence": "0.9968"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We had this old librarian, Mrs. Thompson, who always wore these big glasses and had a bun in her hair.",
+      "predicted_entities": [
+        {
+          "text": " Mrs. Thompson",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I spent hours there after school, just lost in stories.",
+      "predicted_entities": [
+        {
+          "text": " school",
+          "type": "ORGANIZATION",
+          "confidence": "0.7333"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember how different it was back then, without any of the noise and technology we see today.",
+      "predicted_entities": [
+        {
+          "text": " technology",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Oh, Mrs. Thompson, yes. She was quite the character.",
+      "predicted_entities": [
+        {
+          "text": " Mrs. Thompson",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "She'd always say, 'Mary, if you love the books, they'll love you back.'",
+      "predicted_entities": [
+        {
+          "text": "Mary",
+          "type": "PERSON",
+          "confidence": "0.9692"
+        },
+        {
+          "text": " books",
+          "type": "ARTIFACT",
+          "confidence": "0.9975"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We didn't have anything like computers back then, just card catalogs and our own wits to find what we needed.",
+      "predicted_entities": [
+        {
+          "text": " computers",
+          "type": "ARTIFACT",
+          "confidence": "0.9979"
+        },
+        {
+          "text": " card catalogs",
+          "type": "ARTIFACT",
+          "confidence": "0.9924"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Mrs. Thompson taught me how to use the Dewey Decimal System.",
+      "predicted_entities": [
+        {
+          "text": " Dewey Decimal System",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Anyway, I’d often find myself lost in the stacks.",
+      "predicted_entities": [
+        {
+          "text": " stacks",
+          "type": "LOCATION",
+          "confidence": "0.9972"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Sometimes, I'd even find little notes from readers tucked inside books. It was like a treasure hunt.",
+      "predicted_entities": [
+        {
+          "text": " notes",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Oh, let me think. It must have been sometime in the late '80s or early '90s when the computers started coming in.",
+      "predicted_entities": [
+        {
+          "text": " late '80s",
+          "type": "TIME",
+          "confidence": "0.9977"
+        },
+        {
+          "text": " early '90s",
+          "type": "TIME",
+          "confidence": "0.9975"
+        },
+        {
+          "text": " computers",
+          "type": "ARTIFACT",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "We had to learn how to use it, and there was this young fellow who came in to teach us.",
+      "predicted_entities": [
+        {
+          "text": " young fellow",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "We eventually got the hang of it, but I do miss the simplicity of the card catalogs.",
+      "predicted_entities": [
+        {
+          "text": " card catalogs",
+          "type": "ARTIFACT",
+          "confidence": "0.9919"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It's funny, I still catch myself reaching for a pen when I want to take a note, even though everything's digital now.",
+      "predicted_entities": [
+        {
+          "text": " pen",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "We started getting more visitors, curious to see what these new machines could do.",
+      "predicted_entities": [
+        {
+          "text": " machines",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "It changed the whole atmosphere of the library.",
+      "predicted_entities": [
+        {
+          "text": " library",
+          "type": "LOCATION",
+          "confidence": "0.9907"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I remember one girl, oh what was her name? She was always so fascinated by the technology.",
+      "predicted_entities": [
+        {
+          "text": " girl",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Anyway, she used to come in every afternoon to explore the new digital catalog.",
+      "predicted_entities": [
+        {
+          "text": " digital catalog",
+          "type": "ARTIFACT",
+          "confidence": "0.9836"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I think she ended up working in IT, can you imagine?",
+      "predicted_entities": [
+        {
+          "text": " IT",
+          "type": "ORGANIZATION",
+          "confidence": "0.9980"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Some of my colleagues were quite resistant at first.",
+      "predicted_entities": [
+        {
+          "text": " colleagues",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "There were a lot of training sessions, and sometimes things would go wrong—computers would crash, or the internet wouldn't work.",
+      "predicted_entities": [
+        {
+          "text": "computers",
+          "type": "ARTIFACT",
+          "confidence": "0.8212"
+        },
+        {
+          "text": " internet",
+          "type": "ARTIFACT",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "We had a small gathering of staff and a few curious patrons staring at it, trying to figure out what went wrong.",
+      "predicted_entities": [
+        {
+          "text": " staff",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " patrons",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "We didn't have IT support like they do now, so solving these issues was a community effort.",
+      "predicted_entities": [
+        {
+          "text": " IT support",
+          "type": "ORGANIZATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I remember one lady, Mrs. Henderson, she was in her seventies and would come in every week to learn something new.",
+      "predicted_entities": [
+        {
+          "text": " Mrs. Henderson",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "She even started using email to keep in touch with her grandchildren!",
+      "predicted_entities": [
+        {
+          "text": " email",
+          "type": "EVENT",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " grandchildren",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I think it must have been about five years ago now, or was it six? Time gets a bit fuzzy.",
+      "predicted_entities": [
+        {
+          "text": " five years ago",
+          "type": "TIME",
+          "confidence": "0.9983"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Anyway, the decision came down from the city council.",
+      "predicted_entities": [
+        {
+          "text": " city council",
+          "type": "ORGANIZATION",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "They said it was due to budget cuts and declining visitors, which I suppose is true, but it still broke my heart.",
+      "predicted_entities": [
+        {
+          "text": " budget cuts",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "We tried to rally support to keep it open; there were petitions and meetings, but in the end, it just wasn't enough.",
+      "predicted_entities": [
+        {
+          "text": " petitions",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Some of them were donated to other libraries, but a lot were just put into storage.",
+      "predicted_entities": [
+        {
+          "text": " libraries",
+          "type": "LOCATION",
+          "confidence": "0.9967"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I hope that future generations will still find value in that.",
+      "predicted_entities": [
+        {
+          "text": " future generations",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ]
+    }
+  ]
+}
