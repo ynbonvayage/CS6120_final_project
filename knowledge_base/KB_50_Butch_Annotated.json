@@ -1,0 +1,202 @@
+{
+  "session_id": "50_Butch",
+  "profile": {
+    "id": "50_Butch",
+    "name": "Butch",
+    "age": 79,
+    "role": "Butcher",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Family shop apprentice",
+        "context": "Tradition."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Supermarkets taking over",
+        "context": "Competition."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Vegan granddaughter",
+        "context": "Cultural shift."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I was just a lad, around 15, when I started working with my father in the shop.",
+      "predicted_entities": [
+        {
+          "text": " 15",
+          "type": "TIME",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " father",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " shop",
+          "type": "LOCATION",
+          "confidence": "0.9961"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a small place, but it was always bustling with customers.",
+      "predicted_entities": [
+        {
+          "text": " customers",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My father taught me everything—how to choose the right cuts, how to keep the knives sharp.",
+      "predicted_entities": [
+        {
+          "text": " cuts",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " knives",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The shop was in the heart of our neighborhood, and everyone knew each other.",
+      "predicted_entities": [
+        {
+          "text": " neighborhood",
+          "type": "LOCATION",
+          "confidence": "0.9945"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "People would come in, not just to buy meat, but to chat and catch up on the latest news.",
+      "predicted_entities": [
+        {
+          "text": " meat",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember the laughter and the stories exchanged over the counter.",
+      "predicted_entities": [
+        {
+          "text": " counter",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was around the late 70s, I think.",
+      "predicted_entities": [
+        {
+          "text": " late 70s",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "That's when the big supermarkets started cropping up everywhere.",
+      "predicted_entities": [
+        {
+          "text": " supermarkets",
+          "type": "ORGANIZATION",
+          "confidence": "0.9948"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "They had everything under one roof: groceries, household items, and of course, meat.",
+      "predicted_entities": [
+        {
+          "text": " groceries",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "But for us, small business owners, it felt like being pushed out slowly.",
+      "predicted_entities": [
+        {
+          "text": " small",
+          "type": "PERSON",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " business owners",
+          "type": "PERSON",
+          "confidence": "0.9053"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I suppose the local pub became the new meeting place, but it was different.",
+      "predicted_entities": [
+        {
+          "text": " pub",
+          "type": "LOCATION",
+          "confidence": "0.9980"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I also had a family to support, and that was a big motivator.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Ah, well, times have definitely changed again, especially with my granddaughter.",
+      "predicted_entities": [
+        {
+          "text": " granddaughter",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "You see, she's a vegan now.",
+      "predicted_entities": [
+        {
+          "text": " vegan",
+          "type": "EVENT",
+          "confidence": "0.9974"
+        }
+      ]
+    }
+  ]
+}

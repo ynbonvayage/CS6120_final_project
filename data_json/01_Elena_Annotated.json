@@ -7,9 +7,21 @@
     "age": 78,
     "role": "Retired Seamstress",
     "timeline": [
-      { "stage": "Youth", "topic": "Immigrating in 1965", "context": "Alone and scared." },
-      { "stage": "Adulthood", "topic": "Becoming Union Rep", "context": "Fighting for fair pay." },
-      { "stage": "Old Age", "topic": "Teaching sewing", "context": "Passing on skills." }
+      {
+        "stage": "Youth",
+        "topic": "Immigrating in 1965",
+        "context": "Alone and scared."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Becoming Union Rep",
+        "context": "Fighting for fair pay."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Teaching sewing",
+        "context": "Passing on skills."
+      }
     ]
   },
   "dialogue_turns": [
@@ -27,7 +39,9 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Immigration",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         },
@@ -36,9 +50,15 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Context",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "20", "type": "TIME", "role": "age" }
+              {
+                "text": "20",
+                "type": "TIME",
+                "role": "age"
+              }
             ]
           }
         },
@@ -47,10 +67,21 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Migration",
-            "emotions": ["Sadness/Loss", "Joy/Pride"],
+            "emotions": [
+              "Sadness/Loss",
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "Italy", "type": "LOCATION", "role": "origin" },
-              { "text": "America", "type": "LOCATION", "role": "destination" }
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "America",
+                "type": "LOCATION",
+                "role": "destination"
+              }
             ]
           }
         }
@@ -70,9 +101,15 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Adjustment",
-            "emotions": ["Fear/Anxiety"],
+            "emotions": [
+              "Fear/Anxiety"
+            ],
             "entities": [
-              { "text": "at first", "type": "TIME", "role": "initial period" }
+              {
+                "text": "at first",
+                "type": "TIME",
+                "role": "initial period"
+              }
             ]
           }
         },
@@ -81,7 +118,10 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Language Learning",
-            "emotions": ["Fear/Anxiety", "Joy/Pride"],
+            "emotions": [
+              "Fear/Anxiety",
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -90,10 +130,21 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Career Start",
-            "emotions": ["Nostalgia/Gratitude", "Joy/Pride"],
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "seamstress", "type": "OCCUPATION", "role": "first job" },
-              { "text": "local shop", "type": "LOCATION", "role": "workplace" }
+              {
+                "text": "seamstress",
+                "type": "OCCUPATION",
+                "role": "first job"
+              },
+              {
+                "text": "local shop",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
             ]
           }
         }
@@ -113,10 +164,21 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Work",
-            "emotions": ["Nostalgia/Gratitude", "Joy/Pride"],
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "seamstress", "type": "OCCUPATION", "role": "job" },
-              { "text": "Italy", "type": "LOCATION", "role": "origin of skill" }
+              {
+                "text": "seamstress",
+                "type": "OCCUPATION",
+                "role": "job"
+              },
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin of skill"
+              }
             ]
           }
         },
@@ -125,7 +187,9 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Career Growth",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         }
@@ -145,10 +209,20 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Context",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "late 70s", "type": "TIME", "role": "period" },
-              { "text": "30s", "type": "TIME", "role": "age group" }
+              {
+                "text": "late 70s",
+                "type": "TIME",
+                "role": "period"
+              },
+              {
+                "text": "30s",
+                "type": "TIME",
+                "role": "age group"
+              }
             ]
           }
         },
@@ -157,9 +231,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Career Change",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "union rep", "type": "OCCUPATION", "role": "new role" }
+              {
+                "text": "union rep",
+                "type": "OCCUPATION",
+                "role": "new role"
+              }
             ]
           }
         }
@@ -179,7 +259,9 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Affirmation",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -188,7 +270,10 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Responsibility",
-            "emotions": ["Joy/Pride", "Fear/Anxiety"],
+            "emotions": [
+              "Joy/Pride",
+              "Fear/Anxiety"
+            ],
             "entities": []
           }
         }
@@ -208,9 +293,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Challenge",
-            "emotions": ["Anger/Frustration"],
+            "emotions": [
+              "Anger/Frustration"
+            ],
             "entities": [
-              { "text": "management", "type": "PERSON", "role": "opposition" }
+              {
+                "text": "management",
+                "type": "PERSON",
+                "role": "opposition"
+              }
             ]
           }
         },
@@ -219,9 +310,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Achievement",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "pay raise", "type": "EVENT", "role": "benefit" }
+              {
+                "text": "pay raise",
+                "type": "EVENT",
+                "role": "benefit"
+              }
             ]
           }
         }
@@ -241,10 +338,20 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Negotiation",
-            "emotions": ["Anger/Frustration"],
+            "emotions": [
+              "Anger/Frustration"
+            ],
             "entities": [
-              { "text": "1982", "type": "TIME", "role": "year" },
-              { "text": "shop owners", "type": "PERSON", "role": "employers" }
+              {
+                "text": "1982",
+                "type": "TIME",
+                "role": "year"
+              },
+              {
+                "text": "shop owners",
+                "type": "PERSON",
+                "role": "employers"
+              }
             ]
           }
         },
@@ -253,9 +360,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Victory",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "agreement", "type": "ARTIFACT", "role": "contract" }
+              {
+                "text": "agreement",
+                "type": "ARTIFACT",
+                "role": "contract"
+              }
             ]
           }
         }
@@ -275,9 +388,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Transition",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "teaching", "type": "EVENT", "role": "new activity" }
+              {
+                "text": "teaching",
+                "type": "EVENT",
+                "role": "new activity"
+              }
             ]
           }
         },
@@ -286,7 +405,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Teaching",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         }
@@ -306,7 +427,10 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Reflection",
-            "emotions": ["Nostalgia/Gratitude", "Joy/Pride"],
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -315,7 +439,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Conclusion",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         }
@@ -335,7 +461,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Wisdom",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         }

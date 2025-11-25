@@ -1,0 +1,218 @@
+{
+  "session_id": "27_Cliff",
+  "profile": {
+    "id": "27_Cliff",
+    "name": "Cliff",
+    "age": 84,
+    "role": "Postman",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Walking the route",
+        "context": "Knowing everyone."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The dog bite incident",
+        "context": "Hazard of the job."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Letters vs Email",
+        "context": "Nostalgia."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "It was a small town, so I got to know everyone on the route quite well.",
+      "predicted_entities": [
+        {
+          "text": " town",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I’d stop and chat with Mrs. Thompson about her garden, or help Mr. Green with his groceries.",
+      "predicted_entities": [
+        {
+          "text": " Mrs. Thompson",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        },
+        {
+          "text": " Mr. Green",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " groceries",
+          "type": "ARTIFACT",
+          "confidence": "0.9942"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There’s something special about handing someone a letter and seeing the joy on their face.",
+      "predicted_entities": [
+        {
+          "text": " letter",
+          "type": "ARTIFACT",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "It wasn’t just about delivering mail; it was about being part of their lives.",
+      "predicted_entities": [
+        {
+          "text": " mail",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Things started to change when the dog bite incident happened.",
+      "predicted_entities": [
+        {
+          "text": " dog bite",
+          "type": "EVENT",
+          "confidence": "0.9945"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I was on my usual route when out of nowhere, old Mrs. Jenkins’ dog, a big brown thing, came barreling out of the yard.",
+      "predicted_entities": [
+        {
+          "text": " old",
+          "type": "PERSON",
+          "confidence": "0.8731"
+        },
+        {
+          "text": " Mrs. Jenkins",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " yard",
+          "type": "LOCATION",
+          "confidence": "0.9688"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "It made me think a lot about my safety and my place in the community.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.7404"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "With emails and new technologies coming in, I wasn't sure how long my services would be needed in the same way.",
+      "predicted_entities": [
+        {
+          "text": " emails",
+          "type": "ARTIFACT",
+          "confidence": "0.8729"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "The incident with the dog was kind of a wake-up call.",
+      "predicted_entities": [
+        {
+          "text": " dog",
+          "type": "PERSON",
+          "confidence": "0.7788"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "But as emails started becoming more common, the piles of letters began to dwindle.",
+      "predicted_entities": [
+        {
+          "text": " letters",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "My grandchildren helped me set up an email account, showed me the ropes.",
+      "predicted_entities": [
+        {
+          "text": " grandchildren",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " email account",
+          "type": "ARTIFACT",
+          "confidence": "0.8880"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "It's not the same as a handwritten letter, but it has its own charm, I suppose.",
+      "predicted_entities": [
+        {
+          "text": " letter",
+          "type": "ARTIFACT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "When you deliver a letter, it’s like you’re part of a secret exchange.",
+      "predicted_entities": [
+        {
+          "text": " letter",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "I miss the anticipation, the surprise, the joy of a letter.",
+      "predicted_entities": [
+        {
+          "text": " letter",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I watch people tap away on their phones, and I can't help but feel a pang of longing for the days when a simple envelope could carry so much significance.",
+      "predicted_entities": [
+        {
+          "text": " phones",
+          "type": "ARTIFACT",
+          "confidence": "0.9954"
+        }
+      ]
+    }
+  ]
+}

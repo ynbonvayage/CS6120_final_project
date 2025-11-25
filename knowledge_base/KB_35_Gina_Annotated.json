@@ -1,0 +1,105 @@
+{
+  "session_id": "35_Gina",
+  "profile": {
+    "id": "35_Gina",
+    "name": "Gina",
+    "age": 70,
+    "role": "Hairdresser",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Beauty school",
+        "context": "Dreams of glamour."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Secrets in the chair",
+        "context": "Being a therapist."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Closing the salon",
+        "context": "Missing the gossip."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Well, beauty school was back when I was just a young woman, eager to learn and get my hands into hair.",
+      "predicted_entities": [
+        {
+          "text": " beauty school",
+          "type": "ORGANIZATION",
+          "confidence": "0.9961"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was one lady, Annie, who became a close friend.",
+      "predicted_entities": [
+        {
+          "text": " Annie",
+          "type": "PERSON",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I always loved styling my sisters' hair when we were kids.",
+      "predicted_entities": [
+        {
+          "text": " sisters",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "After beauty school, I jumped right into working at a small salon.",
+      "predicted_entities": [
+        {
+          "text": " salon",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I had to keep up with changing trends, order supplies, and ensure our services were top-notch.",
+      "predicted_entities": [
+        {
+          "text": " supplies",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I had to learn to delegate and trust my staff with responsibilities.",
+      "predicted_entities": [
+        {
+          "text": " staff",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "You know, as a hairdresser, you're not just cutting hair.",
+      "predicted_entities": [
+        {
+          "text": " hair",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    }
+  ]
+}

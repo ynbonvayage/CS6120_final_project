@@ -1,0 +1,318 @@
+{
+  "session_id": "17_Mike",
+  "profile": {
+    "id": "17_Mike",
+    "name": "Mike",
+    "age": 71,
+    "role": "Police Officer",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Beat cop in the 70s",
+        "context": "Dangerous streets."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Making Detective",
+        "context": "The case that haunts him."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement fishing",
+        "context": "Finding peace."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Ah, the 70s were quite the time.",
+      "predicted_entities": [
+        {
+          "text": " 70s",
+          "type": "TIME",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Being a beat cop back then was different from what you see today.",
+      "predicted_entities": [
+        {
+          "text": " beat cop",
+          "type": "OCCUPATION",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We relied a lot on face-to-face interactions and knew the neighborhood inside out.",
+      "predicted_entities": [
+        {
+          "text": " neighborhood",
+          "type": "LOCATION",
+          "confidence": "0.9963"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "There was a real sense of community and trust between us and the people; it was a different kind of policing.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Absolutely, I remember one incident where a local shop was robbed.",
+      "predicted_entities": [
+        {
+          "text": " local shop",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I spent time talking to folks, and eventually, a store clerk gave me a tip.",
+      "predicted_entities": [
+        {
+          "text": " store clerk",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Things really shifted when I made detective in the late 80s.",
+      "predicted_entities": [
+        {
+          "text": " detective",
+          "type": "OCCUPATION",
+          "confidence": "0.9988"
+        },
+        {
+          "text": " late 80s",
+          "type": "TIME",
+          "confidence": "0.9976"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Moving from the streets to the office required a different kind of skill set.",
+      "predicted_entities": [
+        {
+          "text": " office",
+          "type": "LOCATION",
+          "confidence": "0.9954"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Suddenly, it was more about piecing together puzzles and analyzing evidence.",
+      "predicted_entities": [
+        {
+          "text": " evidence",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "One case that stands out was a high-profile burglary ring.",
+      "predicted_entities": [
+        {
+          "text": " burglary ring",
+          "type": "ORGANIZATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It took months of gathering information, working closely with the team, and following every possible lead.",
+      "predicted_entities": [
+        {
+          "text": " team",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember the satisfaction of finally cracking the case and seeing the relief on the victims' faces.",
+      "predicted_entities": [
+        {
+          "text": " victims",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Well, after a couple of decades of working as a detective, I decided it was time to retire in the late 90s.",
+      "predicted_entities": [
+        {
+          "text": " detective",
+          "type": "OCCUPATION",
+          "confidence": "0.9957"
+        },
+        {
+          "text": " late 90s",
+          "type": "TIME",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I wanted to spend more time with my family and pursue other interests, like fishing, which has always been a passion of mine.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " fishing",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Leaving the force was bittersweet, but I felt it was the right decision for me at that stage in life.",
+      "predicted_entities": [
+        {
+          "text": " force",
+          "type": "ORGANIZATION",
+          "confidence": "0.9946"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "In the late 80s and 90s, we started seeing more sophisticated criminal activities.",
+      "predicted_entities": [
+        {
+          "text": " late",
+          "type": "TIME",
+          "confidence": "0.9950"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "As a detective, you had to be versatile and open to new methods.",
+      "predicted_entities": [
+        {
+          "text": " detective",
+          "type": "OCCUPATION",
+          "confidence": "0.9966"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "There was a case in the early 90s involving a series of bank frauds.",
+      "predicted_entities": [
+        {
+          "text": " bank frauds",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "It was unlike anything we'd seen before, with the criminals using computers to orchestrate their plans.",
+      "predicted_entities": [
+        {
+          "text": " computers",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "We brought in a tech expert to help us, and it made all the difference.",
+      "predicted_entities": [
+        {
+          "text": " tech expert",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "Fishing has always been a passion of mine, and now I get to spend my days out on the water.",
+      "predicted_entities": [
+        {
+          "text": " water",
+          "type": "LOCATION",
+          "confidence": "0.9949"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "It's just you, the water, and the fish – no pressures, no deadlines.",
+      "predicted_entities": [
+        {
+          "text": " fish",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "There was a case involving a missing child that hit very close to home.",
+      "predicted_entities": [
+        {
+          "text": " missing child",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "We worked tirelessly, and when we finally found the child and reunited them with their family, it was one of the most fulfilling moments of my career.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "original_text": "The support from my colleagues and the community was invaluable.",
+      "predicted_entities": [
+        {
+          "text": " colleagues",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    }
+  ]
+}

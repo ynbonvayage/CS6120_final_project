@@ -1,0 +1,542 @@
+{
+  "session_id": "07_Martha",
+  "profile": {
+    "id": "07_Martha",
+    "name": "Martha",
+    "age": 88,
+    "role": "Farm Owner",
+    "timeline": [
+      {
+        "stage": "Childhood",
+        "topic": "No electricity",
+        "context": "Hard simple life."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Saving the harvest",
+        "context": "Fighting a drought."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Selling the land",
+        "context": "Grief and acceptance."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "We didn't have the convenience of lights or appliances, but it meant we spent more time together as a family.",
+      "predicted_entities": [
+        {
+          "text": " lights",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " appliances",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We relied on oil lamps for light and wood stoves for heat.",
+      "predicted_entities": [
+        {
+          "text": " oil lamps",
+          "type": "ARTIFACT",
+          "confidence": "0.9930"
+        },
+        {
+          "text": " wood stoves",
+          "type": "ARTIFACT",
+          "confidence": "0.9898"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "During the day, we'd use the sunlight for chores.",
+      "predicted_entities": [
+        {
+          "text": " sunlight",
+          "type": "ARTIFACT",
+          "confidence": "0.9994"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "My siblings and I helped with the farm work, and in the evenings, we gathered around the table to shell peas or mend clothes by the light of the oil lamp.",
+      "predicted_entities": [
+        {
+          "text": " siblings",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        },
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9968"
+        },
+        {
+          "text": " oil lamp",
+          "type": "ARTIFACT",
+          "confidence": "0.9955"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was tough, especially during the harsh winters.",
+      "predicted_entities": [
+        {
+          "text": " winters",
+          "type": "TIME",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Keeping the house warm was a struggle, and we had to make sure we had enough wood stocked up.",
+      "predicted_entities": [
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9973"
+        },
+        {
+          "text": " wood",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Carrying water from the well was another big task, particularly when the ground was frozen.",
+      "predicted_entities": [
+        {
+          "text": " water",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        },
+        {
+          "text": " well",
+          "type": "LOCATION",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Oh, preparing for winter was quite the task!",
+      "predicted_entities": [
+        {
+          "text": " winter",
+          "type": "TIME",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "We'd start by chopping and stacking firewood during the warmer months.",
+      "predicted_entities": [
+        {
+          "text": " firewood",
+          "type": "ARTIFACT",
+          "confidence": "0.9729"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "We also canned vegetables and preserved fruits from our garden to make sure we had plenty to eat when the snow covered the ground.",
+      "predicted_entities": [
+        {
+          "text": " vegetables",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " fruits",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9941"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "And, of course, we made sure the animals were ready for the cold too.",
+      "predicted_entities": [
+        {
+          "text": " animals",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Well, it was around the time that folks started getting electricity in our area.",
+      "predicted_entities": [
+        {
+          "text": " electricity",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I remember the excitement when the power lines finally reached our little farm.",
+      "predicted_entities": [
+        {
+          "text": " power lines",
+          "type": "LOCATION",
+          "confidence": "0.7992"
+        },
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Suddenly, we had lights at the flick of a switch and could use appliances like a refrigerator.",
+      "predicted_entities": [
+        {
+          "text": " lights",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " refrigerator",
+          "type": "ARTIFACT",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "We were able to use electric tools, and that reduced the manual labor a bit.",
+      "predicted_entities": [
+        {
+          "text": " electric tools",
+          "type": "ARTIFACT",
+          "confidence": "0.9921"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "With electricity, things started to get a bit easier, but it was the year when we had to deal with a particularly bad harvest.",
+      "predicted_entities": [
+        {
+          "text": " harvest",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "The weather had been unkind to us, and we were worried about losing our crops.",
+      "predicted_entities": [
+        {
+          "text": " crops",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "My husband and I, along with our children, worked tirelessly to harvest whatever was left.",
+      "predicted_entities": [
+        {
+          "text": " husband",
+          "type": "PERSON",
+          "confidence": "0.9984"
+        },
+        {
+          "text": " children",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "We spent long days in the fields, and even the children helped as much as they could.",
+      "predicted_entities": [
+        {
+          "text": " fields",
+          "type": "LOCATION",
+          "confidence": "0.9961"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "My husband had this old tractor that gave us some trouble, but with the electric tools, we managed to keep it running.",
+      "predicted_entities": [
+        {
+          "text": " tractor",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "The community was a great support too.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "Neighbors would lend a hand, and we did the same for them when we could.",
+      "predicted_entities": [
+        {
+          "text": " Neighbors",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "That year, we had a late frost that damaged a lot of our early crops.",
+      "predicted_entities": [
+        {
+          "text": " frost",
+          "type": "EVENT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Then, during the summer, we faced a dry spell that left the earth parched.",
+      "predicted_entities": [
+        {
+          "text": " summer",
+          "type": "TIME",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "We had to get creative with our irrigation, using the limited water we had as efficiently as possible.",
+      "predicted_entities": [
+        {
+          "text": " irrigation",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        },
+        {
+          "text": " water",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "We found joy in the little things, like a good meal shared together or a story told by the fire.",
+      "predicted_entities": [
+        {
+          "text": " meal",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " fire",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "My husband always had a way of making us laugh, even when times were tough.",
+      "predicted_entities": [
+        {
+          "text": " husband",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "We also leaned on each other and our faith quite a bit.",
+      "predicted_entities": [
+        {
+          "text": " faith",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "The children were so resilient, and their energy kept us going.",
+      "predicted_entities": [
+        {
+          "text": " children",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "But as time went on, it became clear that the farm wasn't as sustainable as it once was for our family.",
+      "predicted_entities": [
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9960"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "The kids were growing up and moving to the city for jobs, and my husband and I were getting older.",
+      "predicted_entities": [
+        {
+          "text": " city",
+          "type": "LOCATION",
+          "confidence": "0.9970"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Eventually, we made the difficult decision to sell the land.",
+      "predicted_entities": [
+        {
+          "text": " land",
+          "type": "LOCATION",
+          "confidence": "0.9959"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "The farm was such a big part of our lives—it's where we raised our children and shared so many memories.",
+      "predicted_entities": [
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9970"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "original_text": "Looking back, I feel so grateful for the life we had on the farm.",
+      "predicted_entities": [
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9968"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "original_text": "The land gave us so much, and we gave it everything we had in return.",
+      "predicted_entities": [
+        {
+          "text": " land",
+          "type": "LOCATION",
+          "confidence": "0.9948"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "original_text": "Oh, the farm shaped me in so many ways.",
+      "predicted_entities": [
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9962"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "original_text": "There were days when I thought I couldn't do any more, but I always found strength in the land and my family.",
+      "predicted_entities": [
+        {
+          "text": " land",
+          "type": "PERSON",
+          "confidence": "0.7840"
+        },
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "Life on the farm taught me that nothing stays the same forever, and sometimes you have to adapt to keep going.",
+      "predicted_entities": [
+        {
+          "text": " farm",
+          "type": "LOCATION",
+          "confidence": "0.9966"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "But no matter what, the love and support of family and community can get you through even the toughest times.",
+      "predicted_entities": [
+        {
+          "text": " love",
+          "type": "PERSON",
+          "confidence": "0.9983"
+        },
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    }
+  ]
+}

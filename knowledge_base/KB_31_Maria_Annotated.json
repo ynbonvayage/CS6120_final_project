@@ -1,0 +1,176 @@
+{
+  "session_id": "31_Maria",
+  "profile": {
+    "id": "31_Maria",
+    "name": "Maria",
+    "age": 75,
+    "role": "Housekeeper",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Raising other's kids",
+        "context": "Sacrifice."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Buying her own home",
+        "context": "Achievement."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Being visited by them",
+        "context": "Gratitude."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I started when I was about nineteen, right after I finished school.",
+      "predicted_entities": [
+        {
+          "text": " nineteen",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I needed a job, and there was a family looking for someone to help with their children.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " children",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Sometimes, it was hard because I had to be away from my own family.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I managed by writing letters to my parents and siblings whenever I could.",
+      "predicted_entities": [
+        {
+          "text": " letters",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "The parents decided to move to another city for work, and they didn’t need a housekeeper any longer.",
+      "predicted_entities": [
+        {
+          "text": " city",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "That's when I started considering buying my own home.",
+      "predicted_entities": [
+        {
+          "text": " home",
+          "type": "LOCATION",
+          "confidence": "0.9963"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I didn’t have much saved up, and I was nervous about taking on a mortgage.",
+      "predicted_entities": [
+        {
+          "text": " mortgage",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Well, I had a few friends who would check in on me, offer a kind word or a bit of advice.",
+      "predicted_entities": [
+        {
+          "text": " friends",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "When I finally got the keys, it felt surreal.",
+      "predicted_entities": [
+        {
+          "text": " keys",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I remember just standing in the empty living room, taking it all in.",
+      "predicted_entities": [
+        {
+          "text": " living room",
+          "type": "LOCATION",
+          "confidence": "0.9977"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "It was a small house, nothing fancy, but it was mine.",
+      "predicted_entities": [
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9975"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Those kids, they're all grown up now, with families of their own.",
+      "predicted_entities": [
+        {
+          "text": " families",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "original_text": "We sit around the kitchen table, and they tell me about their lives, their children.",
+      "predicted_entities": [
+        {
+          "text": " kitchen table",
+          "type": "ARTIFACT",
+          "confidence": "0.9631"
+        }
+      ]
+    }
+  ]
+}

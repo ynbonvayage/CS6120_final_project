@@ -1,0 +1,263 @@
+{
+  "session_id": "48_Nora",
+  "profile": {
+    "id": "48_Nora",
+    "name": "Nora",
+    "age": 82,
+    "role": "Midwife",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First home birth",
+        "context": "Miracle of life."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Complications",
+        "context": "Tragedy and resilience."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Meeting babies grown up",
+        "context": "Cycle of life."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Oh, my first home birth!",
+      "predicted_entities": [
+        {
+          "text": " home birth",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was in the spring, I remember because the flowers were just blooming.",
+      "predicted_entities": [
+        {
+          "text": " spring",
+          "type": "TIME",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The family had an old Victorian house, lovely and full of character.",
+      "predicted_entities": [
+        {
+          "text": " Victorian house",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Just my hands and a small bag with the essentials.",
+      "predicted_entities": [
+        {
+          "text": " bag",
+          "type": "ARTIFACT",
+          "confidence": "0.9976"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The mother was a lovely young woman, very calm and collected.",
+      "predicted_entities": [
+        {
+          "text": " mother",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "But, oh, I remember there was a moment when the baby just wouldn't turn.",
+      "predicted_entities": [
+        {
+          "text": " baby",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Oh, and the father was pacing outside the whole time, poor thing.",
+      "predicted_entities": [
+        {
+          "text": " father",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "My mother used to tell me stories about her work as a nurse during the war.",
+      "predicted_entities": [
+        {
+          "text": " mother",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " nurse",
+          "type": "OCCUPATION",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "That little girl grew up to be quite the character, you know. I saw her a few times over the years.",
+      "predicted_entities": [
+        {
+          "text": " girl",
+          "type": "PERSON",
+          "confidence": "0.7394"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "One time, there was this boy who arrived with the cord wrapped around.",
+      "predicted_entities": [
+        {
+          "text": " cord",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I think it was around then that hospitals started becoming more accessible and better equipped.",
+      "predicted_entities": [
+        {
+          "text": " hospitals",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I guess I slowly transitioned to more of a consultant role, sharing my experiences with younger midwives.",
+      "predicted_entities": [
+        {
+          "text": " midwives",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "There was one particular midwife, Mrs. Jenkins, who would always say, 'Nora, remember to breathe, and you'll find the way.'",
+      "predicted_entities": [
+        {
+          "text": " Mrs. Jenkins",
+          "type": "PERSON",
+          "confidence": "0.9995"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I suppose it’s like my garden; sometimes the plants don't grow the way you expect, but with care and patience, they usually find their way.",
+      "predicted_entities": [
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9936"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "There's this one young man, Thomas—I delivered him at home during a snowstorm.",
+      "predicted_entities": [
+        {
+          "text": " young man",
+          "type": "PERSON",
+          "confidence": "0.7584"
+        },
+        {
+          "text": " snowstorm",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Well, he's a teacher now, and every once in a while, he stops by to say hello.",
+      "predicted_entities": [
+        {
+          "text": " teacher",
+          "type": "OCCUPATION",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Oh, speaking of rivers, did I ever tell you about the time I got caught in the rain walking by the Thames?",
+      "predicted_entities": [
+        {
+          "text": " Thames",
+          "type": "LOCATION",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I used to take a little snap of each baby with the family, just a small keepsake.",
+      "predicted_entities": [
+        {
+          "text": " snap",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Being a midwife was never just a job for me; it was a calling.",
+      "predicted_entities": [
+        {
+          "text": "wife",
+          "type": "OCCUPATION",
+          "confidence": "0.9656"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Oh, did I ever tell you about the time I helped deliver twins in the middle of a power outage?",
+      "predicted_entities": [
+        {
+          "text": " twins",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " power outage",
+          "type": "EVENT",
+          "confidence": "0.9989"
+        }
+      ]
+    }
+  ]
+}

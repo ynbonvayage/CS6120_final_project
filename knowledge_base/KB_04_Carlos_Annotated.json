@@ -1,0 +1,197 @@
+{
+  "session_id": "04_Carlos",
+  "profile": {
+    "id": "04_Carlos",
+    "name": "Carlos",
+    "age": 74,
+    "role": "Jazz Musician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Touring in a van",
+        "context": "Hunger and passion."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Hearing loss scare",
+        "context": "Career crisis."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Playing for himself",
+        "context": "Music as therapy."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Back in the late '60s and early '70s, we were just a bunch of young cats, crammed into this beat-up old van, chasing the music wherever it took us.",
+      "predicted_entities": [
+        {
+          "text": " late '60s",
+          "type": "TIME",
+          "confidence": "0.9967"
+        },
+        {
+          "text": " early '70s",
+          "type": "TIME",
+          "confidence": "0.9850"
+        },
+        {
+          "text": " cats",
+          "type": "PERSON",
+          "confidence": "0.9592"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Often, we'd sleep in the van or crash at someone's place if they offered.",
+      "predicted_entities": [
+        {
+          "text": " van",
+          "type": "LOCATION",
+          "confidence": "0.4856"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember one night, we were stuck in the middle of nowhere because the van broke down.",
+      "predicted_entities": [
+        {
+          "text": " van",
+          "type": "ARTIFACT",
+          "confidence": "0.9938"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Instead of getting upset, we just took out our instruments and started jamming right there by the roadside.",
+      "predicted_entities": [
+        {
+          "text": " instruments",
+          "type": "ARTIFACT",
+          "confidence": "0.9742"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Ah, yes, things did start to change as we moved into the '80s.",
+      "predicted_entities": [
+        {
+          "text": " '80s",
+          "type": "TIME",
+          "confidence": "0.9980"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "But what really shook me was this one time when I started to notice I was having trouble hearing certain notes.",
+      "predicted_entities": [
+        {
+          "text": " notes",
+          "type": "ARTIFACT",
+          "confidence": "0.9484"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember sitting in a doctor’s office, just sweating bullets, thinking about what I would do if I couldn’t play anymore.",
+      "predicted_entities": [
+        {
+          "text": " doctor",
+          "type": "OCCUPATION",
+          "confidence": "0.6584"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Music was everything to me; it was my identity.",
+      "predicted_entities": [
+        {
+          "text": " Music",
+          "type": "ORGANIZATION",
+          "confidence": "0.6527"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I would sit down with my guitar and just let my fingers move over the strings, not worrying about gigs or audiences.",
+      "predicted_entities": [
+        {
+          "text": " guitar",
+          "type": "ARTIFACT",
+          "confidence": "0.9981"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I started to focus more on the quality of my music rather than just playing as many gigs as possible.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "ARTIFACT",
+          "confidence": "0.8657"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "It was also around this time that I started teaching younger musicians.",
+      "predicted_entities": [
+        {
+          "text": " musicians",
+          "type": "PERSON",
+          "confidence": "0.9771"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Well, these days, music is my constant companion.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "EVENT",
+          "confidence": "0.8017"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Now, it's just me and my guitar, and sometimes a few friends who join in for the fun of it.",
+      "predicted_entities": [
+        {
+          "text": " guitar",
+          "type": "ARTIFACT",
+          "confidence": "0.9960"
+        },
+        {
+          "text": " friends",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "That's a big question, but I think if there's one thing I've learned, it's that music is more than just a career or a hobby—it's a lifelong companion.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "EVENT",
+          "confidence": "0.7490"
+        }
+      ]
+    }
+  ]
+}

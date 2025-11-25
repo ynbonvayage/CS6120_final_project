@@ -1,0 +1,245 @@
+{
+  "session_id": "26_Sam",
+  "profile": {
+    "id": "26_Sam",
+    "name": "Sam",
+    "age": 79,
+    "role": "Electrician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The Blackout of '77",
+        "context": "Restoring power."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Starting own business",
+        "context": "Stress of payroll."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Wiring his son's house",
+        "context": "Fatherly pride."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I was a young electrician back then, working in New York City.",
+      "predicted_entities": [
+        {
+          "text": " electrician",
+          "type": "OCCUPATION",
+          "confidence": "0.9978"
+        },
+        {
+          "text": " New York City",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a hot July night, and suddenly, everything just went dark.",
+      "predicted_entities": [
+        {
+          "text": " July",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember helping out neighbors and running around with my flashlight checking on folks.",
+      "predicted_entities": [
+        {
+          "text": " neighbors",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " flashlight",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "By 1980, I had saved up enough and took the plunge.",
+      "predicted_entities": [
+        {
+          "text": " 1980",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "First off, getting clients was tough.",
+      "predicted_entities": [
+        {
+          "text": " clients",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Ah, it was around 1982 when I really started feeling a shift.",
+      "predicted_entities": [
+        {
+          "text": " 1982",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I got a big contract with a local business.",
+      "predicted_entities": [
+        {
+          "text": " contract",
+          "type": "ARTIFACT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I was able to expand slowly, bringing on more electricians and taking on bigger projects.",
+      "predicted_entities": [
+        {
+          "text": " electricians",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "My wife was a big support too, handling the books and keeping things organized.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " books",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "By the mid-80s, we had a nice little company going.",
+      "predicted_entities": [
+        {
+          "text": " mid-80s",
+          "type": "TIME",
+          "confidence": "0.9962"
+        },
+        {
+          "text": " company",
+          "type": "ORGANIZATION",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "Oh absolutely! One of the most memorable projects was wiring my son's house.",
+      "predicted_entities": [
+        {
+          "text": " son",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9946"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "It was back in the late 80s, and he had just bought his first home.",
+      "predicted_entities": [
+        {
+          "text": " late 80s",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I taught him how to handle the tools, how to read blueprints, and the importance of safety.",
+      "predicted_entities": [
+        {
+          "text": " tools",
+          "type": "ARTIFACT",
+          "confidence": "0.9985"
+        },
+        {
+          "text": " blueprints",
+          "type": "ARTIFACT",
+          "confidence": "0.9902"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Well, wiring a house, especially one that's a fixer-upper, comes with its own set of challenges.",
+      "predicted_entities": [
+        {
+          "text": " fixer-upper",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "The wiring was so outdated; it was a miracle it even worked!",
+      "predicted_entities": [
+        {
+          "text": " wiring",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "One that really stands out is when we finally got all the wiring done and tested the lights for the first time.",
+      "predicted_entities": [
+        {
+          "text": " lights",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "original_text": "It's never just about the wires and circuits—it's about the people you connect with and the legacy you leave behind.",
+      "predicted_entities": [
+        {
+          "text": " legacy",
+          "type": "EVENT",
+          "confidence": "0.9824"
+        }
+      ]
+    }
+  ]
+}
