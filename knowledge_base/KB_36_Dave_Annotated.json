@@ -1,0 +1,186 @@
+{
+  "session_id": "36_Dave",
+  "profile": {
+    "id": "36_Dave",
+    "name": "Dave",
+    "age": 72,
+    "role": "Welder",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Building skyscrapers",
+        "context": "No fear of heights."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Flash burn injury",
+        "context": "Danger of the job."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Sculpting metal art",
+        "context": "New expression."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Oh, building those skyscrapers was something, let me tell you.",
+      "predicted_entities": [
+        {
+          "text": " skyscrapers",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was the 70s, and the construction sites were buzzing with activity, the smell of fresh concrete in the air.",
+      "predicted_entities": [
+        {
+          "text": " 70s",
+          "type": "TIME",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " concrete",
+          "type": "ARTIFACT",
+          "confidence": "0.9977"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "There were these massive steel beams, and the sound of welding was like music to my ears.",
+      "predicted_entities": [
+        {
+          "text": " steel beams",
+          "type": "ARTIFACT",
+          "confidence": "0.9356"
+        },
+        {
+          "text": " welding",
+          "type": "EVENT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was this one time, I think it was the summer of '75 or maybe '76.",
+      "predicted_entities": [
+        {
+          "text": " '75",
+          "type": "TIME",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We were working on this high-rise, and one of the older guys, Joe, he taught me a trick or two about welding.",
+      "predicted_entities": [
+        {
+          "text": " Joe",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember one day, we had this big beam to hoist, and the crane was acting up.",
+      "predicted_entities": [
+        {
+          "text": " crane",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Then there was another time, when I got a flash burn to the eyes.",
+      "predicted_entities": [
+        {
+          "text": " flash burn",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember the first piece I made. It was a small sculpture of a bird, kind of abstract.",
+      "predicted_entities": [
+        {
+          "text": " sculpture",
+          "type": "ARTIFACT",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " bird",
+          "type": "ARTIFACT",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "My wife said it looked like our old parakeet, Charlie.",
+      "predicted_entities": [
+        {
+          "text": " Charlie",
+          "type": "PERSON",
+          "confidence": "0.9983"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "My wife, bless her heart, she was a rock during that time.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "She brought me this book about metalworking—kind of like a guide for artists.",
+      "predicted_entities": [
+        {
+          "text": " book",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I started picking up more scrap metal, visiting junkyards and whatnot.",
+      "predicted_entities": [
+        {
+          "text": " scrap metal",
+          "type": "ARTIFACT",
+          "confidence": "0.9925"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Then, one day, a friend of mine saw my work and suggested I try showing them at a local art fair.",
+      "predicted_entities": [
+        {
+          "text": " art fair",
+          "type": "EVENT",
+          "confidence": "0.9978"
+        }
+      ]
+    }
+  ]
+}

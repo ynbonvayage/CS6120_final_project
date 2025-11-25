@@ -1,0 +1,229 @@
+{
+  "session_id": "29_Hans",
+  "profile": {
+    "id": "29_Hans",
+    "name": "Hans",
+    "age": 89,
+    "role": "Clockmaker",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Learning the gears",
+        "context": "Patience."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The Quartz Crisis",
+        "context": "Technology threat."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Repairing antiques",
+        "context": "Preserving time."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "It was in a small workshop in my hometown in Germany.",
+      "predicted_entities": [
+        {
+          "text": " workshop",
+          "type": "LOCATION",
+          "confidence": "0.9956"
+        },
+        {
+          "text": " hometown",
+          "type": "LOCATION",
+          "confidence": "0.9924"
+        },
+        {
+          "text": " Germany",
+          "type": "LOCATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I must have been around 14 or 15.",
+      "predicted_entities": [
+        {
+          "text": " 14",
+          "type": "TIME",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " 15",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My father was a clockmaker, and every day after school, I'd rush to his workshop.",
+      "predicted_entities": [
+        {
+          "text": " father",
+          "type": "PERSON",
+          "confidence": "0.8117"
+        },
+        {
+          "text": " clockmaker",
+          "type": "OCCUPATION",
+          "confidence": "0.9778"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Each gear, each tick of the clock seemed to hold a story.",
+      "predicted_entities": [
+        {
+          "text": " story",
+          "type": "ARTIFACT",
+          "confidence": "0.5494"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "My father had a quiet way of teaching—he'd often say, 'The clock will tell you what it needs if you listen closely.'",
+      "predicted_entities": [
+        {
+          "text": " clock",
+          "type": "ARTIFACT",
+          "confidence": "0.5136"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Things began to change when the Quartz Crisis came along.",
+      "predicted_entities": [
+        {
+          "text": " Quartz Crisis",
+          "type": "EVENT",
+          "confidence": "0.9956"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was around the 1970s, and suddenly, these new quartz watches were everywhere.",
+      "predicted_entities": [
+        {
+          "text": " 1970s",
+          "type": "TIME",
+          "confidence": "0.9983"
+        },
+        {
+          "text": " quartz watches",
+          "type": "ARTIFACT",
+          "confidence": "0.9896"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Many of us, traditional clockmakers, were worried.",
+      "predicted_entities": [
+        {
+          "text": " clockmakers",
+          "type": "ORGANIZATION",
+          "confidence": "0.8375"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember having long discussions with fellow clockmakers.",
+      "predicted_entities": [
+        {
+          "text": " clockmakers",
+          "type": "PERSON",
+          "confidence": "0.9899"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Some started incorporating quartz movements into their designs, but it never quite felt the same.",
+      "predicted_entities": [
+        {
+          "text": " quartz",
+          "type": "ARTIFACT",
+          "confidence": "0.8832"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I focused more on repairing antique clocks, which kept the old art alive in some way.",
+      "predicted_entities": [
+        {
+          "text": " antique clocks",
+          "type": "ARTIFACT",
+          "confidence": "0.9900"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "But it was a struggle, watching the younger generation gravitate toward the quartz watches and digital displays.",
+      "predicted_entities": [
+        {
+          "text": " quartz watches",
+          "type": "ARTIFACT",
+          "confidence": "0.9877"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Well, as I mentioned, I turned to repairing antiques.",
+      "predicted_entities": [
+        {
+          "text": " antiques",
+          "type": "ARTIFACT",
+          "confidence": "0.9319"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I also began teaching younger enthusiasts who were interested in the traditional methods.",
+      "predicted_entities": [
+        {
+          "text": " enthusiasts",
+          "type": "PERSON",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "And every time I hear a clock chime again after being silent for so long, it feels like I've given it a second life.",
+      "predicted_entities": [
+        {
+          "text": " clock",
+          "type": "ARTIFACT",
+          "confidence": "0.8705"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Working on these old clocks brings me a deep sense of peace.",
+      "predicted_entities": [
+        {
+          "text": " clocks",
+          "type": "ARTIFACT",
+          "confidence": "0.7349"
+        }
+      ]
+    }
+  ]
+}

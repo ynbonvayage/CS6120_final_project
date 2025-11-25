@@ -1,0 +1,345 @@
+{
+  "session_id": "40_Indira",
+  "profile": {
+    "id": "40_Indira",
+    "name": "Indira",
+    "age": 79,
+    "role": "Archaeologist",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The first dig in Egypt",
+        "context": "Wonder."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Fighting looters",
+        "context": "Protecting history."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Museum curator",
+        "context": "Preservation."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I remember arriving in Cairo, the air thick with dust and the scent of spices.",
+      "predicted_entities": [
+        {
+          "text": " Cairo",
+          "type": "LOCATION",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was so young, just out of university, and eager to make a mark.",
+      "predicted_entities": [
+        {
+          "text": " university",
+          "type": "ORGANIZATION",
+          "confidence": "0.9964"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Our team set up camp near the Valley of the Kings.",
+      "predicted_entities": [
+        {
+          "text": " Valley of the Kings",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We stumbled upon a chamber, which was exhilarating.",
+      "predicted_entities": [
+        {
+          "text": " chamber",
+          "type": "LOCATION",
+          "confidence": "0.9960"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Sometimes, I would just sit there, imagining the pharaohs themselves gazing out at the same horizon.",
+      "predicted_entities": [
+        {
+          "text": " pharaoh",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Ah yes, the team was a wonderful mix of seasoned experts and enthusiastic novices like myself.",
+      "predicted_entities": [
+        {
+          "text": " team",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember once someone brought out an oud, and we sang under the stars.",
+      "predicted_entities": [
+        {
+          "text": " o",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": "ud",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "The locals were quite an interesting part of our experience.",
+      "predicted_entities": [
+        {
+          "text": " locals",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "The sun was unforgiving, and sandstorms were not uncommon.",
+      "predicted_entities": [
+        {
+          "text": " sandstorms",
+          "type": "EVENT",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember one particular storm that nearly buried our tents.",
+      "predicted_entities": [
+        {
+          "text": " tents",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "You know, it's not just about finding artifacts; it's about connecting with the stories behind them.",
+      "predicted_entities": [
+        {
+          "text": " artifacts",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember a time when we found a small, intricately carved statue.",
+      "predicted_entities": [
+        {
+          "text": " statue",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "After some years, looters started becoming a more pressing concern.",
+      "predicted_entities": [
+        {
+          "text": " looters",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "It was disheartening, to say the least, seeing the treasures we worked so hard to preserve being threatened.",
+      "predicted_entities": [
+        {
+          "text": " treasures",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "You know, I remember this one time when we returned to a site only to find it had been disturbed.",
+      "predicted_entities": [
+        {
+          "text": " site",
+          "type": "LOCATION",
+          "confidence": "0.9972"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "We had to work closely with the authorities, which was a whole new challenge in itself.",
+      "predicted_entities": [
+        {
+          "text": " authorities",
+          "type": "ORGANIZATION",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "There was this one time, I believe it was in '74, when we set up a kind of community watch with the local villagers.",
+      "predicted_entities": [
+        {
+          "text": " '74",
+          "type": "TIME",
+          "confidence": "0.8797"
+        },
+        {
+          "text": " villagers",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Ah, becoming a curator... it was a natural progression, I suppose.",
+      "predicted_entities": [
+        {
+          "text": " curator",
+          "type": "OCCUPATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "After years in the field, the idea of preserving and showcasing these incredible artifacts in a more controlled environment became appealing.",
+      "predicted_entities": [
+        {
+          "text": " artifacts",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Of course, my mind often wandered to the stories behind each piece, and I wanted to share those stories with others.",
+      "predicted_entities": [
+        {
+          "text": " stories",
+          "type": "EVENT",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "It was a new way to engage with the past, not just as a researcher but as a storyteller.",
+      "predicted_entities": [
+        {
+          "text": " researcher",
+          "type": "OCCUPATION",
+          "confidence": "0.9981"
+        },
+        {
+          "text": " storyteller",
+          "type": "OCCUPATION",
+          "confidence": "0.9730"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Oh, stepping into a museum was a whole different world!",
+      "predicted_entities": [
+        {
+          "text": " museum",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "Watching people, especially children, stand in awe before a statue or a piece of pottery was like witnessing a spark of curiosity igniting.",
+      "predicted_entities": [
+        {
+          "text": " children",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " pottery",
+          "type": "ARTIFACT",
+          "confidence": "0.9775"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "original_text": "The museum was like a sanctuary where these relics could finally rest and be appreciated by all.",
+      "predicted_entities": [
+        {
+          "text": " relics",
+          "type": "ARTIFACT",
+          "confidence": "0.9977"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "original_text": "It's funny how an artifact can trigger a memory, isn't it? Like recalling a long-lost dialogue with a colleague over a dusty cup of tea in the middle of nowhere.",
+      "predicted_entities": [
+        {
+          "text": " tea",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "original_text": "There was this one piece, a simple clay tablet, that always captured my attention.",
+      "predicted_entities": [
+        {
+          "text": " clay tablet",
+          "type": "ARTIFACT",
+          "confidence": "0.9910"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "original_text": "It reminded me of a young local boy who showed us the site.",
+      "predicted_entities": [
+        {
+          "text": " boy",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ]
+    }
+  ]
+}

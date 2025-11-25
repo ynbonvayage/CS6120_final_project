@@ -1,0 +1,214 @@
+{
+  "session_id": "23_Eleanor",
+  "profile": {
+    "id": "23_Eleanor",
+    "name": "Eleanor",
+    "age": 88,
+    "role": "Diplomat",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Cold War posting",
+        "context": "Espionage fears."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Peace treaty negotiation",
+        "context": "High stakes."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Writing memoirs",
+        "context": "Secrets kept."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I was stationed in Berlin during the height of it all.",
+      "predicted_entities": [
+        {
+          "text": " Berlin",
+          "type": "LOCATION",
+          "confidence": "0.9982"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "As a diplomat, my role was to facilitate communication and understanding between very different worlds.",
+      "predicted_entities": [
+        {
+          "text": " diplomat",
+          "type": "OCCUPATION",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We were working tirelessly to ease relations, and I remember one night, I was called to a late meeting at the embassy.",
+      "predicted_entities": [
+        {
+          "text": " embassy",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "But despite the pressure, there was a remarkable sense of unity amongst us diplomats.",
+      "predicted_entities": [
+        {
+          "text": " diplomats",
+          "type": "PERSON",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was during the peace treaty negotiations after the Berlin Wall fell.",
+      "predicted_entities": [
+        {
+          "text": " peace treaty negotiations",
+          "type": "EVENT",
+          "confidence": "0.9229"
+        },
+        {
+          "text": " Berlin Wall",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It felt like a new chapter not only for Europe but also for my career.",
+      "predicted_entities": [
+        {
+          "text": " Europe",
+          "type": "LOCATION",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "After the peace treaties were successfully negotiated, there was a sense of completion and fulfillment.",
+      "predicted_entities": [
+        {
+          "text": " peace treaties",
+          "type": "ARTIFACT",
+          "confidence": "0.9941"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "original_text": "That's when I decided to start writing my memoirs.",
+      "predicted_entities": [
+        {
+          "text": " memoirs",
+          "type": "ARTIFACT",
+          "confidence": "0.9855"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "There was also the emotional toll; it was hard not to feel the weight of history on our shoulders.",
+      "predicted_entities": [
+        {
+          "text": " history",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Personally, I found solace in writing down my thoughts, which later became a foundation for my memoirs.",
+      "predicted_entities": [
+        {
+          "text": " thoughts",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I've been sorting through countless memories, letters, and notes.",
+      "predicted_entities": [
+        {
+          "text": " letters",
+          "type": "ARTIFACT",
+          "confidence": "0.9978"
+        },
+        {
+          "text": " notes",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "original_text": "At times, it feels overwhelming, but it's also incredibly rewarding to see my story taking shape.",
+      "predicted_entities": [
+        {
+          "text": " story",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "original_text": "One that often comes to mind is a conversation I had with a young diplomat early in my career.",
+      "predicted_entities": [
+        {
+          "text": " young diplomat",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "I hope that my memoirs will offer readers a glimpse into the complexities and rewards of diplomatic work.",
+      "predicted_entities": [
+        {
+          "text": " readers",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "original_text": "It's about more than just politics; it's about human connection and striving for peace.",
+      "predicted_entities": [
+        {
+          "text": " peace",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "original_text": "I hope future generations carry this wisdom with them.",
+      "predicted_entities": [
+        {
+          "text": " future generations",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ]
+    }
+  ]
+}

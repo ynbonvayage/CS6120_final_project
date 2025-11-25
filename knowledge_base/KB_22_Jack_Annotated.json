@@ -1,0 +1,154 @@
+{
+  "session_id": "22_Jack",
+  "profile": {
+    "id": "22_Jack",
+    "name": "Jack",
+    "age": 86,
+    "role": "Carpenter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Building his own house",
+        "context": "Self-reliance."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Injury on the job",
+        "context": "Financial fear."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Carving toys",
+        "context": "Gentle work."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "Well, it was back in the mid-1950s.",
+      "predicted_entities": [
+        {
+          "text": " mid-1950s",
+          "type": "TIME",
+          "confidence": "0.9979"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My wife and I had just gotten married, and we needed a place of our own.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I didn't have much money, but I had my skills as a carpenter.",
+      "predicted_entities": [
+        {
+          "text": " carpenter",
+          "type": "OCCUPATION",
+          "confidence": "0.9967"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The hardest part was probably the foundation.",
+      "predicted_entities": [
+        {
+          "text": " foundation",
+          "type": "LOCATION",
+          "confidence": "0.9957"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "After a couple of months, the house was finally coming together.",
+      "predicted_entities": [
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9965"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I was up on a ladder, and I took a bad fall.",
+      "predicted_entities": [
+        {
+          "text": " ladder",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Landed wrong, and it messed up my back pretty good.",
+      "predicted_entities": [
+        {
+          "text": " back",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "So, I picked up a knife and started whittling again.",
+      "predicted_entities": [
+        {
+          "text": " knife",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I started making little wooden toys for my grandkids.",
+      "predicted_entities": [
+        {
+          "text": " wooden toys",
+          "type": "ARTIFACT",
+          "confidence": "0.9940"
+        },
+        {
+          "text": " grandkids",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "It was different than building houses, but satisfying in its own way.",
+      "predicted_entities": [
+        {
+          "text": " houses",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "original_text": "When I couldn't work as a carpenter anymore, I had to find a new path.",
+      "predicted_entities": [
+        {
+          "text": "penter",
+          "type": "OCCUPATION",
+          "confidence": "0.9825"
+        }
+      ]
+    }
+  ]
+}

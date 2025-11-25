@@ -3,9 +3,9 @@ import torch
 
 # ================= 配置 =================
 # 指向您刚才训练好的模型路径
-MODEL_PATH = "./ner_model_output/final_model"
+MODEL_PATH = "./ner_model_roberta_base/final_model"
 # 或者是您预训练后的模型路径 (如果您跑了 DAPT)
-# MODEL_PATH = "./bert-memoir-adapted" 
+# MODEL_PATH = "./robert-memoir-adapted" 
 # =======================================
 
 def main():

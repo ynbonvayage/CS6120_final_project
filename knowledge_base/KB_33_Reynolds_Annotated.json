@@ -1,0 +1,176 @@
+{
+  "session_id": "33_Reynolds",
+  "profile": {
+    "id": "33_Reynolds",
+    "name": "Capt. Reynolds",
+    "age": 80,
+    "role": "Pilot",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First solo flight",
+        "context": "Freedom."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Emergency landing",
+        "context": "Focus under pressure."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Failing the eye exam",
+        "context": "Grounded."
+      }
+    ]
+  },
+  "extracted_knowledge": [
+    {
+      "turn_id": 2,
+      "original_text": "I was nervous, of course, but once I was in the cockpit, it was just me and the plane.",
+      "predicted_entities": [
+        {
+          "text": " plane",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I had this old Cessna 172, reliable as they come.",
+      "predicted_entities": [
+        {
+          "text": " Cessna 172",
+          "type": "ARTIFACT",
+          "confidence": "0.9914"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I almost forgot to lower the landing gear!",
+      "predicted_entities": [
+        {
+          "text": " landing gear",
+          "type": "ARTIFACT",
+          "confidence": "0.9941"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I think I celebrated with a chocolate milkshake at the diner nearby.",
+      "predicted_entities": [
+        {
+          "text": " milkshake",
+          "type": "ARTIFACT",
+          "confidence": "0.9845"
+        },
+        {
+          "text": " diner",
+          "type": "LOCATION",
+          "confidence": "0.9945"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I was flying a Piper Cherokee then.",
+      "predicted_entities": [
+        {
+          "text": " Piper Cherokee",
+          "type": "ARTIFACT",
+          "confidence": "0.9940"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "We were cruising along just fine when suddenly, the engine started sputtering.",
+      "predicted_entities": [
+        {
+          "text": " engine",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Spotted this small airfield, a godsend really.",
+      "predicted_entities": [
+        {
+          "text": " airfield",
+          "type": "LOCATION",
+          "confidence": "0.9901"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "original_text": "There was this time, maybe a few years later, when I had to go for my routine eye exam.",
+      "predicted_entities": [
+        {
+          "text": " eye exam",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I started spending more time with my family and picked up some hobbies I never had time for before.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Oh, and model airplanes! I started building those too.",
+      "predicted_entities": [
+        {
+          "text": " model airplanes",
+          "type": "ARTIFACT",
+          "confidence": "0.9935"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I remember the first community air show we organized.",
+      "predicted_entities": [
+        {
+          "text": " air show",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Seeing those kids' faces light up as the planes soared overhead reminded me of my own early days.",
+      "predicted_entities": [
+        {
+          "text": " kids",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Sometimes I miss it, of course, especially the camaraderie with fellow pilots.",
+      "predicted_entities": [
+        {
+          "text": " pilots",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ]
+    }
+  ]
+}
