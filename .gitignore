@@ -18,3 +18,6 @@ __pycache__/
 
 # 4. Mac 系统生成的文件
 .DS_Store
+
+# Ignore IEMOCAP dataset
+Experiment_B/IEMOCAP/
