@@ -1,0 +1,724 @@
+{
+  "session_id": "08_Thomas",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "08_Thomas",
+    "name": "Thomas",
+    "age": 72,
+    "role": "Vietnam Veteran",
+    "timeline": [
+      { "stage": "Youth", "topic": "Returning home 1971", "context": "Alienation." },
+      { "stage": "Adulthood", "topic": "Building his house", "context": "Healing through labor." },
+      { "stage": "Old Age", "topic": "Platoon reunion", "context": "Forgiveness." }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience returning home in 1971."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, coming back home in 1971 was quite a mix of emotions.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Returning Home",
+            "emotions": ["Fear/Anxiety", "Joy/Pride"],
+            "entities": [
+              { "text": "1971", "type": "TIME", "role": "year" },
+              { "text": "home", "type": "LOCATION", "role": "destination" }
+            ]
+          }
+        },
+        {
+          "text": "I remember stepping off the plane, still in my uniform, and feeling both relief and anxiety.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Arrival",
+            "emotions": ["Relief", "Fear/Anxiety"],
+            "entities": [
+              { "text": "plane", "type": "ARTIFACT", "role": "transport" },
+              { "text": "uniform", "type": "ARTIFACT", "role": "clothing" }
+            ]
+          }
+        },
+        {
+          "text": "It was a relief to be back on familiar soil, but there was also a lot of tension in the air back then.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": ["Relief", "Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The reception wasn't exactly warm everywhere, you know, which was a bit tough to process.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reception",
+            "emotions": ["Sadness/Loss", "Anger/Frustration"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. It sounds like you were caught between relief and a challenging reception."
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, it was hard.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "On one hand, there was the comfort of being home, seeing family and friends who were supportive.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Support",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "kin" },
+              { "text": "friends", "type": "PERSON", "role": "companions" }
+            ]
+          }
+        },
+        {
+          "text": "But on the other, there were the protests and the stigma associated with being a Vietnam veteran.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Stigma",
+            "emotions": ["Anger/Frustration", "Sadness/Loss"],
+            "entities": [
+              { "text": "protests", "type": "EVENT", "role": "social conflict" },
+              { "text": "Vietnam veteran", "type": "OCCUPATION", "role": "status" }
+            ]
+          }
+        },
+        {
+          "text": "It was a confusing time for me, emotionally.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Confusion",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you after returning home?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things started to change when I decided to build my own house.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "house", "type": "LOCATION", "role": "project" }
+            ]
+          }
+        },
+        {
+          "text": "It was something I could focus on, something tangible.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Focus",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "The process of building it with my hands was therapeutic.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Healing",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It helped me find a sense of purpose and stability.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "My family and I could finally settle down, and it was like creating a safe haven for us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Settling Down",
+            "emotions": ["Joy/Pride", "Relief"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "residents" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like building that house was an important step for you. Can you tell me more about what that process was like?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it sure was.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, there was something deeply satisfying about picking up a hammer and getting to work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Manual Labor",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "hammer", "type": "ARTIFACT", "role": "tool" }
+            ]
+          }
+        },
+        {
+          "text": "I remember the feel of the wood, the smell of the fresh paint.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Sensory Memory",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "wood", "type": "ARTIFACT", "role": "material" },
+              { "text": "paint", "type": "ARTIFACT", "role": "material" }
+            ]
+          }
+        },
+        {
+          "text": "Every nail I drove in felt like I was laying down roots, not just for the house, but for my life post-war.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Metaphor",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "nail", "type": "ARTIFACT", "role": "fastener" },
+              { "text": "house", "type": "LOCATION", "role": "home" }
+            ]
+          }
+        },
+        {
+          "text": "It was hard work, but it was honest work, and that meant a lot to me at the time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly fulfilling, Thomas. So when did this period of building and settling come to a close for you?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, once the house was finally up and running, it felt like a chapter had been completed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Completion",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "house", "type": "LOCATION", "role": "achievement" }
+            ]
+          }
+        },
+        {
+          "text": "But what really marked the end of that period was when I attended a reunion with my platoon.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reunion",
+            "emotions": ["Nostalgia/Gratitude", "Fear/Anxiety"],
+            "entities": [
+              { "text": "platoon", "type": "ORGANIZATION", "role": "military unit" }
+            ]
+          }
+        },
+        {
+          "text": "It was in the late '70s, and seeing those familiar faces again really brought a sense of closure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Closure",
+            "emotions": ["Relief", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "late '70s", "type": "TIME", "role": "era" }
+            ]
+          }
+        },
+        {
+          "text": "We shared stories, laughed, and for the first time, I felt a real connection to that part of my life again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Connection",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like attending that platoon reunion was quite significant for you. Can you share more about how it felt to reconnect with your fellow veterans?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, absolutely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Reconnecting with those men was like finding a part of myself that I had put away for a long time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Self-Discovery",
+            "emotions": ["Relief"],
+            "entities": [
+              { "text": "men", "type": "PERSON", "role": "veterans" }
+            ]
+          }
+        },
+        {
+          "text": "These were the guys who understood me without needing to explain anything.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Understanding",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Being with them, sharing memories, and even just sitting in silence together brought a sense of peace.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Peace",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been an incredible experience, finding that connection again. Did it change how you viewed your past experiences?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, it really did.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Before that reunion, I had kept a lot of my feelings and experiences from the war to myself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Repression",
+            "emotions": ["Sadness/Loss"],
+            "entities": [
+              { "text": "war", "type": "EVENT", "role": "trauma" }
+            ]
+          }
+        },
+        {
+          "text": "But being around those men, it was like a dam broke.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Release",
+            "emotions": ["Relief"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I realized I wasn't alone in what I went through, and it helped me come to terms with my experiences.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Healing",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the challenges you faced during this time of transition."
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, one of the biggest challenges was adjusting to civilian life after the structured environment of the military.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": ["Fear/Anxiety"],
+            "entities": [
+              { "text": "civilian life", "type": "EVENT", "role": "new reality" },
+              { "text": "military", "type": "ORGANIZATION", "role": "past reality" }
+            ]
+          }
+        },
+        {
+          "text": "It wasn't just about finding a job; it was about finding my place in a society that had moved on while I was away.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Alienation",
+            "emotions": ["Sadness/Loss", "Fear/Anxiety"],
+            "entities": [
+              { "text": "job", "type": "OCCUPATION", "role": "employment" },
+              { "text": "society", "type": "PERSON", "role": "community" }
+            ]
+          }
+        },
+        {
+          "text": "I struggled with that sense of displacement for a while.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": ["Sadness/Loss"],
+            "entities": []
+          }
+        },
+        {
+          "text": "And then, there were the lingering memories of the war.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Trauma",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to learn how to manage them, how to live with them.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like transitioning back to civilian life was a significant challenge. How did you manage to navigate through those feelings of displacement?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it wasn't easy, let me tell you.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": ["Fear/Anxiety"],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I think what really helped was finding a routine and sticking to it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Strategy",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started volunteering at the local community center, helping out with projects, and that gave me a sense of belonging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Volunteering",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "community center", "type": "LOCATION", "role": "volunteer site" }
+            ]
+          }
+        },
+        {
+          "text": "It was a slow process, but gradually, I started feeling more connected to the world around me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reconnection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That's wonderful to hear, Thomas. I'd love to know how things are for you today. Have you kept in touch with your platoon members over the years?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, yes, we have managed to stay in touch.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's amazing how those bonds formed during such a challenging time can last a lifetime.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "We try to meet up every couple of years, and it's always like no time has passed.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reunion",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "We've been there for each other through thick and thin, and it's a blessing to have that kind of support system.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Support",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Thomas, it sounds like those bonds have been incredibly meaningful for you. How do you feel reflecting on your journey from returning home to where you are now?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my journey, I feel a deep sense of gratitude.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life hasn't always been easy, but I've had the chance to build a life I'm proud of.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've learned to cherish the little things, like spending time with family and friends.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "family", "type": "PERSON", "role": "loved ones" },
+              { "text": "friends", "type": "PERSON", "role": "loved ones" }
+            ]
+          }
+        },
+        {
+          "text": "The house I built, the friendships I've maintained, and the memories we've shared are all parts of the life I've created post-war.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Accomplishment",
+            "emotions": ["Joy/Pride", "Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "house", "type": "LOCATION", "role": "achievement" }
+            ]
+          }
+        },
+        {
+          "text": "It's been a long journey, but looking back, I wouldn't change a thing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "That's a wonderful reflection, Thomas. As you look back, are there any specific moments that stand out as pivotal in your journey?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, there are a few that come to mind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the first time I held my grandchild.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Family Milestone",
+            "emotions": ["Joy/Pride"],
+            "entities": [
+              { "text": "grandchild", "type": "PERSON", "role": "descendant" }
+            ]
+          }
+        },
+        {
+          "text": "That was a moment that really made everything feel complete.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was like a new chapter in my life had begun, one filled with love and the promise of the future.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Those moments remind me of the importance of family and the legacy we leave behind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Thomas, is there a lesson or a piece of wisdom you'd like to share from your experiences over the years?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, if there's one thing I've learned, it's the importance of resilience and the power of connection.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life throws a lot at us, but it's how we choose to navigate those challenges that define us.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        },
+        {
+          "text": "Staying connected with the people you care about, whether it's family or those old army buddies, can make all the difference.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Nostalgia/Gratitude"],
+            "entities": [
+              { "text": "army buddies", "type": "PERSON", "role": "friends" }
+            ]
+          }
+        },
+        {
+          "text": "And never underestimate the value of kindness, both to others and to yourself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": ["Joy/Pride"],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

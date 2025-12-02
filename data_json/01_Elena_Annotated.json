@@ -1,0 +1,473 @@
+{
+  "session_id": "01_Elena",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "01_Elena",
+    "name": "Elena",
+    "age": 78,
+    "role": "Retired Seamstress",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Immigrating in 1965",
+        "context": "Alone and scared."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Becoming Union Rep",
+        "context": "Fighting for fair pay."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Teaching sewing",
+        "context": "Passing on skills."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience immigrating in 1965. What was that like for you?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was quite a journey!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Immigration",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was just 20 years old back then.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "20",
+                "type": "TIME",
+                "role": "age"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Leaving my home in Italy was hard, but the prospect of new opportunities in America was so enticing.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Migration",
+            "emotions": [
+              "Sadness/Loss",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "America",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like it was a really big step to leave everything behind at such a young age. How did you adjust to life in America once you arrived?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it wasn't easy at first.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Adjustment",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "at first",
+                "type": "TIME",
+                "role": "initial period"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The language barrier was challenging, but I was determined to learn English.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Language Learning",
+            "emotions": [
+              "Fear/Anxiety",
+              "Joy/Pride"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "People were kind, and I found a job as a seamstress in a local shop.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "seamstress",
+                "type": "OCCUPATION",
+                "role": "first job"
+              },
+              {
+                "text": "local shop",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "It sounds like finding that job was a significant moment for you. How did your work as a seamstress evolve over time?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Working as a seamstress was comforting because it was a skill I brought with me from Italy.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "seamstress",
+                "type": "OCCUPATION",
+                "role": "job"
+              },
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin of skill"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Eventually, I was involved in some of the decision-making processes, which felt empowering.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Growth",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change, and you became a union representative?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was in the late 70s, I was well into my 30s then.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "late 70s",
+                "type": "TIME",
+                "role": "period"
+              },
+              {
+                "text": "30s",
+                "type": "TIME",
+                "role": "age group"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Becoming a union rep allowed me to fight for fair wages and better working hours.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Change",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "union rep",
+                "type": "OCCUPATION",
+                "role": "new role"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been empowering to stand up for your colleagues. What was it like being a union representative?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It truly was empowering.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I felt a strong sense of responsibility because I knew that people were counting on me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Responsibility",
+            "emotions": [
+              "Joy/Pride",
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like advocating for your colleagues was a big responsibility. Were there any particular challenges you faced as a union representative?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the biggest was negotiating with management.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Anger/Frustration"
+            ],
+            "entities": [
+              {
+                "text": "management",
+                "type": "PERSON",
+                "role": "opposition"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But every small victory, like securing a pay raise, made it all worthwhile.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "pay raise",
+                "type": "EVENT",
+                "role": "benefit"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Were there any specific negotiations or victories that stand out in your memory?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was around 1982, and the shop owners wanted to cut back on our health benefits.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Negotiation",
+            "emotions": [
+              "Anger/Frustration"
+            ],
+            "entities": [
+              {
+                "text": "1982",
+                "type": "TIME",
+                "role": "year"
+              },
+              {
+                "text": "shop owners",
+                "type": "PERSON",
+                "role": "employers"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But I managed to secure an agreement that not only maintained our benefits but also improved them slightly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Victory",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "agreement",
+                "type": "ARTIFACT",
+                "role": "contract"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how your career transitioned from being a union representative to teaching sewing. What led you to make that change?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Transitioning to teaching was a natural step for me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "teaching",
+                "type": "EVENT",
+                "role": "new activity"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was wonderful to see the joy and confidence it brought to others.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Teaching",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when you look back on your journey, how do you feel about it all now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my journey fills me with a lot of gratitude and pride.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's been a fulfilling life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what final lesson or piece of wisdom would you like to share?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I would say, never underestimate the power of perseverance and kindness.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}
