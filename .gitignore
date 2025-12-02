@@ -21,3 +21,5 @@ __pycache__/
 
 # Ignore IEMOCAP dataset
 Experiment_B/IEMOCAP/
+
+Experiment_B/outputs/
