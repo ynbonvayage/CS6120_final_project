@@ -1,118 +1,116 @@
 import os
 import json
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
-from tqdm import tqdm  # 进度条库
+from tqdm import tqdm
 
 # ================= 配置区域 =================
-# 1. 模型路径 (请确保指向您 F1 分数最高的那个模型)
+# 1. 模型路径 (指向您最好的模型)
 MODEL_PATH = "./ner_model_roberta_base/final_model" 
 
 # 2. 数据路径
 INPUT_DIR = "./data_json"
-OUTPUT_DIR = "./knowledge_base"  # 推理结果将保存在这里
-
+OUTPUT_DIR = "./knowledge_base"
 # ===========================================
 
 def main():
-    # 1. 检查环境
     if not os.path.exists(MODEL_PATH):
         print(f"❌ 错误: 找不到模型路径 {MODEL_PATH}")
-        print("请修改脚本中的 MODEL_PATH 变量，指向您训练好的模型文件夹。")
         return
 
     if not os.path.exists(INPUT_DIR):
         print(f"❌ 错误: 找不到数据文件夹 {INPUT_DIR}")
         return
 
-    # 创建输出目录
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
-        print(f"📂 已创建输出目录: {OUTPUT_DIR}")
 
-    # 2. 加载模型
     print(f"🚀 正在加载模型: {MODEL_PATH} ...")
     try:
         tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
         model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
-        # aggregation_strategy="simple" 会自动合并 B- 和 I- 标签 (例如 "New" + "York" -> "New York")
         ner_pipeline = pipeline(
             "token-classification", 
             model=model, 
             tokenizer=tokenizer, 
             aggregation_strategy="simple",
-            device=-1 # 如果有GPU改用 0，没有则用 -1 (CPU)
+            device=-1 
         )
     except Exception as e:
         print(f"❌ 模型加载失败: {e}")
         return
 
-    # 3. 获取文件列表
     files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.json')]
-    print(f"📄 找到 {len(files)} 个文件，开始全量推理...")
+    print(f"📄 开始处理 {len(files)} 个文件 (保留完整对话流)...")
 
-    # 4. 循环处理每个文件
-    success_count = 0
-    
-    # 使用 tqdm 显示进度条
-    for filename in tqdm(files, desc="Processing Files"):
+    for filename in tqdm(files, desc="Processing"):
         input_path = os.path.join(INPUT_DIR, filename)
-        output_path = os.path.join(OUTPUT_DIR, f"KB_{filename}") # KB = Knowledge Base
+        output_path = os.path.join(OUTPUT_DIR, f"KB_{filename}")
 
         try:
             with open(input_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
-            # 准备存储提取结果的结构
-            extracted_data = {
+            # 新的输出结构：包含完整的对话流
+            kb_output = {
                 "session_id": data.get("session_id", "unknown"),
                 "profile": data.get("profile", {}),
-                "extracted_knowledge": [] # 这里存放模型提取出来的实体
+                "dialogue_analysis": [] 
             }
 
-            # 遍历对话
             for turn in data.get("dialogue_turns", []):
-                # 我们主要关心 Subject (受访者) 的回答
-                if turn.get("speaker") == "Subject" and "sentences" in turn:
-                    for sent in turn["sentences"]:
+                speaker = turn.get("speaker")
+                turn_id = turn.get("turn_id")
+                
+                # 容器：用于存储这一轮的分析结果
+                turn_data = {
+                    "turn_id": turn_id,
+                    "speaker": speaker,
+                    "text_content": "" # 稍后填充
+                }
+
+                # === 情况 A: 采访者 (只保留文本，不做 NER) ===
+                if speaker == "Interviewer":
+                    turn_data["text_content"] = turn.get("text", "")
+                    # 不加 "entities" 字段，或者留空
+                
+                # === 情况 B: 受访者 (保留文本 + 做 NER) ===
+                elif speaker == "Subject":
+                    # 获取句子列表 (兼容新旧格式)
+                    sentences = turn.get("sentences", turn.get("sentence_annotations", []))
+                    
+                    full_text = ""
+                    extracted_entities = []
+
+                    for sent in sentences:
                         text = sent.get("text", "")
-                        if not text:
-                            continue
-
-                        # === 核心步骤：模型推理 ===
+                        if not text: continue
+                        
+                        full_text += text + " " # 拼接完整回答以便阅读
+                        
+                        # --- 模型推理 ---
                         predictions = ner_pipeline(text)
-                        # =======================
-
-                        # 整理预测结果
-                        entities = []
                         for pred in predictions:
-                            entities.append({
+                            extracted_entities.append({
                                 "text": pred['word'],
                                 "type": pred['entity_group'],
-                                "confidence": f"{pred['score']:.4f}" # 保留置信度
+                                "confidence": f"{pred['score']:.4f}"
                             })
+                        # ----------------
+                    
+                    turn_data["text_content"] = full_text.strip()
+                    turn_data["extracted_entities"] = extracted_entities
 
-                        # 只有当提取到实体时才保存，保持数据整洁
-                        if entities:
-                            extracted_data["extracted_knowledge"].append({
-                                "turn_id": turn.get("turn_id"),
-                                "original_text": text,
-                                "predicted_entities": entities
-                            })
+                # 将处理好的一轮对话加入结果
+                kb_output["dialogue_analysis"].append(turn_data)
 
-            # 保存结果文件
+            # 保存
             with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(extracted_data, f, indent=2, ensure_ascii=False)
-            
-            success_count += 1
+                json.dump(kb_output, f, indent=2, ensure_ascii=False)
 
         except Exception as e:
-            print(f"\n⚠️ 处理文件 {filename} 时出错: {e}")
+            print(f"⚠️ 跳过文件 {filename}: {e}")
 
-    print("\n" + "="*50)
-    print(f"✅ 全量推理完成！")
-    print(f"📊 成功处理: {success_count}/{len(files)}")
-    print(f"📂 结果已保存在: {os.path.abspath(OUTPUT_DIR)}")
-    print("="*50)
+    print(f"✅ 完成！结果已保存在: {OUTPUT_DIR}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,257 @@
+{
+  "session_id": "04_Carlos",
+  "profile": {
+    "id": "04_Carlos",
+    "name": "Carlos",
+    "age": 74,
+    "role": "Jazz Musician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Touring in a van",
+        "context": "Hunger and passion."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Hearing loss scare",
+        "context": "Career crisis."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Playing for himself",
+        "context": "Music as therapy."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time touring in a van."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Back in the late '60s and early '70s, we were just a bunch of young cats, crammed into this beat-up old van, chasing the music wherever it took us.",
+      "predicted_entities": [
+        {
+          "text": " late '60s",
+          "type": "TIME",
+          "confidence": "0.9967"
+        },
+        {
+          "text": " early '70s",
+          "type": "TIME",
+          "confidence": "0.9850"
+        },
+        {
+          "text": " cats",
+          "type": "PERSON",
+          "confidence": "0.9592"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those days were really formative for you. What was it like, traveling like that and playing wherever you could?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Often, we'd sleep in the van or crash at someone's place if they offered.",
+      "predicted_entities": [
+        {
+          "text": " van",
+          "type": "LOCATION",
+          "confidence": "0.4856"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember one night, we were stuck in the middle of nowhere because the van broke down.",
+      "predicted_entities": [
+        {
+          "text": " van",
+          "type": "ARTIFACT",
+          "confidence": "0.9938"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Instead of getting upset, we just took out our instruments and started jamming right there by the roadside.",
+      "predicted_entities": [
+        {
+          "text": " instruments",
+          "type": "ARTIFACT",
+          "confidence": "0.9742"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially with the breakdowns. So when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Ah, yes, things did start to change as we moved into the '80s.",
+      "predicted_entities": [
+        {
+          "text": " '80s",
+          "type": "TIME",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "But what really shook me was this one time when I started to notice I was having trouble hearing certain notes.",
+      "predicted_entities": [
+        {
+          "text": " notes",
+          "type": "ARTIFACT",
+          "confidence": "0.9484"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember sitting in a doctor’s office, just sweating bullets, thinking about what I would do if I couldn’t play anymore.",
+      "predicted_entities": [
+        {
+          "text": " doctor",
+          "type": "OCCUPATION",
+          "confidence": "0.6584"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Music was everything to me; it was my identity.",
+      "predicted_entities": [
+        {
+          "text": " Music",
+          "type": "ORGANIZATION",
+          "confidence": "0.6527"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been terrifying. How did you cope with the possibility of losing your hearing?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I would sit down with my guitar and just let my fingers move over the strings, not worrying about gigs or audiences.",
+      "predicted_entities": [
+        {
+          "text": " guitar",
+          "type": "ARTIFACT",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like you found a new appreciation for music during that time. How did your relationship with music evolve after that experience?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I started to focus more on the quality of my music rather than just playing as many gigs as possible.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "ARTIFACT",
+          "confidence": "0.8657"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "It was also around this time that I started teaching younger musicians.",
+      "predicted_entities": [
+        {
+          "text": " musicians",
+          "type": "PERSON",
+          "confidence": "0.9771"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear what your music means to you now, in this current stage of your life."
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Well, these days, music is my constant companion.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "EVENT",
+          "confidence": "0.8017"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Now, it's just me and my guitar, and sometimes a few friends who join in for the fun of it.",
+      "predicted_entities": [
+        {
+          "text": " guitar",
+          "type": "ARTIFACT",
+          "confidence": "0.9960"
+        },
+        {
+          "text": " friends",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like music has taken on a deeply personal role for you now. How does that feel, compared to your earlier days of performing and touring?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "Oh, it's a completely different feeling, almost like coming full circle. Back then, music was about energy, excitement, and sharing it with the world. Now, it's about introspection and connection with myself. There's a certain peace in knowing that I can still create without the need for validation from an audience.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Carlos, if you could share one lesson or piece of wisdom from your journey through music, what would it be?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "That's a big question, but I think if there's one thing I've learned, it's that music is more than just a career or a hobby—it's a lifelong companion.",
+      "predicted_entities": [
+        {
+          "text": " music",
+          "type": "EVENT",
+          "confidence": "0.7490"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

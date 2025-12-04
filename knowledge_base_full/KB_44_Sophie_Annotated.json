@@ -1,0 +1,398 @@
+{
+  "session_id": "44_Sophie",
+  "profile": {
+    "id": "44_Sophie",
+    "name": "Sophie",
+    "age": 73,
+    "role": "Hotel Manager",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Maid service",
+        "context": "Invisible work."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The celebrity scandal",
+        "context": "Discretion."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Bed and Breakfast owner",
+        "context": "Personal touch."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time working in maid service. How did you start?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I started in maid service when I was about 19, just after moving to the city.",
+      "predicted_entities": [
+        {
+          "text": " maid service",
+          "type": "OCCUPATION",
+          "confidence": "0.9981"
+        },
+        {
+          "text": " 19",
+          "type": "TIME",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " city",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember my first job was at a large hotel downtown.",
+      "predicted_entities": [
+        {
+          "text": " hotel",
+          "type": "LOCATION",
+          "confidence": "0.9970"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The head housekeeper was a stickler for detail, but she taught me a lot about the importance of presentation and cleanliness.",
+      "predicted_entities": [
+        {
+          "text": " head housekeeper",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Oh, and the uniforms... they were these crisp, white dresses that were quite the bother to keep spotless!",
+      "predicted_entities": [
+        {
+          "text": " uniforms",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you had quite a formative experience there. What was it like meeting all those different people?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was this one lady, a regular guest, who always wore these extravagant hats.",
+      "predicted_entities": [
+        {
+          "text": " lady",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " hats",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Funny thing is, sometimes I'd catch a glimpse of a celebrity or two, but I was never much into the gossip.",
+      "predicted_entities": [
+        {
+          "text": " celebrity",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, trying to keep those uniforms spotless! So, it sounds like you had quite an eclectic mix of guests. What was the atmosphere like in the hotel during those days?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember the chandeliers, they sparkled like stars.",
+      "predicted_entities": [
+        {
+          "text": " chandeliers",
+          "type": "ARTIFACT",
+          "confidence": "0.9894"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "And the staff, we all worked hard, but there was a camaraderie among us.",
+      "predicted_entities": [
+        {
+          "text": " staff",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like you really treasured those connections with your colleagues. I'd love to hear about that occasion you mentioned, if you'd like to share."
+    },
+    {
+      "turn_id": 8,
+      "original_text": "There was a big gala event happening at the hotel.",
+      "predicted_entities": [
+        {
+          "text": " gala",
+          "type": "EVENT",
+          "confidence": "0.9979"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "There was a famous actor attending.",
+      "predicted_entities": [
+        {
+          "text": " famous actor",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "One of my colleagues accidentally spilled a tray of champagne right in front of him.",
+      "predicted_entities": [
+        {
+          "text": " champagne",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like such a lively environment to work in. So, how did your time in maid service come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "There was a position that opened up in the hotel’s events team, and I jumped at the chance.",
+      "predicted_entities": [
+        {
+          "text": " events team",
+          "type": "ORGANIZATION",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "The hotel became the talk of the town due to a rather scandalous incident involving a celebrity.",
+      "predicted_entities": [
+        {
+          "text": " celebrity",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "We had this popular rock band staying with us, and one morning, the entire lobby was swarming with paparazzi.",
+      "predicted_entities": [
+        {
+          "text": " rock band",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        },
+        {
+          "text": " paparazzi",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been a challenging time for you. How did the team handle the aftermath of such a public scandal?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "original_text": "Oh, it was definitely a challenging time! The whole team had to pull together to manage the situation. We had to ensure that the guests' privacy was protected while also maintaining the hotel's reputation. It was one of those situations where you really see the strength of your team. And oh, the band, they were quite apologetic about the whole thing!",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been quite an experience! How did that situation affect your future roles in the hotel industry?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I got recognized for my crisis management skills, and soon after, I was promoted to a managerial role.",
+      "predicted_entities": [
+        {
+          "text": " managerial role",
+          "type": "OCCUPATION",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear how you transitioned from that managerial role to becoming a Bed and Breakfast owner. What inspired that change?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Oh, becoming a Bed and Breakfast owner, now that was quite the journey!",
+      "predicted_entities": [
+        {
+          "text": " Bed and Breakfast",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "I found this charming little property not too far from the city.",
+      "predicted_entities": [
+        {
+          "text": " property",
+          "type": "LOCATION",
+          "confidence": "0.9972"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That sounds like a fulfilling transition. What kind of atmosphere did you aim to create at your Bed and Breakfast?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "And the garden! I can't forget the garden.",
+      "predicted_entities": [
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9875"
+        },
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.8198"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I planted roses and lavender, just like my grandmother used to have.",
+      "predicted_entities": [
+        {
+          "text": " roses",
+          "type": "ARTIFACT",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " lavender",
+          "type": "ARTIFACT",
+          "confidence": "0.9916"
+        },
+        {
+          "text": " grandmother",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like you found your calling. How has running the Bed and Breakfast been different from managing a hotel?"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "Oh, running the Bed and Breakfast is a whole different ballgame!",
+      "predicted_entities": [
+        {
+          "text": " Bed and Breakfast",
+          "type": "LOCATION",
+          "confidence": "0.9037"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "I think what's most different is the personal connection with guests.",
+      "predicted_entities": [
+        {
+          "text": " guests",
+          "type": "PERSON",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "That sounds like such a rewarding experience. How do you feel about the journey you've taken from maid service to running your own Bed and Breakfast?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "original_text": "Oh, it's been quite a journey, really! I feel incredibly grateful for all the experiences, the ups and downs. It's fulfilling, knowing that I've come full circle and can offer guests something special. I feel content and proud of the path I've walked.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Sophie, reflecting on your journey from maid service through all these experiences, what would you say is the biggest lesson you've learned?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "original_text": "I think the biggest lesson I've learned is about embracing change and staying adaptable. And, oh, never underestimate the power of kindness and connection. Whether it's with your team or your guests, it's those relationships that truly enrich our lives. It's all part of the tapestry of life, isn't it?",
+      "predicted_entities": []
+    }
+  ]
+}

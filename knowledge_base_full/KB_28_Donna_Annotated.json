@@ -1,0 +1,275 @@
+{
+  "session_id": "28_Donna",
+  "profile": {
+    "id": "28_Donna",
+    "name": "Donna",
+    "age": 73,
+    "role": "Social Worker",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First foster case",
+        "context": "Heartbreak."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "System burnout",
+        "context": "Fighting bureaucracy."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Adopting a child",
+        "context": "Personal redemption."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first foster case."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Oh, my first foster case!",
+      "predicted_entities": [
+        {
+          "text": " foster case",
+          "type": "EVENT",
+          "confidence": "0.9975"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was back in 1975, and I had just graduated.",
+      "predicted_entities": [
+        {
+          "text": " 1975",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The agency assigned me to a young boy named Tommy.",
+      "predicted_entities": [
+        {
+          "text": " agency",
+          "type": "ORGANIZATION",
+          "confidence": "0.9215"
+        },
+        {
+          "text": " boy",
+          "type": "PERSON",
+          "confidence": "0.9883"
+        },
+        {
+          "text": " Tommy",
+          "type": "PERSON",
+          "confidence": "0.9932"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "He was only seven years old, and he had been through so much for someone so young.",
+      "predicted_entities": [
+        {
+          "text": " seven",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like Tommy's situation left a big impression on you. How did it feel stepping into that role?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Tommy was such a sweet kid, despite everything he'd been through.",
+      "predicted_entities": [
+        {
+          "text": " Tommy",
+          "type": "PERSON",
+          "confidence": "0.9950"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing those emotions. So when did things change for you in your career?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, as time went on, I started taking on more cases.",
+      "predicted_entities": [
+        {
+          "text": " cases",
+          "type": "EVENT",
+          "confidence": "0.9533"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "By the late '80s, I was handling a full caseload, and it was intense.",
+      "predicted_entities": [
+        {
+          "text": " late '80s",
+          "type": "TIME",
+          "confidence": "0.9969"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a challenging period. How did that phase of your life come to an end?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "By the time the early '90s rolled around, I realized I couldn't keep going at the same pace without burning out completely.",
+      "predicted_entities": [
+        {
+          "text": " early '90s",
+          "type": "TIME",
+          "confidence": "0.9948"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I had a supervisor who suggested I take a leave of absence.",
+      "predicted_entities": [
+        {
+          "text": " supervisor",
+          "type": "PERSON",
+          "confidence": "0.9963"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It ultimately led me to make some significant changes, including shifting my focus and eventually adopting a child.",
+      "predicted_entities": [
+        {
+          "text": " child",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the challenges you faced during those intense years."
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "original_text": "Oh, those years were quite something! The bureaucracy was another challenge. There were so many regulations and red tape that sometimes made it difficult to get the resources the kids needed. It was a real struggle to balance my empathy with the harsh realities of the system.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you decide to adopt a child, and what motivated that decision?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Ah, adopting a child!",
+      "predicted_entities": [
+        {
+          "text": " child",
+          "type": "PERSON",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I started the process and eventually adopted a little girl named Sarah.",
+      "predicted_entities": [
+        {
+          "text": " girl",
+          "type": "PERSON",
+          "confidence": "0.5550"
+        },
+        {
+          "text": " Sarah",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "She was eight years old at the time.",
+      "predicted_entities": [
+        {
+          "text": " eight",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like adopting Sarah had a profound impact on you. How did your relationship with her evolve over the years?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "Sarah and I have had quite the journey together.",
+      "predicted_entities": [
+        {
+          "text": " Sarah",
+          "type": "PERSON",
+          "confidence": "0.9836"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "Watching her grow into this amazing, resilient young woman has been one of the greatest joys of my life.",
+      "predicted_entities": [
+        {
+          "text": " young woman",
+          "type": "PERSON",
+          "confidence": "0.9943"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, if you could impart one lesson from your journey, what would it be?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "If there's one lesson I've learned throughout my life and career, it's the importance of resilience and compassion. Don't underestimate the impact of your actions, however small they may seem. It's the love and support we give and receive that truly shapes our lives.",
+      "predicted_entities": []
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "session_id": "46_Fiona",
+  "profile": {
+    "id": "46_Fiona",
+    "name": "Fiona",
+    "age": 74,
+    "role": "Potter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Living in a commune",
+        "context": "Art over money."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The gallery fire",
+        "context": "Losing work."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Arthritis in hands",
+        "context": "Adapting technique."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time living in a commune."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was in my late twenties, full of energy and idealism.",
+      "predicted_entities": [
+        {
+          "text": " late twenties",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The commune was located in the countryside, surrounded by rolling hills and endless fields.",
+      "predicted_entities": [
+        {
+          "text": " commune",
+          "type": "LOCATION",
+          "confidence": "0.9966"
+        },
+        {
+          "text": " countryside",
+          "type": "LOCATION",
+          "confidence": "0.9971"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like a vibrant time. What brought you to join the commune in the first place?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I had just finished art school and was feeling a bit disillusioned with the traditional career path.",
+      "predicted_entities": [
+        {
+          "text": " art school",
+          "type": "ORGANIZATION",
+          "confidence": "0.9971"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember arriving with just a backpack and my potter’s wheel, ready to embrace this new lifestyle.",
+      "predicted_entities": [
+        {
+          "text": " potter’s wheel",
+          "type": "ARTIFACT",
+          "confidence": "0.9866"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a shift from art school. How did living in the commune influence your pottery?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I started creating pieces that reflected our collective ideals—things like pottery that was practical for our shared meals.",
+      "predicted_entities": [
+        {
+          "text": " pot",
+          "type": "ARTIFACT",
+          "confidence": "0.9978"
+        },
+        {
+          "text": "tery",
+          "type": "ARTIFACT",
+          "confidence": "0.9670"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Things really shifted when the gallery that exhibited our art caught fire.",
+      "predicted_entities": [
+        {
+          "text": " gallery",
+          "type": "LOCATION",
+          "confidence": "0.9973"
+        },
+        {
+          "text": " fire",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. How did you and the community cope with the aftermath of the fire?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "original_text": "It was incredibly challenging for all of us. For me, it was particularly tough because my pottery was my main source of income. I poured my grief into my work, creating pieces that were more raw and emotional.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "And how did this aftermath impact your personal journey, especially your work with pottery?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I remember one series I created was entirely inspired by the concept of the phoenix rising from the ashes.",
+      "predicted_entities": [
+        {
+          "text": " phoenix",
+          "type": "ARTIFACT",
+          "confidence": "0.9803"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "And when did you start noticing changes in your hands?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I was in my late fifties when I first noticed something wasn't quite right.",
+      "predicted_entities": [
+        {
+          "text": " late fifties",
+          "type": "TIME",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I was diagnosed with arthritis.",
+      "predicted_entities": [
+        {
+          "text": " arthritis",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been really challenging. How did you adapt to the changes brought on by arthritis?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "Oh, it was quite an adjustment, to be honest. But I decided I wasn't ready to give it up without a fight. I started experimenting with different techniques that required less strain on my hands, like hand-building instead of using the wheel. I also began teaching pottery classes.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "And how do you feel looking back at everything now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "Reflecting on my journey, I feel a deep sense of gratitude. Each experience has shaped me into who I am today. I'm proud of how I've navigated these hurdles.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Fiona, I'd love to ask, what lesson or wisdom would you like to share with others from your life experiences?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "original_text": "I suppose if there's one thing I've learned, it's the importance of resilience and adaptability. Embrace change, even when it's difficult. Keep your heart open, and you'll always find a way forward.",
+      "predicted_entities": []
+    }
+  ]
+}

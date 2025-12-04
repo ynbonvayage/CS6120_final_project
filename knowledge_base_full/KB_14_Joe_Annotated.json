@@ -1,0 +1,346 @@
+{
+  "session_id": "14_Joe",
+  "profile": {
+    "id": "14_Joe",
+    "name": "Joe",
+    "age": 73,
+    "role": "Truck Driver",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First cross-country trip",
+        "context": "Freedom of the road."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Missing kids' birthdays",
+        "context": "Sacrifice for money."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Losing his license",
+        "context": "Loss of independence."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first cross-country trip."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Well, my first cross-country trip was back in '71.",
+      "predicted_entities": [
+        {
+          "text": "country",
+          "type": "LOCATION",
+          "confidence": "0.4730"
+        },
+        {
+          "text": " '",
+          "type": "TIME",
+          "confidence": "0.9990"
+        },
+        {
+          "text": "71",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was a greenhorn then, just 21 and eager to hit the road.",
+      "predicted_entities": [
+        {
+          "text": " 21",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Got my start on a run from Jersey to California.",
+      "predicted_entities": [
+        {
+          "text": " Jersey",
+          "type": "LOCATION",
+          "confidence": "0.9983"
+        },
+        {
+          "text": " California",
+          "type": "LOCATION",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was like a rite of passage for us truckers, feeling the freedom and the weight of responsibility all at once.",
+      "predicted_entities": [
+        {
+          "text": " truckers",
+          "type": "OCCUPATION",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that experience was quite significant for you. How did it change your perspective on life or work?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "That trip opened my eyes to the vastness of the country and the diversity of people out there.",
+      "predicted_entities": [
+        {
+          "text": " country",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I became more independent and responsible, knowing I had to deliver those goods on time.",
+      "predicted_entities": [
+        {
+          "text": " goods",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "But it also came with its sacrifices, like being away from family.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. So when did things change in terms of balancing work and family?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, things started to shift when my kids were born.",
+      "predicted_entities": [
+        {
+          "text": " kids",
+          "type": "PERSON",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like missing those special moments with your kids was really challenging. Can you tell me more about how that affected you and your family?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember one year, I missed my son's first baseball game.",
+      "predicted_entities": [
+        {
+          "text": " son",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " baseball game",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "He was so excited, and I could only hear about it over the phone.",
+      "predicted_entities": [
+        {
+          "text": " phone",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "My wife tried to be supportive and understanding, but there were times when the distance put a strain on our relationship.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "So how did this period of being on the road and missing family events come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Eventually, I lost my license due to some health issues.",
+      "predicted_entities": [
+        {
+          "text": " license",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " health issues",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been a challenging transition for you. How did losing your license impact your day-to-day life?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Driving was all I knew, so it felt like I lost my identity.",
+      "predicted_entities": [
+        {
+          "text": " Driving",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like a very personal journey. How did reconnecting with your family change your relationships?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "Reconnecting with my family was transformative. It was like I was meeting them all over again, this time with fresh eyes. I realized how much I had missed and how much they had grown without me noticing. My wife and I had to work through some old wounds, but we did it together. We became a stronger unit, and I found new ways to support them. It brought a lot of peace back into my life.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how it felt to finally be present for those family moments."
+    },
+    {
+      "turn_id": 24,
+      "original_text": "We had our moments of adjustment, sure, but it was like life gave me a second chance to be the husband and father I wanted to be.",
+      "predicted_entities": [
+        {
+          "text": " husband",
+          "type": "OCCUPATION",
+          "confidence": "0.9969"
+        },
+        {
+          "text": " father",
+          "type": "OCCUPATION",
+          "confidence": "0.9951"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "What advice would you give to someone who might be struggling with similar challenges?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "original_text": "I'd say, don't wait until it's too late. If you're feeling torn between work and family, try to find a balance sooner rather than later. Success at work means nothing if you're not there for the people you love. It's a tough choice, but it's worth it in the long run. Be present, because those moments won't come back.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "You mentioned earlier that losing your license was a blessing in disguise. Can you elaborate on how that realization came about?"
+    },
+    {
+      "turn_id": 28,
+      "original_text": "But as I spent more time at home, I started seeing things differently.",
+      "predicted_entities": [
+        {
+          "text": " home",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Joe, I'd love to hear what lesson you've learned through all these experiences that you'd like to share."
+    },
+    {
+      "turn_id": 30,
+      "original_text": "Well, if there's one thing life taught me, it's that time is the most precious thing we have.",
+      "predicted_entities": [
+        {
+          "text": " time",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 30,
+      "original_text": "Don't let work or other distractions steal those moments that your family will remember forever.",
+      "predicted_entities": [
+        {
+          "text": " work",
+          "type": "EVENT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 30,
+      "original_text": "It's the little things that count, like being there for a game or a recital.",
+      "predicted_entities": [
+        {
+          "text": " game",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " recital",
+          "type": "EVENT",
+          "confidence": "0.9090"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

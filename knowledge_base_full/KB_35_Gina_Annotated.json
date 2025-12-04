@@ -1,0 +1,191 @@
+{
+  "session_id": "35_Gina",
+  "profile": {
+    "id": "35_Gina",
+    "name": "Gina",
+    "age": 70,
+    "role": "Hairdresser",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Beauty school",
+        "context": "Dreams of glamour."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Secrets in the chair",
+        "context": "Being a therapist."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Closing the salon",
+        "context": "Missing the gossip."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time in beauty school."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Well, beauty school was back when I was just a young woman, eager to learn and get my hands into hair.",
+      "predicted_entities": [
+        {
+          "text": " beauty school",
+          "type": "ORGANIZATION",
+          "confidence": "0.9961"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you really cherished the connections you made there. Can you tell me more about what those early days were like for you?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was one lady, Annie, who became a close friend.",
+      "predicted_entities": [
+        {
+          "text": " Annie",
+          "type": "PERSON",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, stepping into such a focused environment. So, what was it that drew you to becoming a hairdresser in the first place?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I always loved styling my sisters' hair when we were kids.",
+      "predicted_entities": [
+        {
+          "text": " sisters",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things start changing for you after beauty school?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "After beauty school, I jumped right into working at a small salon.",
+      "predicted_entities": [
+        {
+          "text": " salon",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd like to understand more about the challenges you faced while running your own salon. What were some of the core challenges you encountered?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I had to keep up with changing trends, order supplies, and ensure our services were top-notch.",
+      "predicted_entities": [
+        {
+          "text": " supplies",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds overwhelming. How did you manage to balance all these responsibilities?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I had to learn to delegate and trust my staff with responsibilities.",
+      "predicted_entities": [
+        {
+          "text": " staff",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "So, what kind of unexpected challenges came up that you hadn't anticipated when you first opened the salon?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "One of the biggest challenges was staffing. Sometimes people would leave unexpectedly. Then there were the economic downturns. I also didn't expect how much time I'd spend on administrative work, like taxes and bookkeeping.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, what ultimately led you to the decision to close the salon and retire?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "Well, after many years in the business, it just felt like the right time. I had poured so much of my energy into the salon, and while it was rewarding, it was also exhausting. The industry was changing rapidly with new technologies and styles. Plus, the physical demands were taking a toll on me. It was bittersweet, of course, but in the end, I knew it was the right decision for my health and happiness.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how you feel now, looking back at your career as a hairdresser."
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "original_text": "Looking back, I feel a great sense of pride and accomplishment. I spent decades doing something I truly loved, and I was able to touch people's lives in small but meaningful ways. I have no regrets about the path I chose.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So, Gina, as you reflect on your career now, how do you feel about the relationships you built over the years with your clients?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "You know, as a hairdresser, you're not just cutting hair.",
+      "predicted_entities": [
+        {
+          "text": " hair",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Gina, what would you say is the most important lesson you’ve learned from your career that you’d like to share?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "The biggest lesson I’ve learned is that it's important to follow your passion but also to be adaptable. The beauty industry—and life itself—are constantly changing, and you have to be able to roll with the punches. Trust in yourself, keep learning, and don’t be afraid to ask for help when you need it. The connections you build along the way will help you through the tough times.",
+      "predicted_entities": []
+    }
+  ]
+}

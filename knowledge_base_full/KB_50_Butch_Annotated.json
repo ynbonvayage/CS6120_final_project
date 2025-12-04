@@ -1,0 +1,295 @@
+{
+  "session_id": "50_Butch",
+  "profile": {
+    "id": "50_Butch",
+    "name": "Butch",
+    "age": 79,
+    "role": "Butcher",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Family shop apprentice",
+        "context": "Tradition."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Supermarkets taking over",
+        "context": "Competition."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Vegan granddaughter",
+        "context": "Cultural shift."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time as an apprentice in your family's butcher shop."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was just a lad, around 15, when I started working with my father in the shop.",
+      "predicted_entities": [
+        {
+          "text": " 15",
+          "type": "TIME",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " father",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " shop",
+          "type": "LOCATION",
+          "confidence": "0.9961"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a small place, but it was always bustling with customers.",
+      "predicted_entities": [
+        {
+          "text": " customers",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My father taught me everything—how to choose the right cuts, how to keep the knives sharp.",
+      "predicted_entities": [
+        {
+          "text": " cuts",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " knives",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like working there was more than just a job. What was the community like around the shop?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The shop was in the heart of our neighborhood, and everyone knew each other.",
+      "predicted_entities": [
+        {
+          "text": " neighborhood",
+          "type": "LOCATION",
+          "confidence": "0.9945"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "People would come in, not just to buy meat, but to chat and catch up on the latest news.",
+      "predicted_entities": [
+        {
+          "text": " meat",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I remember the laughter and the stories exchanged over the counter.",
+      "predicted_entities": [
+        {
+          "text": " counter",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard when things started to change. So, when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was around the late 70s, I think.",
+      "predicted_entities": [
+        {
+          "text": " late 70s",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "That's when the big supermarkets started cropping up everywhere.",
+      "predicted_entities": [
+        {
+          "text": " supermarkets",
+          "type": "ORGANIZATION",
+          "confidence": "0.9948"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That sounds like a challenging transition. How did that period eventually come to an end for you?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "original_text": "Well, it wasn't easy, that's for sure. My father was heartbroken, and eventually, we had no choice but to close the doors for good. I stayed in the trade for a bit, working in other small butcheries, but it was never the same. It was like a part of my identity had closed along with that shop.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "It must have been tough to see such changes. What was it like trying to adapt to this new landscape?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "They had everything under one roof: groceries, household items, and of course, meat.",
+      "predicted_entities": [
+        {
+          "text": " groceries",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "But for us, small business owners, it felt like being pushed out slowly.",
+      "predicted_entities": [
+        {
+          "text": " small",
+          "type": "PERSON",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " business owners",
+          "type": "PERSON",
+          "confidence": "0.9053"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly tough. Did the sense of community ever return in any form, or did it feel like it was lost forever?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I suppose the local pub became the new meeting place, but it was different.",
+      "predicted_entities": [
+        {
+          "text": " pub",
+          "type": "LOCATION",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to face. Did you ever consider leaving the trade altogether?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "original_text": "You know, I did think about it. There were times when it all seemed too much, and I thought maybe I should try something different. But there was always something that kept me tied to it. The work itself was in my blood, you might say. Even when the shop closed, I found myself drawn to other butcheries. I suppose it was a way of holding onto the past, to something familiar when everything else was changing.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like those were tough years. I'd love to hear about how you managed to keep going despite all the changes."
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I also had a family to support, and that was a big motivator.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did things change again for you, especially with your family and the younger generation?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Ah, well, times have definitely changed again, especially with my granddaughter.",
+      "predicted_entities": [
+        {
+          "text": " granddaughter",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "You see, she's a vegan now.",
+      "predicted_entities": [
+        {
+          "text": " vegan",
+          "type": "EVENT",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It must be quite a change to see your granddaughter embrace a lifestyle so different from the one you've known. How has that impacted you personally?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "original_text": "Well, it certainly gives you something to think about. At first, I was a bit taken aback. I mean, meat has been such a big part of my life for as long as I can remember. But as I've gotten older, I've come to realize that the world is always moving, always changing. It's given me a chance to learn and see things from a new perspective. I guess it's a reminder that every generation has its own way of doing things, and that’s okay.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Butch, if you could share a lesson or a thought with future generations, something you've learned from all your experiences, what would it be?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "I suppose if there's one thing I'd want to pass down, it's that change is a constant in life. You can't stop it, and sometimes it hurts, but it's also a chance to grow and learn. So, don't be afraid of change. Embrace it, learn from it, and let it guide you to new opportunities. And always hold dear the memories and lessons of the past—they're a part of you, and they'll help you make sense of whatever comes next.",
+      "predicted_entities": []
+    }
+  ]
+}

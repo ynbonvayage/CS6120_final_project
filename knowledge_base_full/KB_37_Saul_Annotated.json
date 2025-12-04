@@ -1,0 +1,220 @@
+{
+  "session_id": "37_Saul",
+  "profile": {
+    "id": "37_Saul",
+    "name": "Saul",
+    "age": 83,
+    "role": "Lawyer",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Public defender days",
+        "context": "Fighting the system."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The big civil rights case",
+        "context": "Justice."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Teaching ethics",
+        "context": "Warning the next gen."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your days as a public defender."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Long hours, lots of cases, and not much pay.",
+      "predicted_entities": [
+        {
+          "text": " cases",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like it was quite a challenging time. Can you tell me more about what drove you to become a public defender in the first place?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "It was more about justice than money for me.",
+      "predicted_entities": [
+        {
+          "text": " justice",
+          "type": "EVENT",
+          "confidence": "0.9939"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. So, when did things start to change for you in your career?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Things began to change when I took on a big civil rights case.",
+      "predicted_entities": [
+        {
+          "text": " civil rights case",
+          "type": "EVENT",
+          "confidence": "0.9972"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "I'd love to know how your time as a public defender came to an end."
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "original_text": "Eventually, I realized I couldn't keep up with the demands. The workload was immense and I needed a change.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "So, during that big civil rights case, what were some of the core challenges you faced?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "There was a lot riding on it, and the media attention was overwhelming.",
+      "predicted_entities": [
+        {
+          "text": " media",
+          "type": "ORGANIZATION",
+          "confidence": "0.9973"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "We were also up against a well-funded opposition.",
+      "predicted_entities": [
+        {
+          "text": " opposition",
+          "type": "ORGANIZATION",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like handling that pressure was a real test. How did you manage to stay focused and effective during such a stressful time?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I leaned heavily on my team.",
+      "predicted_entities": [
+        {
+          "text": " team",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "We were all in it together, working long nights, digging for every piece of evidence.",
+      "predicted_entities": [
+        {
+          "text": " evidence",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the people you worked with on that case. What was the dynamic like?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "We had a diverse team, each with their strengths. There was mutual respect, and everyone knew their role. It was a high-pressure environment, but we trusted each other to deliver.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, after that pivotal civil rights case, how did your career evolve? I'd love to hear about your transition into teaching ethics."
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I wanted to impart the lessons I learned, especially about integrity and justice, to the younger generation.",
+      "predicted_entities": [
+        {
+          "text": " integrity",
+          "type": "EVENT",
+          "confidence": "0.9978"
+        },
+        {
+          "text": " justice",
+          "type": "EVENT",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Reflecting on your teaching career, what has been the most rewarding aspect for you?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Seeing the students grow and become ethical professionals.",
+      "predicted_entities": [
+        {
+          "text": " students",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like teaching has been a very fulfilling chapter for you. How do you feel looking back on the entirety of your career?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "I've had my share of ups and downs, but it's been a rewarding journey. I think I've managed to stay true to my values, which is what matters most to me.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Saul, what would you say is the most important lesson you've learned throughout your life and career?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "I'd say it's the importance of staying true to your principles. No matter the challenges or pressures, if you hold on to your core values, you can navigate through just about anything.",
+      "predicted_entities": []
+    }
+  ]
+}

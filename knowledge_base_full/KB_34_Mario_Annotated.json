@@ -1,0 +1,279 @@
+{
+  "session_id": "34_Mario",
+  "profile": {
+    "id": "34_Mario",
+    "name": "Mario",
+    "age": 74,
+    "role": "Plumber",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Helping his father",
+        "context": "Dirty work."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The great flood of '96",
+        "context": "Saving the basement."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Knees giving out",
+        "context": "Physical cost."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you started helping your father with plumbing."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My old man was a plumber too, you see.",
+      "predicted_entities": [
+        {
+          "text": " old man",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " plumber",
+          "type": "OCCUPATION",
+          "confidence": "0.9977"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I started tagging along with him when I was just a kid, maybe around ten.",
+      "predicted_entities": [
+        {
+          "text": " ten",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "You'd be surprised how many jokes you can crack while fixing a leaky pipe!",
+      "predicted_entities": [
+        {
+          "text": " pipe",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like your father had quite an influence on you. What were those early days like working together?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "original_text": "Oh, absolutely! My dad was a real character. He had this knack for turning even the toughest jobs into something fun. But it wasn't all just fun and games. He taught me the importance of doing the job right the first time. I remember one time, we were fixing a stubborn leak, and I thought I could take a shortcut. Let's just say it didn't end well, and we both ended up soaked! But my dad just laughed it off and said, 'Well, that's one way to learn!'",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change from those early days with your father?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, things took a turn when the great flood of '96 hit.",
+      "predicted_entities": [
+        {
+          "text": " flood of '96",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "That was a real doozy and quite the test for any plumber.",
+      "predicted_entities": [
+        {
+          "text": "umber",
+          "type": "OCCUPATION",
+          "confidence": "0.9870"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "The whole town was like a big swimming pool.",
+      "predicted_entities": [
+        {
+          "text": " town",
+          "type": "LOCATION",
+          "confidence": "0.9977"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like that flood was a pivotal moment for you. What was it like working through that chaos?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "People were helping each other, sharing tools, and even jokes to keep spirits up.",
+      "predicted_entities": [
+        {
+          "text": " tools",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, but also rewarding. So how did this period in your life come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "My father and I kept at it, but let's just say, my knees didn't quite agree with my enthusiasm!",
+      "predicted_entities": [
+        {
+          "text": " knees",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Eventually, I had to hang up my wrench and let the younger folks take over.",
+      "predicted_entities": [
+        {
+          "text": " wrench",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the challenges you faced during that time."
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "original_text": "Oh, where do I start? The flood was like a never-ending game of whack-a-mole, but instead of moles, it was leaks popping up left and right! One of the biggest challenges was just keeping up with all the calls for help. And let me tell you, my knees were not happy about it! But you know, despite the aches and pains, I always found a way to laugh it off.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a difficult period. How did you manage to keep your spirits up through all those challenges?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "Oh, it sure was! But, you know, humor is a great tool. My dad and I would make light of the situation whenever we could. In the middle of all that chaos, we'd crack jokes like, 'Well, at least we don't need to take a bath tonight!' It's amazing how a bit of humor can turn even the toughest situations into something bearable.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like humor played a big role in keeping you going. I'd love to hear more about the specific challenges you and your dad faced during that period."
+    },
+    {
+      "turn_id": 18,
+      "original_text": "There was this one time when we were called to a house where the basement was completely flooded.",
+      "predicted_entities": [
+        {
+          "text": " basement",
+          "type": "LOCATION",
+          "confidence": "0.9941"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "My dad joked, 'Mario, welcome to our part-time job as lifeguards!'",
+      "predicted_entities": [
+        {
+          "text": "Mario",
+          "type": "PERSON",
+          "confidence": "0.9972"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "So, Mario, it sounds like your knees eventually made it clear that it was time to slow down. How have you been managing since then?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "These days, I spend more time in a chair than under a sink.",
+      "predicted_entities": [
+        {
+          "text": " chair",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " sink",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "It sounds like humor has been a constant companion for you. How do you feel now, looking back at those times?"
+    },
+    {
+      "turn_id": 26,
+      "original_text": "I'm grateful for those experiences, even if they did come with a few more aches and a couple of knee replacements.",
+      "predicted_entities": [
+        {
+          "text": " knee replacements",
+          "type": "EVENT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Mario, if you could share one final lesson or piece of advice from your years as a plumber, what would it be?"
+    },
+    {
+      "turn_id": 28,
+      "original_text": "A laugh can be as important as a good monkey wrench!",
+      "predicted_entities": [
+        {
+          "text": " monkey wrench",
+          "type": "ARTIFACT",
+          "confidence": "0.9918"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

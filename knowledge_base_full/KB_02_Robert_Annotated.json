@@ -1,0 +1,340 @@
+{
+  "session_id": "02_Robert",
+  "profile": {
+    "id": "02_Robert",
+    "name": "Robert",
+    "age": 85,
+    "role": "Former Coal Miner",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First day underground",
+        "context": "Fear of the dark."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The 1974 Strike",
+        "context": "Violence and brotherhood."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Town decline",
+        "context": "Loss of community."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first day underground as a coal miner."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My first day underground was something I'll never forget.",
+      "predicted_entities": [
+        {
+          "text": " first day",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        },
+        {
+          "text": " underground",
+          "type": "LOCATION",
+          "confidence": "0.9964"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was just a lad of 15, nervous as anything.",
+      "predicted_entities": [
+        {
+          "text": " 15",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My older brother was with me, which helped.",
+      "predicted_entities": [
+        {
+          "text": " older brother",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like having your brother there made a difference. What was it like working alongside him?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Oh, having him there was a blessing.",
+      "predicted_entities": [
+        {
+          "text": " him",
+          "type": "PERSON",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially at such a young age. So, what was the atmosphere like among the miners back then?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "original_text": "The camaraderie was strong, like a brotherhood. We all looked out for each other because we knew how dangerous the work was.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you as a miner?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Things started to change around the time of the 1974 strike.",
+      "predicted_entities": [
+        {
+          "text": " 1974",
+          "type": "TIME",
+          "confidence": "0.9988"
+        },
+        {
+          "text": " strike",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It was a hard time for everyone, families were struggling because the money wasn't coming in.",
+      "predicted_entities": [
+        {
+          "text": " families",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " money",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "The 1974 strike sounds like it was a pivotal moment. How did it all come to a close?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Eventually, there was a settlement.",
+      "predicted_entities": [
+        {
+          "text": " settlement",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "It felt like the beginning of the end for a lot of the mines around here.",
+      "predicted_entities": [
+        {
+          "text": " mines",
+          "type": "ORGANIZATION",
+          "confidence": "0.9973"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been tough, dealing with the aftermath. What were the main challenges you faced during that time?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "Many men, including myself, had families to feed, and the thought of not being able to provide was terrifying.",
+      "predicted_entities": [
+        {
+          "text": " families",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been a rough time for everyone. How did you manage to cope with those challenges?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Some men found work in other towns, but it wasn't easy.",
+      "predicted_entities": [
+        {
+          "text": " other towns",
+          "type": "LOCATION",
+          "confidence": "0.9969"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, during the strike, what kept you going despite the uncertainty?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Plus, we had the support of the community, which was invaluable.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "So when the mines started closing down, how did that affect the town?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "It was like watching the heart of the community slowly fade away.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "LOCATION",
+          "confidence": "0.9977"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Once they started to close, businesses suffered, and people began to move elsewhere looking for work.",
+      "predicted_entities": [
+        {
+          "text": " businesses",
+          "type": "ORGANIZATION",
+          "confidence": "0.9934"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "How has all of this affected your perspective on life as you look back now?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "The mines taught me resilience and the importance of community.",
+      "predicted_entities": [
+        {
+          "text": " mines",
+          "type": "ORGANIZATION",
+          "confidence": "0.9973"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how the changes affected your personal life back then."
+    },
+    {
+      "turn_id": 24,
+      "original_text": "Well, when the mines started closing, it hit home pretty hard.",
+      "predicted_entities": [
+        {
+          "text": " mines",
+          "type": "ORGANIZATION",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "My wife started taking on extra work, sewing and mending for neighbors.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " neighbors",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "So, with the decline of the town and these personal challenges, did you ever consider leaving to find work elsewhere?"
+    },
+    {
+      "turn_id": 26,
+      "original_text": "This town, with all its memories and history, is a part of me.",
+      "predicted_entities": [
+        {
+          "text": " town",
+          "type": "LOCATION",
+          "confidence": "0.9973"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, is there a lesson or piece of wisdom you'd like to pass on to future generations?"
+    },
+    {
+      "turn_id": 28,
+      "original_text": "Life's not always fair or easy, but facing it with your community and loved ones makes all the difference.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        },
+        {
+          "text": " loved ones",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

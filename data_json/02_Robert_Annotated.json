@@ -7,9 +7,21 @@
     "age": 85,
     "role": "Former Coal Miner",
     "timeline": [
-      { "stage": "Youth", "topic": "First day underground", "context": "Fear of the dark." },
-      { "stage": "Adulthood", "topic": "The 1974 Strike", "context": "Violence and brotherhood." },
-      { "stage": "Old Age", "topic": "Town decline", "context": "Loss of community." }
+      {
+        "stage": "Youth",
+        "topic": "First day underground",
+        "context": "Fear of the dark."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The 1974 Strike",
+        "context": "Violence and brotherhood."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Town decline",
+        "context": "Loss of community."
+      }
     ]
   },
   "dialogue_turns": [
@@ -27,10 +39,20 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "First day at work",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "first day", "type": "EVENT", "role": "milestone" },
-              { "text": "underground", "type": "LOCATION", "role": "workplace" }
+              {
+                "text": "first day",
+                "type": "EVENT",
+                "role": "milestone"
+              },
+              {
+                "text": "underground",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
             ]
           }
         },
@@ -39,9 +61,15 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "First day at work",
-            "emotions": ["Fear/Anxiety"],
+            "emotions": [
+              "Fear/Anxiety"
+            ],
             "entities": [
-              { "text": "15", "type": "TIME", "role": "age" }
+              {
+                "text": "15",
+                "type": "TIME",
+                "role": "age"
+              }
             ]
           }
         },
@@ -50,9 +78,15 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Family Support",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "older brother", "type": "PERSON", "role": "family/coworker" }
+              {
+                "text": "older brother",
+                "type": "PERSON",
+                "role": "family/coworker"
+              }
             ]
           }
         }
@@ -72,9 +106,15 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Family Support",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "him", "type": "PERSON", "role": "older brother" }
+              {
+                "text": "him",
+                "type": "PERSON",
+                "role": "older brother"
+              }
             ]
           }
         },
@@ -83,7 +123,9 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Work Challenges",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         }
@@ -103,7 +145,9 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Social Dynamic",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -112,7 +156,10 @@
           "annotations": {
             "life_stage": "Youth",
             "event": "Work Safety",
-            "emotions": ["Fear/Anxiety", "Joy/Pride"],
+            "emotions": [
+              "Fear/Anxiety",
+              "Joy/Pride"
+            ],
             "entities": []
           }
         }
@@ -132,10 +179,20 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "1974 Strike",
-            "emotions": ["Anger/Frustration"],
+            "emotions": [
+              "Anger/Frustration"
+            ],
             "entities": [
-              { "text": "1974", "type": "TIME", "role": "year" },
-              { "text": "strike", "type": "EVENT", "role": "historical event" }
+              {
+                "text": "1974",
+                "type": "TIME",
+                "role": "year"
+              },
+              {
+                "text": "strike",
+                "type": "EVENT",
+                "role": "historical event"
+              }
             ]
           }
         },
@@ -144,10 +201,21 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Economic Hardship",
-            "emotions": ["Sadness/Loss", "Fear/Anxiety"],
+            "emotions": [
+              "Sadness/Loss",
+              "Fear/Anxiety"
+            ],
             "entities": [
-              { "text": "families", "type": "PERSON", "role": "dependents" },
-              { "text": "money", "type": "ARTIFACT", "role": "income" }
+              {
+                "text": "families",
+                "type": "PERSON",
+                "role": "dependents"
+              },
+              {
+                "text": "money",
+                "type": "ARTIFACT",
+                "role": "income"
+              }
             ]
           }
         }
@@ -167,9 +235,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Strike Resolution",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "settlement", "type": "EVENT", "role": "agreement" }
+              {
+                "text": "settlement",
+                "type": "EVENT",
+                "role": "agreement"
+              }
             ]
           }
         },
@@ -178,7 +252,9 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Post-strike Era",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": []
           }
         },
@@ -187,9 +263,16 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Industrial Decline",
-            "emotions": ["Fear/Anxiety", "Sadness/Loss"],
+            "emotions": [
+              "Fear/Anxiety",
+              "Sadness/Loss"
+            ],
             "entities": [
-              { "text": "mines", "type": "ORGANIZATION", "role": "employers" }
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "employers"
+              }
             ]
           }
         }
@@ -209,7 +292,9 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Economic Hardship",
-            "emotions": ["Fear/Anxiety"],
+            "emotions": [
+              "Fear/Anxiety"
+            ],
             "entities": []
           }
         },
@@ -218,9 +303,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Family Responsibility",
-            "emotions": ["Fear/Anxiety"],
+            "emotions": [
+              "Fear/Anxiety"
+            ],
             "entities": [
-              { "text": "families", "type": "PERSON", "role": "dependents" }
+              {
+                "text": "families",
+                "type": "PERSON",
+                "role": "dependents"
+              }
             ]
           }
         }
@@ -240,7 +331,9 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Community Solidarity",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -249,9 +342,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Migration",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": [
-              { "text": "other towns", "type": "LOCATION", "role": "destination" }
+              {
+                "text": "other towns",
+                "type": "LOCATION",
+                "role": "destination"
+              }
             ]
           }
         }
@@ -271,7 +370,9 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Reflection",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": []
           }
         },
@@ -280,9 +381,15 @@
           "annotations": {
             "life_stage": "Adulthood",
             "event": "Community Support",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": [
-              { "text": "community", "type": "PERSON", "role": "supporters" }
+              {
+                "text": "community",
+                "type": "PERSON",
+                "role": "supporters"
+              }
             ]
           }
         }
@@ -302,9 +409,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Town Decline",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": [
-              { "text": "community", "type": "LOCATION", "role": "town atmosphere" }
+              {
+                "text": "community",
+                "type": "LOCATION",
+                "role": "town atmosphere"
+              }
             ]
           }
         },
@@ -313,9 +426,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Economic Collapse",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": [
-              { "text": "businesses", "type": "ORGANIZATION", "role": "local economy" }
+              {
+                "text": "businesses",
+                "type": "ORGANIZATION",
+                "role": "local economy"
+              }
             ]
           }
         }
@@ -335,7 +454,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Reflection",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         },
@@ -344,9 +465,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Life Lesson",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "mines", "type": "ORGANIZATION", "role": "teacher context" }
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "teacher context"
+              }
             ]
           }
         }
@@ -366,9 +493,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Hardship",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": [
-              { "text": "mines", "type": "ORGANIZATION", "role": "employer" }
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "employer"
+              }
             ]
           }
         },
@@ -377,10 +510,20 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Adaptation",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "wife", "type": "PERSON", "role": "spouse" },
-              { "text": "neighbors", "type": "PERSON", "role": "clients" }
+              {
+                "text": "wife",
+                "type": "PERSON",
+                "role": "spouse"
+              },
+              {
+                "text": "neighbors",
+                "type": "PERSON",
+                "role": "clients"
+              }
             ]
           }
         }
@@ -400,7 +543,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Contemplation",
-            "emotions": ["Sadness/Loss"],
+            "emotions": [
+              "Sadness/Loss"
+            ],
             "entities": []
           }
         },
@@ -409,7 +554,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Decision",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         },
@@ -418,9 +565,15 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Attachment",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "town", "type": "LOCATION", "role": "home" }
+              {
+                "text": "town",
+                "type": "LOCATION",
+                "role": "home"
+              }
             ]
           }
         }
@@ -440,7 +593,9 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Wisdom",
-            "emotions": ["Nostalgia/Gratitude"],
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
             "entities": []
           }
         },
@@ -449,10 +604,20 @@
           "annotations": {
             "life_stage": "Old Age",
             "event": "Advice",
-            "emotions": ["Joy/Pride"],
+            "emotions": [
+              "Joy/Pride"
+            ],
             "entities": [
-              { "text": "community", "type": "PERSON", "role": "support" },
-              { "text": "loved ones", "type": "PERSON", "role": "family" }
+              {
+                "text": "community",
+                "type": "PERSON",
+                "role": "support"
+              },
+              {
+                "text": "loved ones",
+                "type": "PERSON",
+                "role": "family"
+              }
             ]
           }
         }

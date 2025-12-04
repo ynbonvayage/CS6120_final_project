@@ -1,0 +1,355 @@
+{
+  "session_id": "20_Raj",
+  "profile": {
+    "id": "20_Raj",
+    "name": "Raj",
+    "age": 78,
+    "role": "Surgeon",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Medical school stress",
+        "context": "No sleep."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "First heart transplant",
+        "context": "Life and death."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Shaking hands",
+        "context": "Retiring the scalpel."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time in medical school and the stress that came with it."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Medical school was quite intense.",
+      "predicted_entities": [
+        {
+          "text": " Medical",
+          "type": "LOCATION",
+          "confidence": "0.5523"
+        },
+        {
+          "text": " school",
+          "type": "ORGANIZATION",
+          "confidence": "0.6312"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember the endless hours spent studying, the pressure of exams, and the constant feeling of being evaluated.",
+      "predicted_entities": [
+        {
+          "text": " exams",
+          "type": "EVENT",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that was a really demanding time. How did you handle the pressure?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I also made sure to have a support system—friends who were going through the same experience, and family who offered encouragement.",
+      "predicted_entities": [
+        {
+          "text": "friends",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you after medical school?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "After medical school, things changed when I started my residency.",
+      "predicted_entities": [
+        {
+          "text": " residency",
+          "type": "EVENT",
+          "confidence": "0.9937"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "That was when I got involved in surgeries more directly and the stakes felt higher.",
+      "predicted_entities": [
+        {
+          "text": " surgeries",
+          "type": "EVENT",
+          "confidence": "0.9711"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like residency was a pivotal time. Can you tell me about a memorable moment during your residency?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Yes, one of the most memorable moments was assisting in my first heart surgery.",
+      "predicted_entities": [
+        {
+          "text": " heart surgery",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It's what solidified my passion for cardiac surgery.",
+      "predicted_entities": [
+        {
+          "text": " cardiac surgery",
+          "type": "EVENT",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been an incredible experience. What was it like to perform your first heart transplant?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Performing my first heart transplant was a milestone in my career.",
+      "predicted_entities": [
+        {
+          "text": " heart transplant",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "The first time I led a transplant, I felt a mixture of excitement and nerves.",
+      "predicted_entities": [
+        {
+          "text": " transplant",
+          "type": "EVENT",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "The procedure required precision and the team had to work in perfect harmony.",
+      "predicted_entities": [
+        {
+          "text": " team",
+          "type": "PERSON",
+          "confidence": "0.8162"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "It was a moment that reaffirmed my decision to specialize in cardiac surgery.",
+      "predicted_entities": [
+        {
+          "text": " cardiac surgery",
+          "type": "EVENT",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "What were some of the core challenges you faced as a surgeon?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "This was particularly crucial during heart transplants.",
+      "predicted_entities": [
+        {
+          "text": " heart transplants",
+          "type": "EVENT",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, keeping your hands steady under such pressure. How did you manage to develop those techniques?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "Developing techniques to maintain steady hands was crucial. I practiced mindfulness and relaxation exercises regularly, which helped me remain calm during surgeries. Visualization of the procedure beforehand was another technique I used. It was about mentally preparing myself for every step, anticipating challenges, and rehearsing solutions.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like you were really dedicated to maintaining your skills. Were there any other challenges that stood out during your career?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Not every surgery went perfectly, and sometimes we lost patients.",
+      "predicted_entities": [
+        {
+          "text": " patients",
+          "type": "PERSON",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like dealing with patient outcomes must have been incredibly tough. How did you find support during those times?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Support came from my colleagues who understood the unique pressures of the job.",
+      "predicted_entities": [
+        {
+          "text": " colleagues",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "We often debriefed after surgeries, discussing what went well and what could be improved.",
+      "predicted_entities": [
+        {
+          "text": " surgeries",
+          "type": "EVENT",
+          "confidence": "0.9880"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Additionally, I found solace in talking to my family.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So, moving to the present day, how have things been for you now, especially with your hands?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I don't perform surgeries anymore, but I still consult and share my knowledge.",
+      "predicted_entities": [
+        {
+          "text": " surgeries",
+          "type": "EVENT",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "It's important to pass on what I've learned to the next generation.",
+      "predicted_entities": [
+        {
+          "text": " next generation",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you feel reflecting on your career now."
+    },
+    {
+      "turn_id": 24,
+      "original_text": "I've had the privilege to contribute to the field of cardiac surgery and to help many patients along the way.",
+      "predicted_entities": [
+        {
+          "text": " cardiac surgery",
+          "type": "EVENT",
+          "confidence": "0.9975"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "Though I miss the hands-on aspect of surgery, I'm content with sharing my experiences and mentoring young surgeons.",
+      "predicted_entities": [
+        {
+          "text": " surgery",
+          "type": "EVENT",
+          "confidence": "0.9958"
+        },
+        {
+          "text": " young surgeons",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what final lesson would you like to impart to future surgeons or those looking to pursue a career in medicine?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "original_text": "The most important lesson I can share is to be resilient and adaptable. The medical field is ever-changing and the challenges are never-ending. You must be willing to learn continuously and embrace innovation. But equally, take care of your mental and emotional well-being. Remember that every patient is a person, and empathy should guide your practice.",
+      "predicted_entities": []
+    }
+  ]
+}

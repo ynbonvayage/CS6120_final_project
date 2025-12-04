@@ -1,0 +1,262 @@
+{
+  "session_id": "36_Dave",
+  "profile": {
+    "id": "36_Dave",
+    "name": "Dave",
+    "age": 72,
+    "role": "Welder",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Building skyscrapers",
+        "context": "No fear of heights."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Flash burn injury",
+        "context": "Danger of the job."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Sculpting metal art",
+        "context": "New expression."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time building skyscrapers."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Oh, building those skyscrapers was something, let me tell you.",
+      "predicted_entities": [
+        {
+          "text": " skyscrapers",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was the 70s, and the construction sites were buzzing with activity, the smell of fresh concrete in the air.",
+      "predicted_entities": [
+        {
+          "text": " 70s",
+          "type": "TIME",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " concrete",
+          "type": "ARTIFACT",
+          "confidence": "0.9977"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "There were these massive steel beams, and the sound of welding was like music to my ears.",
+      "predicted_entities": [
+        {
+          "text": " steel beams",
+          "type": "ARTIFACT",
+          "confidence": "0.9356"
+        },
+        {
+          "text": " welding",
+          "type": "EVENT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those early days were quite something. Did you have any memorable experiences from that time?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was this one time, I think it was the summer of '75 or maybe '76.",
+      "predicted_entities": [
+        {
+          "text": " '75",
+          "type": "TIME",
+          "confidence": "0.9965"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We were working on this high-rise, and one of the older guys, Joe, he taught me a trick or two about welding.",
+      "predicted_entities": [
+        {
+          "text": " Joe",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing the excitement with the challenges of the job. So when did things change for you?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember one day, we had this big beam to hoist, and the crane was acting up.",
+      "predicted_entities": [
+        {
+          "text": " crane",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Then there was another time, when I got a flash burn to the eyes.",
+      "predicted_entities": [
+        {
+          "text": " flash burn",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a turning point for you. How did you manage that transition?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember the first piece I made. It was a small sculpture of a bird, kind of abstract.",
+      "predicted_entities": [
+        {
+          "text": " sculpture",
+          "type": "ARTIFACT",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " bird",
+          "type": "ARTIFACT",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "My wife said it looked like our old parakeet, Charlie.",
+      "predicted_entities": [
+        {
+          "text": " Charlie",
+          "type": "PERSON",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "How did you cope with the challenges of your recovery?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "My wife, bless her heart, she was a rock during that time.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "She brought me this book about metalworking—kind of like a guide for artists.",
+      "predicted_entities": [
+        {
+          "text": " book",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like your wife played a significant role in your recovery. Can you tell me more about how she supported you during that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "original_text": "Oh, she was incredible. She was patient, always there with a kind word or a gentle nudge when I needed it. I remember there were days when I was just so down, frustrated that I couldn't do what I used to. But she'd sit with me, reminding me of the things I could do instead of focusing on what I couldn't. She even got involved in my little projects, offering her opinions on my sculptures.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, Dave, how did you go from those small sculptures at home to making it your life’s work?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I started picking up more scrap metal, visiting junkyards and whatnot.",
+      "predicted_entities": [
+        {
+          "text": " scrap metal",
+          "type": "ARTIFACT",
+          "confidence": "0.9925"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Then, one day, a friend of mine saw my work and suggested I try showing them at a local art fair.",
+      "predicted_entities": [
+        {
+          "text": " art fair",
+          "type": "EVENT",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It's fascinating how life can lead us to unexpected places. What has creating art meant to you personally?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "original_text": "Well, creating art, it's like... it's like breathing for me now. It's peace, you know? When I'm working on a piece, I get lost in it. There's something so satisfying about taking a cold, hard piece of metal and turning it into something beautiful. I guess, in a way, it helped me find myself again after the accident.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, is there any final lesson or piece of advice you'd like to share from your journey?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "You never know where life might take you. It's important to keep an open mind and be willing to adapt. If something feels like it's not working, don't be afraid to try something different. And, uh, appreciate the people around you who support you. Keep your eyes open for opportunities, even when they seem like setbacks.",
+      "predicted_entities": []
+    }
+  ]
+}

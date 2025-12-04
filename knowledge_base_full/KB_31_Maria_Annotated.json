@@ -1,0 +1,272 @@
+{
+  "session_id": "31_Maria",
+  "profile": {
+    "id": "31_Maria",
+    "name": "Maria",
+    "age": 75,
+    "role": "Housekeeper",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Raising other's kids",
+        "context": "Sacrifice."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Buying her own home",
+        "context": "Achievement."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Being visited by them",
+        "context": "Gratitude."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time raising other people's kids. How did that come about?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I started when I was about nineteen, right after I finished school.",
+      "predicted_entities": [
+        {
+          "text": " nineteen",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I needed a job, and there was a family looking for someone to help with their children.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " children",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you formed quite a bond with them. What was that experience like for you?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Sometimes, it was hard because I had to be away from my own family.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, being away from your family. How did you manage that?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I managed by writing letters to my parents and siblings whenever I could.",
+      "predicted_entities": [
+        {
+          "text": " letters",
+          "type": "ARTIFACT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change with that family?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "The parents decided to move to another city for work, and they didn’t need a housekeeper any longer.",
+      "predicted_entities": [
+        {
+          "text": " city",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "I can imagine that must have been a big shift. So when did things change for you after that?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "That's when I started considering buying my own home.",
+      "predicted_entities": [
+        {
+          "text": " home",
+          "type": "LOCATION",
+          "confidence": "0.9963"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the challenges you faced while trying to buy your own home. What was that process like for you?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I didn’t have much saved up, and I was nervous about taking on a mortgage.",
+      "predicted_entities": [
+        {
+          "text": " mortgage",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a lot of sacrifice. What were some of the biggest hurdles you faced during this time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "original_text": "Oh, there were quite a few. The financial aspect was always a stressor. I had to be very disciplined with my money, which wasn't easy. But beyond that, it was the uncertainty that weighed on me. There were times when I doubted if I could actually do it, especially when unexpected expenses came up. Sometimes, I felt very alone in this journey because it was such a personal goal, and not many people around me understood it.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That sounds like a lot to handle on your own. Did you have any support during this time?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Well, I had a few friends who would check in on me, offer a kind word or a bit of advice.",
+      "predicted_entities": [
+        {
+          "text": " friends",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you finally achieve that dream of owning your home?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "When I finally got the keys, it felt surreal.",
+      "predicted_entities": [
+        {
+          "text": " keys",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I remember just standing in the empty living room, taking it all in.",
+      "predicted_entities": [
+        {
+          "text": " living room",
+          "type": "LOCATION",
+          "confidence": "0.9977"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "It was a small house, nothing fancy, but it was mine.",
+      "predicted_entities": [
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9975"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Now that you have your own home, do you ever hear from those kids you helped raise?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Those kids, they're all grown up now, with families of their own.",
+      "predicted_entities": [
+        {
+          "text": " families",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That must be a lovely feeling, seeing them all grown up and visiting you. How does it feel to look back on everything now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "Well, it's a mix of emotions, really. There's a sense of fulfillment, knowing that I was able to achieve something for myself, like buying my own home. But there's also a sense of nostalgia when I think about those earlier years. The kids I raised, seeing them now, it's like seeing a part of my own life reflected back at me. They remind me of all those years spent caring for them, learning from them. I can't help but feel grateful for the experiences and the connections I made along the way. It's been quite a journey, and sometimes I find myself just sitting in my home, reflecting on how far I've come.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like those visits from them must bring a lot of joy into your life. How do those visits typically go?"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "We sit around the kitchen table, and they tell me about their lives, their children.",
+      "predicted_entities": [
+        {
+          "text": " kitchen table",
+          "type": "ARTIFACT",
+          "confidence": "0.9631"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Maria, if you had to share one lesson from your journey, what would it be?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "original_text": "Ah, that's a good question. I think, if there's one thing I've learned, it's the importance of perseverance and believing in your dreams. Even when things seem tough or the path forward isn't clear, holding onto that vision can give you strength. Life has its challenges, but it's also filled with unexpected joys — those little moments that make everything worthwhile. And sometimes, you find your family in the most unexpected places. It's about cherishing the connections you make along the way.",
+      "predicted_entities": []
+    }
+  ]
+}
