@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Generated text outputs from experiments
+outputs/
+generated/
+results/
+
+# MacOS system file
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Environment keys or secrets
+.env
