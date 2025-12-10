@@ -1,0 +1,1388 @@
+{
+  "session_id": "40_Indira",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "40_Indira",
+    "name": "Indira",
+    "age": 79,
+    "role": "Archaeologist",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The first dig in Egypt",
+        "context": "Wonder."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Fighting looters",
+        "context": "Protecting history."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Museum curator",
+        "context": "Preservation."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first dig in Egypt."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were thrilling times, really.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember arriving in Cairo, the air thick with dust and the scent of spices.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Arrival",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " Cairo",
+                "type": "LOCATION",
+                "confidence": "0.9985"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was so young, just out of university, and eager to make a mark.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Ambition",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " university",
+                "type": "ORGANIZATION",
+                "confidence": "0.9964"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Our team set up camp near the Valley of the Kings.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Setup",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " Valley of the Kings",
+                "type": "LOCATION",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was a bit naive, I suppose, not fully grasping the weight of our work.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We stumbled upon a chamber, which was exhilarating.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discovery",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " chamber",
+                "type": "LOCATION",
+                "confidence": "0.9960"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Those ancient walls seemed to whisper secrets of the past.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Imagination",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Yet, I often got distracted by the sheer beauty of the landscape.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Distraction",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sometimes, I would just sit there, imagining the pharaohs themselves gazing out at the same horizon.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Daydream",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " pharaoh",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the experience was both overwhelming and inspiring. What was it like working with a team out there, especially being straight out of university?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah yes, the team was a wonderful mix of seasoned experts and enthusiastic novices like myself.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Teamwork",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We learned a lot from each other, though I tended to wander off with my thoughts at times.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Learning",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But teamwork was essential, especially when we had to catalog our findings, which was meticulous work.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "At night, we would gather around a campfire.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Socializing",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember once someone brought out an oud, and we sang under the stars.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " o",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              },
+              {
+                "text": "ud",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "That camaraderie kept us grounded amid the excitement.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It always fascinated me how diverse our backgrounds were; we had people from all around the world, each bringing their own perspective.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to balance the excitement with the responsibility. Did you ever encounter any challenges with the locals or the environment?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, indeed.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The locals were quite an interesting part of our experience.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Interaction",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " locals",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Some were very welcoming, eager to share stories and help us understand the land better.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Hospitality",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Others were more suspicious, understandably protective of their heritage.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Conflict",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The environment, on the other hand, was relentless.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The sun was unforgiving, and sandstorms were not uncommon.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Weather",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " sandstorms",
+                "type": "EVENT",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember one particular storm that nearly buried our tents.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Incident",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " tents",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was both terrifying and awe-inspiring.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, you know, it's funny, the challenges made the discoveries even more rewarding.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often got lost in thoughts about how ancient civilizations thrived under such conditions.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Wonder",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like the environment offered its own set of challenges. How did these experiences shape your approach to archaeology?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, they certainly taught me resilience and the importance of understanding and respecting the culture and history of the places we excavated.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, it's not just about finding artifacts; it's about connecting with the stories behind them.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Philosophy",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " artifacts",
+                "type": "ARTIFACT",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember a time when we found a small, intricately carved statue.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discovery",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " statue",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was just a piece of stone to some, but to me, it was a link to a forgotten era, a person who once lived and breathed.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Connection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often got lost in thoughts, wondering about their lives, their joys, and struggles.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Empathy",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "That sense of wonder and respect stayed with me throughout my career.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Impact",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you in Egypt?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the change... I suppose it was inevitable.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "After some years, looters started becoming a more pressing concern.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Threat",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " looters",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was disheartening, to say the least, seeing the treasures we worked so hard to preserve being threatened.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " treasures",
+                "type": "ARTIFACT",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        },
+        {
+          "text": "You know, I remember this one time when we returned to a site only to find it had been disturbed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " site",
+                "type": "LOCATION",
+                "confidence": "0.9972"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It broke my heart.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had to work closely with the authorities, which was a whole new challenge in itself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Cooperation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " authorities",
+                "type": "ORGANIZATION",
+                "confidence": "0.9965"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The red tape, the negotiations, oh, it could drive one mad!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bureaucracy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, we managed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resilience",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was around then I realized, perhaps, my place was better served in a role where I could protect these treasures more directly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly challenging. How did you manage to work with the authorities and handle the looters?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was quite a ride, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You see, dealing with bureaucracy wasn't something I had signed up for initially.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reality",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But when you care so deeply about something, you find ways to navigate the system.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember countless hours spent in meetings, trying to convey the importance of protecting these sites.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Advocacy",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The looters were a crafty bunch, often one step ahead.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had to think like them to anticipate their moves.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Strategy",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was this one time, I believe it was in '74, when we set up a kind of community watch with the local villagers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Action",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " '74",
+                "type": "TIME",
+                "confidence": "0.8797"
+              },
+              {
+                "text": " villagers",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "They were invaluable allies.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Alliance",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often wandered into old stories with them, which helped build trust.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's funny how you start something with a passion for discovery and end up learning about diplomacy and strategy along the way.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like you had to adapt in many unexpected ways. How did these experiences influence your decision to become a museum curator?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, becoming a curator... it was a natural progression, I suppose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " curator",
+                "type": "OCCUPATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "After years in the field, the idea of preserving and showcasing these incredible artifacts in a more controlled environment became appealing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Desire",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " artifacts",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "You know, the looters and all the chaos they caused made me realize the importance of safeguarding history.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I wanted to create a space where people could come and connect with these ancient wonders without the threat of them disappearing overnight.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Vision",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Of course, my mind often wandered to the stories behind each piece, and I wanted to share those stories with others.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Motivation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " stories",
+                "type": "EVENT",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a new way to engage with the past, not just as a researcher but as a storyteller.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Role Change",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " researcher",
+                "type": "OCCUPATION",
+                "confidence": "0.9981"
+              },
+              {
+                "text": " storyteller",
+                "type": "OCCUPATION",
+                "confidence": "0.9730"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been quite the journey, transitioning from fieldwork to curating. What were some of the core challenges you faced when you first took on the curator role?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, stepping into a museum was a whole different world!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Change",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " museum",
+                "type": "LOCATION",
+                "confidence": "0.9971"
+              }
+            ]
+          }
+        },
+        {
+          "text": "You know, at first, I missed the dust and the thrill of the dig.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Nostalgia",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But being a curator came with its own set of challenges, especially in terms of conservation and public engagement.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember this one exhibit we were preparing on the Third Intermediate Period\u2014it was meant to be a marvel of our collection, but the artifacts were very delicate.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Exhibit",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Ensuring their preservation was nerve-wracking.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Stress",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And then there was the task of telling their story in a way that captivated visitors.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Storytelling",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sometimes, I found myself rambling about the minutiae of a piece's history, which not everyone found as fascinating as I did!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Mistake",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But over time, I learned to balance detail with broader narratives, helping people connect with the past in meaningful ways.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That transition to storytelling sounds profound. How did it feel to see visitors engage with the exhibits and the stories you shared?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was quite something, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Watching people, especially children, stand in awe before a statue or a piece of pottery was like witnessing a spark of curiosity igniting.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " children",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " pottery",
+                "type": "ARTIFACT",
+                "confidence": "0.9775"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It reminded me of my younger self, full of questions and wonder.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sometimes, I'd overhear them making up tales about the artifacts, and it would make me smile.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Delight",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, there were moments when my mind would drift back to the field, thinking of all the untold stories still buried.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often got lost in those thoughts, wondering if perhaps one day, they too would have their moment in the spotlight.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was fulfilling to know that I played a part in bridging the past with the present, even if just for a moment in someone's day.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how you felt seeing your work come to life in the museum."
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, seeing the exhibits come to life was truly magical, you know.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Magic",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It brought a sense of completion to the years of hard work in the field.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Completion",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The museum was like a sanctuary where these relics could finally rest and be appreciated by all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Sanctuary",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " relics",
+                "type": "ARTIFACT",
+                "confidence": "0.9977"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I often wandered through the halls after hours, just absorbing the stories each piece had to tell.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They felt like old friends by that point.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sometimes, I'd find myself reminiscing about the digs and the people I met along the way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's funny how an artifact can trigger a memory, isn't it? Like recalling a long-lost dialogue with a colleague over a dusty cup of tea in the middle of nowhere.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Association",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " tea",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "That must be such a rewarding feeling. How did those moments of reflection and nostalgia influence your personal connection to the artifacts?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, they deepened it, certainly.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You see, each artifact is like a little time capsule, holding so many secrets and stories.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "When I walked through the museum, I often found myself drifting back to those early days of discovery.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was this one piece, a simple clay tablet, that always captured my attention.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Favorite",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " clay tablet",
+                "type": "ARTIFACT",
+                "confidence": "0.9910"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It reminded me of a young local boy who showed us the site.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " boy",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        },
+        {
+          "text": "He was so curious, always asking questions. I wonder where he is now.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wonder",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My mind tends to wander, you know, linking the past with the present.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought Process",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was those connections, those memories, that added layers to my understanding and appreciation of the pieces.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Depth",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They weren't just objects\u2014they were remnants of human experience, something I always tried to convey to our visitors.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Meaning",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Indira, what would you say is the most important lesson you've learned throughout your career in archaeology and as a curator?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, that's a profound question.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I suppose the most important lesson would be the value of patience and perspective.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, archaeology is not just about digging up the past; it's about understanding it, piecing together stories from fragments.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Definition",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And as a curator, it's about sharing those stories with care and respect, making sure they resonate with people today.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Duty",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've learned that every artifact, every piece of history, holds a story worth telling, no matter how small or insignificant it may seem.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's about seeing beyond the object and connecting with humanity's shared journey.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Oh, and to never stop being curious. Curiosity has been my guiding light through it all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

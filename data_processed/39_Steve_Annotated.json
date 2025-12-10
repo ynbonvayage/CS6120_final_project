@@ -1,0 +1,1008 @@
+{
+  "session_id": "39_Steve",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "39_Steve",
+    "name": "Steve",
+    "age": 75,
+    "role": "Zookeeper",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Night shift with lions",
+        "context": "Respect for nature."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The animal escape",
+        "context": "Crisis."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement volunteering",
+        "context": "Can't stay away."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences working the night shift with the lions."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were some of the most exhilarating and challenging times of my life.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Working the night shift at the zoo, especially with the lions, was a unique experience.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " night shift",
+                "type": "EVENT",
+                "confidence": "0.9961"
+              },
+              {
+                "text": " zoo",
+                "type": "LOCATION",
+                "confidence": "0.9966"
+              },
+              {
+                "text": " lions",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The quiet of the night contrasted with the occasional roars echoing through the enclosures.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Atmosphere",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was both calming and a bit nerve-wracking.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the night shift was quite an adventure. Can you tell me more about what you found challenging during those nights?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Agreement",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "One of the biggest challenges was maintaining a sense of alertness while everything around you is so still and silent.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's easy to get lulled into a false sense of security.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Risk",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But the lions, they were unpredictable.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember this one night, there was a sudden power outage.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Incident",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " power outage",
+                "type": "EVENT",
+                "confidence": "0.9987"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The whole zoo was plunged into darkness, and I could hear the lions getting restless.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reaction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My heart was pounding, but I knew I had to stay calm and follow the emergency protocols.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Response",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, Steve. So when did things change, or did you have any close calls during those nights?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, there was one night in particular that stands out.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was during one of those unexpected thunderstorms.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " thunderstorms",
+                "type": "EVENT",
+                "confidence": "0.9987"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The storm knocked out the power again, and this time, one of the lions managed to push open the gate of its enclosure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Escape",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " gate",
+                "type": "ARTIFACT",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was terrifying.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to think on my feet.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Action",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had trained for emergencies, but nothing truly prepares you for the real thing.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We worked quickly to secure the area and thankfully, no one got hurt.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resolution",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But it was a wake-up call for us all.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like that incident with the lion was a pivotal moment. How did it impact your perspective on your work at the zoo?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It really was a turning point for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "After that night, I realized how fragile the balance is between safety and danger in such environments.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Insight",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It deepened my respect for the animals and the responsibility we have as their caretakers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Respect",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I became more vigilant and more committed to ensuring that both the animals and the staff were kept safe.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Commitment",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " staff",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It also fostered a stronger sense of teamwork among us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We knew we had to rely on each other in these situations, and that built a bond that was truly special.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a wake-up call for everyone involved. How did your role at the zoo evolve after that incident?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After that incident, I took on more responsibilities in training new staff and developing better protocols for emergencies.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " protocols",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was important to me that everyone felt prepared and could act swiftly if something unexpected happened again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Goal",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I also became more involved in conservation efforts, realizing how crucial our work was, not just for the animals in our care but for their wild counterparts as well.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Conservation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " wild counterparts",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "Your commitment to safety and conservation is admirable. What were some of the challenges you faced while implementing these changes?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the main challenges was changing the mindset of some of the older staff members who were set in their ways.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They had been doing things a certain way for years, and introducing new protocols was met with some resistance at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resistance",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It took time and patience to show them that these changes were not just necessary but ultimately beneficial for everyone.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Patience",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Another challenge was ensuring that we had the resources to implement these changes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resources",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " resources",
+                "type": "ARTIFACT",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We had to work with the management to secure funding and support for new training programs and equipment.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Negotiation",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " management",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a lot of work, but in the end, seeing the improvements in safety and efficiency made it all worthwhile.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reward",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It's inspiring to hear about your dedication. Can you tell me more about your involvement in conservation efforts after the incident?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Of course.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "After that night, I felt a strong urge to do more for these magnificent creatures.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started collaborating with local conservation groups and became involved in a program aimed at protecting habitats of wild lions.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Action",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " conservation groups",
+                "type": "ORGANIZATION",
+                "confidence": "0.9977"
+              },
+              {
+                "text": " wild lions",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We worked on raising awareness about the challenges these animals face in the wild, and I was able to share my experiences from the zoo to emphasize the importance of conservation.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Advocacy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was incredibly rewarding to see how our efforts made a difference, and it gave me a new sense of purpose.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Fulfillment",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like your passion for conservation really grew after your experiences at the zoo. So, what have you been up to since retiring?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After retiring, I knew I couldn't just walk away from the animals and the causes I was passionate about.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started volunteering at a local wildlife rescue and rehabilitation center.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Volunteering",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " wildlife rescue",
+                "type": "ORGANIZATION",
+                "confidence": "0.9965"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's not quite the same as working with lions, but I get to be around animals and contribute to their wellbeing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contribution",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Plus, I help run educational programs for kids, teaching them about animal conservation and the importance of protecting our natural world.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Education",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " kids",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It gives me immense joy to see young eyes light up with curiosity and concern for these creatures.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Joy",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It feels like I\u2019m passing the torch to the next generation, and that's incredibly fulfilling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " next generation",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like you're still deeply connected to animals and conservation. How does it feel to be passing on your knowledge and passion to the next generation?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it's incredibly rewarding.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Sharing what I've learned over the years and seeing that spark of wonder in kids' eyes when they learn about these animals is a feeling like no other.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Sharing",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It makes all those challenging nights and stressful situations worthwhile because I know I'm helping shape future stewards of the environment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Impact",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's like leaving a legacy, ensuring that the work we started continues and grows with these younger generations.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you feel, looking back at your career and your current involvement in conservation."
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my career fills me with a sense of pride and fulfillment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Working with the lions and other animals was truly a privilege.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were many challenges, especially with incidents like the lion escape, but overcoming them taught me resilience and the importance of dedication.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Now, in my retirement, staying active in conservation efforts and volunteering has given my life a renewed purpose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's a different pace, but knowing I'm still contributing in some way, even if it's just educating kids or helping with wildlife rehabilitation, is heartening.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contribution",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I feel content knowing I've played a part in both caring for animals and inspiring a new generation to do the same.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contentment",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Your journey has been quite remarkable, Steve. Looking back, what are some of the most memorable moments that stand out to you?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "There are so many memories, but a few stand out vividly.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The first time I heard a lion roar right next to me was an awe-inspiring moment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Awe",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's something that just reverberates through your entire being and reminds you of the power and beauty of these creatures.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Another memory is the bond I formed with a young lion cub that was rejected by its mother.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Bond",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " lion cub",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I spent countless nights ensuring it was fed and cared for.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Care",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Watching it grow and eventually thrive in its own exhibit was incredibly rewarding.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Success",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And, of course, the camaraderie with my colleagues \u2013 the shared laughs and the shared struggles.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Friendship",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was like a family.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Steve, what lesson would you like to leave for future generations about your experiences?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The most important lesson I've learned is that every creature, no matter how big or small, has a role in our world, and it's our duty to respect and protect them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Working with animals taught me about patience, responsibility, and the delicate balance of nature.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Teaching",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I hope future generations understand that conservation isn't just about saving animals; it's about preserving the world we share with them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "If we all do our part, however small it might seem, we can make a significant difference.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Encouragement",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's about leaving the planet a better place for the lions, for us, and for all who come after.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

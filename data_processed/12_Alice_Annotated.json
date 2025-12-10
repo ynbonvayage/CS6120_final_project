@@ -1,0 +1,792 @@
+{
+  "session_id": "12_Alice",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "12_Alice",
+    "name": "Alice",
+    "age": 79,
+    "role": "Journalist",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Copy girl in newsroom",
+        "context": "Fighting to write."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Covering Watergate era",
+        "context": "Pursuit of truth."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "The death of print",
+        "context": "Changing media."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your early days as a copy girl in the newsroom."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were the days!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was just a young thing, fresh out of high school, eager to get my foot in the door.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " high school",
+                "type": "ORGANIZATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The newsroom was a bustling place, always alive with the sound of typewriters clacking away.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Atmosphere",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " newsroom",
+                "type": "LOCATION",
+                "confidence": "0.9974"
+              },
+              {
+                "text": " typewriters",
+                "type": "ARTIFACT",
+                "confidence": "0.9924"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember running errands for the journalists, and sometimes I'd sneak a peek at the stories they were working on.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " journalists",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "And the smell of ink... well, that's something you never forget.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " ink",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But, you know, I always thought it was a little unfair how the boys got the better assignments.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discrimination",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " boys",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Oh, and did I tell you about the time I lost a stack of important papers? That was a real mess!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Mistake",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " papers",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you had quite a lively start. What happened with those important papers you lost?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh dear, that was quite the ordeal.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had been sent to deliver some documents to one of the top editors.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Task",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " documents",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " editors",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But I got distracted, as young ones often do.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Distraction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think there was a protest happening nearby, and I just had to see what was going on.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Curiosity",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " protest",
+                "type": "EVENT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "By the time I got back, the papers were nowhere to be found.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Loss",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was in a panic, thinking I'd be fired on the spot.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Fear",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It turned out someone had picked them up and put them in the wrong office.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Resolution",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a lesson learned though, to always keep an eye on my responsibilities.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been quite the scare at the time. So, when did things change for you in the newsroom, moving from those copy girl days to more significant roles?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, let's see... It was a gradual shift, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Growth",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I kept my head down and worked hard.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Dedication",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think it was during the Watergate era that things really started to shift.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Era",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Watergate era",
+                "type": "TIME",
+                "confidence": "0.9977"
+              }
+            ]
+          }
+        },
+        {
+          "text": "There was so much happening, and the demand for more coverage meant they needed all hands on deck.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opportunity",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember being assigned to cover a press conference.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Assignment",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " press conference",
+                "type": "EVENT",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I went from running errands to actually reporting real news.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the challenges you faced during the Watergate era."
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the Watergate era, those were intense times for everyone in journalism.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " journalism",
+                "type": "ORGANIZATION",
+                "confidence": "0.9960"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember the late nights, fueled by endless cups of coffee, trying to piece everything together.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Work",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " coffee",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The competition was fierce as everyone wanted to be the first to break the next big story.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Competition",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, oh, it was also tough as a woman back then.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Discrimination",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " woman",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember once being told to go cover a society event instead of politics.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bias",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " politics",
+                "type": "EVENT",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "That stung, but it only made me more determined.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resilience",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I can imagine how challenging that must have been. So, as we move to a different era, how did you navigate the shift to the digital age and the decline of print journalism?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the transition to the digital age was, well, it was something, alright.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Change",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " digital age",
+                "type": "TIME",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "From the sound of typewriters to the quiet hum of computers, it was quite a shift.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Technology",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " computers",
+                "type": "ARTIFACT",
+                "confidence": "0.9981"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was a bit apprehensive at first, tapping away at a keyboard instead of a typewriter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Learning",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " keyboard",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "And then, oh dear, the internet came along and changed everything.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Internet",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " internet",
+                "type": "ARTIFACT",
+                "confidence": "0.9950"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The death of print, they called it. It felt like losing an old friend.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Loss",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " print",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, watching the industry change so dramatically. How did you feel about this transition?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh yes, it was indeed hard.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hardship",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, there's something special about holding a newspaper in your hands, feeling the pages, smelling that familiar ink.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Nostalgia",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " newspaper",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But, oh, I did eventually embrace some of it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I mean, who could resist the allure of instant news, right?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like the digital shift brought out some mixed emotions for you. What do you think about the impact it has had on journalism as a whole?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the impact was tremendous, both good and bad, you know.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "On the one hand, it opened up journalism to a wider audience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Positives",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But on the other hand, it also brought about this frenzy for speed over accuracy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Negatives",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember many a time when we'd have to issue corrections because of some oversight.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Mistake",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And then there's the whole social media thing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Modern Media",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " social media",
+                "type": "ARTIFACT",
+                "confidence": "0.9919"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Oh dear, I'm rambling!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Self-Correction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Alice, what do you think is the most important lesson you've learned throughout your career?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that's a big question, isn't it?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I suppose, if I were to narrow it down, it's about resilience and adaptability.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were times when I thought I wouldn't make it, like when I lost those papers or when the digital age swept in.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Recall",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I learned to pick myself up, dust off, and keep going.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Perseverance",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Also, the importance of integrity in our work, that's something I've always held dear.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Oh, and never underestimate the power of curiosity.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Whoops, I think I've gone off on a bit of a tangent again!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Self-Correction",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}
