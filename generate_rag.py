@@ -1,49 +1,47 @@
-import os
-import sys
 import json
 import math
 from openai import OpenAI
 from utils.io_helper import save_output
 
-# 需要环境变量 OPENAI_API_KEY
 client = OpenAI()
 
 
-def load_transcript_json(path):
-    """Load annotated JSON transcript file."""
-    with open(path, "r") as f:
-        data = json.load(f)
-    return data
-
-
+# ---------------------------
+# 1. Build chunks (FIXED for your JSON format)
+# ---------------------------
 def build_subject_chunks(data):
     """
-    Use each Subject turn as a retrieval chunk.
-
-    Returns: list of dicts:
-        [{"chunk_id": turn_id, "text": "..."}]
+    Extract meaningful chunks from the Subject's 'sentences' field.
+    Your JSON structure:
+    {
+        "turn_id": ...,
+        "speaker": "Subject",
+        "sentences": [
+            {"text": "...", "annotations": {...}},
+            ...
+        ]
+    }
     """
     chunks = []
     for turn in data.get("dialogue_turns", []):
         if turn.get("speaker", "").lower() == "subject":
-            chunks.append(
-                {
-                    "chunk_id": turn.get("turn_id"),
-                    "text": turn.get("text", "").strip(),
-                }
-            )
+            for i, sent in enumerate(turn.get("sentences", [])):
+                chunks.append({
+                    "chunk_id": f"{turn['turn_id']}_{i}",
+                    "text": sent.get("text", "").strip()
+                })
     return chunks
 
 
+# ---------------------------
+# 2. Embedding + similarity
+# ---------------------------
 def embed_texts(text_list, model="text-embedding-3-small"):
-    """Get embeddings for a list of texts."""
     resp = client.embeddings.create(model=model, input=text_list)
-    # resp.data[i].embedding is a list[float]
     return [item.embedding for item in resp.data]
 
 
 def cosine_sim(a, b):
-    """Cosine similarity between two vectors (lists of floats)."""
     dot = sum(x * y for x, y in zip(a, b))
     na = math.sqrt(sum(x * x for x in a))
     nb = math.sqrt(sum(y * y for y in b))
@@ -53,35 +51,24 @@ def cosine_sim(a, b):
 
 
 def retrieve_top_k(chunks, chunk_embeds, k=8):
-    """
-    Simple semantic retrieval:
-    - Use a generic 'memoir reconstruction' query
-    - Return top-k most relevant chunks
-    """
-    query_text = (
-        "Key moments and reflections from this person's life story, "
-        "useful for writing a memoir."
-    )
+    """Use generic query to retrieve top-k relevant chunks."""
+    query_text = "Key moments and reflections from this person's life story."
     query_emb = embed_texts([query_text])[0]
 
     scored = []
     for chunk, emb in zip(chunks, chunk_embeds):
-        score = cosine_sim(query_emb, emb)
-        scored.append((score, chunk))
+        scored.append((cosine_sim(query_emb, emb), chunk))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    top = scored[: min(k, len(scored))]
-    # only return the chunk dicts
-    return [c for _, c in top]
+    return [c for _, c in scored[:k]]
 
 
+# ---------------------------
+# 3. Generate RAG-based memoir
+# ---------------------------
 def generate_rag_memoir(retrieved_chunks):
-    """
-    RAG-based memoir generation:
-    LLM only sees retrieved chunks as evidence.
-    """
     evidence = "\n\n".join(
-        [f"[Chunk {c['chunk_id']}]\n{c['text']}" for c in retrieved_chunks]
+        f"[Chunk {c['chunk_id']}]\n{c['text']}" for c in retrieved_chunks
     )
 
     prompt = f"""
@@ -91,54 +78,45 @@ def generate_rag_memoir(retrieved_chunks):
     Each excerpt is evidence about their life journey.
 
     Your task:
-    - Write a first-person life memoir
-    - Use past tense and chronological order
-    - Keep a warm, reflective tone
-    - DO NOT invent new facts; stay grounded in the provided excerpts
-    - If some details are missing, stay vague instead of hallucinating
+    - Write a first-person memoir
+    - Past tense, chronological order
+    - Warm, reflective tone
+    - NO hallucinations: use ONLY the evidence below
+    - If details missing, stay vague.
 
-    === Retrieved Evidence Excerpts ===
+    === Retrieved Evidence ===
     {evidence}
     """
 
-    response = client.chat.completions.create(
+    resp = client.chat.completions.create(
         model="gpt-4o",
-        messages=[{"role": "user", "content": prompt}],
+        messages=[{"role": "user", "content": prompt}]
     )
+    return resp.choices[0].message.content
 
-    return response.choices[0].message.content
 
+# ---------------------------
+# 4. 🔥 Exposed function for run_all.py
+# ---------------------------
+def run_rag(json_data):
+    """
+    Input: json_data = loaded JSON dict
+    Output: rag_memoir (str)
+    """
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python generate_rag.py <json_file>")
-        sys.exit(1)
-
-    json_path = sys.argv[1]
-    base_name = os.path.splitext(os.path.basename(json_path))[0]
-
-    # 1) load JSON
-    data = load_transcript_json(json_path)
-
-    # 2) build chunks from Subject turns
-    chunks = build_subject_chunks(data)
+    chunks = build_subject_chunks(json_data)
     if not chunks:
-        print("No Subject turns found in dialogue_turns.")
-        sys.exit(1)
+        print("⚠️ No subject chunks found — skipping RAG.")
+        return ""
 
-    # 3) embed chunks
+    # embed
     chunk_texts = [c["text"] for c in chunks]
     chunk_embeds = embed_texts(chunk_texts)
 
-    # 4) retrieve top-k evidence chunks
+    # retrieve
     retrieved = retrieve_top_k(chunks, chunk_embeds, k=8)
 
-    # 5) generate memoir based only on retrieved evidence
-    memoir_output = generate_rag_memoir(retrieved)
+    # generate
+    rag_text = generate_rag_memoir(retrieved)
 
-    # 6) save using shared helper
-    save_output("rag", base_name, memoir_output)
-
-
-if __name__ == "__main__":
-    main()
+    return rag_text

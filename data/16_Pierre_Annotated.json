@@ -1,0 +1,843 @@
+{
+  "session_id": "16_Pierre",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "16_Pierre",
+    "name": "Pierre",
+    "age": 77,
+    "role": "Baker",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Apprenticeship in Paris",
+        "context": "Strict discipline."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Opening NY bakery",
+        "context": "Culture shock."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Losing sense of smell",
+        "context": "Adapting craft."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your apprenticeship in Paris."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, Paris.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Paris",
+                "type": "LOCATION",
+                "confidence": "0.9974"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was just a young lad, around 16 or 17.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " 16",
+                "type": "TIME",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " 17",
+                "type": "TIME",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember the early mornings, the smell of fresh bread filling the streets.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Sensory Memory",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " bread",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "My mentor was a tough man, Monsieur Lefevre.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Mentorship",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Monsieur Lefevre",
+                "type": "PERSON",
+                "confidence": "0.7113"
+              }
+            ]
+          }
+        },
+        {
+          "text": "He didn't take it easy on us, but he taught me everything I needed to know about baking.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Training",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like Monsieur Lefevre had a big impact on your life. What was it like working under him?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "He was a hard taskmaster, no doubt.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " taskmaster",
+                "type": "OCCUPATION",
+                "confidence": "0.9935"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But he was fair.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Assessment",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Everything had to be perfect with him.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Standard",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "He would make us redo a batch if it wasn't just right.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discipline",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "At the time, it was frustrating, but I learned the importance of precision and dedication.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lesson",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, but it sounds like it shaped you into the baker you became. So when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things changed when I finished my apprenticeship and decided to try my luck in America.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " apprenticeship",
+                "type": "OCCUPATION",
+                "confidence": "0.9715"
+              },
+              {
+                "text": " America",
+                "type": "LOCATION",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was around 22, and I wanted to bring the taste of French pastries to New York.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Goal",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " 22",
+                "type": "TIME",
+                "confidence": "0.9989"
+              },
+              {
+                "text": " French pastries",
+                "type": "ARTIFACT",
+                "confidence": "0.9334"
+              },
+              {
+                "text": " New York",
+                "type": "LOCATION",
+                "confidence": "0.9972"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a big leap, leaving everything I knew behind, but I was determined.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "What was it like starting out in New York?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Starting out in New York was a whirlwind.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Arrival",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " New York",
+                "type": "LOCATION",
+                "confidence": "0.9977"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I didn't have much money, just a small space in the Lower East Side.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " Lower East Side",
+                "type": "LOCATION",
+                "confidence": "0.9973"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It wasn't easy, the competition was fierce, but the city had an energy that kept me going.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember waking up before dawn to start baking, trying to recreate the magic of Parisian pastries in a tiny oven.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Hard Work",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like quite the challenge, Pierre. What were some of the biggest hurdles you faced during that time?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The biggest hurdle was building a customer base.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Business Challenge",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " customer base",
+                "type": "LOCATION",
+                "confidence": "0.9961"
+              }
+            ]
+          }
+        },
+        {
+          "text": "People in New York had different tastes, and convincing them to try my French pastries was tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Cultural Barrier",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " New York",
+                "type": "LOCATION",
+                "confidence": "0.9975"
+              },
+              {
+                "text": " French pastries",
+                "type": "ARTIFACT",
+                "confidence": "0.9251"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I had to adapt some recipes, which was painful because I wanted to stay true to what I learned.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Compromise",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Plus, the financial struggle was always there.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Money Issues",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Rent was high, and there were days I didn't know if I would make enough to keep the doors open.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Uncertainty",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly stressful, trying to make ends meet while staying true to your craft. Did you ever reach a point where things started to get easier?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after a couple of years, things did start to improve.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Turnaround",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Word of mouth was powerful, and the locals began to appreciate the authenticity of my pastries.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " locals",
+                "type": "PERSON",
+                "confidence": "0.9983"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember the first time a customer came in and said my croissants reminded them of Paris; that was a turning point.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Validation",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " customer",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              },
+              {
+                "text": " croissants",
+                "type": "ARTIFACT",
+                "confidence": "0.9744"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But just as things were looking up, the unexpected happened \u2013 I started losing my sense of smell.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Health Crisis",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a significant turning point. What was it like realizing you were losing your sense of smell?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was terrifying.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "At first, I thought it was just a temporary thing, maybe a cold or allergies.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Denial",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " cold",
+                "type": "EVENT",
+                "confidence": "0.7160"
+              },
+              {
+                "text": " allergies",
+                "type": "EVENT",
+                "confidence": "0.9984"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But it didn't go away.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Baking relies so much on your senses, especially smell, to judge when things are just right.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I felt like I was losing a part of myself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly difficult, Pierre. How did you cope with that change in your life?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was tough, no doubt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Struggle",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to rely more on my other senses, like touch and sight, to know when the dough was ready or when something was perfectly baked.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " dough",
+                "type": "ARTIFACT",
+                "confidence": "0.9450"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But it wasn't the same.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was a period where I even considered giving it all up, but I couldn't bring myself to do it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Doubt",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Baking is a part of who I am, and I couldn't just walk away from that.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I found ways to adapt, and thankfully, I had a team I trusted to help me with things I could no longer do alone.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Solution",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like you've faced quite a few challenges throughout your life. How do you feel looking back on everything now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, it's been a journey, that's for sure.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were moments of doubt and times when I thought I wouldn't make it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hardship",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But you know, I'm proud of what I've achieved.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Losing my sense of smell was a blow, but it taught me resilience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I learned to adapt, to rely on others, and to trust my instincts in other ways.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And even though I couldn't smell the bread, I could still see the joy in my customers' faces when they tasted it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reward",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " bread",
+                "type": "ARTIFACT",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "That kept me going.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Motivation",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life isn't always perfect, but I wouldn't trade my experiences for anything.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Pierre, if you were to pass on one lesson you've learned from your journey to the next generation of bakers or anyone pursuing their passions, what would it be?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I'd say, don't be afraid of change, and don't be afraid to adapt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life will throw you curveballs, like losing my sense of smell, but it's how you respond that matters.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Stick to what you're passionate about, but also be willing to evolve.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And remember, it's not just about you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Rely on others, build a team you trust.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Teamwork",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9942"
+              }
+            ]
+          }
+        },
+        {
+          "text": "You can't do it all alone, and that's okay.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

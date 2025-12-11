@@ -1,0 +1,976 @@
+{
+  "session_id": "09_Wei",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "09_Wei",
+    "name": "Wei",
+    "age": 82,
+    "role": "Restaurant Owner",
+    "timeline": [
+      {
+        "stage": "Adulthood",
+        "topic": "Opening day 1975",
+        "context": "High risk."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Kitchen fire",
+        "context": "Rebuilding."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Closing shop",
+        "context": "End of an era."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the opening day of your restaurant back in 1975."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, it feels like just yesterday.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the excitement and the nerves!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opening Day",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had been working tirelessly to get everything ready.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Preparation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The day finally came, and it was a mix of chaos and joy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Launch",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The first customers came in, and seeing them enjoy the food made it all worthwhile.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Service",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " customers",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " food",
+                "type": "ARTIFACT",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a small place, but it was ours, and it felt like a dream come true.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " place",
+                "type": "LOCATION",
+                "confidence": "0.9961"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that first day had a lot of mixed emotions. What do you think was the most challenging part of that day for you?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, it was really about managing the unexpected.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We thought we had everything under control, but the rush of customers took us by surprise.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Unexpected Event",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We ran out of some ingredients, and I remember scrambling in the kitchen to improvise.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Crisis Management",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " ingredients",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " kitchen",
+                "type": "LOCATION",
+                "confidence": "0.9940"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I felt a mix of panic and determination, but the support from my family and seeing our customers enjoy the meal kept me going.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resilience",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " family",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been quite an experience. I'd love to hear about when things started to change for your restaurant."
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was around the time of the kitchen fire.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Disaster",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " kitchen fire",
+                "type": "EVENT",
+                "confidence": "0.9976"
+              }
+            ]
+          }
+        },
+        {
+          "text": "That day is still vivid in my mind.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The fire started so quickly, and it felt like everything was happening in slow motion.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Fire",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the panic and the fear, seeing the flames and worrying about everyone's safety.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Panic",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " flames",
+                "type": "EVENT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The restaurant was not just a business; it was my heart and soul.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Attachment",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " restaurant",
+                "type": "ORGANIZATION",
+                "confidence": "0.9947"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Watching it go up in flames was devastating.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But afterward, we had the community rally around us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " community",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Their support was overwhelming and gave us the strength to rebuild.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Rebuilding",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change again for you after rebuilding?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After we rebuilt, things were great for a while.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The community's support was unwavering, and it felt wonderful to be back.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, as time went on, I began to feel the wear and tear.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Aging",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Running a restaurant requires so much energy and passion, and I started to feel it was slipping away.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Burnout",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The day we decided to close was emotional, but I knew it was time.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It felt like saying goodbye to a part of myself, but also a relief in some ways.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Closure",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly challenging to watch everything you worked for go up in flames. How did you find the strength to move forward and rebuild?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was one of the hardest moments of my life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But, as I mentioned, the community support was immense.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My family was the backbone during that time, reminding me that we had to get back on our feet.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Encouragement",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " family",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a journey of resilience, and it took a lot of courage and hope to start anew.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resilience",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like your community played a big role in helping you rebuild. Can you tell me more about some of the specific challenges you faced during that time?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, definitely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Agreement",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "One of the biggest challenges was finding the resources to rebuild.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Financially, it was tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Financial Strain",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Insurance covered some of it, but not everything.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Insurance",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Insurance",
+                "type": "ORGANIZATION",
+                "confidence": "0.9966"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Then, there was the emotional challenge of reliving the fire every time we tried to make a new start.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Trauma",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But my family and the community kept reminding me of the good times, the laughter, and smiles we had served over the years.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And then there was the challenge of physically rebuilding.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Construction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a slow process, but step by step, we made it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a very tough period. How did you manage to keep your spirits up during the rebuilding process?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was indeed tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were days I felt like giving up, but my family was always there.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Plus, the encouragement from our loyal customers was a constant reminder of why we started the restaurant in the first place.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " customers",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I also reminded myself of the joy cooking brought me, and that became a source of strength.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Passion",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " cooking",
+                "type": "EVENT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the emotional challenges you faced after the fire."
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Emotionally, it was like trying to piece together a shattered dream.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Metaphor",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The fire had taken away something precious, and it felt like a part of me was lost in the flames.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I had to confront a lot of fears\u2014fear of failure, fear of starting over, and fear of not being able to provide for my family.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Fear",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I knew I had to push through those feelings.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Determination",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you realize it was time to close the restaurant?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Closing the restaurant was not an easy decision.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " restaurant",
+                "type": "ORGANIZATION",
+                "confidence": "0.9953"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We had been in business for so long, and it felt like part of my identity.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But as the years went by, I started to feel the heavy weight of exhaustion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fatigue",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a bittersweet moment when we finally decided to close.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Closing",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That must have been a difficult decision to make, closing something that had been such a significant part of your life. How did you cope with that transition?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was hard, really hard.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hardship",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I felt like I was losing a part of myself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Loss",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I coped by focusing on the positives\u2014more time with my family, less stress, and the opportunity to finally take care of myself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Coping",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My family was incredibly supportive, and they helped me see that it was okay to move on and embrace a new chapter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Support",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Transitioning from such a significant part of your life must have been quite a journey. How has this new chapter been for you?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "This new chapter has been a mix of emotions.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "On one hand, I miss the hustle and bustle of the restaurant.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Missing",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But on the other hand, I feel a sense of relief and peace.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Relief",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I have more time to spend with my family, to enjoy the little things in life that I missed before.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Enjoyment",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like you've gone through a lot of emotional ups and downs. How do you find happiness in your life now, after all those years of running the restaurant?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Finding happiness now is about cherishing the simple moments.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Philosophy",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I take joy in spending time with my grandchildren, watching them grow, and sharing stories from the past.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Family",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " grandchildren",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I've also picked up gardening, which has become a new passion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " gardening",
+                "type": "EVENT",
+                "confidence": "0.9984"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I still cook, but now it's for family gatherings or community events, and that brings me joy too.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Cooking",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the biggest lesson you've learned from your journey with the restaurant?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The biggest lesson I've learned is the importance of community and resilience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's about the people who stand by you through thick and thin.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Community",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've realized that it's okay to lean on others for support and that asking for help is not a sign of weakness.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Life is full of ups and downs, but it's the love and connections we build that truly matter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

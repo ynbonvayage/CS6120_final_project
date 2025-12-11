@@ -1,81 +1,98 @@
 import os
-import json
-import pandas as pd
+import csv
 from bert_score import score
+from utils.segmentation import load_transcript_json
 
-# ----------------------------------------------------
-# Utility: Load transcript for reference
-# ----------------------------------------------------
-def load_reference_transcript(json_file):
-    with open(json_file, "r") as f:
-        data = json.load(f)
-
-    subject_texts = [
-        turn["text"].strip()
-        for turn in data.get("dialogue_turns", [])
-        if turn.get("speaker", "").lower() == "subject"
-    ]
-    return "\n".join(subject_texts)
+# --------------------------
+# Paths (modify if needed)
+# --------------------------
+REFERENCE_DIR = "data"
+OUTPUT_DIR = "outputs"
+OUTPUT_CSV = "bertscore_results.csv"
 
 
-# ----------------------------------------------------
-# Utility: Load generated memoir from outputs
-# ----------------------------------------------------
-def load_generated_text(subject, model_name):
-    path = os.path.join("outputs", subject, f"{subject}_{model_name}.txt")
-    if not os.path.exists(path):
-        return None
-    with open(path, "r") as f:
-        lines = f.readlines()
-    return "".join(lines[2:])  # Skip header in first 2 lines
+# --------------------------
+# Load reference transcript using segmentation logic
+# --------------------------
+def load_reference_transcript(path):
+    """
+    Uses the same segmentation logic as the generation pipeline.
+    Returns subject-only transcript string.
+    """
+    transcript, _ = load_transcript_json(path)
+    return transcript
 
 
-# ----------------------------------------------------
-# Main Evaluation Logic
-# ----------------------------------------------------
-def evaluate_all(data_folder="data"):
-    results = []
+# --------------------------
+# Compute BERTScore (returns P, R, F1)
+# --------------------------
+def compute_bertscore(reference, candidate):
+    """
+    Compute BERTScore using RoBERTa-large (default).
+    Returns precision, recall, F1 float numbers.
+    """
+    P, R, F1 = score(
+        [candidate],     # candidate list
+        [reference],     # reference list
+        lang="en",       # English
+        verbose=False
+    )
+    return float(P[0]), float(R[0]), float(F1[0])
 
-    model_types = ["baseline", "rag", "fewshot", "pii"]
 
-    # Loop through each subject JSON file
-    for filename in os.listdir(data_folder):
-        if not filename.endswith(".json"):
-            continue
+# --------------------------
+# Main evaluation function
+# --------------------------
+def evaluate_all():
 
-        subject_name = os.path.splitext(filename)[0]
-        json_file = os.path.join(data_folder, filename)
+    print("\n=== Running BERTScore Evaluation ===")
 
-        print(f"\n📌 Evaluating: {subject_name}")
+    with open(OUTPUT_CSV, "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["session_id", "version", "precision", "recall", "f1"])
 
-        reference = load_reference_transcript(json_file)
+        # iterate through output folders
+        for session in sorted(os.listdir(OUTPUT_DIR)):
+            session_path = os.path.join(OUTPUT_DIR, session)
 
-        for m in model_types:
-            generated = load_generated_text(subject_name, m)
-            if generated is None:
-                print(f"⚠ Missing: {subject_name}_{m}.txt")
+            if not os.path.isdir(session_path) or session.startswith("."):
                 continue
 
-            # BERTScore
-            P, R, F1 = score([generated], [reference], lang="en", verbose=False)
-            results.append({
-                "subject": subject_name,
-                "model": m,
-                "precision": float(P[0]),
-                "recall": float(R[0]),
-                "f1": float(F1[0]),
-            })
+            print(f"\nEvaluating: {session}")
 
-            print(f"  {m:<8}: BERTScore-F1 = {float(F1[0]):.4f}")
+            # reference JSON
+            ref_json = os.path.join(REFERENCE_DIR, session + ".json")
+            if not os.path.exists(ref_json):
+                print(f"  ! No reference JSON found: {session}")
+                continue
 
-    # Convert to CSV
-    df = pd.DataFrame(results)
-    df.to_csv("bertscore_results.csv", index=False)
-    print("\n💾 Results saved → bertscore_results.csv")
+            reference = load_reference_transcript(ref_json)
+            if not reference.strip():
+                print(f"  ! Empty reference transcript: {session}")
+                continue
 
-    # Trend summary
-    print("\n📈 Average Performance:")
-    print(df.groupby("model")["f1"].mean().sort_values(ascending=False))
+            # evaluate all four versions
+            for version in ["baseline", "rag", "fewshot", "pii"]:
+                gen_path = os.path.join(session_path, f"{version}.txt")
+
+                if not os.path.exists(gen_path):
+                    print(f"  - {version}: missing file, skipped")
+                    continue
+
+                with open(gen_path, "r") as f:
+                    candidate = f.read().strip()
+
+                if not candidate:
+                    print(f"  - {version}: empty candidate, skipped")
+                    continue
+
+                # compute BERTScore
+                P, R, F1 = compute_bertscore(reference, candidate)
+                writer.writerow([session, version, P, R, F1])
+
+                print(f"  - {version}: F1 = {F1:.4f}")
+
+    print(f"\n=== Done! Results saved to {OUTPUT_CSV} ===\n")
 
 
 if __name__ == "__main__":

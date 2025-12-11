@@ -7,21 +7,21 @@ from utils.io_helper import save_output
 
 client = OpenAI()
 
-
-# ====== Shared utilities from RAG version ======
-def load_transcript_json(path):
-    with open(path, "r") as f:
-        return json.load(f)
-
-
 def build_subject_chunks(data):
+    """
+    从 JSON 里抽取 subject 的句子作为 chunk：
+    dialogue_turns[] -> speaker == "Subject" -> sentences[i]["text"]
+    """
     chunks = []
     for turn in data.get("dialogue_turns", []):
         if turn.get("speaker", "").lower() == "subject":
-            chunks.append({
-                "chunk_id": turn.get("turn_id"),
-                "text": turn.get("text", "").strip()
-            })
+            for i, sent in enumerate(turn.get("sentences", [])):
+                text = sent.get("text", "").strip()
+                if text:
+                    chunks.append({
+                        "chunk_id": f"{turn.get('turn_id')}_{i}",
+                        "text": text
+                    })
     return chunks
 
 
@@ -37,7 +37,7 @@ def cosine_sim(a, b):
     dot = sum(x * y for x, y in zip(a, b))
     na = math.sqrt(sum(x * x for x in a))
     nb = math.sqrt(sum(y * y for y in b))
-    return dot / (na * nb) if na and nb else 0
+    return dot / (na * nb) if na and nb else 0.0
 
 
 def retrieve_top_k(chunks, chunk_embeds, k=8):
@@ -63,33 +63,33 @@ I learned that courage is not loud — it is choosing to keep going even when yo
 
 def generate_fewshot_memoir(retrieved_chunks):
     evidence = "\n\n".join(
-        [f"[Chunk {c['chunk_id']}]\n{c['text']}" for c in retrieved_chunks]
+        f"[Chunk {c['chunk_id']}]\n{c['text']}" for c in retrieved_chunks
     )
 
     prompt = f"""
-    You are a supportive memoir-writing assistant.
+You are a supportive memoir-writing assistant.
 
-    First, observe the narrative style of the EXAMPLE below:
-    - First-person voice
-    - Warm, reflective emotional tone
-    - Smooth transitions and story arc
-    - Past tense
-    - No invented facts
+First, observe the narrative style of the EXAMPLE below:
+- First-person voice
+- Warm, reflective emotional tone
+- Smooth transitions and story arc
+- Past tense
+- No invented facts
 
-    DO NOT copy example content. ONLY copy narrative style.
+DO NOT copy example content. ONLY copy narrative style.
 
-    === EXAMPLE MEMOIR STYLE ===
-    {EXEMPLAR_MEMOIR}
+=== EXAMPLE MEMOIR STYLE ===
+{EXEMPLAR_MEMOIR}
 
-    === EVIDENCE FROM TRANSCRIPT ===
-    {evidence}
+=== EVIDENCE FROM TRANSCRIPT ===
+{evidence}
 
-    Now, write a new memoir:
-    - Keep style similar to the example
-    - Only use facts from the evidence
-    - Preserve chronological flow of the subject's life
-    - If unsure about details → remain vague rather than hallucinate
-    """
+Now, write a new memoir:
+- Keep style similar to the example
+- Only use facts from the evidence
+- Preserve chronological flow of the subject's life
+- If unsure about details → remain vague rather than hallucinate
+"""
 
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -98,22 +98,13 @@ def generate_fewshot_memoir(retrieved_chunks):
     return response.choices[0].message.content
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python generate_fewshot.py <json_file>")
-        sys.exit(1)
+def run_fewshot(json_data):
+    chunks = build_subject_chunks(json_data)
+    if not chunks:
+        print("⚠️ No subject chunks found — skipping few-shot.")
+        return ""
 
-    json_path = sys.argv[1]
-    base_name = os.path.splitext(os.path.basename(json_path))[0]
-
-    data = load_transcript_json(json_path)
-    chunks = build_subject_chunks(data)
     embeds = embed_texts([c["text"] for c in chunks])
     topk = retrieve_top_k(chunks, embeds, k=8)
-
     memoir = generate_fewshot_memoir(topk)
-    save_output("fewshot", base_name, memoir)
-
-
-if __name__ == "__main__":
-    main()
+    return memoir

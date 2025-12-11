@@ -1,0 +1,1345 @@
+{
+  "session_id": "15_Mary",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "15_Mary",
+    "name": "Mary",
+    "age": 84,
+    "role": "Librarian",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The quiet reading room",
+        "context": "Love for books."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The computer revolution",
+        "context": "Adapting to digital."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "The library closing",
+        "context": "Community loss."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your early days in the quiet reading room."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were such peaceful times.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the smell of the old books and the sound of pages turning.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Sensory Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " books",
+                "type": "ARTIFACT",
+                "confidence": "0.9981"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a small place, really, but it felt like a whole world to me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " place",
+                "type": "LOCATION",
+                "confidence": "0.9968"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We had this old librarian, Mrs. Thompson, who always wore these big glasses and had a bun in her hair.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Mrs. Thompson",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I spent hours there after school, just lost in stories.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Habit",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " school",
+                "type": "ORGANIZATION",
+                "confidence": "0.7333"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Sometimes, I'd help her organize the shelves, and she'd reward me with extra borrowing privileges.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember how different it was back then, without any of the noise and technology we see today.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Contrast",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " technology",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "There was a sense of calm that you don't find much anymore.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the quiet reading room was a special place for you. What was it like working with Mrs. Thompson?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, Mrs. Thompson, yes. She was quite the character.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Description",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Mrs. Thompson",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I think she saw a bit of herself in me, you know.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Connection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "She'd always say, 'Mary, if you love the books, they'll love you back.'",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Advice",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": "Mary",
+                "type": "PERSON",
+                "confidence": "0.9692"
+              },
+              {
+                "text": " books",
+                "type": "ARTIFACT",
+                "confidence": "0.9975"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We didn't have anything like computers back then, just card catalogs and our own wits to find what we needed.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Technology",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " computers",
+                "type": "ARTIFACT",
+                "confidence": "0.9979"
+              },
+              {
+                "text": " card catalogs",
+                "type": "ARTIFACT",
+                "confidence": "0.9924"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Mrs. Thompson taught me how to use the Dewey Decimal System.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Learning",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Dewey Decimal System",
+                "type": "EVENT",
+                "confidence": "0.9984"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Gosh, I haven't thought about that in years.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Forgetfulness",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Anyway, I\u2019d often find myself lost in the stacks.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Habit",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " stacks",
+                "type": "LOCATION",
+                "confidence": "0.9972"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Sometimes, I'd even find little notes from readers tucked inside books. It was like a treasure hunt.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discovery",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " notes",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things start to change in the library?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, let me think. It must have been sometime in the late '80s or early '90s when the computers started coming in.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " late '80s",
+                "type": "TIME",
+                "confidence": "0.9977"
+              },
+              {
+                "text": " early '90s",
+                "type": "TIME",
+                "confidence": "0.9975"
+              },
+              {
+                "text": " computers",
+                "type": "ARTIFACT",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was all very new and a bit confusing at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the first time we got a computer\u2014it was a big, bulky thing.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had to learn how to use it, and there was this young fellow who came in to teach us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Training",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " young fellow",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "What was his name again? I think it was... oh dear, I'm forgetting.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Forgetfulness",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Anyway, he was very patient with us old-timers.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Gratitude",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We eventually got the hang of it, but I do miss the simplicity of the card catalogs.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Adaptation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " card catalogs",
+                "type": "ARTIFACT",
+                "confidence": "0.9919"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's funny, I still catch myself reaching for a pen when I want to take a note, even though everything's digital now.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Habit",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " pen",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to adapt to such a big change."
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, it was quite an adjustment!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Agreement",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But I think what really helped was the enthusiasm of the younger generation.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Perspective",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They were so excited about the possibilities that computers brought.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We started getting more visitors, curious to see what these new machines could do.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " machines",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It changed the whole atmosphere of the library.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " library",
+                "type": "LOCATION",
+                "confidence": "0.9907"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Suddenly, it wasn't just a quiet place to read; it became a hub of activity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transformation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember one girl, oh what was her name? She was always so fascinated by the technology.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " girl",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's strange how things just slip your mind...",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Forgetfulness",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Anyway, she used to come in every afternoon to explore the new digital catalog.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Habit",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " digital catalog",
+                "type": "ARTIFACT",
+                "confidence": "0.9836"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I think she ended up working in IT, can you imagine?",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pride",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " IT",
+                "type": "ORGANIZATION",
+                "confidence": "0.9980"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about some of the core challenges you faced during this transition."
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, well, let's see. I think one of the biggest challenges was just getting everyone on the same page.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Some of my colleagues were quite resistant at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resistance",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " colleagues",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        },
+        {
+          "text": "They were set in their ways, and I understand that.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Empathy",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were a lot of training sessions, and sometimes things would go wrong\u2014computers would crash, or the internet wouldn't work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Difficulty",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": "computers",
+                "type": "ARTIFACT",
+                "confidence": "0.8212"
+              },
+              {
+                "text": " internet",
+                "type": "ARTIFACT",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a bit daunting for those of us who had been used to doing things the old way.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And then there was the issue of space\u2014those computers took up a lot of room, and we had to reorganize the library to fit them in.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Logistics",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a lot to handle, but we managed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like quite a period of adjustment. Were there any particular incidents or stories that stand out from that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, let me think now.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Yes, there was this one time when we were trying to set up the first few computers, and one of them just wouldn't start.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had a small gathering of staff and a few curious patrons staring at it, trying to figure out what went wrong.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Group Effort",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " staff",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " patrons",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It turned out it wasn't even plugged in!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Oh, the laughter that ensued, it was embarrassing but lighthearted.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Relief",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We didn't have IT support like they do now, so solving these issues was a community effort.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " IT support",
+                "type": "ORGANIZATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But the camaraderie that came from it was something special, I think.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like there were a lot of challenges and changes. How did the library's patrons respond to all this?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the patrons, yes. They were quite a mixed bunch when it came to the changes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reception",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Some of the older folks were just as wary as we were, but others were surprisingly eager to dive into the new technology.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reaction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember one lady, Mrs. Henderson, she was in her seventies and would come in every week to learn something new.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " Mrs. Henderson",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "She even started using email to keep in touch with her grandchildren!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " email",
+                "type": "EVENT",
+                "confidence": "0.9989"
+              },
+              {
+                "text": " grandchildren",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But I think the biggest challenge was keeping the balance\u2014making sure we didn't lose the essence of what a library is.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Balance",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We tried to maintain that quiet space for reading while also accommodating the new technology.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Effort",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a bit like walking on a tightrope at times.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Metaphor",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did the library eventually close?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was such a sad time, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Emotion",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think it must have been about five years ago now, or was it six? Time gets a bit fuzzy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Recall",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " five years ago",
+                "type": "TIME",
+                "confidence": "0.9983"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Anyway, the decision came down from the city council.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " city council",
+                "type": "ORGANIZATION",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "They said it was due to budget cuts and declining visitors, which I suppose is true, but it still broke my heart.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reason",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " budget cuts",
+                "type": "EVENT",
+                "confidence": "0.9984"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We all gathered for one last meeting, and I remember looking around at the faces\u2014so many memories, you know?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Farewell",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We tried to rally support to keep it open; there were petitions and meetings, but in the end, it just wasn't enough.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Effort",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " petitions",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember packing up the books, and that felt like the end of an era.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Closure",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Some of them were donated to other libraries, but a lot were just put into storage.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Outcome",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " libraries",
+                "type": "LOCATION",
+                "confidence": "0.9967"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's funny how a place can be so full of life, and then suddenly, it's... well, just gone.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It must have been difficult to see the library close after all those years. How have you been reflecting on this change?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, yes, it was a hard pill to swallow, indeed.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Difficulty",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, libraries have always been a sort of sanctuary for me, a place where I could find peace amidst the chaos of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Meaning",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Losing that felt like losing a part of myself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Loss",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often find myself reminiscing about the old days, how the library was bustling with people, young and old, each with their own stories.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reminiscence",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And I do wonder sometimes, what happened to all those people who used to come in regularly?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wonder",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Did they find new places, new havens? I hope they did.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's strange, isn't it, how a building can hold so much? Not just books, but memories.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I still like to think of all the people who found solace or a moment of joy in those walls.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Oh, I\u2019m rambling now, but yes, it was a significant change, and sometimes I just sit and think about it all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Self-Correction",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That must have been hard to see such an important place in your life close. How do you feel about the future of libraries in general?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the future of libraries, that's something I ponder about often.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You see, I worry sometimes that people might forget the magic that libraries hold.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Worry",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There's something so special about walking into a place filled with stories and knowledge, just waiting to be discovered.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Appreciation",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I hope that future generations will still find value in that.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " future generations",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But, I suppose things always change, don't they?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember when the computer first came in, I thought it was the end of a certain kind of library, but perhaps it's just a new chapter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Perspective",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think if we can keep the heart of the library alive, then they'll always have a place.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Belief",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Oh dear, I'm getting sentimental again. But yes, I do hope libraries continue to be places of learning and community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Emotion",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, if you could impart one lesson from your time at the library, what would it be?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that's a lovely question. Let's see...",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I suppose it would be that libraries are much more than just buildings filled with books.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They're alive with the stories of those who visit them, with the laughter and the learning that happens within their walls.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I learned that while books are important, it's the people who bring life to those pages.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "You know, we often think of knowledge as something we gain, but it's also something we share.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And I think, if there's one lesson, it's to never stop sharing what you know.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Even in a world that's changing faster than I can keep up with, that sharing is what connects us all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

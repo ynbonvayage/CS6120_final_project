@@ -1,0 +1,603 @@
+{
+  "session_id": "05_Sarah",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "05_Sarah",
+    "name": "Sarah",
+    "age": 74,
+    "role": "Nurse",
+    "timeline": [
+      {
+        "stage": "Adulthood",
+        "topic": "Divorce at 40",
+        "context": "Starting over."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The AIDS crisis",
+        "context": "Compassion in tragedy."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement travel",
+        "context": "Freedom."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience going through a divorce at 40."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, let me tell you, it was like being on a rollercoaster you didn't sign up for!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Divorce",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " rollercoaster",
+                "type": "ARTIFACT",
+                "confidence": "0.9821"
+              }
+            ]
+          }
+        },
+        {
+          "text": "One day, you're holding hands, and the next, you're dividing up the CD collection.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Separation",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " CD collection",
+                "type": "ARTIFACT",
+                "confidence": "0.9946"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But really, it was tough, like suddenly finding yourself in a world where the map you were using is out of date.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Confusion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like it was a challenging time for you. How did you navigate through those changes?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I had to learn to laugh, or I\u2019d cry my eyes out!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I threw myself into my work as a nurse.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Focus",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " nurse",
+                "type": "OCCUPATION",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Those were the days of the AIDS crisis, so there was plenty to do.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "AIDS Crisis",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " AIDS crisis",
+                "type": "EVENT",
+                "confidence": "0.9981"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Plus, I volunteered for every possible extra shift.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Volunteering",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, dealing with such a personal change while also facing the demands of your work during the crisis. So when did things change for you?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, eventually, I started to find my footing again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But seriously, it was when I finally felt like I was making a difference at work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Fulfillment",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "That's when I started dreaming about all the places I wanted to travel after retirement.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Planning",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " travel",
+                "type": "EVENT",
+                "confidence": "0.9986"
+              },
+              {
+                "text": " retirement",
+                "type": "EVENT",
+                "confidence": "0.9987"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It must have been incredibly fulfilling to know you were making such a difference during such a difficult time. I'd love to hear more about what it was like working as a nurse during the AIDS crisis."
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was something, alright!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Imagine a battlefield, but instead of soldiers, you had nurses and doctors fighting an invisible enemy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Crisis Work",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " nurses",
+                "type": "OCCUPATION",
+                "confidence": "0.9985"
+              },
+              {
+                "text": " doctors",
+                "type": "OCCUPATION",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "There was fear, misinformation, and a lot of stigma.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenges",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember one time, a colleague and I started singing 'Stayin' Alive' during a particularly stressful shift.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Humor in Crisis",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " colleague",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "It sounds like humor was a crucial tool for you during those times. How did you and your colleagues maintain that sense of humor in the face of such adversity?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, we clung to humor like a lifeline!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping Mechanism",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We\u2019d make jokes about anything and everything, even the things that seemed too grim.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Dark Humor",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember once we named the IV drip stands after celebrities just to lighten the mood\u2014'Oh, look, here comes Madonna with your fluids!'",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Humor in Crisis",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " IV drip stands",
+                "type": "ARTIFACT",
+                "confidence": "0.9841"
+              },
+              {
+                "text": " Madonna",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It helped us bond, and it reminded us that we were human, not just cogs in a very stressed machine.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "So when did you decide it was time to travel and see the world?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, once I retired, I figured it was time to become a globe-trotting granny!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " granny",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "So I packed my bags, and it was off to all the places I'd only seen in National Geographic.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Travel Start",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " National Geographic",
+                "type": "ARTIFACT",
+                "confidence": "0.9920"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But let me tell you, those airport security lines are no joke\u2014I swear they confiscated my sense of humor along with my shampoo more than once!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Travel Hassle",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " airport",
+                "type": "LOCATION",
+                "confidence": "0.9893"
+              },
+              {
+                "text": " shampoo",
+                "type": "ARTIFACT",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "And how did those travels influence your perspective or life after retirement?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, traveling was like opening a window to breathe fresh air after being in a crowded room for too long.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Perspective",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It made me realize how big the world is, and how small our problems can be in comparison.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Realization",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Plus, I got to try all sorts of new foods!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Culinary Experience",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Traveling taught me to see the humor in things, to appreciate the little moments, and to never take life too seriously.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Life Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like traveling really opened up a new chapter for you. What were some of the most memorable experiences you had during your travels?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, where do I start?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Recall",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was the time I got lost in the winding streets of Venice and ended up befriending a local who taught me how to make authentic Italian pasta.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Travel Adventure",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " Venice",
+                "type": "LOCATION",
+                "confidence": "0.9986"
+              },
+              {
+                "text": " local",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " Italian pasta",
+                "type": "ARTIFACT",
+                "confidence": "0.9958"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But one of the most memorable experiences was visiting a small village in Africa and joining in on their local festival.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Cultural Experience",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " village",
+                "type": "LOCATION",
+                "confidence": "0.9983"
+              },
+              {
+                "text": " Africa",
+                "type": "LOCATION",
+                "confidence": "0.9988"
+              },
+              {
+                "text": " festival",
+                "type": "EVENT",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Sarah, what would you say is the biggest lesson you've learned from all these experiences?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, if there's one thing I've learned, it's that life is a wild ride, full of unexpected turns and lots of interesting passengers along the way!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Whether it was navigating a divorce, working through a crisis, or exploring the world, I realized that humor can be your best companion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " divorce",
+                "type": "EVENT",
+                "confidence": "0.9990"
+              },
+              {
+                "text": " crisis",
+                "type": "EVENT",
+                "confidence": "0.9989"
+              },
+              {
+                "text": " humor",
+                "type": "ARTIFACT",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        },
+        {
+          "text": "So, laugh when you can, help when you're able, and always remember to pack an extra pair of socks\u2014because you never know where life might take you!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

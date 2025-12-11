@@ -1,0 +1,733 @@
+{
+  "session_id": "26_Sam",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "26_Sam",
+    "name": "Sam",
+    "age": 79,
+    "role": "Electrician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The Blackout of '77",
+        "context": "Restoring power."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Starting own business",
+        "context": "Stress of payroll."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Wiring his son's house",
+        "context": "Fatherly pride."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the Blackout of '77. What was it like for you?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the Blackout of '77\u2014I remember it like it was yesterday.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was a young electrician back then, working in New York City.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " electrician",
+                "type": "OCCUPATION",
+                "confidence": "0.9978"
+              },
+              {
+                "text": " New York City",
+                "type": "LOCATION",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a hot July night, and suddenly, everything just went dark.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Incident",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " July",
+                "type": "TIME",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember helping out neighbors and running around with my flashlight checking on folks.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Action",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " neighbors",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " flashlight",
+                "type": "ARTIFACT",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that experience had a real impact on you. How did it influence your work or personal life at the time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it definitely got me thinking about the importance of my work as an electrician.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Realization",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Not long after that, I decided I wanted more control over my work and started thinking about going into business for myself.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you, and you decided to start your own business?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "By 1980, I had saved up enough and took the plunge.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Start",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " 1980",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Starting my own business was a bit scary at first, but I was passionate.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like starting your own business was a pivotal moment for you. What were some of the challenges you faced in those early days?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, there were plenty of challenges.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "First off, getting clients was tough.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " clients",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Money was tight too, so I had to be smart about how I used my resources.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Finance",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially starting from scratch. When did you notice things were starting to improve?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, it was around 1982 when I really started feeling a shift.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Turnaround",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " 1982",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I got a big contract with a local business.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " contract",
+                "type": "ARTIFACT",
+                "confidence": "0.9985"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like your persistence really paid off. I'd love to hear more about how your business grew from there."
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after that big contract, things started to pick up quite a bit.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Growth",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was able to expand slowly, bringing on more electricians and taking on bigger projects.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Expansion",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " electricians",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "My wife was a big support too, handling the books and keeping things organized.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Partnership",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " wife",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " books",
+                "type": "ARTIFACT",
+                "confidence": "0.9989"
+              }
+            ]
+          }
+        },
+        {
+          "text": "By the mid-80s, we had a nice little company going.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " mid-80s",
+                "type": "TIME",
+                "confidence": "0.9962"
+              },
+              {
+                "text": " company",
+                "type": "ORGANIZATION",
+                "confidence": "0.9965"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like your business really started to take off. Can you tell me about some of the more memorable projects you worked on during that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh absolutely! One of the most memorable projects was wiring my son's house.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Project",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " son",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              },
+              {
+                "text": " house",
+                "type": "LOCATION",
+                "confidence": "0.9946"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was back in the late 80s, and he had just bought his first home.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " late 80s",
+                "type": "TIME",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I wanted to make sure everything was perfect, not just because it was my son, but because it was my work\u2014my reputation.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pride",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That's a wonderful story, Sam. It must have been rewarding to work on something so personal. What was it like teaching your son during that project?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was incredibly fulfilling!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My son was always curious about what I did.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Interest",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I taught him how to handle the tools, how to read blueprints, and the importance of safety.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teaching",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " tools",
+                "type": "ARTIFACT",
+                "confidence": "0.9985"
+              },
+              {
+                "text": " blueprints",
+                "type": "ARTIFACT",
+                "confidence": "0.9902"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been a meaningful experience for both of you. I'd love to hear about some of the challenges you faced during that project."
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, wiring a house, especially one that's a fixer-upper, comes with its own set of challenges.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " fixer-upper",
+                "type": "LOCATION",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The wiring was so outdated; it was a miracle it even worked!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Problem",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " wiring",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We faced setbacks, like delays in getting the right materials, but we took it all in stride.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Obstacle",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like a lot of hard work, but also incredibly rewarding. What were some moments during that project that really stood out to you?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, there were quite a few memorable moments.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "One that really stands out is when we finally got all the wiring done and tested the lights for the first time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Milestone",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " lights",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a simple thing, but when the house lit up, it was like a weight was lifted off our shoulders.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My son and I just stood there, grinning from ear to ear.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like a great achievement for both of you. How do you reflect on these experiences now, looking back?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on those times now, I feel a deep sense of satisfaction and pride.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's not just about the work, but the connections and memories you create along the way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Meaning",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Teaching those values to my son was a highlight of my life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "What would you say has been the most important lesson you've taken from your career?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I think the most important lesson I've learned is that persistence pays off.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's about building a reputation and being someone people can rely on.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've also learned the importance of staying true to your values, like doing quality work.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Integrity",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the most important lesson you've learned from your career and life experiences?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, looking back, I think the most important lesson is to never underestimate the power of hard work and community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've seen tough times, like during the blackout of '77, but those experiences taught me resilience and the value of sticking together.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Recall",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's never just about the wires and circuits\u2014it's about the people you connect with and the legacy you leave behind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " legacy",
+                "type": "EVENT",
+                "confidence": "0.9824"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
