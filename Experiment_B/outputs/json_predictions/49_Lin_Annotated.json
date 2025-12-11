@@ -1,0 +1,755 @@
+{
+  "session_id": "49_Lin",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "49_Lin",
+    "name": "Lin",
+    "age": 75,
+    "role": "Translator",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Immigrating alone",
+        "context": "Language as a bridge."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "High stakes UN meeting",
+        "context": "Pressure."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Forgetting native words",
+        "context": "Fear of aging."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience immigrating alone. That must have been challenging."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it certainly was.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": [
+              "Serious"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I was just 20 years old when I left my home country.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Departure",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "20",
+                "type": "TIME",
+                "role": "age"
+              },
+              {
+                "text": "home country",
+                "type": "LOCATION",
+                "role": "origin"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I had a single suitcase and a dream to build a better life.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Hope",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "suitcase",
+                "type": "ARTIFACT",
+                "role": "possession"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "The journey was long, and at times, it was quite lonely.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Journey",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Yet, I was determined to succeed.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Resolve",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember stepping off the plane and being overwhelmed by the hustle and bustle of the city.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Arrival",
+            "emotions": [
+              "Overwhelm"
+            ],
+            "entities": [
+              {
+                "text": "city",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that was a pivotal moment in your life. How did you manage to stay motivated during those early days?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Staying motivated was largely about remembering why I came in the first place.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Motivation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I had this vision of contributing something meaningful to the world.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Goal",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I would often remind myself of my parents' sacrifices and the opportunities they wished for me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Family",
+            "emotions": [
+              "Gratitude",
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "parents",
+                "type": "PERSON",
+                "role": "kin"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "That sense of responsibility pushed me forward.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Drive",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you? When did you start to feel more settled in your new environment?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The turning point came when I landed a job as a translator.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Start",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "translator",
+                "type": "OCCUPATION",
+                "role": "job"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I embraced the chance to use my language skills and thrived in the role.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It wasn't long before I was noticed by a larger firm, and they offered me a position.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "firm",
+                "type": "ORGANIZATION",
+                "role": "employer"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I felt like I was finally on the right path.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That's an impressive journey. So when did things change, leading you to work on high stakes projects like at the UN?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was a remarkable chapter in my life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was approached about an opportunity to translate for a United Nations meeting.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opportunity",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "United Nations",
+                "type": "ORGANIZATION",
+                "role": "institution"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The room was charged with tension, and I could feel the weight of each word I translated.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Successfully navigating that meeting was exhilarating and opened many doors for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like an incredible opportunity. What were some of the core challenges you faced during that UN meeting?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the main challenges was definitely the pressure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Every word mattered, and there was no room for error.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Precision",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There was also the fast-paced nature of the meeting; decisions were being made in real-time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Speed",
+            "emotions": [
+              "Stress"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Additionally, understanding the different accents and dialects of the delegates posed a challenge.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Language",
+            "emotions": [
+              "Concentration"
+            ],
+            "entities": [
+              {
+                "text": "delegates",
+                "type": "PERSON",
+                "role": "speakers"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "But despite these challenges, it was incredibly rewarding.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reward",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It's clear you had a significant impact. How do you feel about your language skills now?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, language has been both a friend and a challenge in my later years.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I must admit, there are times now when I find myself struggling to recall certain words in my native tongue.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Forgetting",
+            "emotions": [
+              "Fear/Anxiety",
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "native tongue",
+                "type": "EVENT",
+                "role": "language"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It's a strange feeling, almost like losing a piece of your identity.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But then, I remind myself of the vastness of experiences I've had.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Perspective",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It's a natural part of aging, I suppose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "Acceptance"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must evoke a range of emotions. How do you reconcile those feelings of loss with the pride in your accomplishments?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It's a delicate balance, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Balance",
+            "emotions": [
+              "Reflection"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "On one hand, there's the nostalgia for the simplicity and purity of my first language.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Nostalgia",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "On the other hand, there's immense pride in knowing that I've helped people communicate and understand one another.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Every time I bridged a gap or resolved a misunderstanding, it reaffirmed my purpose.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": [
+              "Fulfillment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "Your journey with languages has been profound. Looking back, what do you think has been the most rewarding part of your work as a translator?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my career, the most rewarding aspect has been the ability to bring people together.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reward",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Knowing that my translations have paved the way for understanding is deeply gratifying.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratification",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Language is such a powerful connector, and to be a part of that process is a privilege.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Privilege",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Lin, could you share a final lesson or insight from your remarkable journey?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Certainly.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "One thing I've learned over the years is the importance of embracing change.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Life doesn't always follow the path we expect, but each twist and turn can bring growth.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "My journey from a small village to international stages taught me that resilience and an open mind are key.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Summary",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "village",
+                "type": "LOCATION",
+                "role": "origin"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "So, I would encourage anyone listening to keep an open heart and never stop learning.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    }
+  ]
+}

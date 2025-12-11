@@ -1,0 +1,880 @@
+{
+  "session_id": "45_George",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "45_George",
+    "name": "George",
+    "age": 80,
+    "role": "Train Conductor",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Night trains",
+        "context": "Romance of rails."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The derailment",
+        "context": "Trauma and heroism."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Model trains",
+        "context": "Small scale control."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences with night trains."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the night trains were something special.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "night trains",
+                "type": "EVENT",
+                "role": "work"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember the cool night air as the train rolled through the darkness.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": [
+              {
+                "text": "train",
+                "type": "ARTIFACT",
+                "role": "vehicle"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a time when the world felt both vast and intimate.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "You'd see the same passengers regularly, and they'd become like family.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": [
+              "Love"
+            ],
+            "entities": [
+              {
+                "text": "passengers",
+                "type": "PERSON",
+                "role": "clients"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those nights on the train were really meaningful to you. What was it about the night trains that stood out the most in your memory?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it was the people, mostly.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Focus",
+            "emotions": [
+              "Affection"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was Mrs. Henderson, always with a book in hand, or young Tommy, headed back to college with a guitar slung over his shoulder.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Detail",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "Mrs. Henderson",
+                "type": "PERSON",
+                "role": "passenger"
+              },
+              {
+                "text": "Tommy",
+                "type": "PERSON",
+                "role": "passenger"
+              },
+              {
+                "text": "guitar",
+                "type": "ARTIFACT",
+                "role": "item"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was like an ever-evolving play, and every night, you had a front-row seat.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Metaphor",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been such a unique experience, seeing the same passengers and getting to know them over time. So when did things change for you in your career as a conductor?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things started to change after the derailment.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Turning Point",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "derailment",
+                "type": "EVENT",
+                "role": "accident"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a night like any other, but something went wrong.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "That experience shook me and many others.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Suddenly, the night trains weren't just about the camaraderie and adventure anymore; there was also an element of fear.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, going through something like that. How did that period of your life come to a close?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after the derailment, I spent a lot of time thinking about my future.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Contemplation"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I loved being a conductor, but the incident made me realize how unpredictable life could be.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "conductor",
+                "type": "OCCUPATION",
+                "role": "job"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Eventually, I decided it was time to step away from the night trains.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "That's when I transitioned into my passion for model trains.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "model trains",
+                "type": "ARTIFACT",
+                "role": "hobby"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the derailment and how it impacted your perspective on life."
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The train shook violently before coming off the tracks.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Accident",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Fortunately, no one was gravely injured, but it was a turning point that highlighted the fragility of life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Insight",
+            "emotions": [
+              "Relief",
+              "Serious"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a humbling experience that brought many of us closer together.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Community",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly challenging to experience. How did you and your fellow conductors handle the aftermath?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "We were all in shock, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reaction",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But the railway company was supportive.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "railway company",
+                "type": "ORGANIZATION",
+                "role": "employer"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The community we had built on those night trains became our support system.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bonding",
+            "emotions": [
+              "Love"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "After that, I started to focus more on what I could control, which is why I found solace in model trains.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like creating model trains was a meaningful outlet for you. Can you tell me more about how you got started with that?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I stumbled into model trains almost by accident when I saw a beautiful set in a shop window one day.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Discovery",
+            "emotions": [
+              "Curiosity"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It brought back all those memories of the railway, and I was instantly hooked.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Passion",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I started collecting pieces here and there, building little landscapes and scenes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Hobby",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been such an emotional transition for you. How did your family react to your newfound passion for model trains?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, they were incredibly supportive.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "My wife, bless her, was thrilled to see me so engaged and happy again.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Family",
+            "emotions": [
+              "Love"
+            ],
+            "entities": [
+              {
+                "text": "wife",
+                "type": "PERSON",
+                "role": "spouse"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "My grandkids, well, they loved coming over to watch the trains run.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Joy",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "grandkids",
+                "type": "PERSON",
+                "role": "family"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It became a family project, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Connection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like creating model trains brought your family together in a wonderful way. How has this hobby influenced your life now in your later years?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "In my old age, it's easy to feel disconnected from the world, but model trains have kept me active and engaged.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Engagement",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It's also a great way to connect with my fellow hobbyists.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Community",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I feel a sense of purpose and joy, knowing I'm preserving a bit of history in my own way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": [
+              "Fulfillment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That's truly wonderful, George. It seems like your passion for model trains has not only brought joy to your life but also helped you maintain a connection with your past. Can you share more about how this hobby has impacted your relationships with others, especially within the model train community?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, absolutely!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The model train community is a fantastic network of fellow enthusiasts who share a deep love for trains and the stories they carry.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Community",
+            "emotions": [
+              "Love"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It keeps me youthful and reminds me of the camaraderie I felt on the night trains.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It's wonderful to hear how much joy model trains have brought into your life. How do you feel when you're working on your layouts, and what do they mean to you personally?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "When I'm working on my layouts, it's like stepping into a time machine.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Each piece I lay down brings back a flood of memories from my days on the railway.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "There's a sense of peace and fulfillment in crafting these little worlds.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "Peace",
+              "Fulfillment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like working on your layouts is a very reflective process for you. Can you share a specific memory or story that you've tried to capture in one of your model train scenes?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Certainly!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Agreement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "One of my favorite scenes to recreate is the small town station where I first began my career as a conductor.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Creation",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "station",
+                "type": "LOCATION",
+                "role": "model"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember one winter evening, the snow was falling gently, and the station was aglow with the warm light from the street lamps.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Recreating that scene on my layout brings me back to those simpler times.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, George, is there a final lesson or message you'd like to share from your experiences over the years?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, well, if there's one thing I've learned, it's that life's journey is full of unexpected turns, like a railway winding through the countryside.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Embrace the ride, cherish the connections you make along the way, and don't be afraid to change tracks when needed.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Whether it's through community, family, or even a hobby like model trains, find what brings you joy and hold onto it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Encouragement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    }
+  ]
+}

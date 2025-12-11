@@ -1,0 +1,1105 @@
+{
+  "session_id": "06_Kenji",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "06_Kenji",
+    "name": "Kenji",
+    "age": 70,
+    "role": "Tech Engineer",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Silicon Valley garage days",
+        "context": "Innovation boom."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Dot-com crash",
+        "context": "Losing fortune."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Gardening",
+        "context": "Digital detox."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about those early days in Silicon Valley. What was it like working in a garage?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those days were something else!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was the late 70s, and the air was just crackling with potential.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "late 70s",
+                "type": "TIME",
+                "role": "era"
+              },
+              {
+                "text": "Silicon Valley",
+                "type": "LOCATION",
+                "role": "region"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We were a bunch of young tech enthusiasts crammed into a tiny garage, surrounded by wires, circuit boards, and the smell of solder.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Startup Life",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "tech enthusiasts",
+                "type": "PERSON",
+                "role": "group"
+              },
+              {
+                "text": "garage",
+                "type": "LOCATION",
+                "role": "workplace"
+              },
+              {
+                "text": "circuit boards",
+                "type": "ARTIFACT",
+                "role": "equipment"
+              },
+              {
+                "text": "solder",
+                "type": "ARTIFACT",
+                "role": "material"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I remember working tirelessly, fueled by nothing but coffee and the sheer excitement of creating something new.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Hard Work",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "coffee",
+                "type": "ARTIFACT",
+                "role": "fuel"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like an exciting time! What sort of projects were you working on back then?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, we were working on all sorts of things!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "There was this one project, a personal computer prototype—it was the brainchild of one of the guys in the garage.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Innovation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "personal computer prototype",
+                "type": "ARTIFACT",
+                "role": "invention"
+              },
+              {
+                "text": "garage",
+                "type": "LOCATION",
+                "role": "lab"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We were really just tinkering, trying to see how much we could pack into a small, affordable machine.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Engineering",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "machine",
+                "type": "ARTIFACT",
+                "role": "product"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "The idea of bringing computing power into homes was revolutionary at the time.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Vision",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "homes",
+                "type": "LOCATION",
+                "role": "target market"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "It sounds like those were some intense days. How did you manage the challenges of working in such a small space with limited resources?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was definitely challenging, but honestly, I think the constraints pushed us to be more creative.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Challenge",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We had to make do with what we had, which meant a lot of improvisation.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Problem Solving",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was this sense of camaraderie among us because we were all in the same boat.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Teamwork",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There were days when nothing seemed to work, but then one breakthrough would make it all worth it.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Perseverance",
+            "emotions": [
+              "Anger/Frustration",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite the experience. So when did things change for you and your team?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things really started to change in the early 80s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "early 80s",
+                "type": "TIME",
+                "role": "era"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The personal computer market began to take off, and suddenly there was this influx of interest and investment.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Market Boom",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "personal computer market",
+                "type": "ORGANIZATION",
+                "role": "industry"
+              },
+              {
+                "text": "investment",
+                "type": "ARTIFACT",
+                "role": "funding"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I remember the first time we received funding—it felt surreal.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Funding",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "funding",
+                "type": "ARTIFACT",
+                "role": "money"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It allowed us to move out of the garage and into an actual office space.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Expansion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "garage",
+                "type": "LOCATION",
+                "role": "old site"
+              },
+              {
+                "text": "office space",
+                "type": "LOCATION",
+                "role": "new site"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been a whirlwind transition. What was it like moving to a real office space?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was quite a change, let me tell you!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Moving into an actual office felt like stepping into a whole new world.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Relocation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "office",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We suddenly had more room to spread out, proper desks, and even a break room!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Upgrade",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "desks",
+                "type": "ARTIFACT",
+                "role": "furniture"
+              },
+              {
+                "text": "break room",
+                "type": "LOCATION",
+                "role": "amenity"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It also attracted more talent.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Hiring",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "talent",
+                "type": "PERSON",
+                "role": "employees"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We were no longer just a group of friends; we were a growing company with real responsibilities.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Maturation",
+            "emotions": [
+              "Joy/Pride",
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "friends",
+                "type": "PERSON",
+                "role": "founders"
+              },
+              {
+                "text": "company",
+                "type": "ORGANIZATION",
+                "role": "business"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a change. So when did things change again, perhaps in a way you didn't expect?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, yes, things did take quite a turn later on.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was during the late 90s, the height of the dot-com bubble.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Economic Context",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "late 90s",
+                "type": "TIME",
+                "role": "era"
+              },
+              {
+                "text": "dot-com bubble",
+                "type": "EVENT",
+                "role": "economic event"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But then came the crash.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Crash",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "crash",
+                "type": "EVENT",
+                "role": "crisis"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I remember it vividly—it was 2000, and the bubble burst seemingly overnight.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Market Crash",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "2000",
+                "type": "TIME",
+                "role": "year"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Companies started folding one after the other.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Bankruptcy",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "Companies",
+                "type": "ORGANIZATION",
+                "role": "businesses"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We had to tighten our belts, lay off staff, and pivot quickly to survive.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Survival",
+            "emotions": [
+              "Fear/Anxiety",
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "staff",
+                "type": "PERSON",
+                "role": "employees"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Can you tell me more about the challenges you faced during the dot-com crash?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, absolutely. It was one of the most challenging periods of my career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "career",
+                "type": "EVENT",
+                "role": "professional life"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We had to make some really tough calls, which included letting go of some talented people who had become like family.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Layoffs",
+            "emotions": [
+              "Sadness/Loss",
+              "Anger/Frustration"
+            ],
+            "entities": [
+              {
+                "text": "people",
+                "type": "PERSON",
+                "role": "employees"
+              },
+              {
+                "text": "family",
+                "type": "PERSON",
+                "role": "metaphor"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We had to shift from chasing fast growth to focusing on sustainability and profitability.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Restructuring",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly tough. How did you personally cope with such dramatic changes in the industry?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, personally, it was a rollercoaster of emotions.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Stress",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Gardening became a bit of a sanctuary for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was a way to disconnect from the chaos and ground myself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Relaxation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Watching things grow and knowing that nature had its own pace taught me patience and resilience.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Learning",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how your interest in gardening began and how it's been a part of your life now."
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Gardening—ah, it has been such a rewarding journey!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It started as a hobby to cope with the stress during the dot-com crash, but it’s become so much more over the years.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby Evolution",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "dot-com crash",
+                "type": "EVENT",
+                "role": "origin time"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember the first time I planted a small vegetable garden in my backyard.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "First Garden",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "vegetable garden",
+                "type": "LOCATION",
+                "role": "garden"
+              },
+              {
+                "text": "backyard",
+                "type": "LOCATION",
+                "role": "home"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Now, in my retirement, it’s a big part of my daily routine.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement Life",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "retirement",
+                "type": "EVENT",
+                "role": "life phase"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like gardening has been a really grounding experience for you. How does it feel to look back on your journey from tech to gardening?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, it's interesting to see how much my life has changed.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "From those intense days in Silicon Valley to the peaceful mornings in my garden, it's been quite a journey.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contrast",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "Silicon Valley",
+                "type": "LOCATION",
+                "role": "past context"
+              },
+              {
+                "text": "garden",
+                "type": "LOCATION",
+                "role": "current context"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Reflecting on those tech days, I realize that while we were creating technology to change the world, my garden has been quietly changing me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Realization",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "technology",
+                "type": "ARTIFACT",
+                "role": "work product"
+              },
+              {
+                "text": "garden",
+                "type": "LOCATION",
+                "role": "teacher"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like gardening has had a profound impact on you. How does it feel to reflect on your journey from the fast-paced tech world to the tranquility of gardening?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my journey from the high-speed world of tech to the serene life of gardening, I feel a deep sense of gratitude.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "tech",
+                "type": "ORGANIZATION",
+                "role": "industry"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "This shift has allowed me to focus on personal fulfillment and the joy of patience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Personal Growth",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Gardening seems to have been quite transformative for you. Do you find any similarities between your engineering days and gardening?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely, there are quite a few parallels between engineering and gardening.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "engineering",
+                "type": "EVENT",
+                "role": "career"
+              },
+              {
+                "text": "gardening",
+                "type": "EVENT",
+                "role": "hobby"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "In engineering, it was about creating solutions and innovating.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection on Engineering",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "In gardening, it's more solitary, but it still requires problem-solving and patience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection on Gardening",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the biggest lesson you've learned through your journey from the tech world to gardening?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "If I had to boil it down to one lesson, I'd say it's the importance of adaptability and patience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Life Lesson",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Both require a willingness to learn continuously and to be patient with the process.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The journey taught me that real growth happens over time, not overnight.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    }
+  ]
+}

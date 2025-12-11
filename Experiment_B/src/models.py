@@ -1,4 +1,3 @@
-# Experiment_B/src/models.py
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 from sklearn.neural_network import MLPClassifier
@@ -37,9 +36,6 @@ def train_mlp(X_train, y_train):
 
 
 def evaluate_model(name, model, X, y_true, target_labels=None):
-    """
-    统一评估函数：返回 macro-F1、分类报告字典、预测结果。
-    """
     y_pred = model.predict(X)
     macro_f1 = f1_score(y_true, y_pred, average="macro")
     print(f"\n===== {name} =====")

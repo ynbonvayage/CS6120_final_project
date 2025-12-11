@@ -1,0 +1,1061 @@
+{
+  "session_id": "23_Eleanor",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "23_Eleanor",
+    "name": "Eleanor",
+    "age": 88,
+    "role": "Diplomat",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Cold War posting",
+        "context": "Espionage fears."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Peace treaty negotiation",
+        "context": "High stakes."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Writing memoirs",
+        "context": "Secrets kept."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "Eleanor, I'd love to hear about your experiences during your posting in the Cold War. What was it like working as a diplomat at that time?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the Cold War—it was indeed a fascinating yet tense period in history.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "Cold War",
+                "type": "EVENT",
+                "role": "historical period"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was stationed in Berlin during the height of it all.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Posting",
+            "emotions": [
+              "Serious"
+            ],
+            "entities": [
+              {
+                "text": "Berlin",
+                "type": "LOCATION",
+                "role": "city"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The city was divided, and you could feel the tension in the air.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Atmosphere",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "As a diplomat, my role was to facilitate communication and understanding between very different worlds.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "diplomat",
+                "type": "OCCUPATION",
+                "role": "job"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It was challenging, yet incredibly rewarding.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Evaluation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the tension must have been palpable and perhaps a bit overwhelming at times. Can you tell me about a specific moment or encounter that stands out to you from your time in Berlin?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, certainly. There was this one moment that remains vivid in my memory.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recall",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It was during a particularly intense period of negotiations.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We were working tirelessly to ease relations, and I remember one night, I was called to a late meeting at the embassy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Meeting",
+            "emotions": [
+              "Urgency"
+            ],
+            "entities": [
+              {
+                "text": "embassy",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The room was filled with a mix of anxiety and hope.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Mood",
+            "emotions": [
+              "Fear/Anxiety",
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was one of those times where you could really feel the weight of the world on your shoulders.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But despite the pressure, there was a remarkable sense of unity amongst us diplomats.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Unity",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "diplomats",
+                "type": "PERSON",
+                "role": "colleagues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, yet inspiring as well. So, when did things start to change in your diplomatic career? Was there a pivotal moment or negotiation that shifted your path?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, there was a very significant turning point.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Milestone",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It was during the peace treaty negotiations after the Berlin Wall fell.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Historical Event",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "Berlin Wall",
+                "type": "LOCATION",
+                "role": "barrier"
+              },
+              {
+                "text": "peace treaty",
+                "type": "EVENT",
+                "role": "agreement"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Suddenly, the atmosphere shifted from one of division to a potential for unity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": [
+              "Relief",
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was part of a team that worked on drafting some of the initial agreements.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Work",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Seeing former adversaries come to the table with a willingness to cooperate was profound.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Observation",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It felt like a new chapter not only for Europe but also for my career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "Europe",
+                "type": "LOCATION",
+                "role": "continent"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like the experience of witnessing that shift must have been incredibly moving. What was it like to be part of those historic peace negotiations?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was truly an extraordinary time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "To see the walls, both literal and figurative, coming down was a testament to what we could achieve together.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Symbolism",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember sitting across the table from people who were once seen as adversaries, and there was this mutual recognition of shared humanity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Connection",
+            "emotions": [
+              "Empathy"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Those discussions were often long and complicated, but each small step forward felt like a significant victory.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Progress",
+            "emotions": [
+              "Satisfaction"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like an incredible journey. So, how did that phase of your career come to an end? Was there a particular moment or decision that led to the next chapter in your life?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, yes, the end of that chapter came quite naturally.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "After the peace treaties were successfully negotiated, there was a sense of completion and fulfillment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Completion",
+            "emotions": [
+              "Fulfillment"
+            ],
+            "entities": [
+              {
+                "text": "peace treaties",
+                "type": "ARTIFACT",
+                "role": "documents"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was around that time I decided to retire from active diplomatic service.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But I wasn't quite ready to stop working entirely.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Motivation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "That's when I decided to start writing my memoirs.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "New Project",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "memoirs",
+                "type": "ARTIFACT",
+                "role": "book"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It felt like the right time to reflect on my journey and perhaps inspire others with the lessons I've learned.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Purpose",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "Reflecting on those negotiations, Eleanor, what were some of the core challenges you faced during that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the core challenges was maintaining a balance between firmness and diplomacy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We had to ensure that every party felt heard and respected.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Goal",
+            "emotions": [
+              "Empathy"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Another challenge was the sheer complexity of the issues at hand.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Complexity",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was also the emotional toll; it was hard not to feel the weight of history on our shoulders.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Burden",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "history",
+                "type": "EVENT",
+                "role": "context"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But what kept us going was the collective belief that peace was possible and worth striving for.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like those challenges were immense. How did you and your colleagues cope with the emotional and mental demands of such high-stakes negotiations?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "We relied heavily on each other for support.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We often gathered informally after long days, sharing stories and laughter.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was also a strong sense of duty that kept us focused.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Personally, I found solace in writing down my thoughts, which later became a foundation for my memoirs.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Writing",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "thoughts",
+                "type": "ARTIFACT",
+                "role": "notes"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Eleanor, it's truly fascinating to hear about the transition from active diplomacy to writing. Can you tell me how the process of writing your memoirs has been for you?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it's been quite a journey in itself!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Process",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Writing my memoirs has been both cathartic and challenging.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Writing",
+            "emotions": [
+              "Relief",
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I've been sorting through countless memories, letters, and notes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Review",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "letters",
+                "type": "ARTIFACT",
+                "role": "documents"
+              },
+              {
+                "text": "notes",
+                "type": "ARTIFACT",
+                "role": "records"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "At times, it feels overwhelming, but it's also incredibly rewarding to see my story taking shape.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Creation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "story",
+                "type": "ARTIFACT",
+                "role": "narrative"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like writing your memoirs has been a reflective process for you. How has revisiting those experiences affected your perspective on your life and work?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Revisiting my past has given me a deeper appreciation for the journey I've been on.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It's allowed me to see the threads that connect different phases of my life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "Understanding"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I see my younger self with a sense of gratitude for the courage and determination I had.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Self-Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Writing has also reinforced for me the importance of storytelling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "Passion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Eleanor, I imagine that reflecting on your experiences has brought up a lot of memories. Are there any particular stories or lessons that stand out to you as you write your memoirs?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely, there are so many stories that have stayed with me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "One that often comes to mind is a conversation I had with a young diplomat early in my career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Encounter",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "young diplomat",
+                "type": "PERSON",
+                "role": "colleague"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It taught me the importance of listening to younger voices.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Humility"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Another lesson that stands out is the value of resilience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "Resilience"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "These stories remind me that while the path wasn't always easy, it was always worthwhile.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Eleanor, your reflections are truly insightful. How do you hope your memoirs will impact readers, especially those who might be considering a career in diplomacy?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I hope that my memoirs will offer readers a glimpse into the complexities and rewards of diplomatic work.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hope",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "readers",
+                "type": "PERSON",
+                "role": "audience"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I want to convey that while diplomacy can be challenging, it is deeply fulfilling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Message",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It's about more than just politics; it's about human connection and striving for peace.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Definition",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "peace",
+                "type": "EVENT",
+                "role": "goal"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Eleanor, what would you say is the most important lesson you've learned from your life's work that you'd like to share with future generations?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "If I had to distill it into one lesson, it would be the power of kindness and respect.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Throughout my career, I've seen how a simple act of kindness can transform a tense negotiation.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Experience",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It's crucial to remember that we're dealing with people, each with their own stories and struggles.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Empathy",
+            "emotions": [
+              "Compassion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I hope future generations carry this wisdom with them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": "future generations",
+                "type": "PERSON",
+                "role": "successors"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    }
+  ]
+}

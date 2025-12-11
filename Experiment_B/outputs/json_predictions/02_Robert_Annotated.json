@@ -1,0 +1,714 @@
+{
+  "session_id": "02_Robert",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "02_Robert",
+    "name": "Robert",
+    "age": 85,
+    "role": "Former Coal Miner",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First day underground",
+        "context": "Fear of the dark."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The 1974 Strike",
+        "context": "Violence and brotherhood."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Town decline",
+        "context": "Loss of community."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first day underground as a coal miner."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "My first day underground was something I'll never forget.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "First day at work",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "first day",
+                "type": "EVENT",
+                "role": "milestone"
+              },
+              {
+                "text": "underground",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was just a lad of 15, nervous as anything.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "First day at work",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "15",
+                "type": "TIME",
+                "role": "age"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "My older brother was with me, which helped.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Family Support",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "older brother",
+                "type": "PERSON",
+                "role": "family/coworker"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like having your brother there made a difference. What was it like working alongside him?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, having him there was a blessing.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Family Support",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "him",
+                "type": "PERSON",
+                "role": "older brother"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was tough work, but having him around gave me confidence.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work Challenges",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially at such a young age. So, what was the atmosphere like among the miners back then?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The camaraderie was strong, like a brotherhood.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Social Dynamic",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We all looked out for each other because we knew how dangerous the work was.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work Safety",
+            "emotions": [
+              "Fear/Anxiety",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you as a miner?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things started to change around the time of the 1974 strike.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "1974 Strike",
+            "emotions": [
+              "Anger/Frustration"
+            ],
+            "entities": [
+              {
+                "text": "1974",
+                "type": "TIME",
+                "role": "year"
+              },
+              {
+                "text": "strike",
+                "type": "EVENT",
+                "role": "historical event"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It was a hard time for everyone, families were struggling because the money wasn't coming in.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Economic Hardship",
+            "emotions": [
+              "Sadness/Loss",
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "families",
+                "type": "PERSON",
+                "role": "dependents"
+              },
+              {
+                "text": "money",
+                "type": "ARTIFACT",
+                "role": "income"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "The 1974 strike sounds like it was a pivotal moment. How did it all come to a close?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Eventually, there was a settlement.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Strike Resolution",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "settlement",
+                "type": "EVENT",
+                "role": "agreement"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "After the strike, things felt different though.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Post-strike Era",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It felt like the beginning of the end for a lot of the mines around here.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Industrial Decline",
+            "emotions": [
+              "Fear/Anxiety",
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "employers"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been tough, dealing with the aftermath. What were the main challenges you faced during that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The biggest challenge was uncertainty.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Economic Hardship",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Many men, including myself, had families to feed, and the thought of not being able to provide was terrifying.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Family Responsibility",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "families",
+                "type": "PERSON",
+                "role": "dependents"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been a rough time for everyone. How did you manage to cope with those challenges?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "We had to stick together, that was the key.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Community Solidarity",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Some men found work in other towns, but it wasn't easy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "other towns",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, during the strike, what kept you going despite the uncertainty?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was the sense of purpose, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Plus, we had the support of the community, which was invaluable.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Community Support",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "community",
+                "type": "PERSON",
+                "role": "supporters"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "So when the mines started closing down, how did that affect the town?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was like watching the heart of the community slowly fade away.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Town Decline",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "community",
+                "type": "LOCATION",
+                "role": "town atmosphere"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Once they started to close, businesses suffered, and people began to move elsewhere looking for work.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Economic Collapse",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "businesses",
+                "type": "ORGANIZATION",
+                "role": "local economy"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "How has all of this affected your perspective on life as you look back now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, it feels like a lifetime ago, but it shaped who I am.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The mines taught me resilience and the importance of community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Life Lesson",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "teacher context"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how the changes affected your personal life back then."
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, when the mines started closing, it hit home pretty hard.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hardship",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "mines",
+                "type": "ORGANIZATION",
+                "role": "employer"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "My wife started taking on extra work, sewing and mending for neighbors.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "wife",
+                "type": "PERSON",
+                "role": "spouse"
+              },
+              {
+                "text": "neighbors",
+                "type": "PERSON",
+                "role": "clients"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "So, with the decline of the town and these personal challenges, did you ever consider leaving to find work elsewhere?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "There were times when I thought about it, especially when things got really tough.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contemplation",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But in the end, I couldn't bring myself to leave.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "This town, with all its memories and history, is a part of me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Attachment",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "town",
+                "type": "LOCATION",
+                "role": "home"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, is there a lesson or piece of wisdom you'd like to pass on to future generations?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "If there's one thing I’ve learned, it's the value of sticking together.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Life's not always fair or easy, but facing it with your community and loved ones makes all the difference.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "community",
+                "type": "PERSON",
+                "role": "support"
+              },
+              {
+                "text": "loved ones",
+                "type": "PERSON",
+                "role": "family"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    }
+  ]
+}

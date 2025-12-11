@@ -1,0 +1,875 @@
+{
+  "session_id": "47_Tom",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "47_Tom",
+    "name": "Tom",
+    "age": 77,
+    "role": "Coast Guard",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Storm rescue",
+        "context": "Adrenaline."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Oil spill cleanup",
+        "context": "Environmental grief."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Living by the lake",
+        "context": "Respect for water."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the storm rescue you were involved in."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was quite a day.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It was back in '73, I believe.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "'73",
+                "type": "TIME",
+                "role": "year"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The storm came out of nowhere, and we got the call that a fishing boat was in trouble.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emergency",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "storm",
+                "type": "EVENT",
+                "role": "disaster"
+              },
+              {
+                "text": "fishing boat",
+                "type": "ARTIFACT",
+                "role": "vessel"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The waves were monstrous.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Description",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We were all young, but I remember feeling a mix of fear and determination.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "Fear/Anxiety",
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We had to get those guys out.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Goal",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the storm rescue left a significant impression on you. What was going through your mind as you approached the boat?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, as we got closer, the fear turned into adrenaline.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reaction",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We were fully focused on the mission.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Focus",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I could see the boat struggling against the waves, and all I could think about was getting everyone back safely.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "boat",
+                "type": "ARTIFACT",
+                "role": "vessel"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was an intense experience, but there was also this incredible sense of responsibility and camaraderie with my crew.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "crew",
+                "type": "PERSON",
+                "role": "colleagues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been an incredible experience. How did that day shape your career in the Coast Guard?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It really did.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "You know, after that rescue, I realized the impact we could have.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It wasn't just about the thrill; it was about saving lives.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Purpose",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It instilled a sense of purpose in me, and I knew I wanted to continue making a difference.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The camaraderie with the crew also strengthened, and that bond carried us through many more challenging situations.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like that day had a profound impact on you. What were some of the challenges you faced during the oil spill cleanup?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the oil spill was a whole different beast.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Comparison",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "oil spill",
+                "type": "EVENT",
+                "role": "disaster"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a few years after the storm rescue, around '76.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "'76",
+                "type": "TIME",
+                "role": "year"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The cleanup was frustrating because the damage was so extensive, and it felt like we were up against a giant.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Anger/Frustration",
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I had this overwhelming sadness seeing the wildlife struggling and knowing how the environment was suffering.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Grief",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "wildlife",
+                "type": "PERSON",
+                "role": "victims"
+              },
+              {
+                "text": "environment",
+                "type": "LOCATION",
+                "role": "victim"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It was a test of patience and perseverance.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Test",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We worked long hours trying to contain and clean up, and even though it was tough, I felt like we were doing something necessary and important.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "Determination",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly challenging. So when did things change after the oil spill cleanup?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after the cleanup, I think we all felt a little worn out.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Burnout",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was around the late '70s when I started considering what was next for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Timeline",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "late '70s",
+                "type": "TIME",
+                "role": "era"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The constant battle with nature and seeing the destruction really took a toll on me emotionally.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Toll",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I decided I needed a change, something a bit more peaceful.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "That's when I moved to the lake.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Relocation",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "lake",
+                "type": "LOCATION",
+                "role": "home"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It was a big shift, but I felt I needed that calm after all the chaos I'd been through.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Healing",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the oil spill cleanup and how it affected you personally."
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The oil spill was unlike anything I'd dealt with before.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Contrast",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember feeling overwhelmed at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Seeing the oil cover everything was just heartbreaking.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Grief",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "oil",
+                "type": "ARTIFACT",
+                "role": "pollutant"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There was a moment when I saw a bird struggling in the oil, and it just hit me hard.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "bird",
+                "type": "PERSON",
+                "role": "victim"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was a stark reminder of why our work was so important.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Meaning",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It's clear that the oil spill had a profound impact on you. How did you cope with the emotional toll it took?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, it wasn't easy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Confession",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I found solace in talking with my fellow team members.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "team members",
+                "type": "PERSON",
+                "role": "colleagues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "We supported each other, shared our frustrations, and celebrated small victories together.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Camaraderie",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I also started writing about my experiences, which was therapeutic.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Writing",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So after everything you've been through, tell me about your life by the lake now."
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Living by the lake has been a blessing in many ways.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "lake",
+                "type": "LOCATION",
+                "role": "home"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It's such a contrast to the chaos of my days in the Coast Guard.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": [
+              {
+                "text": "Coast Guard",
+                "type": "ORGANIZATION",
+                "role": "former employer"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I find peace in the stillness of the water and the gentle rhythm of nature.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Environment",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I spend my days fishing, reading, and just enjoying the quiet.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Routine",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "fishing",
+                "type": "EVENT",
+                "role": "hobby"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "After all those years of intense work, this place has been a sanctuary for my heart and mind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Healing",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Tom, what would you say is the biggest lesson you've learned from your journey?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I think, looking back, the most important lesson I've learned is resilience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Life throws you into storms, both literal and metaphorical.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's about finding the strength to face them, but also knowing when to step back and seek peace.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Balance",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Living by the lake has shown me the beauty of stillness and reflection.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It’s all part of the journey, and I'm grateful for every step.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    }
+  ]
+}
