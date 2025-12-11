@@ -2,9 +2,9 @@ import os
 import csv
 from pathlib import Path
 
-IEMOCAP_ROOT = "/Users/Jessie/Downloads/CS6120/Project/CS6120_final_project/Experiment_B/IEMOCAP"
-
-OUTPUT_CSV = "Experiment_B/data/iemocap_utterances_text.csv"
+BASE_DIR = Path(__file__).resolve().parent.parent
+IEMOCAP_ROOT = BASE_DIR / "IEMOCAP"
+OUTPUT_CSV = BASE_DIR / "data" / "iemocap_utterances_text.csv"
 
 EMO_MAP = {
     "ang": "anger",
@@ -13,8 +13,8 @@ EMO_MAP = {
     "neu": "neutral",
     "fru": "frustration",
     "exc": "happiness",     
-    "fear": "fear",
-    "disg": "disgust",
+    # "fear": "fear",
+    # "disg": "disgust",
     "xxx": None,            
     "oth": None             
 }
