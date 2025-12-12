@@ -1,0 +1,313 @@
+{
+  "session_id": "09_Wei",
+  "profile": {
+    "id": "09_Wei",
+    "name": "Wei",
+    "age": 82,
+    "role": "Restaurant Owner",
+    "timeline": [
+      {
+        "stage": "Adulthood",
+        "topic": "Opening day 1975",
+        "context": "High risk."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Kitchen fire",
+        "context": "Rebuilding."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Closing shop",
+        "context": "End of an era."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the opening day of your restaurant back in 1975."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The first customers came in, and seeing them enjoy the food made it all worthwhile.",
+      "predicted_entities": [
+        {
+          "text": " customers",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " food",
+          "type": "ARTIFACT",
+          "confidence": "0.9988"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a small place, but it was ours, and it felt like a dream come true.",
+      "predicted_entities": [
+        {
+          "text": " place",
+          "type": "LOCATION",
+          "confidence": "0.9961"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that first day had a lot of mixed emotions. What do you think was the most challenging part of that day for you?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We ran out of some ingredients, and I remember scrambling in the kitchen to improvise.",
+      "predicted_entities": [
+        {
+          "text": " ingredients",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " kitchen",
+          "type": "LOCATION",
+          "confidence": "0.9940"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "I felt a mix of panic and determination, but the support from my family and seeing our customers enjoy the meal kept me going.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been quite an experience. I'd love to hear about when things started to change for your restaurant."
+    },
+    {
+      "turn_id": 6,
+      "original_text": "It was around the time of the kitchen fire.",
+      "predicted_entities": [
+        {
+          "text": " kitchen fire",
+          "type": "EVENT",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember the panic and the fear, seeing the flames and worrying about everyone's safety.",
+      "predicted_entities": [
+        {
+          "text": " flames",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "The restaurant was not just a business; it was my heart and soul.",
+      "predicted_entities": [
+        {
+          "text": " restaurant",
+          "type": "ORGANIZATION",
+          "confidence": "0.9947"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "But afterward, we had the community rally around us.",
+      "predicted_entities": [
+        {
+          "text": " community",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change again for you after rebuilding?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "original_text": "After we rebuilt, things were great for a while. The community's support was unwavering, and it felt wonderful to be back. But, as time went on, I began to feel the wear and tear. Running a restaurant requires so much energy and passion, and I started to feel it was slipping away. The day we decided to close was emotional, but I knew it was time. It felt like saying goodbye to a part of myself, but also a relief in some ways.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly challenging to watch everything you worked for go up in flames. How did you find the strength to move forward and rebuild?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "My family was the backbone during that time, reminding me that we had to get back on our feet.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like your community played a big role in helping you rebuild. Can you tell me more about some of the specific challenges you faced during that time?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "Insurance covered some of it, but not everything.",
+      "predicted_entities": [
+        {
+          "text": " Insurance",
+          "type": "ORGANIZATION",
+          "confidence": "0.9966"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a very tough period. How did you manage to keep your spirits up during the rebuilding process?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "Plus, the encouragement from our loyal customers was a constant reminder of why we started the restaurant in the first place.",
+      "predicted_entities": [
+        {
+          "text": " customers",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I also reminded myself of the joy cooking brought me, and that became a source of strength.",
+      "predicted_entities": [
+        {
+          "text": " cooking",
+          "type": "EVENT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the emotional challenges you faced after the fire."
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "original_text": "Emotionally, it was like trying to piece together a shattered dream. The fire had taken away something precious, and it felt like a part of me was lost in the flames. I had to confront a lot of fears—fear of failure, fear of starting over, and fear of not being able to provide for my family. But I knew I had to push through those feelings.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you realize it was time to close the restaurant?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Closing the restaurant was not an easy decision.",
+      "predicted_entities": [
+        {
+          "text": " restaurant",
+          "type": "ORGANIZATION",
+          "confidence": "0.9953"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That must have been a difficult decision to make, closing something that had been such a significant part of your life. How did you cope with that transition?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "original_text": "It was hard, really hard. I felt like I was losing a part of myself. I coped by focusing on the positives—more time with my family, less stress, and the opportunity to finally take care of myself. My family was incredibly supportive, and they helped me see that it was okay to move on and embrace a new chapter.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Transitioning from such a significant part of your life must have been quite a journey. How has this new chapter been for you?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "This new chapter has been a mix of emotions. On one hand, I miss the hustle and bustle of the restaurant. But on the other hand, I feel a sense of relief and peace. I have more time to spend with my family, to enjoy the little things in life that I missed before.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like you've gone through a lot of emotional ups and downs. How do you find happiness in your life now, after all those years of running the restaurant?"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "I take joy in spending time with my grandchildren, watching them grow, and sharing stories from the past.",
+      "predicted_entities": [
+        {
+          "text": " grandchildren",
+          "type": "PERSON",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 24,
+      "original_text": "I've also picked up gardening, which has become a new passion.",
+      "predicted_entities": [
+        {
+          "text": " gardening",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the biggest lesson you've learned from your journey with the restaurant?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "original_text": "The biggest lesson I've learned is the importance of community and resilience. It's about the people who stand by you through thick and thin. I've realized that it's okay to lean on others for support and that asking for help is not a sign of weakness. Life is full of ups and downs, but it's the love and connections we build that truly matter.",
+      "predicted_entities": []
+    }
+  ]
+}

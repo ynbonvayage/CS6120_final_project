@@ -1,0 +1,267 @@
+{
+  "session_id": "18_Stan",
+  "profile": {
+    "id": "18_Stan",
+    "name": "Stan",
+    "age": 80,
+    "role": "Steel Worker",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Following dad to the mill",
+        "context": "Tradition."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The Rust Belt crash",
+        "context": "Unemployment."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Health checkups",
+        "context": "Physical toll."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you started following your dad to the mill."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Well, I reckon I was about eight or nine when I first went with him.",
+      "predicted_entities": [
+        {
+          "text": " eight",
+          "type": "TIME",
+          "confidence": "0.9990"
+        },
+        {
+          "text": " nine",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Dad worked long shifts at the steel mill, and sometimes he’d take me along.",
+      "predicted_entities": [
+        {
+          "text": " Dad",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " steel mill",
+          "type": "LOCATION",
+          "confidence": "0.9975"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those early visits with your dad made quite an impression on you. What was it like growing up in a community centered around the steel mill?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Growing up, everything revolved around the mill.",
+      "predicted_entities": [
+        {
+          "text": " mill",
+          "type": "LOCATION",
+          "confidence": "0.9942"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Most folks in town worked there, or they had some connection to it.",
+      "predicted_entities": [
+        {
+          "text": " town",
+          "type": "LOCATION",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things start to change for you and the community?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, I guess the big changes started happening in the late 70s and early 80s.",
+      "predicted_entities": [
+        {
+          "text": " late 70s",
+          "type": "TIME",
+          "confidence": "0.9979"
+        },
+        {
+          "text": " early 80s",
+          "type": "TIME",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "The steel industry was going through a hard time, and mills started shutting down.",
+      "predicted_entities": [
+        {
+          "text": " steel industry",
+          "type": "ORGANIZATION",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Folks began losing jobs, and you could feel the tension and worry in the air.",
+      "predicted_entities": [
+        {
+          "text": " jobs",
+          "type": "OCCUPATION",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been hard seeing your community go through such a tough time. How did this period eventually come to an end for you?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It was 1984 when I finally left the mill.",
+      "predicted_entities": [
+        {
+          "text": " 1984",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I took a job in construction, which was a big change, but I was grateful for the work.",
+      "predicted_entities": [
+        {
+          "text": " construction",
+          "type": "OCCUPATION",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So now that we're moving towards the present, how are you doing health-wise after everything you've been through?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "The doc says I'm in pretty good shape for my age, which I suppose is a blessing.",
+      "predicted_entities": [
+        {
+          "text": " doc",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I've got a bit of arthritis, but that's to be expected, isn't it?",
+      "predicted_entities": [
+        {
+          "text": " arthritis",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That sounds like a blessing indeed. How do you feel reflecting on your journey through the years, especially given the hardships you've faced?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Family, friends, a roof over your head—it's these things that really count in the end.",
+      "predicted_entities": [
+        {
+          "text": " friends",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " roof",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It seems like you've really taken a lot from your experiences over the years. How do you spend your time these days?"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I spend time in the garden, take walks around the neighborhood, and sometimes tinker around with small projects in the garage.",
+      "predicted_entities": [
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9946"
+        },
+        {
+          "text": " garage",
+          "type": "LOCATION",
+          "confidence": "0.9960"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 22,
+      "original_text": "I've got some grandkids now, and they keep me on my toes whenever they visit.",
+      "predicted_entities": [
+        {
+          "text": " grandkids",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Stan, what lesson would you want to share with future generations based on all you've experienced?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "I'd say, don't take anything for granted. Life can change on a dime, and what you have today might not be there tomorrow. Appreciate the people around you and the little things in life. Work hard, stay humble, and always look out for each other. In the end, it's the connections you make and the kindness you show that really matter.",
+      "predicted_entities": []
+    }
+  ]
+}

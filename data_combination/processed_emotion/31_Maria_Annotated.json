@@ -1,0 +1,1337 @@
+{
+  "session_id": "31_Maria",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "31_Maria",
+    "name": "Maria",
+    "age": 75,
+    "role": "Housekeeper",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Raising other's kids",
+        "context": "Sacrifice."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Buying her own home",
+        "context": "Achievement."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Being visited by them",
+        "context": "Gratitude."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time raising other people's kids. How did that come about?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was a long time ago... I was just a young woman.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I started when I was about nineteen, right after I finished school.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " nineteen",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I needed a job, and there was a family looking for someone to help with their children.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Job Search",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": [
+              {
+                "text": " family",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " children",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "At first, I thought it would be temporary, but it ended up lasting for many years.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Duration",
+            "emotions": [
+              "Surprise"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I really got to know those kids, watched them grow up.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you formed quite a bond with them. What was that experience like for you?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, I did. It was like being part of their family, in a way.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Connection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "They relied on me, and I felt a great responsibility to care for them.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Responsibility",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Sometimes, it was hard because I had to be away from my own family.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Sacrifice",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " family",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But seeing them grow and become their own people was rewarding.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reward",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It taught me patience and understanding.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lesson",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, being away from your family. How did you manage that?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, it was challenging. I missed them a lot.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Longing",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But the family's kids also became a part of my life, so it was like I had an extended family.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Integration",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I managed by writing letters to my parents and siblings whenever I could.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Communication",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " letters",
+                "type": "ARTIFACT",
+                "confidence": "0.9986"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "And on special occasions, I'd visit them.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Visit",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It wasn't easy, but the love from both sides made it bearable.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Coping",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change with that family?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, things started to change as the kids grew older.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "They didn\u2019t need me as much anymore.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The parents decided to move to another city for work, and they didn\u2019t need a housekeeper any longer.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Move",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " city",
+                "type": "LOCATION",
+                "confidence": "0.9979"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a bittersweet moment.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "Sadness/Loss",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was happy for them, but it also meant I had to find a new path.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Uncertainty",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "I can imagine that must have been a big shift. So when did things change for you after that?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After they moved, I found myself with more time on my hands than I knew what to do with.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Idleness",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It was a bit daunting at first, but it also gave me the opportunity to think about my own future for once.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "That's when I started considering buying my own home.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Goal",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": " home",
+                "type": "LOCATION",
+                "confidence": "0.9963"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I wanted a place that was truly mine, where I could settle and not have to move for someone else's needs.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Independence",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the challenges you faced while trying to buy your own home. What was that process like for you?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, buying my own home was a real journey.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Journey",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I didn\u2019t have much saved up, and I was nervous about taking on a mortgage.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Financial Fear",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " mortgage",
+                "type": "EVENT",
+                "confidence": "0.9981"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But I had this longing, you know, to have something that was just mine.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Desire",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It took a lot of careful saving and planning.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Planning",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I had to budget everything so strictly.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Budgeting",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember having to forego little luxuries just so I could save a bit more each month.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Sacrifice",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It wasn\u2019t easy, but I was determined.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resolve",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a lot of sacrifice. What were some of the biggest hurdles you faced during this time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, there were quite a few.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "The financial aspect was always a stressor.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Stress",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I had to be very disciplined with my money, which wasn't easy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Discipline",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "But beyond that, it was the uncertainty that weighed on me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Uncertainty",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There were times when I doubted if I could actually do it, especially when unexpected expenses came up.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Doubt",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Sometimes, I felt very alone in this journey because it was such a personal goal, and not many people around me understood it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Isolation",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That sounds like a lot to handle on your own. Did you have any support during this time?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I had a few friends who would check in on me, offer a kind word or a bit of advice.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " friends",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But mostly, it was about me pushing through.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Self-Reliance",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I think the hardest part was staying motivated when it felt like I was just treading water.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": [
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There were moments when I questioned if it was worth all the effort.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Questioning",
+            "emotions": [
+              "Doubt"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But then, I\u2019d remind myself of the dream \u2013 having my own place where I could see myself growing old.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "That kept me going.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Persistence",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you finally achieve that dream of owning your home?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was quite a moment, let me tell you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "When I finally got the keys, it felt surreal.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "Excitement",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " keys",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "All those years of saving and worrying finally paid off.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Relief",
+            "emotions": [
+              "Relief",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember just standing in the empty living room, taking it all in.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Moment",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": [
+              {
+                "text": " living room",
+                "type": "LOCATION",
+                "confidence": "0.9977"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a small house, nothing fancy, but it was mine.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Ownership",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " house",
+                "type": "LOCATION",
+                "confidence": "0.9975"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The first night I spent there, it felt like I could finally breathe easy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Peace",
+            "emotions": [
+              "Relief",
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I knew I had a place to call my own, a place where I could welcome others and perhaps one day, those kids I helped raise.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Future",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Now that you have your own home, do you ever hear from those kids you helped raise?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, yes, I do.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's funny how life comes full circle sometimes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Those kids, they're all grown up now, with families of their own.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Growth",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " families",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "They come by every now and then to visit.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Visit",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's always heartwarming to see them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Emotion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I get to hear about their lives, their own kids.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Update",
+            "emotions": [
+              "Interest"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "They've all turned out to be such wonderful individuals.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It makes me proud, in a way, to know that I might have played a small part in their upbringing.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That must be a lovely feeling, seeing them all grown up and visiting you. How does it feel to look back on everything now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it's a mix of emotions, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "There's a sense of fulfillment, knowing that I was able to achieve something for myself, like buying my own home.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "But there's also a sense of nostalgia when I think about those earlier years.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Nostalgia",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "The kids I raised, seeing them now, it's like seeing a part of my own life reflected back at me.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "They remind me of all those years spent caring for them, learning from them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I can't help but feel grateful for the experiences and the connections I made along the way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It's been quite a journey, and sometimes I find myself just sitting in my home, reflecting on how far I've come.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Contemplation",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like those visits from them must bring a lot of joy into your life. How do those visits typically go?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, they do.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Every visit is like a little reunion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reunion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We sit around the kitchen table, and they tell me about their lives, their children.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conversation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " kitchen table",
+                "type": "ARTIFACT",
+                "confidence": "0.9631"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I love hearing about their adventures and challenges.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Interest",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Sometimes they'll help me with things around the house, but mostly, it's about spending time together.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Help",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It's like having my own family around.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Family Feeling",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Maria, if you had to share one lesson from your journey, what would it be?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, that's a good question.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I think, if there's one thing I've learned, it's the importance of perseverance and believing in your dreams.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Even when things seem tough or the path forward isn't clear, holding onto that vision can give you strength.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Life has its challenges, but it's also filled with unexpected joys \u2014 those little moments that make everything worthwhile.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "And sometimes, you find your family in the most unexpected places.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's about cherishing the connections you make along the way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    }
+  ]
+}

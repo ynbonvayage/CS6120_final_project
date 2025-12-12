@@ -1,0 +1,233 @@
+{
+  "session_id": "22_Jack",
+  "profile": {
+    "id": "22_Jack",
+    "name": "Jack",
+    "age": 86,
+    "role": "Carpenter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Building his own house",
+        "context": "Self-reliance."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Injury on the job",
+        "context": "Financial fear."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Carving toys",
+        "context": "Gentle work."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how you came to build your own house. What was that experience like for you?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Well, it was back in the mid-1950s.",
+      "predicted_entities": [
+        {
+          "text": " mid-1950s",
+          "type": "TIME",
+          "confidence": "0.9979"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "My wife and I had just gotten married, and we needed a place of our own.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I didn't have much money, but I had my skills as a carpenter.",
+      "predicted_entities": [
+        {
+          "text": " carpenter",
+          "type": "OCCUPATION",
+          "confidence": "0.9967"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you took on quite a challenge. What were some of the toughest parts of building your house?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "The hardest part was probably the foundation.",
+      "predicted_entities": [
+        {
+          "text": " foundation",
+          "type": "LOCATION",
+          "confidence": "0.9957"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially with the weather not cooperating. So when did things change for you during this period?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "After a couple of months, the house was finally coming together.",
+      "predicted_entities": [
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9965"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you after building the house?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I was up on a ladder, and I took a bad fall.",
+      "predicted_entities": [
+        {
+          "text": " ladder",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Landed wrong, and it messed up my back pretty good.",
+      "predicted_entities": [
+        {
+          "text": " back",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like a significant moment. How did that injury impact your life and work?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "original_text": "The injury was tough. I couldn't handle the heavy lifting anymore, which was frustrating because that's what I had been doing all my life. It was a real blow to my confidence.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly tough, Jack. How did you manage during that recovery period?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "original_text": "Well, to be honest, it wasn't easy. I had to rely on others more than I was comfortable with. Financially, things got tight. I remember feeling pretty helpless at times, but gradually I started finding ways to contribute again.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear what you turned to as you were finding new ways to contribute. What led you to start carving toys?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "So, I picked up a knife and started whittling again.",
+      "predicted_entities": [
+        {
+          "text": " knife",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "I started making little wooden toys for my grandkids.",
+      "predicted_entities": [
+        {
+          "text": " wooden toys",
+          "type": "ARTIFACT",
+          "confidence": "0.9940"
+        },
+        {
+          "text": " grandkids",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It sounds like turning to carving was an important step for you. How did it feel to see your creations appreciated by your grandkids?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "It was different than building houses, but satisfying in its own way.",
+      "predicted_entities": [
+        {
+          "text": " houses",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It must have been rewarding to find that sense of purpose again. How do you reflect on those changes in your life now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "You know, looking back, it's funny how things turn out. That injury, it seemed like the end of the world at the time. But it pushed me in a direction I never would have taken otherwise. Carving toys turned into a real passion.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Jack, what would you say is the biggest lesson you've learned from these experiences?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "When I couldn't work as a carpenter anymore, I had to find a new path.",
+      "predicted_entities": [
+        {
+          "text": "penter",
+          "type": "OCCUPATION",
+          "confidence": "0.9825"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

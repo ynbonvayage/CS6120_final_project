@@ -1,0 +1,1035 @@
+{
+  "session_id": "17_Mike",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "17_Mike",
+    "name": "Mike",
+    "age": 71,
+    "role": "Police Officer",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Beat cop in the 70s",
+        "context": "Dangerous streets."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Making Detective",
+        "context": "The case that haunts him."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement fishing",
+        "context": "Finding peace."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about what it was like being a beat cop in the 70s."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the 70s were quite the time.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "70s",
+                "type": "TIME",
+                "role": "era"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Being a beat cop back then was different from what you see today.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "beat cop",
+                "type": "OCCUPATION",
+                "role": "role"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "We relied a lot on face-to-face interactions and knew the neighborhood inside out.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Community Policing",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "neighborhood",
+                "type": "LOCATION",
+                "role": "patrol area"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was a real sense of community and trust between us and the people; it was a different kind of policing.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Trust",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "community",
+                "type": "PERSON",
+                "role": "residents"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those connections with the community were really important. Can you share a story that stands out from that time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely, I remember one incident where a local shop was robbed.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Crime",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "local shop",
+                "type": "LOCATION",
+                "role": "crime scene"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We didn't have the technology you have today, so it was all about knowing the people and the area.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Investigation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I spent time talking to folks, and eventually, a store clerk gave me a tip.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Tip",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "store clerk",
+                "type": "PERSON",
+                "role": "informant"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We managed to catch the guy, but it was all thanks to the relationships we built.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Arrest",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was satisfying to see how our efforts helped keep the neighborhood safe.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Satisfaction",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been rewarding. So, when did things change for you in your career?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things really shifted when I made detective in the late 80s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "detective",
+                "type": "OCCUPATION",
+                "role": "new role"
+              },
+              {
+                "text": "late 80s",
+                "type": "TIME",
+                "role": "era"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "That was a big step up for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Milestone",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Moving from the streets to the office required a different kind of skill set.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "office",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Suddenly, it was more about piecing together puzzles and analyzing evidence.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Skill Change",
+            "emotions": [
+              "Curiosity"
+            ],
+            "entities": [
+              {
+                "text": "evidence",
+                "type": "ARTIFACT",
+                "role": "clues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The transition wasn't easy, but I took pride in honing my investigative skills.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Learning",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like you were ready to embrace the new challenges that came with being a detective. What was one of the most memorable cases you worked on during that time?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One case that stands out was a high-profile burglary ring.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Case",
+            "emotions": [
+              "Serious"
+            ],
+            "entities": [
+              {
+                "text": "burglary ring",
+                "type": "ORGANIZATION",
+                "role": "criminals"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It was complex, and the planning these guys put into their operations was something else.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Complexity",
+            "emotions": [
+              "Respect/Admiration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It took months of gathering information, working closely with the team, and following every possible lead.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Investigation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": [
+              {
+                "text": "team",
+                "type": "PERSON",
+                "role": "colleagues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember the satisfaction of finally cracking the case and seeing the relief on the victims' faces.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "Joy/Pride",
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "victims",
+                "type": "PERSON",
+                "role": "affected people"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It took a lot of teamwork and perseverance.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Values",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like a significant accomplishment. How did your career as a detective come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after a couple of decades of working as a detective, I decided it was time to retire in the late 90s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Retirement Decision",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "late 90s",
+                "type": "TIME",
+                "role": "era"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The job was fulfilling, but it was also demanding and took a lot out of me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Burnout",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I wanted to spend more time with my family and pursue other interests, like fishing, which has always been a passion of mine.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lifestyle Change",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "family",
+                "type": "PERSON",
+                "role": "kin"
+              },
+              {
+                "text": "fishing",
+                "type": "EVENT",
+                "role": "hobby"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Leaving the force was bittersweet, but I felt it was the right decision for me at that stage in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "Sadness/Loss",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "force",
+                "type": "ORGANIZATION",
+                "role": "police department"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about some of the core challenges you faced as a detective."
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One of the biggest challenges was dealing with the evolving nature of crime.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "In the late 80s and 90s, we started seeing more sophisticated criminal activities.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Crime Evolution",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Technology was beginning to play a major role, and keeping up with it was no easy task.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Technology",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "technology",
+                "type": "ARTIFACT",
+                "role": "tool"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Another challenge was the pressure of high-profile cases, where the stakes were incredibly high.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "But I always felt a strong sense of duty to solve these cases and keep the community safe.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been hard with all those changes. What specific skills did you find most crucial during those times?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Adaptability was key.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Skill",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "As a detective, you had to be versatile and open to new methods.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Methodology",
+            "emotions": [
+              "Openness"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I also learned the importance of teamwork.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "You can't solve these cases alone, and having a reliable team was essential.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reliance",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was also critical to have a keen eye for detail.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Skill",
+            "emotions": [
+              "Focus"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like your adaptability was vital. Was there a moment when you realized how much things had changed?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Affirmation",
+            "emotions": [
+              "Agreement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "There was a case in the early 90s involving a series of bank frauds.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Case Study",
+            "emotions": [
+              "Surprise"
+            ],
+            "entities": [
+              {
+                "text": "bank frauds",
+                "type": "EVENT",
+                "role": "crime"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was unlike anything we'd seen before, with the criminals using computers to orchestrate their plans.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Innovation",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": [
+              {
+                "text": "computers",
+                "type": "ARTIFACT",
+                "role": "weapon"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember feeling out of my depth initially because it required a new level of understanding of technology.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "We brought in a tech expert to help us, and it made all the difference.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Solution",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "tech expert",
+                "type": "PERSON",
+                "role": "consultant"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "We eventually cracked the case, but it was a wake-up call for how policing was evolving.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "So after retiring, what has life been like for you, especially with your love for fishing?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Retirement has been a blessing, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "After all those years on the force, I finally had the time to do what I love.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Freedom",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Fishing has always been a passion of mine, and now I get to spend my days out on the water.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "water",
+                "type": "LOCATION",
+                "role": "fishing spot"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There's something incredibly peaceful about it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Peace",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It's just you, the water, and the fish – no pressures, no deadlines.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Solitude",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "fish",
+                "type": "PERSON",
+                "role": "catch"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Reflecting on your time as a detective, what are you most proud of?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "What I'm most proud of is the impact we had on the community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Every case solved felt like a small victory for the people we served.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Service",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There was a case involving a missing child that hit very close to home.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "missing child",
+                "type": "PERSON",
+                "role": "victim"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "We worked tirelessly, and when we finally found the child and reunited them with their family, it was one of the most fulfilling moments of my career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "Joy/Pride",
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "family",
+                "type": "PERSON",
+                "role": "parents"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the most important lesson you've learned from your career?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Throughout my career, the most important lesson I learned is the value of perseverance and adaptability.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "The world changes, and so do the challenges, but what remains constant is the dedication to doing what's right.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It’s also essential to appreciate the people around you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "The support from my colleagues and the community was invaluable.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "colleagues",
+                "type": "PERSON",
+                "role": "partners"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    }
+  ]
+}

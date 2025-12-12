@@ -1,0 +1,938 @@
+{
+  "session_id": "36_Dave",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "36_Dave",
+    "name": "Dave",
+    "age": 72,
+    "role": "Welder",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Building skyscrapers",
+        "context": "No fear of heights."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Flash burn injury",
+        "context": "Danger of the job."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Sculpting metal art",
+        "context": "New expression."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time building skyscrapers."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, building those skyscrapers was something, let me tell you.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "skyscrapers",
+                "type": "LOCATION",
+                "role": "worksite"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was just a young fellow when I started, full of energy and maybe a bit too much confidence, you know?",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Self-Image",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was the 70s, and the construction sites were buzzing with activity, the smell of fresh concrete in the air.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "70s",
+                "type": "TIME",
+                "role": "era"
+              },
+              {
+                "text": "concrete",
+                "type": "ARTIFACT",
+                "role": "material"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember the first time I walked onto a site, I was amazed at the sheer scale of everything.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Impression",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There were these massive steel beams, and the sound of welding was like music to my ears.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Detail",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "steel beams",
+                "type": "ARTIFACT",
+                "role": "structure"
+              },
+              {
+                "text": "welding",
+                "type": "EVENT",
+                "role": "activity"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those early days were quite something. Did you have any memorable experiences from that time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, plenty!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "There was this one time, I think it was the summer of '75 or maybe '76.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "'75",
+                "type": "TIME",
+                "role": "year"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "We were working on this high-rise, and one of the older guys, Joe, he taught me a trick or two about welding.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Mentorship",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "Joe",
+                "type": "PERSON",
+                "role": "mentor"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Said it was all about the rhythm, like dancing with metal.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lesson",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Joe had the bushiest mustache you'd ever seen, and he always wore this old fedora, even on site.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Description",
+            "emotions": [
+              "Amusement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "We had some good laughs.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Bonding",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing the excitement with the challenges of the job. So when did things change for you?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it wasn't all fun and games.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reality",
+            "emotions": [
+              "Serious"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There were risks.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Danger",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I remember one day, we had this big beam to hoist, and the crane was acting up.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "crane",
+                "type": "ARTIFACT",
+                "role": "equipment"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a tense moment, but we got through it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Relief",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Then there was another time, when I got a flash burn to the eyes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Injury",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "flash burn",
+                "type": "EVENT",
+                "role": "injury"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "That was a real wake-up call.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I had to take some time off to heal, and during that break, I started thinking about other ways to work with metal.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Contemplation"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a turning point for you. How did you manage that transition?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yeah, it was.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Agreement",
+            "emotions": [
+              "Reflective"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Taking that time off was strange at first.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Rest",
+            "emotions": [
+              "Confusion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I started tinkering with small metal pieces at home during recovery.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Hobby",
+            "emotions": [
+              "Curiosity"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "At first, it was just to keep my hands busy, but then I realized I could create something beautiful.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Discovery",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember the first piece I made. It was a small sculpture of a bird, kind of abstract.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Creation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "sculpture",
+                "type": "ARTIFACT",
+                "role": "art"
+              },
+              {
+                "text": "bird",
+                "type": "ARTIFACT",
+                "role": "subject"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "My wife said it looked like our old parakeet, Charlie.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feedback",
+            "emotions": [
+              "Amusement"
+            ],
+            "entities": [
+              {
+                "text": "Charlie",
+                "type": "PERSON",
+                "role": "pet"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I guess that was the start of something new for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "New Beginning",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "How did you cope with the challenges of your recovery?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was a mix of frustration and curiosity, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "Anger/Frustration",
+              "Curiosity"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I did get restless at first, but slowly, I started to appreciate the slower pace.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Adaptation",
+            "emotions": [
+              "Calm"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "My wife, bless her heart, she was a rock during that time.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "wife",
+                "type": "PERSON",
+                "role": "spouse"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "She brought me this book about metalworking—kind of like a guide for artists.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Inspiration",
+            "emotions": [
+              "Interest"
+            ],
+            "entities": [
+              {
+                "text": "book",
+                "type": "ARTIFACT",
+                "role": "guide"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "That's when I started experimenting more seriously with the metal.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Experimentation",
+            "emotions": [
+              "Passion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like your wife played a significant role in your recovery. Can you tell me more about how she supported you during that time?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, she was incredible.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Praise",
+            "emotions": [
+              "Love",
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "She was patient, always there with a kind word or a gentle nudge when I needed it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Care",
+            "emotions": [
+              "Comfort"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I remember there were days when I was just so down, frustrated that I couldn't do what I used to.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Depression",
+            "emotions": [
+              "Sadness/Loss",
+              "Anger/Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But she'd sit with me, reminding me of the things I could do instead of focusing on what I couldn't.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Encouragement",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "She even got involved in my little projects, offering her opinions on my sculptures.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Collaboration",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So, Dave, how did you go from those small sculptures at home to making it your life’s work?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, well, that's an interesting journey.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I started picking up more scrap metal, visiting junkyards and whatnot.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Collecting",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": "scrap metal",
+                "type": "ARTIFACT",
+                "role": "material"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I started making larger pieces, experimenting more with forms and textures.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Development",
+            "emotions": [
+              "Passion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Then, one day, a friend of mine saw my work and suggested I try showing them at a local art fair.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Suggestion",
+            "emotions": [
+              "Surprise"
+            ],
+            "entities": [
+              {
+                "text": "art fair",
+                "type": "EVENT",
+                "role": "exhibition"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "People actually liked them, and some even wanted to buy my pieces!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Success",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "That's when I realized I could make a living out of this.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Realization",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It's fascinating how life can lead us to unexpected places. What has creating art meant to you personally?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, creating art, it's like... it's like breathing for me now.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Meaning",
+            "emotions": [
+              "Passion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's peace, you know?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "When I'm working on a piece, I get lost in it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Flow",
+            "emotions": [
+              "Focus"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "There's something so satisfying about taking a cold, hard piece of metal and turning it into something beautiful.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Creation",
+            "emotions": [
+              "Satisfaction"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I guess, in a way, it helped me find myself again after the accident.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Healing",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, is there any final lesson or piece of advice you'd like to share from your journey?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You never know where life might take you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Wonder"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's important to keep an open mind and be willing to adapt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "If something feels like it's not working, don't be afraid to try something different.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Courage"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "And, uh, appreciate the people around you who support you.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "Love"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Keep your eyes open for opportunities, even when they seem like setbacks.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Optimism"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "session_id": "11_Frank",
+  "profile": {
+    "id": "11_Frank",
+    "name": "Frank",
+    "age": 75,
+    "role": "Retired Firefighter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Rookie year training",
+        "context": "Physical exhaustion."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The Big Fire of '88",
+        "context": "Saving a family."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Health issues",
+        "context": "Lungs and legacy."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your rookie year of training as a firefighter. What was that like for you?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Oh, my rookie year! Let me think... It was back in '69.",
+      "predicted_entities": [
+        {
+          "text": " '69",
+          "type": "TIME",
+          "confidence": "0.9967"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The instructors were these big, gruff guys who had a way of making you feel about this small.",
+      "predicted_entities": [
+        {
+          "text": " instructors",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "But, you know, they were fair. I remember one of them, Old Joe, had been around forever. He was a legend.",
+      "predicted_entities": [
+        {
+          "text": " Old Joe",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Anyway, during training, we learned everything from basic firefighting techniques to how to handle the equipment.",
+      "predicted_entities": [
+        {
+          "text": " equipment",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We had this one exercise where we had to climb the ladder, and boy, was I scared of heights back then!",
+      "predicted_entities": [
+        {
+          "text": " ladder",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that camaraderie was really important to you. Can you tell me about a specific moment during your training where that support made a difference?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Ah, a specific moment... well, let me think. There was this one time when we were doing a drill at night.",
+      "predicted_entities": [
+        {
+          "text": " drill",
+          "type": "EVENT",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "It was pitch black, and they simulated a building on fire. The smoke was so thick, and it was tough to see.",
+      "predicted_entities": [
+        {
+          "text": " building",
+          "type": "LOCATION",
+          "confidence": "0.9977"
+        },
+        {
+          "text": " smoke",
+          "type": "EVENT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Then, out of nowhere, I felt a hand on my shoulder. It was my buddy, Mike.",
+      "predicted_entities": [
+        {
+          "text": " Mike",
+          "type": "PERSON",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "We got through that drill, and afterwards, we all went out for a beer.",
+      "predicted_entities": [
+        {
+          "text": " beer",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been an intense experience. So, when did things start to change from those early days of training?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "You see, after training, I was assigned to a station in the city. That's where the real work began.",
+      "predicted_entities": [
+        {
+          "text": " station",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        },
+        {
+          "text": " city",
+          "type": "LOCATION",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "I remember my first shift at the station, and it was a busy one. There was this huge traffic accident on the highway.",
+      "predicted_entities": [
+        {
+          "text": " highway",
+          "type": "LOCATION",
+          "confidence": "0.9975"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been a steep learning curve. I'd love to hear when the big fire of '88 happened; how did that impact things for you?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Ah, the big fire of '88. That was something else.",
+      "predicted_entities": [
+        {
+          "text": " fire",
+          "type": "EVENT",
+          "confidence": "0.9988"
+        },
+        {
+          "text": " '88",
+          "type": "TIME",
+          "confidence": "0.9795"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember it was a scorching summer day, and the alarms went off. We were called to this massive warehouse fire.",
+      "predicted_entities": [
+        {
+          "text": " summer",
+          "type": "TIME",
+          "confidence": "0.9986"
+        },
+        {
+          "text": " warehouse",
+          "type": "LOCATION",
+          "confidence": "0.9970"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly challenging. Were there any particular challenges you faced during that fire that stand out to you?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "At one point, we had a small explosion, and that really shook us all up.",
+      "predicted_entities": [
+        {
+          "text": " explosion",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "There was also the challenge of coordinating with other units. It was such a large operation.",
+      "predicted_entities": [
+        {
+          "text": " units",
+          "type": "ORGANIZATION",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly challenging. Were there any lasting impacts on your career or health from that fire?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "And, well, the smoke... we didn't have the kind of protective gear they have now.",
+      "predicted_entities": [
+        {
+          "text": " smoke",
+          "type": "EVENT",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " protective gear",
+          "type": "ARTIFACT",
+          "confidence": "0.9885"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I think that fire was when I first started having some breathing issues.",
+      "predicted_entities": [
+        {
+          "text": " breathing issues",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been really tough on you. So, how are you doing these days with those health issues?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "But I try to stay active. I've got a little garden in the back.",
+      "predicted_entities": [
+        {
+          "text": " garden",
+          "type": "LOCATION",
+          "confidence": "0.9945"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Have I mentioned my tomatoes? They're coming in nicely this year.",
+      "predicted_entities": [
+        {
+          "text": " tomatoes",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I've got my family, and my grandkids keep me on my toes.",
+      "predicted_entities": [
+        {
+          "text": " grandkids",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It's great to hear that you find joy in your garden. Reflecting on your time as a firefighter, what do you feel most proud of?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "Those guys, they were more than just colleagues; they were brothers.",
+      "predicted_entities": [
+        {
+          "text": " colleagues",
+          "type": "PERSON",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Your dedication is truly inspiring. With everything you've been through, how do you reflect on the challenges you faced throughout your career?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "Well, that's quite the question. You know, looking back, there were a lot of challenges, that's for sure. I suppose the biggest challenge was always the unpredictability of it all. But I always found a way to push through. I guess that's one thing I learned — resilience.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Frank, is there a final lesson or piece of wisdom you’d like to share from your years of experience?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "original_text": "Well, let me think about that for a moment. I suppose if there's one thing I've learned, it's the importance of being there for each other. Whether it's on the job or in life, having a support system makes all the difference. And, of course, always keep learning. Stay curious, you know?",
+      "predicted_entities": []
+    }
+  ]
+}

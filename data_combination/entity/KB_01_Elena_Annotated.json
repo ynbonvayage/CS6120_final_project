@@ -1,0 +1,265 @@
+{
+  "session_id": "01_Elena",
+  "profile": {
+    "id": "01_Elena",
+    "name": "Elena",
+    "age": 78,
+    "role": "Retired Seamstress",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Immigrating in 1965",
+        "context": "Alone and scared."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Becoming Union Rep",
+        "context": "Fighting for fair pay."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Teaching sewing",
+        "context": "Passing on skills."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience immigrating in 1965. What was that like for you?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was just 20 years old back then.",
+      "predicted_entities": [
+        {
+          "text": " 20",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Leaving my home in Italy was hard, but the prospect of new opportunities in America was so enticing.",
+      "predicted_entities": [
+        {
+          "text": " Italy",
+          "type": "LOCATION",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " America",
+          "type": "LOCATION",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like it was a really big step to leave everything behind at such a young age. How did you adjust to life in America once you arrived?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Well, it wasn't easy at first.",
+      "predicted_entities": [
+        {
+          "text": " at first",
+          "type": "TIME",
+          "confidence": "0.9561"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "People were kind, and I found a job as a seamstress in a local shop.",
+      "predicted_entities": [
+        {
+          "text": " seamstress",
+          "type": "OCCUPATION",
+          "confidence": "0.9981"
+        },
+        {
+          "text": " local shop",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "It sounds like finding that job was a significant moment for you. How did your work as a seamstress evolve over time?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Working as a seamstress was comforting because it was a skill I brought with me from Italy.",
+      "predicted_entities": [
+        {
+          "text": " seamstress",
+          "type": "OCCUPATION",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " Italy",
+          "type": "LOCATION",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change, and you became a union representative?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "It was in the late 70s, I was well into my 30s then.",
+      "predicted_entities": [
+        {
+          "text": " late 70s",
+          "type": "TIME",
+          "confidence": "0.9982"
+        },
+        {
+          "text": " 30s",
+          "type": "TIME",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "Becoming a union rep allowed me to fight for fair wages and better working hours.",
+      "predicted_entities": [
+        {
+          "text": " union rep",
+          "type": "OCCUPATION",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been empowering to stand up for your colleagues. What was it like being a union representative?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "original_text": "It truly was empowering. I felt a strong sense of responsibility because I knew that people were counting on me.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like advocating for your colleagues was a big responsibility. Were there any particular challenges you faced as a union representative?"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "One of the biggest was negotiating with management.",
+      "predicted_entities": [
+        {
+          "text": " management",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "But every small victory, like securing a pay raise, made it all worthwhile.",
+      "predicted_entities": [
+        {
+          "text": " pay raise",
+          "type": "EVENT",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Were there any specific negotiations or victories that stand out in your memory?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "It was around 1982, and the shop owners wanted to cut back on our health benefits.",
+      "predicted_entities": [
+        {
+          "text": " 1982",
+          "type": "TIME",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " shop owners",
+          "type": "PERSON",
+          "confidence": "0.9994"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "But I managed to secure an agreement that not only maintained our benefits but also improved them slightly.",
+      "predicted_entities": [
+        {
+          "text": " agreement",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about how your career transitioned from being a union representative to teaching sewing. What led you to make that change?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "Transitioning to teaching was a natural step for me.",
+      "predicted_entities": [
+        {
+          "text": " teaching",
+          "type": "EVENT",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when you look back on your journey, how do you feel about it all now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "original_text": "Reflecting on my journey fills me with a lot of gratitude and pride. It's been a fulfilling life.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what final lesson or piece of wisdom would you like to share?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "I would say, never underestimate the power of perseverance and kindness.",
+      "predicted_entities": []
+    }
+  ]
+}

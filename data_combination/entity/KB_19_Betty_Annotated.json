@@ -1,0 +1,250 @@
+{
+  "session_id": "19_Betty",
+  "profile": {
+    "id": "19_Betty",
+    "name": "Betty",
+    "age": 83,
+    "role": "Flight Attendant",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Golden Age of Flying",
+        "context": "Glamour and travel."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Deregulation era",
+        "context": "Strikes and chaos."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Grounding",
+        "context": "Missing the sky."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences during the Golden Age of Flying."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I started flying in the late 1950s, and I remember the glamour and excitement that surrounded air travel back then.",
+      "predicted_entities": [
+        {
+          "text": " late 1950s",
+          "type": "TIME",
+          "confidence": "0.9983"
+        },
+        {
+          "text": " air travel",
+          "type": "EVENT",
+          "confidence": "0.9987"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We wore these elegant uniforms, and every flight felt like a grand event.",
+      "predicted_entities": [
+        {
+          "text": " uniforms",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "The airplanes were smaller, and the service was much more personalized.",
+      "predicted_entities": [
+        {
+          "text": " airplanes",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "We even had to carve chateaubriand steak in the aisle for first-class passengers.",
+      "predicted_entities": [
+        {
+          "text": " chateaubriand steak",
+          "type": "ARTIFACT",
+          "confidence": "0.7351"
+        },
+        {
+          "text": " passengers",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the work was demanding but rewarding."
+    },
+    {
+      "turn_id": 4,
+      "original_text": "There was a real sense of camaraderie among the crew.",
+      "predicted_entities": [
+        {
+          "text": " crew",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing all those expectations. So when did things change for you in the industry?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Well, things started to shift during the 1970s with the introduction of larger airplanes and more passengers.",
+      "predicted_entities": [
+        {
+          "text": " 1970s",
+          "type": "TIME",
+          "confidence": "0.9980"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Then, in the 1980s, deregulation hit, and everything really transformed.",
+      "predicted_entities": [
+        {
+          "text": " 1980s",
+          "type": "TIME",
+          "confidence": "0.9980"
+        },
+        {
+          "text": " deregulation",
+          "type": "EVENT",
+          "confidence": "0.9983"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like those changes brought a lot of challenges. How did you and your colleagues adapt to such a different landscape?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "I remember once, during a particularly turbulent time in the industry, we organized a little in-flight concert for the passengers.",
+      "predicted_entities": [
+        {
+          "text": " concert",
+          "type": "EVENT",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like a beautiful moment, Betty. How did your time as a flight attendant eventually come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "In the late 1990s, after a long and satisfying career, I decided it was time to retire.",
+      "predicted_entities": [
+        {
+          "text": " late 1990s",
+          "type": "TIME",
+          "confidence": "0.9976"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Retirement was bittersweet because I missed the skies, the crew, and the passengers.",
+      "predicted_entities": [
+        {
+          "text": " skies",
+          "type": "LOCATION",
+          "confidence": "0.9966"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Betty, after you retired, how did you transition into life on the ground?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "But soon enough, I found joy in the simple things—spending time with my family, gardening, and traveling for leisure instead of work.",
+      "predicted_entities": [
+        {
+          "text": " family",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        },
+        {
+          "text": " gardening",
+          "type": "EVENT",
+          "confidence": "0.9984"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "I even joined a community group of retired flight attendants.",
+      "predicted_entities": [
+        {
+          "text": " group",
+          "type": "ORGANIZATION",
+          "confidence": "0.9902"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like that sense of community has stayed with you. How do you feel looking back on your career now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "original_text": "Looking back, I feel incredibly grateful for the life I've led. Being a flight attendant was more than just a job; it was a passion. Sure, there were tough times, but those experiences shaped me. Now, in my old age, I find joy in sharing stories and reflecting on the adventures I've had.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Betty, is there a final lesson or memory you’d like to leave us with?"
+    },
+    {
+      "turn_id": 28,
+      "original_text": "I remember the crew surprised me with a little ceremony on board.",
+      "predicted_entities": [
+        {
+          "text": " ceremony",
+          "type": "EVENT",
+          "confidence": "0.9986"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

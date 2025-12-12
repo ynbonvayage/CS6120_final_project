@@ -1,0 +1,745 @@
+{
+  "session_id": "01_Elena",
+  "tone": "Frank and Direct (No sugar-coating)",
+  "profile": {
+    "id": "01_Elena",
+    "name": "Elena",
+    "age": 78,
+    "role": "Retired Seamstress",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Immigrating in 1965",
+        "context": "Alone and scared."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Becoming Union Rep",
+        "context": "Fighting for fair pay."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Teaching sewing",
+        "context": "Passing on skills."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experience immigrating in 1965."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I left Italy in 1965 with my husband and our two kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "hopeful",
+              "nervous"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "1965",
+                "type": "DATE",
+                "role": "migration_year"
+              },
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "family"
+              },
+              {
+                "text": "kids",
+                "type": "PERSON",
+                "role": "family"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We decided to settle in New York.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "determined"
+            ],
+            "entities": [
+              {
+                "text": "New York",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a tough decision, but we wanted a better life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "determined",
+              "anxious"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like a significant change. How did you find settling in New York?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I left Italy in 1965 with my husband and our two kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "determination"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "1965",
+                "type": "DATE",
+                "role": "time"
+              },
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "family"
+              },
+              {
+                "text": "kids",
+                "type": "PERSON",
+                "role": "family"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We decided to settle in New York.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "hopeful"
+            ],
+            "entities": [
+              {
+                "text": "New York",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a tough decision, but we wanted a better life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "hopeful",
+              "anxious"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "It sounds like a significant change. How did you find settling in New York?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I left Italy in 1965 with my husband and our two kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "determined",
+              "hopeful"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "1965",
+                "type": "DATE",
+                "role": "date of migration"
+              },
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "family member"
+              },
+              {
+                "text": "two kids",
+                "type": "PERSON",
+                "role": "family members"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We decided to settle in New York.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "hopeful"
+            ],
+            "entities": [
+              {
+                "text": "New York",
+                "type": "LOCATION",
+                "role": "destination"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a tough decision, but we wanted a better life.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "difficult",
+              "hopeful"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Can you tell me more about how you adjusted to life in New York?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The first few months were really challenging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "challenging"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We didn't know anyone, and everything was just so different from Italy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "isolated",
+              "overwhelmed"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              }
+            ]
+          }
+        },
+        {
+          "text": "My husband found a job as a mechanic, but I had to stay home with the kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "frustrated"
+            ],
+            "entities": [
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "family"
+              },
+              {
+                "text": "mechanic",
+                "type": "OCCUPATION",
+                "role": "husband's job"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Eventually, I started meeting other Italian families, and that helped a lot.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "relief"
+            ],
+            "entities": [
+              {
+                "text": "Italian families",
+                "type": "PERSON",
+                "role": "community"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things started to change when I got involved with the local seamstress union.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "hopeful"
+            ],
+            "entities": [
+              {
+                "text": "seamstress union",
+                "type": "ORGANIZATION",
+                "role": "workplace"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I became a union representative after a few years.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "proud"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I fought for better wages and working conditions for the women.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Conflict",
+            "emotions": [
+              "determined"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "That role really gave me a sense of purpose.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "fulfilled"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Can you tell me more about how you adjusted to life in New York?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The first few months were really challenging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "challenged"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We didn't know anyone, and everything was just so different from Italy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "isolated",
+              "overwhelmed"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              }
+            ]
+          }
+        },
+        {
+          "text": "My husband found a job as a mechanic, but I had to stay home with the kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "supportive",
+              "restricted"
+            ],
+            "entities": [
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "family_member"
+              },
+              {
+                "text": "mechanic",
+                "type": "OCCUPATION",
+                "role": "husband's_job"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Eventually, I started meeting other Italian families, and that helped a lot.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "relieved",
+              "connected"
+            ],
+            "entities": [
+              {
+                "text": "Italian families",
+                "type": "PERSON",
+                "role": "community"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. Can you tell me more about how you adjusted to life in New York?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The first few months were really challenging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "challenged"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We didn't know anyone, and everything was just so different from Italy.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "isolated",
+              "overwhelmed"
+            ],
+            "entities": [
+              {
+                "text": "Italy",
+                "type": "LOCATION",
+                "role": "origin"
+              }
+            ]
+          }
+        },
+        {
+          "text": "My husband found a job as a mechanic, but I had to stay home with the kids.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "frustrated",
+              "supportive"
+            ],
+            "entities": [
+              {
+                "text": "husband",
+                "type": "PERSON",
+                "role": "spouse"
+              },
+              {
+                "text": "mechanic",
+                "type": "OCCUPATION",
+                "role": "husband's job"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Eventually, I started meeting other Italian families, and that helped a lot.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "relieved",
+              "connected"
+            ],
+            "entities": [
+              {
+                "text": "Italian",
+                "type": "PERSON",
+                "role": "community"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time teaching sewing. How did you get into that?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After retiring, I wanted to share my skills.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Career",
+            "emotions": [
+              "Purposeful"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started teaching sewing classes at a community center.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Career",
+            "emotions": [
+              "Fulfilling"
+            ],
+            "entities": [
+              {
+                "text": "community center",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's been rewarding to see people making their own clothes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "Rewarding"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I love seeing their confidence grow.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "Proud"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "How did teaching others make you feel?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Teaching others has been incredibly fulfilling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "fulfillment"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I enjoy passing on my skills and seeing people gain confidence.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "enjoyment"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's wonderful to watch them create something with their own hands.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "wonder"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "How did teaching others make you feel?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Teaching others has been incredibly fulfilling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "fulfillment",
+              "satisfaction"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I enjoy passing on my skills and seeing people gain confidence.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "joy",
+              "pride"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's wonderful to watch them create something with their own hands.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "wonder",
+              "pride"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Before we finish, is there a final lesson you'd like to share from your journey?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "One lesson I learned is the importance of community.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's what got us through the hardest times when we moved.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Migration",
+            "emotions": [
+              "Reflective"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Building relationships with others can make all the difference.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Achievement",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

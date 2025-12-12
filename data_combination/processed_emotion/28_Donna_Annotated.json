@@ -1,0 +1,687 @@
+{
+  "session_id": "28_Donna",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "28_Donna",
+    "name": "Donna",
+    "age": 73,
+    "role": "Social Worker",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First foster case",
+        "context": "Heartbreak."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "System burnout",
+        "context": "Fighting bureaucracy."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Adopting a child",
+        "context": "Personal redemption."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first foster case."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, my first foster case!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " foster case",
+                "type": "EVENT",
+                "confidence": "0.9975"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was back in 1975, and I had just graduated.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " 1975",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "The agency assigned me to a young boy named Tommy.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Assignment",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " agency",
+                "type": "ORGANIZATION",
+                "confidence": "0.9215"
+              },
+              {
+                "text": " boy",
+                "type": "PERSON",
+                "confidence": "0.9883"
+              },
+              {
+                "text": " Tommy",
+                "type": "PERSON",
+                "confidence": "0.9932"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "He was only seven years old, and he had been through so much for someone so young.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Description",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " seven",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I was nervous but eager to make a difference.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "Fear/Anxiety",
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like Tommy's situation left a big impression on you. How did it feel stepping into that role?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, it really did.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was both heartbreaking and eye-opening.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Tommy was such a sweet kid, despite everything he'd been through.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " Tommy",
+                "type": "PERSON",
+                "confidence": "0.9950"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I spent countless hours trying to connect with him, gaining his trust little by little.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Effort",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, balancing those emotions. So when did things change for you in your career?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, as time went on, I started taking on more cases.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Growth",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " cases",
+                "type": "EVENT",
+                "confidence": "0.9533"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "By the late '80s, I was handling a full caseload, and it was intense.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Workload",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " late '80s",
+                "type": "TIME",
+                "confidence": "0.9969"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But, over time, it started to take a toll on me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Burnout",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "The system was tough, and I began to feel the burnout creeping in.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Exhaustion",
+            "emotions": [
+              "Sadness/Loss",
+              "Anger/Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a challenging period. How did that phase of your life come to an end?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was indeed challenging.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "By the time the early '90s rolled around, I realized I couldn't keep going at the same pace without burning out completely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " early '90s",
+                "type": "TIME",
+                "confidence": "0.9948"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I had a supervisor who suggested I take a leave of absence.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Suggestion",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": " supervisor",
+                "type": "PERSON",
+                "confidence": "0.9963"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It was the best decision.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It ultimately led me to make some significant changes, including shifting my focus and eventually adopting a child.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": " child",
+                "type": "PERSON",
+                "confidence": "0.9988"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the challenges you faced during those intense years."
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those years were quite something!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The bureaucracy was another challenge.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Anger/Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There were so many regulations and red tape that sometimes made it difficult to get the resources the kids needed.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Frustration",
+            "emotions": [
+              "Anger/Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was a real struggle to balance my empathy with the harsh realities of the system.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Conflict",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So when did you decide to adopt a child, and what motivated that decision?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, adopting a child!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " child",
+                "type": "PERSON",
+                "confidence": "0.9983"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "That was a pivotal moment in my life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Milestone",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I started the process and eventually adopted a little girl named Sarah.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adoption",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " girl",
+                "type": "PERSON",
+                "confidence": "0.5550"
+              },
+              {
+                "text": " Sarah",
+                "type": "PERSON",
+                "confidence": "0.9987"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "She was eight years old at the time.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Detail",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " eight",
+                "type": "TIME",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Bringing her into my life was one of the most rewarding things I've ever done.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": [
+              "Joy/Pride",
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like adopting Sarah had a profound impact on you. How did your relationship with her evolve over the years?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it certainly did!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Sarah and I have had quite the journey together.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Journey",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " Sarah",
+                "type": "PERSON",
+                "confidence": "0.9836"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Watching her grow into this amazing, resilient young woman has been one of the greatest joys of my life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " young woman",
+                "type": "PERSON",
+                "confidence": "0.9943"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "Before we finish, if you could impart one lesson from your journey, what would it be?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "If there's one lesson I've learned throughout my life and career, it's the importance of resilience and compassion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Don't underestimate the impact of your actions, however small they may seem.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It's the love and support we give and receive that truly shapes our lives.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    }
+  ]
+}

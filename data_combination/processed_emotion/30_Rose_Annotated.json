@@ -1,0 +1,1413 @@
+{
+  "session_id": "30_Rose",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "30_Rose",
+    "name": "Rose",
+    "age": 81,
+    "role": "Botanist",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Amazon expedition",
+        "context": "Discovery."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Saving a species",
+        "context": "Conservation."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Her home garden",
+        "context": "Personal oasis."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your expedition to the Amazon. What was it like to be there?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the Amazon... it was like stepping into another world entirely.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": [
+              {
+                "text": " Amazon",
+                "type": "LOCATION",
+                "confidence": "0.9941"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember the sheer scale of it all\u2014endless greenery and the air so thick with life.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was both exhilarating and daunting at the same time.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "Excitement",
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I felt so small yet so connected to nature in those moments.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Connection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " nature",
+                "type": "LOCATION",
+                "confidence": "0.9959"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like being in the Amazon was a profound experience for you. What were some of the challenges you faced during the expedition?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The challenges were plenty, to be honest.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "The humidity was almost unbearable at times, and the bugs\u2014oh, the bugs!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discomfort",
+            "emotions": [
+              "Annoyance"
+            ],
+            "entities": [
+              {
+                "text": " bugs",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "They seemed to be everywhere, no matter how much repellent we used.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Struggle",
+            "emotions": [
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But the biggest challenge was navigating the dense forest without disturbing the delicate ecosystems.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Navigation",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " forest",
+                "type": "LOCATION",
+                "confidence": "0.9949"
+              },
+              {
+                "text": " ecosystems",
+                "type": "EVENT",
+                "confidence": "0.9989"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It was a constant reminder of how fragile everything was, and how our presence could so easily tip the balance.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Awareness",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, constantly being aware of the impact you had on the environment. How did you manage to balance your research with preserving the ecosystem?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was a delicate dance, really.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Balance",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We had to tread lightly, both literally and figuratively.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Caution",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Every step involved careful planning.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Planning",
+            "emotions": [
+              "Focus"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We used biodegradable materials wherever possible and made sure to leave the environment just as we found it.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Conservation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember feeling a deep sense of responsibility.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Responsibility",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But we also had moments of beauty that reminded us why we were there.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Appreciation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Like the time we discovered a rare orchid species that we thought was extinct.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discovery",
+            "emotions": [
+              "Excitement",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " or",
+                "type": "ARTIFACT",
+                "confidence": "0.9903"
+              },
+              {
+                "text": "chid",
+                "type": "ARTIFACT",
+                "confidence": "0.7057"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was like finding a hidden treasure.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Metaphor",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like discovering that orchid was a pivotal moment for you. How did it feel to know you had a hand in potentially saving a species?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was an indescribable feeling.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Imagine the joy of finding something you thought was lost forever.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Joy",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We were all overjoyed, almost in disbelief.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reaction",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was a reminder of why we do this work\u2014the chance to make a difference, even if it's just a small one.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Purpose",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "That orchid felt like a victory for all of us, and it fueled our passion to keep going, despite the challenges.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Victory",
+            "emotions": [
+              "Joy/Pride",
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you, and how did this period in the Amazon come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Eventually, the expedition had to conclude, as all things do.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Conclusion",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We had gathered the data we needed, and it was time to head back and analyze our findings.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Return",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember leaving the Amazon with a heavy heart, knowing I might never return.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Departure",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The journey back was bittersweet.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "Sadness/Loss",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There was a sense of accomplishment, of course, but also a sense of longing and a hope that our work would have a lasting impact.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Legacy",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you in terms of your work with endangered species?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was shortly after returning from the Amazon.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Timeline",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The work we did there had caught the attention of several environmental organizations.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recognition",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " environmental organizations",
+                "type": "ORGANIZATION",
+                "confidence": "0.9984"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "They reached out to collaborate on a project aimed at preserving endangered plant species.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opportunity",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": " project",
+                "type": "EVENT",
+                "confidence": "0.9944"
+              },
+              {
+                "text": " endangered",
+                "type": "ARTIFACT",
+                "confidence": "0.7047"
+              },
+              {
+                "text": " plant species",
+                "type": "TIME",
+                "confidence": "0.2052"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I was thrilled at the opportunity to apply what we learned in the Amazon to broader conservation efforts.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Excitement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It was a chance to make a tangible difference, and I couldn't pass it up.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about the project you worked on after the Amazon expedition. What were some of the core challenges you faced?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the project was both exciting and daunting.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Emotion",
+            "emotions": [
+              "Excitement",
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We were tasked with identifying and preserving endangered plant species across different regions.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Task",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "One of the biggest challenges was securing funding.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " funding",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Conservation is crucial, but it often struggles to attract the necessary financial support.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reality",
+            "emotions": [
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I remember countless meetings and presentations, trying to convince potential sponsors of the importance of our work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Effort",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": [
+              {
+                "text": " sponsors",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Additionally, coordinating with local communities was another hurdle.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " local communities",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Sometimes there was resistance due to misunderstandings or differing priorities, but we worked hard to build trust and partnerships.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Conflict",
+            "emotions": [
+              "Anger/Frustration",
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "On a personal level, I struggled with the balance between my passion for the project and the inevitable bureaucratic aspects that came with it.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Personal Struggle",
+            "emotions": [
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But each challenge taught me something valuable, and it was all worth it when we started seeing the positive impact of our work.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Result",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been incredibly challenging. How did you manage to push through all those obstacles?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was a combination of relentless passion and sheer determination.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Motivation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Every time we faced a setback, I reminded myself of the bigger picture.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resilience",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I also drew strength from the incredible team I had.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Whenever one of us felt disheartened, the others would lift them up.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Camaraderie",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "And then there were the small victories\u2014like when we successfully secured a grant or when a local community welcomed our efforts\u2014that gave us the fuel to keep pushing forward.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Success",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " grant",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like collaboration was key to your success. Could you tell me about a particular moment or achievement from the project that stands out to you?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Certainly, there was one moment that truly stands out.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Memory",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We had been working tirelessly on a conservation project in a region that was home to a critically endangered fern species.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Project",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": [
+              {
+                "text": " f",
+                "type": "ARTIFACT",
+                "confidence": "0.9094"
+              },
+              {
+                "text": "ern species",
+                "type": "ARTIFACT",
+                "confidence": "0.6027"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "When we finally got approval to establish a protected area for the ferns, it felt like such a triumph.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Achievement",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " protected area",
+                "type": "LOCATION",
+                "confidence": "0.9976"
+              },
+              {
+                "text": " f",
+                "type": "ARTIFACT",
+                "confidence": "0.5525"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Witnessing the community's shift from skepticism to stewardship was incredibly rewarding.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Impact",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was a reminder of the importance of patience, communication, and empathy in conservation efforts.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "So, after all those impactful projects and collaborations, where does that leave you now? I'd love to hear about your current pursuits."
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, thank you for asking. These days, my work is much closer to home.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Transition",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": [
+              {
+                "text": " home",
+                "type": "LOCATION",
+                "confidence": "0.9984"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I've poured my heart into my own garden here.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " garden",
+                "type": "LOCATION",
+                "confidence": "0.9951"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It's become my sanctuary, really.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Refuge",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Each plant I grow has a story, a memory attached to it, and tending to them brings me a sense of peace and fulfillment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Contentment"
+            ],
+            "entities": [
+              {
+                "text": " plant",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "My garden is a reflection of my journey, and it brings me immense joy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "It sounds like your garden holds a special place in your heart. How do you feel when you're there, tending to your plants?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Being in my garden is like a balm for my soul.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's where I feel most at peace, surrounded by the beauty and tranquility of nature.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Environment",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Each plant is a reminder of the experiences I've had, both in the Amazon and throughout my career.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's a space where I can reflect on the past, cherish the present, and find solace in the simple act of nurturing life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "The garden has become a canvas for my memories and a testament to the resilience of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Symbolism",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "That sounds beautiful. How do you think working in your garden has influenced your perspective on life?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Tending to my garden has taught me so much about patience and the cycles of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's a daily reminder that growth takes time and care, and that setbacks are just part of the process.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "Acceptance"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I think it's made me more appreciative of the quieter, simpler moments in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Appreciation",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "There's something incredibly grounding about digging your hands into the earth and being a part of that cycle.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": [
+              {
+                "text": " earth",
+                "type": "LOCATION",
+                "confidence": "0.9961"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's given me a deeper appreciation for the interconnectedness of all living things.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "It sounds like your garden has become a profound source of reflection in your life. How does it feel to look back on your career now, with everything you've achieved?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Looking back, I feel a deep sense of gratitude and fulfillment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Gratitude",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It's humbling to think of all the places I've been and the lives I've touched, including my own.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Humility",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "There were challenges, of course, but every step of the journey was worth it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Evaluation",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "There's a sense of accomplishment, yes, but more than that, there's a sense of peace in knowing that I gave it my all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Peace",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "My career has shaped who I am today, and my garden is a constant reminder of that journey.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, if you could share one lesson or piece of wisdom from your journey, what would it be?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, that's a wonderful question.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Thought",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "If there's one thing I've learned over the years, it's the importance of patience and perseverance.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Life, like a garden, requires time, care, and resilience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I've also come to realize the value of collaboration and empathy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "Compassion"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Whether you're working in the Amazon or your own backyard, the connections you make and the kindness you show can create ripples of change.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Impact",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": " backyard",
+                "type": "LOCATION",
+                "confidence": "0.5218"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "So, I suppose my advice would be to nurture your passions and relationships, stay open to learning from every experience, and never underestimate the impact of your actions.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    }
+  ]
+}

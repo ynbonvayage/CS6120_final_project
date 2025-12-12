@@ -1,0 +1,653 @@
+{
+  "session_id": "04_Carlos",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "04_Carlos",
+    "name": "Carlos",
+    "age": 74,
+    "role": "Jazz Musician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Touring in a van",
+        "context": "Hunger and passion."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Hearing loss scare",
+        "context": "Career crisis."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Playing for himself",
+        "context": "Music as therapy."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time touring in a van."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were the days!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Back in the late '60s and early '70s, we were just a bunch of young cats, crammed into this beat-up old van, chasing the music wherever it took us.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Touring",
+            "emotions": [
+              "Nostalgia/Gratitude",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " late '60s",
+                "type": "TIME",
+                "confidence": "0.9967"
+              },
+              {
+                "text": " early '70s",
+                "type": "TIME",
+                "confidence": "0.9850"
+              },
+              {
+                "text": " cats",
+                "type": "PERSON",
+                "confidence": "0.9592"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We didn't have much, just our instruments, a few bucks, and a whole lot of passion.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Early Career",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It didn't matter as long as we were playing.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Passion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those days were really formative for you. What was it like, traveling like that and playing wherever you could?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was an adventure every single day, let me tell you!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Adventure",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Often, we'd sleep in the van or crash at someone's place if they offered.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Travel Life",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " van",
+                "type": "LOCATION",
+                "confidence": "0.4856"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember one night, we were stuck in the middle of nowhere because the van broke down.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Breakdown",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " van",
+                "type": "ARTIFACT",
+                "confidence": "0.9938"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Instead of getting upset, we just took out our instruments and started jamming right there by the roadside.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Impromptu Performance",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " instruments",
+                "type": "ARTIFACT",
+                "confidence": "0.9742"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially with the breakdowns. So when did things change?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, yes, things did start to change as we moved into the '80s.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " '80s",
+                "type": "TIME",
+                "confidence": "0.9980"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But what really shook me was this one time when I started to notice I was having trouble hearing certain notes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Health Scare",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " notes",
+                "type": "ARTIFACT",
+                "confidence": "0.9484"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember sitting in a doctor\u2019s office, just sweating bullets, thinking about what I would do if I couldn\u2019t play anymore.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Diagnosis",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " doctor",
+                "type": "OCCUPATION",
+                "confidence": "0.6584"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Music was everything to me; it was my identity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Identity Crisis",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " Music",
+                "type": "ORGANIZATION",
+                "confidence": "0.6527"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been terrifying. How did you cope with the possibility of losing your hearing?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Absolutely, it was a real wake-up call.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I started playing just for myself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I would sit down with my guitar and just let my fingers move over the strings, not worrying about gigs or audiences.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Solo Practice",
+            "emotions": [
+              "Joy/Pride",
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " guitar",
+                "type": "ARTIFACT",
+                "confidence": "0.9981"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Thankfully, my hearing stabilized, and I didn't lose it completely.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Recovery",
+            "emotions": [
+              "Joy/Pride",
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like you found a new appreciation for music during that time. How did your relationship with music evolve after that experience?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it evolved quite a bit.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Evolution",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I started to focus more on the quality of my music rather than just playing as many gigs as possible.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Shift in Focus",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " music",
+                "type": "ARTIFACT",
+                "confidence": "0.8657"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was also around this time that I started teaching younger musicians.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teaching",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " musicians",
+                "type": "PERSON",
+                "confidence": "0.9771"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Every time I played, it was like a reminder of how precious it was to still have my hearing and my ability to make music.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Gratitude",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear what your music means to you now, in this current stage of your life."
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, these days, music is my constant companion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " music",
+                "type": "EVENT",
+                "confidence": "0.8017"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Now, it's just me and my guitar, and sometimes a few friends who join in for the fun of it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Casual Playing",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " guitar",
+                "type": "ARTIFACT",
+                "confidence": "0.9960"
+              },
+              {
+                "text": " friends",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I play to remember the good times, to process the challenges, and to find peace in the moments of solitude.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Therapy",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like music has taken on a deeply personal role for you now. How does that feel, compared to your earlier days of performing and touring?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it's a completely different feeling, almost like coming full circle.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Back then, music was about energy, excitement, and sharing it with the world.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Past Context",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Now, it's about introspection and connection with myself.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Current Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "There's a certain peace in knowing that I can still create without the need for validation from an audience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Carlos, if you could share one lesson or piece of wisdom from your journey through music, what would it be?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "That's a big question, but I think if there's one thing I've learned, it's that music is more than just a career or a hobby\u2014it's a lifelong companion.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": " music",
+                "type": "EVENT",
+                "confidence": "0.7490"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It's there during the highs and the lows, and it can teach you a lot about yourself if you let it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "So my advice would be to embrace it in whatever form it comes to you, and don't be afraid to let it guide you through the twists and turns of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It's about finding your voice, your sound, and letting it resonate with who you are.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    }
+  ]
+}

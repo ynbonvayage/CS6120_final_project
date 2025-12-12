@@ -1,0 +1,345 @@
+{
+  "session_id": "26_Sam",
+  "profile": {
+    "id": "26_Sam",
+    "name": "Sam",
+    "age": 79,
+    "role": "Electrician",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The Blackout of '77",
+        "context": "Restoring power."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Starting own business",
+        "context": "Stress of payroll."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Wiring his son's house",
+        "context": "Fatherly pride."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the Blackout of '77. What was it like for you?"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I was a young electrician back then, working in New York City.",
+      "predicted_entities": [
+        {
+          "text": " electrician",
+          "type": "OCCUPATION",
+          "confidence": "0.9978"
+        },
+        {
+          "text": " New York City",
+          "type": "LOCATION",
+          "confidence": "0.9979"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "It was a hot July night, and suddenly, everything just went dark.",
+      "predicted_entities": [
+        {
+          "text": " July",
+          "type": "TIME",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I remember helping out neighbors and running around with my flashlight checking on folks.",
+      "predicted_entities": [
+        {
+          "text": " neighbors",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " flashlight",
+          "type": "ARTIFACT",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that experience had a real impact on you. How did it influence your work or personal life at the time?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "original_text": "Well, it definitely got me thinking about the importance of my work as an electrician. Not long after that, I decided I wanted more control over my work and started thinking about going into business for myself.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you, and you decided to start your own business?"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "By 1980, I had saved up enough and took the plunge.",
+      "predicted_entities": [
+        {
+          "text": " 1980",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like starting your own business was a pivotal moment for you. What were some of the challenges you faced in those early days?"
+    },
+    {
+      "turn_id": 8,
+      "original_text": "First off, getting clients was tough.",
+      "predicted_entities": [
+        {
+          "text": " clients",
+          "type": "PERSON",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, especially starting from scratch. When did you notice things were starting to improve?"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "Ah, it was around 1982 when I really started feeling a shift.",
+      "predicted_entities": [
+        {
+          "text": " 1982",
+          "type": "TIME",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 10,
+      "original_text": "I got a big contract with a local business.",
+      "predicted_entities": [
+        {
+          "text": " contract",
+          "type": "ARTIFACT",
+          "confidence": "0.9985"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "It sounds like your persistence really paid off. I'd love to hear more about how your business grew from there."
+    },
+    {
+      "turn_id": 12,
+      "original_text": "I was able to expand slowly, bringing on more electricians and taking on bigger projects.",
+      "predicted_entities": [
+        {
+          "text": " electricians",
+          "type": "PERSON",
+          "confidence": "0.9993"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "My wife was a big support too, handling the books and keeping things organized.",
+      "predicted_entities": [
+        {
+          "text": " wife",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " books",
+          "type": "ARTIFACT",
+          "confidence": "0.9989"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 12,
+      "original_text": "By the mid-80s, we had a nice little company going.",
+      "predicted_entities": [
+        {
+          "text": " mid-80s",
+          "type": "TIME",
+          "confidence": "0.9962"
+        },
+        {
+          "text": " company",
+          "type": "ORGANIZATION",
+          "confidence": "0.9965"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like your business really started to take off. Can you tell me about some of the more memorable projects you worked on during that time?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "Oh absolutely! One of the most memorable projects was wiring my son's house.",
+      "predicted_entities": [
+        {
+          "text": " son",
+          "type": "PERSON",
+          "confidence": "0.9989"
+        },
+        {
+          "text": " house",
+          "type": "LOCATION",
+          "confidence": "0.9946"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "It was back in the late 80s, and he had just bought his first home.",
+      "predicted_entities": [
+        {
+          "text": " late 80s",
+          "type": "TIME",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That's a wonderful story, Sam. It must have been rewarding to work on something so personal. What was it like teaching your son during that project?"
+    },
+    {
+      "turn_id": 16,
+      "original_text": "I taught him how to handle the tools, how to read blueprints, and the importance of safety.",
+      "predicted_entities": [
+        {
+          "text": " tools",
+          "type": "ARTIFACT",
+          "confidence": "0.9985"
+        },
+        {
+          "text": " blueprints",
+          "type": "ARTIFACT",
+          "confidence": "0.9902"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been a meaningful experience for both of you. I'd love to hear about some of the challenges you faced during that project."
+    },
+    {
+      "turn_id": 18,
+      "original_text": "Well, wiring a house, especially one that's a fixer-upper, comes with its own set of challenges.",
+      "predicted_entities": [
+        {
+          "text": " fixer-upper",
+          "type": "LOCATION",
+          "confidence": "0.9978"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "The wiring was so outdated; it was a miracle it even worked!",
+      "predicted_entities": [
+        {
+          "text": " wiring",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It sounds like a lot of hard work, but also incredibly rewarding. What were some moments during that project that really stood out to you?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "One that really stands out is when we finally got all the wiring done and tested the lights for the first time.",
+      "predicted_entities": [
+        {
+          "text": " lights",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like a great achievement for both of you. How do you reflect on these experiences now, looking back?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "Reflecting on those times now, I feel a deep sense of satisfaction and pride. It's not just about the work, but the connections and memories you create along the way. Teaching those values to my son was a highlight of my life.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "What would you say has been the most important lesson you've taken from your career?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "original_text": "I think the most important lesson I've learned is that persistence pays off. It's about building a reputation and being someone people can rely on. I've also learned the importance of staying true to your values, like doing quality work.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, what would you say is the most important lesson you've learned from your career and life experiences?"
+    },
+    {
+      "turn_id": 30,
+      "original_text": "It's never just about the wires and circuits—it's about the people you connect with and the legacy you leave behind.",
+      "predicted_entities": [
+        {
+          "text": " legacy",
+          "type": "EVENT",
+          "confidence": "0.9824"
+        }
+      ],
+      "speaker": "Subject"
+    }
+  ]
+}

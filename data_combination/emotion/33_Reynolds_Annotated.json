@@ -1,0 +1,790 @@
+{
+  "session_id": "33_Reynolds",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "33_Reynolds",
+    "name": "Capt. Reynolds",
+    "age": 80,
+    "role": "Pilot",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "First solo flight",
+        "context": "Freedom."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Emergency landing",
+        "context": "Focus under pressure."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Failing the eye exam",
+        "context": "Grounded."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your first solo flight, Captain Reynolds."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the first solo flight, yes.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Recall",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember it was a crisp morning, the kind that makes you feel alive.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Atmosphere",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I was nervous, of course, but once I was in the cockpit, it was just me and the plane.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Focus",
+            "emotions": [
+              "Fear/Anxiety",
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "plane",
+                "type": "ARTIFACT",
+                "role": "aircraft"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I had this old Cessna 172, reliable as they come.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Detail",
+            "emotions": [
+              "Affection"
+            ],
+            "entities": [
+              {
+                "text": "Cessna 172",
+                "type": "ARTIFACT",
+                "role": "aircraft"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Anyway, that first solo flight felt like freedom.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "It was exhilarating.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Emotion",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like that first flight was really impactful for you. What happened after you landed?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, landing... yes, it was a bit tricky.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Landing",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I almost forgot to lower the landing gear!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Mistake",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": [
+              {
+                "text": "landing gear",
+                "type": "ARTIFACT",
+                "role": "part"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Silly mistake, but I caught it just in time.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Correction",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember touching down and feeling this rush of relief and triumph.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Success",
+            "emotions": [
+              "Relief",
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I think I celebrated with a chocolate milkshake at the diner nearby.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Celebration",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "milkshake",
+                "type": "ARTIFACT",
+                "role": "treat"
+              },
+              {
+                "text": "diner",
+                "type": "LOCATION",
+                "role": "restaurant"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "It sounds like that emergency landing was quite a story. What happened there?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh yes, that was quite the adventure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Incident",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I was flying a Piper Cherokee then.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "Piper Cherokee",
+                "type": "ARTIFACT",
+                "role": "aircraft"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "We were cruising along just fine when suddenly, the engine started sputtering.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Problem",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "engine",
+                "type": "ARTIFACT",
+                "role": "part"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Heart-stopping moment, let me tell you.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Spotted this small airfield, a godsend really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Solution",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": [
+              {
+                "text": "airfield",
+                "type": "LOCATION",
+                "role": "runway"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "The landing was rough, but we made it down safe and sound.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Outcome",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite the experience. So, when did things start to change for you in your flying career?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, change, yes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Transition",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "There was this time, maybe a few years later, when I had to go for my routine eye exam.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Checkup",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": "eye exam",
+                "type": "EVENT",
+                "role": "medical"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "But then they told me my vision wasn't quite up to par anymore.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Diagnosis",
+            "emotions": [
+              "Shock"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "It was a shock, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reaction",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I always thought I'd be flying forever.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "It's like one moment you're soaring, and the next, you're grounded.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Metaphor",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, facing the end of your flying days. How did you cope with that transition?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it certainly wasn't easy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Struggle",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "But, you know, you learn to adapt.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptation",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I started spending more time with my family and picked up some hobbies I never had time for before.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lifestyle Change",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": [
+              {
+                "text": "family",
+                "type": "PERSON",
+                "role": "kin"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "Oh, and model airplanes! I started building those too.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "model airplanes",
+                "type": "ARTIFACT",
+                "role": "hobby"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Fascinating little things.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Interest",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That sounds like a fulfilling way to stay connected to your passion. What was it like stepping into these new roles and hobbies?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, it was certainly a different pace, but rewarding in its own right.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I remember the first community air show we organized.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": [
+              {
+                "text": "air show",
+                "type": "EVENT",
+                "role": "event"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "Seeing those kids' faces light up as the planes soared overhead reminded me of my own early days.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Joy",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": "kids",
+                "type": "PERSON",
+                "role": "audience"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "There's a joy in passing on knowledge, you know?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Teaching",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "It sounds like those pursuits brought you a lot of satisfaction. How do you feel looking back on your flying career now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "You know, I look back with a great deal of fondness.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Flying was more than just a job; it was a way of life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "There’s a sense of fulfillment in knowing I had the privilege to experience that kind of freedom.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Sometimes I miss it, of course, especially the camaraderie with fellow pilots.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Missing",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": "pilots",
+                "type": "PERSON",
+                "role": "colleagues"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "But then I realize how lucky I am to have had those experiences at all.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Appreciation",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Before we finish, could you share a final lesson or piece of advice based on your experiences?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, if there's one thing I've learned, it's that life is much like flying.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "You can plan your course, check your instruments, but sometimes you'll encounter turbulence or unexpected weather.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "It's important to stay calm, adapt, and enjoy the view along the way.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Embrace the changes, because they often lead you to places you never imagined.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Optimism",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "And above all, keep your eyes on the horizon.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    }
+  ]
+}

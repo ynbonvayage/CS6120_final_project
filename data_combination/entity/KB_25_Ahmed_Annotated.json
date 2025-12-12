@@ -1,0 +1,315 @@
+{
+  "session_id": "25_Ahmed",
+  "profile": {
+    "id": "25_Ahmed",
+    "name": "Ahmed",
+    "age": 76,
+    "role": "Taxi Driver",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Driving in 80s NYC",
+        "context": "Chaos and crime."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Saving for a medallion",
+        "context": "The American Dream."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Uber taking over",
+        "context": "Obsolescence."
+      }
+    ]
+  },
+  "dialogue_content": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences driving in New York City during the 1980s."
+    },
+    {
+      "turn_id": 2,
+      "original_text": "Oh, the 80s! That was quite a time to be driving a taxi in NYC, let me tell you.",
+      "predicted_entities": [
+        {
+          "text": " 80s",
+          "type": "TIME",
+          "confidence": "0.9976"
+        },
+        {
+          "text": " taxi",
+          "type": "ARTIFACT",
+          "confidence": "0.9961"
+        },
+        {
+          "text": " NYC",
+          "type": "LOCATION",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "There were no GPS devices like today, so you really had to know your way around.",
+      "predicted_entities": [
+        {
+          "text": " GPS",
+          "type": "ARTIFACT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 2,
+      "original_text": "I used to keep a map in the car just in case.",
+      "predicted_entities": [
+        {
+          "text": " map",
+          "type": "ARTIFACT",
+          "confidence": "0.9992"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like the 1980s were quite a vibrant time in the city. What was it like navigating without modern technology?"
+    },
+    {
+      "turn_id": 4,
+      "original_text": "Like, 'Turn right at the deli with the big red sign,' or 'Take a left by the park with the old oak tree.'",
+      "predicted_entities": [
+        {
+          "text": " deli",
+          "type": "LOCATION",
+          "confidence": "0.9965"
+        },
+        {
+          "text": " park",
+          "type": "LOCATION",
+          "confidence": "0.9949"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That sounds like a unique experience, driving without GPS. I'd love to hear more about the stories from your late-night shifts."
+    },
+    {
+      "turn_id": 6,
+      "original_text": "One time, I had this passenger who was convinced the world was ending and insisted on going to their favorite diner for one last meal.",
+      "predicted_entities": [
+        {
+          "text": " passenger",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        },
+        {
+          "text": " diner",
+          "type": "LOCATION",
+          "confidence": "0.9972"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 6,
+      "original_text": "Oh, and I was saving up for a medallion back then, a real dream for any taxi driver.",
+      "predicted_entities": [
+        {
+          "text": " med",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        },
+        {
+          "text": "allion",
+          "type": "ARTIFACT",
+          "confidence": "0.9940"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like those late-night shifts were full of interesting characters and stories. How did saving for a medallion impact your time as a taxi driver?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "original_text": "Well, saving for a medallion was always in the back of my mind. Owning one was like owning a piece of the city, a key to the streets. I remember there were times I'd drive extra hours just to get closer to that goal.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "So when did things change with your goal of getting a medallion?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "original_text": "Oh, well, that changed a bit later on. There was a time when the prices of medallions shot up. I remember feeling a bit disheartened. I remember there was a time I almost gave up chasing the medallion dream altogether.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "It sounds like saving up for a medallion was quite a journey. Could you tell me about some of the challenges you faced along the way?"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "There were always unexpected expenses, like repairs on the car.",
+      "predicted_entities": [
+        {
+          "text": " car",
+          "type": "ARTIFACT",
+          "confidence": "0.9982"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 14,
+      "original_text": "But then, I'd get a good fare or a generous tip, and it would lift my spirits.",
+      "predicted_entities": [
+        {
+          "text": " tip",
+          "type": "ARTIFACT",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, working such long hours just to keep your dream alive. Can you tell me about a specific moment that tested your resolve?"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "I remember one particular winter, the snow was relentless.",
+      "predicted_entities": [
+        {
+          "text": " winter",
+          "type": "TIME",
+          "confidence": "0.9987"
+        },
+        {
+          "text": " snow",
+          "type": "EVENT",
+          "confidence": "0.9990"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 18,
+      "original_text": "When we got there, the gentleman gave me the biggest tip I'd ever seen.",
+      "predicted_entities": [
+        {
+          "text": " gentleman",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "It must have felt rewarding when perseverance paid off like that. But I'm curious, what were some of the adjustments you had to make as the industry started to change?"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "I remember when those yellow cabs started getting those fancy meters that printed out receipts.",
+      "predicted_entities": [
+        {
+          "text": " yellow cabs",
+          "type": "ARTIFACT",
+          "confidence": "0.9785"
+        },
+        {
+          "text": " meters",
+          "type": "ARTIFACT",
+          "confidence": "0.9981"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 20,
+      "original_text": "You know, when those ride-sharing apps started popping up.",
+      "predicted_entities": [
+        {
+          "text": " ride-sharing apps",
+          "type": "ARTIFACT",
+          "confidence": "0.9952"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "So as the industry was changing with the rise of ride-sharing apps, how did you feel about the impact on your work and your dream of owning a medallion?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "original_text": "Oh, well, it was a tough pill to swallow, to be honest. Suddenly, the medallion wasn't the golden ticket it once was. But then, you know, I realized that life doesn't always go the way you plan. I guess I learned to adapt, focus on the present, and find joy in the everyday rides.",
+      "predicted_entities": []
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "That must have been really challenging, seeing such a big shift in the industry. How did you manage to stay resilient during that time?"
+    },
+    {
+      "turn_id": 26,
+      "original_text": "There was this one lady, a regular, who used to tell me about her garden.",
+      "predicted_entities": [
+        {
+          "text": " lady",
+          "type": "PERSON",
+          "confidence": "0.9991"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about how those small joys kept you going during such turbulent times."
+    },
+    {
+      "turn_id": 28,
+      "original_text": "You know, there was this one time I picked up a family heading to a picnic in Central Park.",
+      "predicted_entities": [
+        {
+          "text": " Central Park",
+          "type": "LOCATION",
+          "confidence": "0.9974"
+        }
+      ],
+      "speaker": "Subject"
+    },
+    {
+      "turn_id": 29,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Ahmed, could you share a final lesson or piece of wisdom that you'd like to pass on from your years behind the wheel?"
+    },
+    {
+      "turn_id": 30,
+      "speaker": "Subject",
+      "original_text": "Oh, that's a good question. You know, after all these years, I'd say it's important to embrace change. I learned that you can't always stick to your planned route, sometimes you have to take detours. Also, never underestimate the power of human connection. So, I guess my advice would be to stay open-minded, cherish the small moments, and always keep moving forward.",
+      "predicted_entities": []
+    }
+  ]
+}

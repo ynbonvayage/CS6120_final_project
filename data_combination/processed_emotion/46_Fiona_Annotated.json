@@ -1,0 +1,671 @@
+{
+  "session_id": "46_Fiona",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "46_Fiona",
+    "name": "Fiona",
+    "age": 74,
+    "role": "Potter",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Living in a commune",
+        "context": "Art over money."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The gallery fire",
+        "context": "Losing work."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Arthritis in hands",
+        "context": "Adapting technique."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time living in a commune."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, that was quite an experience!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I was in my late twenties, full of energy and idealism.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Self-Image",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " late twenties",
+                "type": "TIME",
+                "confidence": "0.9982"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "The commune was located in the countryside, surrounded by rolling hills and endless fields.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Peace"
+            ],
+            "entities": [
+              {
+                "text": " commune",
+                "type": "LOCATION",
+                "confidence": "0.9966"
+              },
+              {
+                "text": " countryside",
+                "type": "LOCATION",
+                "confidence": "0.9971"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "We grew our own food, shared responsibilities, and spent our evenings discussing everything from philosophy to politics.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Lifestyle",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like a vibrant time. What brought you to join the commune in the first place?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, I was looking for something different.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Search",
+            "emotions": [
+              "Curiosity"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "I had just finished art school and was feeling a bit disillusioned with the traditional career path.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " art school",
+                "type": "ORGANIZATION",
+                "confidence": "0.9971"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I remember arriving with just a backpack and my potter\u2019s wheel, ready to embrace this new lifestyle.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Arrival",
+            "emotions": [
+              "Excitement"
+            ],
+            "entities": [
+              {
+                "text": " potter\u2019s wheel",
+                "type": "ARTIFACT",
+                "confidence": "0.9866"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been quite a shift from art school. How did living in the commune influence your pottery?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was transformative!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Impact",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Being surrounded by nature had a profound impact on my work.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Inspiration",
+            "emotions": [
+              "Awe"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "I started creating pieces that reflected our collective ideals\u2014things like pottery that was practical for our shared meals.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Creation",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": [
+              {
+                "text": " pot",
+                "type": "ARTIFACT",
+                "confidence": "0.9978"
+              },
+              {
+                "text": "tery",
+                "type": "ARTIFACT",
+                "confidence": "0.9670"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things really shifted when the gallery that exhibited our art caught fire.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Disaster",
+            "emotions": [
+              "Shock",
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " gallery",
+                "type": "LOCATION",
+                "confidence": "0.9973"
+              },
+              {
+                "text": " fire",
+                "type": "EVENT",
+                "confidence": "0.9984"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It was a devastating night.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "Seeing it reduced to ashes was heart-wrenching.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Loss",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. How did you and the community cope with the aftermath of the fire?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was incredibly challenging for all of us.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Struggle",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "For me, it was particularly tough because my pottery was my main source of income.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Context",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "I poured my grief into my work, creating pieces that were more raw and emotional.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Coping",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "And how did this aftermath impact your personal journey, especially your work with pottery?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after the fire, creating pottery became a form of therapy for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Therapy",
+            "emotions": [
+              "Relief"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I remember one series I created was entirely inspired by the concept of the phoenix rising from the ashes.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Art",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": [
+              {
+                "text": " phoenix",
+                "type": "ARTIFACT",
+                "confidence": "0.9803"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "It gave me a deeper appreciation for the art itself, rather than just seeing it as a means to earn a living.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Insight",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "And when did you start noticing changes in your hands?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, that was a bit later in life.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Timeline",
+            "emotions": [
+              "Nostalgia/Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I was in my late fifties when I first noticed something wasn't quite right.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Onset",
+            "emotions": [
+              "Fear/Anxiety"
+            ],
+            "entities": [
+              {
+                "text": " late fifties",
+                "type": "TIME",
+                "confidence": "0.9981"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "I was diagnosed with arthritis.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Diagnosis",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": [
+              {
+                "text": " arthritis",
+                "type": "EVENT",
+                "confidence": "0.9990"
+              }
+            ]
+          },
+          "predicted_emotions": [
+            "sadness"
+          ]
+        },
+        {
+          "text": "That was a tough pill to swallow.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reaction",
+            "emotions": [
+              "Sadness/Loss"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "That must have been really challenging. How did you adapt to the changes brought on by arthritis?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was quite an adjustment, to be honest.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adjustment",
+            "emotions": [
+              "Frustration"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "anger"
+          ]
+        },
+        {
+          "text": "But I decided I wasn't ready to give it up without a fight.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Determination",
+            "emotions": [
+              "Determination"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I started experimenting with different techniques that required less strain on my hands, like hand-building instead of using the wheel.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Adaptation",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I also began teaching pottery classes.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Teaching",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "And how do you feel looking back at everything now?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my journey, I feel a deep sense of gratitude.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "Gratitude"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Each experience has shaped me into who I am today.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "Contentment"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "happiness"
+          ]
+        },
+        {
+          "text": "I'm proud of how I've navigated these hurdles.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Pride",
+            "emotions": [
+              "Joy/Pride"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Fiona, I'd love to ask, what lesson or wisdom would you like to share with others from your life experiences?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I suppose if there's one thing I've learned, it's the importance of resilience and adaptability.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "Wisdom"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "frustration"
+          ]
+        },
+        {
+          "text": "Embrace change, even when it's difficult.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "Encouragement"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        },
+        {
+          "text": "Keep your heart open, and you'll always find a way forward.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "Hope/Inspired"
+            ],
+            "entities": []
+          },
+          "predicted_emotions": [
+            "neutral"
+          ]
+        }
+      ]
+    }
+  ]
+}
