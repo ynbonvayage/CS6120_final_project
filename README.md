@@ -1,7 +1,3 @@
-This is the final, revised `README.md` for your `main` branch, clearly stating its role as the data repository and referencing the four experimental branches.
-
----
-
 # 📖 Memoir for Seniors: Oral History Dialogue and Memoir System
 
 [cite_start]This project aims to transform the unstructured transcripts of seniors' oral histories into structured data and emotionally rich, long-form memoirs by integrating Natural Language Processing (NLP), Large Language Models (LLM), and Affective Computing[cite: 1, 2].
