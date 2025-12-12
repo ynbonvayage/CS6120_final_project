@@ -34,27 +34,24 @@ The project validates and optimizes the system's core components through four di
 
 ---
 
-好的，这是根据您的实验报告内容，按照 **Exp 1, Exp 2, Exp 3, Exp 4** 的顺序重新组织和呈现的**关键发现摘要**。所有内容已清理，可以直接复制粘贴。
-
----
-
 ## 📈 Key Findings Summary (From Final Report)
 
 * **NER Performance (Experiment 1):**
-    * [cite_start]The "Aggressive Optimization Strategy" (High LR + Warmup) successfully boosted RoBERTa-base **Recall** from $0.52$ to $\mathbf{0.67}$. [cite: 230]
-    * [cite_start]This confirms that for small-sample, domain-specific tasks, aggressive hyperparameters are needed to effectively capture minority entity classes. [cite: 231]
-    * [cite_start]The model successfully generated the final structured **Knowledge Base (KB)**. [cite: 22, 23, 620]
+    * The "Aggressive Optimization Strategy" (High LR + Warmup) successfully boosted RoBERTa-base **Recall** from $0.52$ to $\mathbf{0.67}$.
+    * This confirms that for small-sample, domain-specific tasks, aggressive hyperparameters are needed to effectively capture minority entity classes.
+    * The model successfully generated the final structured **Knowledge Base (KB)**.
 
 * **Emotion Classification Performance (Experiment 2):**
-    * [cite_start]The **Linear SVM** achieved the highest Macro-F1 score of $\mathbf{0.561}$. [cite: 283, 295]
-    * [cite_start]This model was selected to generate reliable emotion tags for the entire dataset. [cite: 357]
+    * The **Linear SVM** achieved the highest Macro-F1 score of $\mathbf{0.561}$.
+    * This model was selected to generate reliable emotion tags for the entire dataset.
 
 * **Question Generation Validation (Experiment 3):**
-    * [cite_start]The Emotion Focused Group (C) significantly excelled in **Depth** and **Emotional Engagement** (mean score $\mathbf{4.93}$). [cite: 494] [cite_start]This proves that emotion tags drive the generation of more empathetic inquiries. [cite: 495, 626]
-    * [cite_start]The Full Model Group (D) achieved the highest **Relevance** ($\mathbf{4.96}$). [cite: 496] [cite_start]This confirms that combining factual (Entities) and affective (Emotions) contexts is the most effective approach for contextual dialogue generation. [cite: 627]
-    * [cite_start]The explicit addition of structured annotations (Groups B, C, D) caused a decrease in ROUGE/BERTScore similarity to the human reference. [cite: 481] [cite_start]This is interpreted as successful intervention leading to **deeper, more targeted questions**. [cite: 486]
+    * The Emotion Focused Group (C) significantly excelled in **Depth** and **Emotional Engagement** (mean score $\mathbf{4.93}$). This proves that emotion tags drive the generation of more empathetic inquiries.
+    * The Full Model Group (D) achieved the highest **Relevance** ($\mathbf{4.96}$). This confirms that combining factual (Entities) and affective (Emotions) contexts is the most effective approach for contextual dialogue generation.
+    * The explicit addition of structured annotations (Groups B, C, D) caused a decrease in ROUGE/BERTScore similarity to the human reference. This is interpreted as successful intervention leading to **deeper, more targeted questions**. 
 
 * **Memoir Generation Limitations (Experiment 4):**
-    * [cite_start]The **Baseline** (Zero-shot) approach achieved the highest BERTScore F1 and best human ratings for Coverage, Faithfulness, and Chronology. [cite: 557, 558]
-    * [cite_start]**Retrieval-Augmented Generation (RAG)** suffered from significant information loss due to retrieval limits, resulting in the lowest BERTScore Recall and reduced semantic coverage. [cite: 561, 562]
-    * [cite_start]**PII-safe** rewriting, while protecting privacy, sacrificed the narrative specificity and factual basis, resulting in the lowest semantic similarity. [cite: 567, 569]
+    * The **Baseline** (Zero-shot) approach achieved the highest BERTScore F1 and best human ratings for Coverage, Faithfulness, and Chronology.
+    * **Retrieval-Augmented Generation (RAG)** suffered from significant information loss due to retrieval limits, resulting in the lowest BERTScore Recall and reduced semantic coverage.
+    * **PII-safe** rewriting, while protecting privacy, sacrificed the narrative specificity and factual basis, resulting in the lowest semantic similarity.
+
