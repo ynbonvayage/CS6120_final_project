@@ -1,0 +1,928 @@
+{
+  "session_id": "13_Hiro",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "13_Hiro",
+    "name": "Hiro",
+    "age": 81,
+    "role": "Architect",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Studying in Europe",
+        "context": "Inspiration."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Designing the City Library",
+        "context": "Career peak."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Seeing his buildings age",
+        "context": "Legacy vs decay."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time studying in Europe. What was that experience like for you?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, studying in Europe was truly an eye-opening experience.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Education",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Europe",
+                "type": "LOCATION",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was a young man, full of enthusiasm and curiosity about the world.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Self-Discovery",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the architecture there was so different from what I had seen back home.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " architecture",
+                "type": "EVENT",
+                "confidence": "0.9978"
+              },
+              {
+                "text": " home",
+                "type": "LOCATION",
+                "confidence": "0.9987"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The old buildings, the rich history, it all seemed to speak to me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Inspiration",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " buildings",
+                "type": "LOCATION",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like those early experiences had a profound impact on your career. How did that influence your work later on?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Indeed, it did.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Confirmation",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The exposure to such diverse styles and techniques greatly influenced my architectural perspective.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Learning",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I began to appreciate the blend of tradition and innovation, something I carried with me when I started working on projects like the City Library.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Application",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " City Library",
+                "type": "LOCATION",
+                "confidence": "0.9970"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I wanted to create something that respected the past but embraced modernity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Vision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "So when did things change for you, from being a student to starting your work on projects like the City Library?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "After completing my studies, I returned home with a newfound passion and vision.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Return",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " home",
+                "type": "LOCATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I started working at a small architectural firm and soon found myself involved in various projects.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career Start",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " architectural firm",
+                "type": "ORGANIZATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The opportunity to design the City Library came a few years later.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opportunity",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " City Library",
+                "type": "LOCATION",
+                "confidence": "0.9972"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a pivotal moment in my career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Milestone",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was eager to apply what I'd learned in Europe, to create a space that was both functional and inspiring.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Design",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Europe",
+                "type": "LOCATION",
+                "confidence": "0.9985"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "That must have been quite the transition, from studying to taking on such a significant project. How did you feel stepping into that role?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was both thrilling and intimidating.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was still quite young, and the responsibility of designing something as important as the City Library was immense.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Responsibility",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " City Library",
+                "type": "LOCATION",
+                "confidence": "0.9976"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But I felt ready.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Confidence",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I believed in my vision and was eager to make my mark.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Ambition",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The team I worked with was incredibly supportive, which made a world of difference.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "What were some of the core challenges you faced while working on the City Library project?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, there were quite a few challenges.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Reflection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "First, integrating the modern design elements with the existing historical architecture in the area was quite the puzzle.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Design Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " architecture",
+                "type": "EVENT",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was important to respect the heritage while also bringing in a fresh perspective.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Philosophy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Another challenge was ensuring that the library would meet the needs of a diverse range of users, from students to researchers and the general public.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Accessibility",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " library",
+                "type": "LOCATION",
+                "confidence": "0.9946"
+              },
+              {
+                "text": " students",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " researchers",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Budget constraints and tight deadlines added to the pressure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a test of not just my design skills, but also my ability to collaborate and lead a team.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Leadership",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " team",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like a lot to balance. How did you manage to navigate those challenges and pressures?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was definitely a learning experience.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Growth",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I relied heavily on open communication with my team and stakeholders.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Strategy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " stakeholders",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We held regular meetings to ensure everyone was on the same page and to quickly address any issues that arose.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Management",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " meetings",
+                "type": "EVENT",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I also found that taking a step back to view the project from different perspectives helped in finding innovative solutions.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Problem Solving",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And, of course, a bit of patience and perseverance went a long way.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Values",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "At the end of the day, seeing the completed library and how it was embraced by the community made all the challenges worthwhile.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Completion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " community",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "So now, years later, how do you feel when you see the buildings you designed, like the City Library, as they've aged and become part of the city's landscape?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It's a deeply humbling experience.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "To see my work standing the test of time is incredibly fulfilling.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Satisfaction",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The City Library, in particular, has become more than just a building.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " City Library",
+                "type": "LOCATION",
+                "confidence": "0.9968"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's a place where generations have come to learn, to seek knowledge.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Impact",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And to know that I played a part in creating something that continues to inspire and serve the community\u2014it's a legacy I cherish.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The aging process of a building tells its own story, just as we do as individuals.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The wear and tear, the adaptations over time, they all add character.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's like seeing an old friend who carries the marks of a life well-lived.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Simile",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "That must be such a rewarding feeling. Do you ever think about the stories and memories that people have created within those walls?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, absolutely.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Agreement",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Buildings, in their own way, hold the memories of those who pass through them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Concept",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often imagine the countless moments of discovery and connection that have taken place within the City Library.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Imagination",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " City Library",
+                "type": "LOCATION",
+                "confidence": "0.9970"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Whether it's a student finding a book that sparks their imagination or a community event bringing people together, each interaction contributes to the building's living history.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Community Life",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " student",
+                "type": "PERSON",
+                "confidence": "0.9989"
+              },
+              {
+                "text": " book",
+                "type": "ARTIFACT",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's heartwarming to think that my work has been a backdrop for so many personal stories.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Satisfaction",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "Do you ever find yourself reflecting on the passage of time when you see your buildings now?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Yes, I do.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Affirmation",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's interesting how buildings, much like us, age and evolve.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There are times when I visit the City Library and notice a new crack or a place where the paint has faded, and it reminds me of the passage of time.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Visit",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " paint",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Each imperfection tells a story, just like the lines on our faces.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Metaphor",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's a reminder of the journey, of the changes that have occurred both in myself and in the world around us.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It gives me a profound sense of connection to the past, present, and future.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Connection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear more about your thoughts on the legacy you've left behind. How does it feel to know that your work has become an integral part of people's lives?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It's truly an honor.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Honor",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "When I started my career, I aimed to create spaces that would resonate with people and serve a purpose beyond just aesthetics.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Goal",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Knowing that my work has touched lives and has been woven into the fabric of the community is incredibly gratifying.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratification",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's like leaving a piece of myself in the world, something that will continue to live on even after I'm gone.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Legacy",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There's a sense of immortality in that, a comforting idea that my contributions have made a difference.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comfort",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Hiro, if you could share one lesson or piece of wisdom from your journey, what would it be?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Before we finish, I'd say this: embrace change and cherish the moments of connection we create in our lives.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Buildings, like people, evolve and adapt, and each phase of life presents its own challenges and opportunities.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Wisdom",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Hold onto your passion, stay curious, and always remember the importance of community and collaboration.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Values",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "In the end, it's the relationships we build and the impact we have on others that define our legacy.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

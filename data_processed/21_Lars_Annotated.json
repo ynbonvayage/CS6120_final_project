@@ -1,0 +1,346 @@
+{
+  "session_id": "21_Lars",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "21_Lars",
+    "name": "Lars",
+    "age": 75,
+    "role": "Fisherman",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "The Great Storm",
+        "context": "Survival at sea."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "Buying his own boat",
+        "context": "Independence."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Overfishing regulations",
+        "context": "Changing industry."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about the Great Storm, Lars."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the Great Storm.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Great Storm",
+                "type": "EVENT",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was back in '63, a night I'll never forget.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " '63",
+                "type": "TIME",
+                "confidence": "0.9973"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was just a young lad, about 15, working on my father's boat.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " 15",
+                "type": "TIME",
+                "confidence": "0.9991"
+              },
+              {
+                "text": " father",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              },
+              {
+                "text": " boat",
+                "type": "ARTIFACT",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We were out in the North Sea, and the waves... they were monstrous.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Storm",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " North Sea",
+                "type": "LOCATION",
+                "confidence": "0.9975"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember gripping onto the rigging for dear life, praying we'd make it back to shore.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Survival",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " rigging",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, gripping onto the rigging like that at such a young age. It sounds like you had quite the experience with the sea early on. So when did things change for you, when did you decide to buy your own boat?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Well, after surviving that storm, I knew the sea was where I belonged.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Realization",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was around the late '70s, and I had saved up every penny I could get my hands on.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Saving",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " late '70s",
+                "type": "TIME",
+                "confidence": "0.9981"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I was in my thirties when I finally got enough to buy my own boat.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Purchase",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " thirties",
+                "type": "TIME",
+                "confidence": "0.9980"
+              },
+              {
+                "text": " boat",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I named her 'The Seawind' and I was determined to make a living off the waters I had grown to respect and love.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Beginning",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That sounds like an incredible journey, Lars. So, with your own boat, when did things take a turn with the overfishing regulations?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Ah, the regulations.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "That started happening more recently, in the last decade or so.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Timeframe",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The sea isn't what it used to be.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Change",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Quotas got tighter, and it became harder to make a living.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hardship",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Many of us had to sell our boats or retire early.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Loss",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's heartbreaking to see the industry shrink like this, but I suppose we have to respect the ocean if we want it to last.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Acceptance",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " ocean",
+                "type": "LOCATION",
+                "confidence": "0.9971"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It must be hard to see such changes. How do you spend your days now that you're not out on the water as much?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I still go down to the harbor every morning to watch the sunrise.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Routine",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " harbor",
+                "type": "LOCATION",
+                "confidence": "0.9967"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I mend nets for the younger lads sometimes, share a story or two.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Mentorship",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " nets",
+                "type": "ARTIFACT",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The sea is in my blood; I can't stay away from it entirely.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Identity",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

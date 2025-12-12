@@ -1,0 +1,993 @@
+{
+  "session_id": "44_Sophie",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "44_Sophie",
+    "name": "Sophie",
+    "age": 73,
+    "role": "Hotel Manager",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Maid service",
+        "context": "Invisible work."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The celebrity scandal",
+        "context": "Discretion."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Bed and Breakfast owner",
+        "context": "Personal touch."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your time working in maid service. How did you start?"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were the days!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I started in maid service when I was about 19, just after moving to the city.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Career Start",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " maid service",
+                "type": "OCCUPATION",
+                "confidence": "0.9981"
+              },
+              {
+                "text": " 19",
+                "type": "TIME",
+                "confidence": "0.9990"
+              },
+              {
+                "text": " city",
+                "type": "LOCATION",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I remember my first job was at a large hotel downtown.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "First Job",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " hotel",
+                "type": "LOCATION",
+                "confidence": "0.9970"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The work was quite demanding.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Work",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The head housekeeper was a stickler for detail, but she taught me a lot about the importance of presentation and cleanliness.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Mentorship",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " head housekeeper",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Oh, and the uniforms... they were these crisp, white dresses that were quite the bother to keep spotless!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Detail",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " uniforms",
+                "type": "ARTIFACT",
+                "confidence": "0.9986"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you had quite a formative experience there. What was it like meeting all those different people?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh yes, it really was!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Affirmation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was this one lady, a regular guest, who always wore these extravagant hats.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Memory",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " lady",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              },
+              {
+                "text": " hats",
+                "type": "ARTIFACT",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "She'd tell us all about her travels and grand adventures.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Storytelling",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Funny thing is, sometimes I'd catch a glimpse of a celebrity or two, but I was never much into the gossip.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Observation",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " celebrity",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Though there was this one scandal... well, maybe we'll get to that later.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Hint",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard, trying to keep those uniforms spotless! So, it sounds like you had quite an eclectic mix of guests. What was the atmosphere like in the hotel during those days?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, the atmosphere was quite something!",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Description",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was always buzzing with energy.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Feeling",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember the chandeliers, they sparkled like stars.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Detail",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " chandeliers",
+                "type": "ARTIFACT",
+                "confidence": "0.9894"
+              }
+            ]
+          }
+        },
+        {
+          "text": "And the staff, we all worked hard, but there was a camaraderie among us.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Teamwork",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " staff",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We became like a little family.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Connection",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "It sounds like you really treasured those connections with your colleagues. I'd love to hear about that occasion you mentioned, if you'd like to share."
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh yes, those connections were really special.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was a big gala event happening at the hotel.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Event",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " gala",
+                "type": "EVENT",
+                "confidence": "0.9979"
+              }
+            ]
+          }
+        },
+        {
+          "text": "There was a famous actor attending.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Guest",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " famous actor",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        },
+        {
+          "text": "One of my colleagues accidentally spilled a tray of champagne right in front of him.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Accident",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " champagne",
+                "type": "ARTIFACT",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But the actor, he was so gracious, laughed it off, and even helped clean up.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reaction",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We laughed about it for weeks afterwards.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Aftermath",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds like such a lively environment to work in. So, how did your time in maid service come to an end?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "My time in maid service ended when I got an opportunity to work in a more specialized role within the hotel.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There was a position that opened up in the hotel\u2019s events team, and I jumped at the chance.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Opportunity",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " events team",
+                "type": "ORGANIZATION",
+                "confidence": "0.9984"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It felt like the right time to move on.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Decision",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 12,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, things certainly took a turn when I got involved in planning events.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Change",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The hotel became the talk of the town due to a rather scandalous incident involving a celebrity.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Scandal",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " celebrity",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "We had this popular rock band staying with us, and one morning, the entire lobby was swarming with paparazzi.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Chaos",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " rock band",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              },
+              {
+                "text": " paparazzi",
+                "type": "PERSON",
+                "confidence": "0.9994"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The hotel had to manage the chaos, and I was right in the middle of it all.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Crisis Management",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It taught me a lot about crisis management and the importance of staying calm under pressure.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That must have been a challenging time for you. How did the team handle the aftermath of such a public scandal?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it was definitely a challenging time!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Agreement",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "The whole team had to pull together to manage the situation.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Teamwork",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "We had to ensure that the guests' privacy was protected while also maintaining the hotel's reputation.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was one of those situations where you really see the strength of your team.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pride",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And oh, the band, they were quite apologetic about the whole thing!",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Resolution",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "speaker": "Interviewer",
+      "text": "That must have been quite an experience! How did that situation affect your future roles in the hotel industry?"
+    },
+    {
+      "turn_id": 18,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It taught me to always expect the unexpected and be prepared for anything.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Lesson",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "After that incident, I felt much more confident in handling difficult situations.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Growth",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I got recognized for my crisis management skills, and soon after, I was promoted to a managerial role.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Promotion",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " managerial role",
+                "type": "OCCUPATION",
+                "confidence": "0.9976"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a turning point for my career, really.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Milestone",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear how you transitioned from that managerial role to becoming a Bed and Breakfast owner. What inspired that change?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, becoming a Bed and Breakfast owner, now that was quite the journey!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Bed and Breakfast",
+                "type": "LOCATION",
+                "confidence": "0.9974"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I wanted to create a space where I could connect with guests on a deeper level.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Desire",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I found this charming little property not too far from the city.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Discovery",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " property",
+                "type": "LOCATION",
+                "confidence": "0.9972"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I thought, why not turn it into a cozy Bed and Breakfast?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Decision",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I often think back to my early days in maid service, and I feel like everything has led me here.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Full Circle",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "speaker": "Interviewer",
+      "text": "That sounds like a fulfilling transition. What kind of atmosphere did you aim to create at your Bed and Breakfast?"
+    },
+    {
+      "turn_id": 22,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I wanted the Bed and Breakfast to feel warm and inviting, like stepping into a beloved friend's home.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Goal",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember spending hours choosing the right color schemes and decor.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Effort",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And the garden! I can't forget the garden.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Passion",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " garden",
+                "type": "LOCATION",
+                "confidence": "0.9875"
+              },
+              {
+                "text": " garden",
+                "type": "LOCATION",
+                "confidence": "0.8198"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I planted roses and lavender, just like my grandmother used to have.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Memory",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " roses",
+                "type": "ARTIFACT",
+                "confidence": "0.9987"
+              },
+              {
+                "text": " lavender",
+                "type": "ARTIFACT",
+                "confidence": "0.9916"
+              },
+              {
+                "text": " grandmother",
+                "type": "PERSON",
+                "confidence": "0.9990"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "speaker": "Interviewer",
+      "text": "It sounds like you found your calling. How has running the Bed and Breakfast been different from managing a hotel?"
+    },
+    {
+      "turn_id": 24,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, running the Bed and Breakfast is a whole different ballgame!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " Bed and Breakfast",
+                "type": "LOCATION",
+                "confidence": "0.9037"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's much more hands-on.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Work",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I think what's most different is the personal connection with guests.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Relationship",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " guests",
+                "type": "PERSON",
+                "confidence": "0.9983"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The satisfaction of knowing you've made someone feel at home is worth it.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reward",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "speaker": "Interviewer",
+      "text": "That sounds like such a rewarding experience. How do you feel about the journey you've taken from maid service to running your own Bed and Breakfast?"
+    },
+    {
+      "turn_id": 26,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, it's been quite a journey, really!",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I feel incredibly grateful for all the experiences, the ups and downs.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Gratitude",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's fulfilling, knowing that I've come full circle and can offer guests something special.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Fulfillment",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I feel content and proud of the path I've walked.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Sophie, reflecting on your journey from maid service through all these experiences, what would you say is the biggest lesson you've learned?"
+    },
+    {
+      "turn_id": 28,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "I think the biggest lesson I've learned is about embracing change and staying adaptable.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Lesson",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And, oh, never underestimate the power of kindness and connection.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Whether it's with your team or your guests, it's those relationships that truly enrich our lives.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's all part of the tapestry of life, isn't it?",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Philosophy",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}

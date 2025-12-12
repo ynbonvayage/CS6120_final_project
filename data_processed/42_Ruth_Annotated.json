@@ -1,0 +1,663 @@
+{
+  "session_id": "42_Ruth",
+  "annotation_standard": "Best_Practice_v1 (7_Entities_5_Emotions)",
+  "profile": {
+    "id": "42_Ruth",
+    "name": "Ruth",
+    "age": 85,
+    "role": "Judge",
+    "timeline": [
+      {
+        "stage": "Youth",
+        "topic": "Law school discrimination",
+        "context": "Being the only woman."
+      },
+      {
+        "stage": "Adulthood",
+        "topic": "The death penalty case",
+        "context": "Heavy burden."
+      },
+      {
+        "stage": "Old Age",
+        "topic": "Retirement hobbies",
+        "context": "Gardening judgment free."
+      }
+    ]
+  },
+  "dialogue_turns": [
+    {
+      "turn_id": 1,
+      "speaker": "Interviewer",
+      "text": "I'd love to hear about your experiences in law school, especially any challenges you faced."
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Oh, those were certainly interesting times.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Reflection",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Attending law school in the 1950s as a woman was not without its challenges.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Context",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " law school",
+                "type": "ORGANIZATION",
+                "confidence": "0.9974"
+              },
+              {
+                "text": " 1950s",
+                "type": "TIME",
+                "confidence": "0.9962"
+              }
+            ]
+          }
+        },
+        {
+          "text": "There were very few of us, and I often felt like I had to prove myself twice as much as my male peers.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Struggle",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I remember one professor who outright said that women didn't belong in the legal field.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Discrimination",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " professor",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "But, I was determined to succeed and show that I was just as capable.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Resolve",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Interviewer",
+      "text": "It sounds like you faced a lot of skepticism. How did you manage to navigate through those challenges?"
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "It was indeed tough, but I had a strong support system.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Support",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "My family believed in me immensely.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Family",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " family",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I found a few allies among my classmates who respected my determination.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Friendship",
+            "emotions": [
+              "anger"
+            ],
+            "entities": [
+              {
+                "text": " classmates",
+                "type": "PERSON",
+                "confidence": "0.9992"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I would often remind myself of the bigger picture, that I was paving the way for other women.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Purpose",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I also made it a point to engage actively in class discussions and seek out mentors who could guide me.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Action",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " mentors",
+                "type": "PERSON",
+                "confidence": "0.9991"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Interviewer",
+      "text": "That must have been hard. When did you feel like things started to shift for you in law school?"
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The turning point came during my final year.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Milestone",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I was invited to join the law review, which was a significant achievement at the time, especially for a woman.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Achievement",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " law review",
+                "type": "ORGANIZATION",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was recognition of my hard work and capabilities.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Validation",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Being part of the law review opened up many doors and helped me build confidence.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Opportunity",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was also around this time that some of the faculty began to acknowledge my potential, not just as a woman, but as a legal scholar.",
+          "annotations": {
+            "life_stage": "Youth",
+            "event": "Respect",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " faculty",
+                "type": "PERSON",
+                "confidence": "0.9993"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Interviewer",
+      "text": "So when did things change?"
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Things really took a dramatic turn when I found myself involved in a landmark death penalty case early in my judicial career.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Career",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " death penalty case",
+                "type": "EVENT",
+                "confidence": "0.9981"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It was a highly publicized case, and there was a lot of pressure from both the media and the public.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Pressure",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": [
+              {
+                "text": " media",
+                "type": "ORGANIZATION",
+                "confidence": "0.9978"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The case required me to examine my beliefs about justice and ethics deeply.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Introspection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was a challenging period, but it also reaffirmed my commitment to fairness and the rule of law.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Growth",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Interviewer",
+      "text": "That sounds incredibly intense. What were some of the core challenges you faced during that case?"
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "The case was quite a crucible for me.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Metaphor",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "One of the biggest challenges was balancing the intense scrutiny from the media with maintaining impartiality and focusing on the facts.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Challenge",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "There were also ethical dilemmas, like addressing the moral implications of the death penalty itself.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Dilemma",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " death penalty",
+                "type": "EVENT",
+                "confidence": "0.9982"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I had to ensure the defendant received a fair trial despite the overwhelming public opinion.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Duty",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " defendant",
+                "type": "PERSON",
+                "confidence": "0.9988"
+              }
+            ]
+          }
+        },
+        {
+          "text": "I had to dig deep into the legal precedents and really weigh the gravity of every decision.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Research",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It was also a time when I had to rely heavily on my legal team, who were invaluable in providing different perspectives and support.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Support",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": [
+              {
+                "text": " legal team",
+                "type": "ORGANIZATION",
+                "confidence": "0.9985"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Ultimately, the case reinforced my belief in the importance of due process and the integrity of the legal system.",
+          "annotations": {
+            "life_stage": "Adulthood",
+            "event": "Conclusion",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "speaker": "Interviewer",
+      "text": "That sounds like it required a great deal of strength and resolve. Now that you've retired, what kinds of activities or hobbies have you found yourself enjoying?"
+    },
+    {
+      "turn_id": 14,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Retirement has been a wonderful chapter.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Retirement",
+            "emotions": [
+              "happiness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've always been fascinated by gardening, so I've dedicated a lot of time to cultivating a beautiful garden.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Hobby",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " garden",
+                "type": "LOCATION",
+                "confidence": "0.9960"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's incredibly rewarding to see something grow from a seed to a full bloom.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Observation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "I've also taken up painting, something I dabbled with in my youth but never pursued seriously.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Creativity",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": [
+              {
+                "text": " painting",
+                "type": "EVENT",
+                "confidence": "0.9977"
+              }
+            ]
+          }
+        },
+        {
+          "text": "It's a lovely way to express creativity and unwind.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Relaxation",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "And, of course, I still love reading legal journals and keeping up with the developments in the field.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Interest",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": [
+              {
+                "text": " legal journals",
+                "type": "ARTIFACT",
+                "confidence": "0.9910"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "speaker": "Interviewer",
+      "text": "It's wonderful to hear how you've embraced retirement with such fulfilling activities. How do you think these hobbies compare to the work you did during your career?"
+    },
+    {
+      "turn_id": 16,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "While the work in my career was intense and often high-stakes, these hobbies offer a different kind of satisfaction.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Comparison",
+            "emotions": [
+              "sadness"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Gardening and painting allow me to create and nurture without the pressure of deadlines or the weight of legal responsibility.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Freedom",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's a more personal and introspective fulfillment.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Feeling",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But in a way, both my career and my hobbies are about growth and development\u2014whether it's nurturing a case to its resolution or a plant to its full bloom.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Insight",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "They both require patience and dedication, which I find very rewarding.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Value",
+            "emotions": [
+              "anger"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "speaker": "Interviewer",
+      "text": "Before we finish, Ruth, what final lesson would you like to share from your journey through law and life?"
+    },
+    {
+      "turn_id": 20,
+      "speaker": "Subject",
+      "sentences": [
+        {
+          "text": "Reflecting on my journey, I would say that perseverance is key.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Reflection",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "Whether it's breaking barriers in law school, facing the ethical complexities of a landmark case, or nurturing a garden in retirement, there will always be challenges.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Summary",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "But with determination and a clear sense of purpose, you can overcome them.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Advice",
+            "emotions": [
+              "frustration"
+            ],
+            "entities": []
+          }
+        },
+        {
+          "text": "It's about staying true to your values and believing in your potential to make a difference, no matter how big or small.",
+          "annotations": {
+            "life_stage": "Old Age",
+            "event": "Conclusion",
+            "emotions": [
+              "neutral"
+            ],
+            "entities": []
+          }
+        }
+      ]
+    }
+  ]
+}
