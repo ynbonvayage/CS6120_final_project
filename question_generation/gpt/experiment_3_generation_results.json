@@ -1,0 +1,1620 @@
+[
+  {
+    "sample_id": 1,
+    "file_id": "45_George_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "That must have been such a unique experience, seeing the same passengers and getting to know them over time. So when did things change for you in your career as a conductor?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's fascinating how vivid those memories are for you, George. Can you tell me more about any particular passengers or stories that really left an impression on you during those nights?\"}",
+        "parsed": {
+          "text": "It's fascinating how vivid those memories are for you, George. Can you tell me more about any particular passengers or stories that really left an impression on you during those nights?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like those interactions with passengers like Mrs. Henderson and young Tommy left a lasting impression. Did you ever have any memorable conversations with them or learn something unexpected during those nights?\",\n  \"entities\": [\n    {\n      \"text\": \"Mrs. Henderson\",\n      \"type\": \"PERSON\",\n      \"role\": \"passenger\"\n    },\n    {\n      \"text\": \"young Tommy\",\n      \"type\": \"PERSON\",\n      \"role\": \"passenger\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating how these passengers made such a lasting impression on you. Can you share a particular story or moment with one of them that stands out in your memory?\",\n  \"emotions\": [\"curiosity\", \"warmth\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"Hearing about the characters you met on those night trains makes it sound like such a rich tapestry of stories. Can you share a memorable interaction or story with someone like Mrs. Henderson or young Tommy that really stuck with you over the years?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"nostalgia\"],\n    \"entities\": [\n      {\n        \"text\": \"Mrs. Henderson\",\n        \"type\": \"PERSON\",\n        \"role\": \"passenger\"\n      },\n      {\n        \"text\": \"young Tommy\",\n        \"type\": \"PERSON\",\n        \"role\": \"passenger\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:39:37.930796"
+  },
+  {
+    "sample_id": 2,
+    "file_id": "45_George_Annotated.json",
+    "subject_turn": 16,
+    "target_turn": 17,
+    "target_question_gt": "It sounds like creating model trains brought your family together in a wonderful way. How has this hobby influenced your life now in your later years?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It sounds like your passion for model trains really brought your family closer together. What were some of your favorite memories working on the model trains with them?\"}",
+        "parsed": {
+          "text": "It sounds like your passion for model trains really brought your family closer together. What were some of your favorite memories working on the model trains with them?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear that your passion for model trains brought your family closer together. Did you ever incorporate any elements from your actual railway experiences into your model setups?\",\n  \"entities\": [\n    {\n      \"text\": \"model trains\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"hobby\"\n    },\n    {\n      \"text\": \"railway\",\n      \"type\": \"LOCATION\",\n      \"role\": \"past experience\"\n    },\n    {\n      \"text\": \"family\",\n      \"type\": \"PERSON\",\n      \"role\": \"support system\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear how your passion for model trains became a way to bring your family together. How do you think your experiences as a train conductor influenced the way you approach building your model train landscapes?\",\n  \"emotions\": [\"curiosity\", \"warmth\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like your passion for model trains really brought your family together in a wonderful way. Did you find that this hobby also allowed you to connect with others outside of your family?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"warmth\"],\n    \"entities\": [\n      {\n        \"text\": \"family\",\n        \"type\": \"PERSON\",\n        \"role\": \"support system\"\n      },\n      {\n        \"text\": \"model trains\",\n        \"type\": \"ARTIFACT\",\n        \"role\": \"hobby\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:39:52.888049"
+  },
+  {
+    "sample_id": 3,
+    "file_id": "45_George_Annotated.json",
+    "subject_turn": 20,
+    "target_turn": 21,
+    "target_question_gt": "It's wonderful to hear how much joy model trains have brought into your life. How do you feel when you're working on your layouts, and what do they mean to you personally?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's great to hear how your passion has created new bonds and kept that sense of camaraderie alive. Have you had the opportunity to share your experiences from your days as a conductor with the community, perhaps through storytelling or exhibitions?\"}",
+        "parsed": {
+          "text": "It's great to hear how your passion has created new bonds and kept that sense of camaraderie alive. Have you had the opportunity to share your experiences from your days as a conductor with the community, perhaps through storytelling or exhibitions?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like the model train community has become an important part of your life. Have you participated in any events or gatherings with fellow enthusiasts?\",\n  \"entities\": [\n    {\n      \"text\": \"model train community\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"community\"\n    },\n    {\n      \"text\": \"enthusiasts\",\n      \"type\": \"PERSON\",\n      \"role\": \"participants\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It’s heartwarming to hear how your involvement in the model train community has brought back that sense of camaraderie you cherished during your time on the night trains. How do you see your passion for model trains evolving in the future?\",\n  \"emotions\": [\"happiness\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating to see how those early experiences on the night trains have resonated throughout your life. How do you think your time as a conductor has shaped the way you interact with people within the model train community?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"night trains\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"past experience\"\n      },\n      {\n        \"text\": \"conductor\",\n        \"type\": \"OCCUPATION\",\n        \"role\": \"former role\"\n      },\n      {\n        \"text\": \"model train community\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"current involvement\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:40:09.394302"
+  },
+  {
+    "sample_id": 4,
+    "file_id": "45_George_Annotated.json",
+    "subject_turn": 22,
+    "target_turn": 23,
+    "target_question_gt": "It sounds like working on your layouts is a very reflective process for you. Can you share a specific memory or story that you've tried to capture in one of your model train scenes?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It must be incredibly rewarding to create something that brings you such peace and connection to your past. Do you have a favorite layout or scene that you've created, and what's the story behind it?\"}",
+        "parsed": {
+          "text": "It must be incredibly rewarding to create something that brings you such peace and connection to your past. Do you have a favorite layout or scene that you've created, and what's the story behind it?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating how model trains have become such a profound connection to your past and a source of peace. Have you had any particular projects or layouts that hold special significance for you?\",\n  \"entities\": [\n    {\n      \"text\": \"model trains\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"hobby\"\n    },\n    {\n      \"text\": \"projects\",\n      \"type\": \"EVENT\",\n      \"role\": \"activities\"\n    },\n    {\n      \"text\": \"layouts\",\n      \"type\": \"ARTIFACT\",\n      \"role\": \"creations\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's truly remarkable how your layouts serve as a bridge to your past experiences on the railway. Do you have a particular piece or scene in your collection that holds special significance for you?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like your layouts are much more than just a hobby; they're a way for you to relive and honor your past experiences. Have you ever shared your stories or these layouts with others outside your immediate family, perhaps at community events or with fellow enthusiasts?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"interest\"],\n    \"entities\": [\n      {\n        \"text\": \"layouts\",\n        \"type\": \"ARTIFACT\",\n        \"role\": \"subject of George's hobby\"\n      },\n      {\n        \"text\": \"community events\",\n        \"type\": \"EVENT\",\n        \"role\": \"potential audience\"\n      },\n      {\n        \"text\": \"enthusiasts\",\n        \"type\": \"PERSON\",\n        \"role\": \"potential audience\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like your layouts are much more than just a hobby; they're a way for you to relive and honor your past experiences. Have you ever shared your stories or these layouts with others outside your immediate family, perhaps at community events or with fellow enthusiasts?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "interest"
+            ],
+            "entities": [
+              {
+                "text": "layouts",
+                "type": "ARTIFACT",
+                "role": "subject of George's hobby"
+              },
+              {
+                "text": "community events",
+                "type": "EVENT",
+                "role": "potential audience"
+              },
+              {
+                "text": "enthusiasts",
+                "type": "PERSON",
+                "role": "potential audience"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:40:22.405222"
+  },
+  {
+    "sample_id": 5,
+    "file_id": "49_Lin_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "So when did things change for you? When did you start to feel more settled in your new environment?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's inspiring to hear how your family's sacrifices played such a significant role in your perseverance. Did you have any particular experiences or people that helped you feel more at home in those early days?\"}",
+        "parsed": {
+          "text": "It's inspiring to hear how your family's sacrifices played such a significant role in your perseverance. Did you have any particular experiences or people that helped you feel more at home in those early days?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Your parents' sacrifices seem to have played a significant role in shaping your journey. Could you tell me more about your family and the kind of life they hoped you would have?\",\n  \"entities\": [\n    {\n      \"text\": \"parents\",\n      \"type\": \"PERSON\",\n      \"role\": \"family members\"\n    },\n    {\n      \"text\": \"family\",\n      \"type\": \"PERSON\",\n      \"role\": \"relatives\"\n    },\n    {\n      \"text\": \"life\",\n      \"type\": \"ABSTRACT\",\n      \"role\": \"aspirations\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring to hear how your family's dreams and sacrifices fueled your drive. Can you share a particular moment or achievement that made you feel you were honoring their hopes?\",\n  \"emotions\": [\"respect\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's inspiring to hear how your parents' sacrifices and your vision for making a meaningful contribution kept you going. Could you share a specific moment or achievement that stands out from your early days that reinforced your determination?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"admiration\"],\n    \"entities\": [\n      {\n        \"text\": \"parents\",\n        \"type\": \"PERSON\",\n        \"role\": \"contextual influencers\"\n      },\n      {\n        \"text\": \"early days\",\n        \"type\": \"TIME\",\n        \"role\": \"period of initial struggle\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's inspiring to hear how your parents' sacrifices and your vision for making a meaningful contribution kept you going. Could you share a specific moment or achievement that stands out from your early days that reinforced your determination?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "admiration"
+            ],
+            "entities": [
+              {
+                "text": "parents",
+                "type": "PERSON",
+                "role": "contextual influencers"
+              },
+              {
+                "text": "early days",
+                "type": "TIME",
+                "role": "period of initial struggle"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:40:35.283027"
+  },
+  {
+    "sample_id": 6,
+    "file_id": "49_Lin_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "That's an impressive journey. So when did things change, leading you to work on high stakes projects like at the UN?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That's wonderful to hear. How did working as a translator shape your experience and perspective in your new country?\"}",
+        "parsed": {
+          "text": "That's wonderful to hear. How did working as a translator shape your experience and perspective in your new country?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring how you found your path through your work as a translator. Can you tell me more about your experience with the larger firm? What kind of projects did you work on, and how did that influence your career trajectory?\",\n  \"entities\": [\n    {\n      \"text\": \"translator\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"career role\"\n    },\n    {\n      \"text\": \"firm\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"employer\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like finding a job as a translator was a significant milestone for you. How did that role shape your sense of identity and belonging in your new country?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like finding that role as a translator was a key moment for you. Can you tell me more about what it was like working there and how it helped you grow professionally?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"translator\",\n        \"type\": \"OCCUPATION\",\n        \"role\": \"career milestone\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:40:46.417944"
+  },
+  {
+    "sample_id": 7,
+    "file_id": "49_Lin_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "That must evoke a range of emotions. How do you reconcile those feelings of loss with the pride in your accomplishments?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's interesting how language ties so deeply to our sense of self. How do you maintain your connection to your native language and culture now?\"}",
+        "parsed": {
+          "text": "It's interesting how language ties so deeply to our sense of self. How do you maintain your connection to your native language and culture now?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's interesting how language can evolve throughout different stages of life. Have you found any new ways or techniques to maintain or even improve your language skills as you age?\",\n  \"entities\": []\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating how language has played such a central role in your life. Given your vast experiences, have you found new ways to connect with your cultural roots as you've aged?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating how your experiences with language have evolved over time. Given your vast experiences, have you found new ways to stay connected with your cultural roots despite these challenges?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"cultural roots\",\n        \"type\": \"ABSTRACT\",\n        \"role\": \"subject of inquiry\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:40:58.633452"
+  },
+  {
+    "sample_id": 8,
+    "file_id": "49_Lin_Annotated.json",
+    "subject_turn": 16,
+    "target_turn": 17,
+    "target_question_gt": "Your journey with languages has been profound. Looking back, what do you think has been the most rewarding part of your work as a translator?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's inspiring to hear how you've found purpose in your work. Are there particular moments or projects that stand out to you as especially meaningful in your career?\"}",
+        "parsed": {
+          "text": "It's inspiring to hear how you've found purpose in your work. Are there particular moments or projects that stand out to you as especially meaningful in your career?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's truly inspiring to hear how you've navigated those complex emotions. Have there been any particular moments or interactions throughout your career that stand out as especially meaningful to you?\",\n  \"entities\": []\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like your work as a translator has been incredibly fulfilling and impactful. I'm curious, as you reflect on your career and life experiences, what advice would you give to someone starting a similar journey today?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like your work has left a lasting impact not only on others but also on yourself. Could you share a specific moment when you felt that deep sense of fulfillment from your work?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"respect\"],\n    \"entities\": []\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:41:08.259000"
+  },
+  {
+    "sample_id": 9,
+    "file_id": "27_Cliff_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "Did the incident change how people on your route interacted with you?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"How did you manage to overcome that fear and continue with your job?\"}",
+        "parsed": {
+          "text": "How did you manage to overcome that fear and continue with your job?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that experience had a profound impact on you. Did it change how you interacted with the community members, like Mrs. Jenkins or others on your route?\",\n  \"entities\": [\n    {\n      \"text\": \"Mrs. Jenkins\",\n      \"type\": \"PERSON\",\n      \"role\": \"community member\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that incident really changed the way you experienced your work. Did you find ways to regain a sense of security on your route, or did it alter how you connected with the community?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like that experience really changed your perspective on the job. Did you find ways to cope with that fear, or did it influence any decisions about your career going forward?\",\n  \"annotations\": {\n    \"emotions\": [\"empathy\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"fear\",\n        \"type\": \"EMOTION\",\n        \"role\": \"subject of coping strategies\"\n      },\n      {\n        \"text\": \"career\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"context of potential changes\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like that experience really changed your perspective on the job. Did you find ways to cope with that fear, or did it influence any decisions about your career going forward?",
+          "annotations": {
+            "emotions": [
+              "empathy",
+              "curiosity"
+            ],
+            "entities": [
+              {
+                "text": "fear",
+                "type": "EMOTION",
+                "role": "subject of coping strategies"
+              },
+              {
+                "text": "career",
+                "type": "CONCEPT",
+                "role": "context of potential changes"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:41:19.904200"
+  },
+  {
+    "sample_id": 10,
+    "file_id": "27_Cliff_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "I'd love to hear about how you adjusted to the changes. What was it like shifting from letters to emails?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Reflecting on all of these changes, what did you decide to do next in your career or life?\"}",
+        "parsed": {
+          "text": "Reflecting on all of these changes, what did you decide to do next in your career or life?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It seems like that period marked a significant transition for you. How did you eventually decide to move forward, and did any specific events or people influence your decision?\",\n  \"entities\": [\n    {\n      \"text\": \"transition\",\n      \"type\": \"EVENT\",\n      \"role\": \"contextual role\"\n    },\n    {\n      \"text\": \"period\",\n      \"type\": \"DATE\",\n      \"role\": \"contextual role\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It seems like that experience really prompted you to think about the future of your role and how things were changing. How did you eventually decide to move forward from there?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like that incident was a turning point for you in many ways. Did it influence how you approached retirement or any decisions about your future?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"retirement\",\n        \"type\": \"EVENT\",\n        \"role\": \"life decision\"\n      },\n      {\n        \"text\": \"future\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"personal outlook\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like that incident was a turning point for you in many ways. Did it influence how you approached retirement or any decisions about your future?",
+          "annotations": {
+            "emotions": [
+              "curiosity"
+            ],
+            "entities": [
+              {
+                "text": "retirement",
+                "type": "EVENT",
+                "role": "life decision"
+              },
+              {
+                "text": "future",
+                "type": "CONCEPT",
+                "role": "personal outlook"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:41:31.863388"
+  },
+  {
+    "sample_id": 11,
+    "file_id": "27_Cliff_Annotated.json",
+    "subject_turn": 16,
+    "target_turn": 17,
+    "target_question_gt": "That must have been quite a shift. How did you personally adapt to this new digital world?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It must have been quite a shift. How did you find ways to adapt to these changes, both professionally and personally?\"}",
+        "parsed": {
+          "text": "It must have been quite a shift. How did you find ways to adapt to these changes, both professionally and personally?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like the shift from tangible letters to digital communication was quite profound for you. How did you personally adapt to using technology like emails, and did it change how you interacted with the community?\",\n  \"entities\": [\n    {\n      \"text\": \"emails\",\n      \"type\": \"ARTIFACT\",\n      \"role\": \"subject of transition\"\n    },\n    {\n      \"text\": \"community\",\n      \"type\": \"PERSON\",\n      \"role\": \"group affected by change\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that transition was quite emotional for you. How did you cope with these changes in your role, and did you find new ways to connect with the community?\",\n  \"emotions\": [\"compassion\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that was a really profound shift for you. How did you personally cope with seeing such a fundamental change in your work and what it meant to you?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"shift\",\n        \"type\": \"EVENT\",\n        \"role\": \"contextual role\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:41:41.500297"
+  },
+  {
+    "sample_id": 12,
+    "file_id": "27_Cliff_Annotated.json",
+    "subject_turn": 20,
+    "target_turn": 21,
+    "target_question_gt": "It seems like there was a real emotional connection in those days. How do you feel about the way things are now?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It sounds like the personal connections were incredibly meaningful to you. Do you have any particular stories or moments from those days that stand out in your memory?\"}",
+        "parsed": {
+          "text": "It sounds like the personal connections were incredibly meaningful to you. Do you have any particular stories or moments from those days that stand out in your memory?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"That sense of connection and anticipation really seems to have been at the heart of your work. How do you see the role of a postman evolving in today's world, especially with the rise of digital communication?\",\n  \"entities\": [\n    {\n      \"text\": \"postman\",\n      \"type\": \"PERSON\",\n      \"role\": \"profession\"\n    },\n    {\n      \"text\": \"today's world\",\n      \"type\": \"DATE\",\n      \"role\": \"time period\"\n    },\n    {\n      \"text\": \"digital communication\",\n      \"type\": \"ARTIFACT\",\n      \"role\": \"modern technology\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like delivering letters was more than just a job for you; it was a meaningful connection to the community. I'm curious, do you have any particular stories or memories from those days that stand out to you, perhaps a favorite moment or interaction?\",\n  \"emotions\": [\"curiosity\", \"warmth\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"That sense of personal connection really seems to have been a cornerstone of your work. Do you think there's a way to bring some of that intimacy into today's digital interactions?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"personal connection\",\n        \"type\": \"ABSTRACT\",\n        \"role\": \"central theme\"\n      },\n      {\n        \"text\": \"digital interactions\",\n        \"type\": \"ABSTRACT\",\n        \"role\": \"current context\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:41:53.433567"
+  },
+  {
+    "sample_id": 13,
+    "file_id": "15_Mary_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "So when did things start to change in the library?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Finding those notes sounds intriguing! Do you recall any particular note or message that stood out to you?\"}",
+        "parsed": {
+          "text": "Finding those notes sounds intriguing! Do you recall any particular note or message that stood out to you?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like Mrs. Thompson had a big influence on you, especially with her unique advice and teaching you the Dewey Decimal System. How did learning to navigate the library in that way shape your love for books and your career as a librarian?\",\n  \"entities\": [\n    {\n      \"text\": \"Mrs. Thompson\",\n      \"type\": \"PERSON\",\n      \"role\": \"mentor\"\n    },\n    {\n      \"text\": \"Dewey Decimal System\",\n      \"type\": \"EVENT\",\n      \"role\": \"learning experience\"\n    },\n    {\n      \"text\": \"librarian\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"career\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful how those small notes could turn a day into an adventure. Did you ever find any particular note that stood out to you or that you still remember?\",\n  \"emotions\": [\"curiosity\", \"nostalgia\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like Mrs. Thompson had a significant influence on you. How do you think her mentorship shaped your path as a librarian?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"interest\"],\n    \"entities\": [\n      {\n        \"text\": \"Mrs. Thompson\",\n        \"type\": \"PERSON\",\n        \"role\": \"mentor\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like Mrs. Thompson had a significant influence on you. How do you think her mentorship shaped your path as a librarian?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "interest"
+            ],
+            "entities": [
+              {
+                "text": "Mrs. Thompson",
+                "type": "PERSON",
+                "role": "mentor"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:42:05.612690"
+  },
+  {
+    "sample_id": 14,
+    "file_id": "15_Mary_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "I'd love to hear about some of the core challenges you faced during this transition.",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's wonderful to hear how the library evolved with the times. Did you have any particular experiences or challenges as the library became more of a hub of activity?\"}",
+        "parsed": {
+          "text": "It's wonderful to hear how the library evolved with the times. Did you have any particular experiences or challenges as the library became more of a hub of activity?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating how those early experiences with technology in the library shaped people's futures. Do you think the library's transformation influenced your own career in any way?\",\n  \"entities\": [\n    {\n      \"text\": \"library\",\n      \"type\": \"LOCATION\",\n      \"role\": \"context\"\n    },\n    {\n      \"text\": \"technology\",\n      \"type\": \"ARTIFACT\",\n      \"role\": \"subject\"\n    },\n    {\n      \"text\": \"career\",\n      \"type\": \"CONCEPT\",\n      \"role\": \"subject\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's amazing to hear how the library transformed into such a vibrant place with the introduction of technology. How did you feel about guiding the younger generation through this transition?\",\n  \"emotions\": [\"curiosity\", \"support\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's fascinating to hear how the library transformed over the years. How did it feel to see the younger generation, like that girl, embracing the technology that was once so foreign to you?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"interest\"],\n    \"entities\": [\n      {\n        \"text\": \"library\",\n        \"type\": \"LOCATION\",\n        \"role\": \"context\"\n      },\n      {\n        \"text\": \"girl\",\n        \"type\": \"PERSON\",\n        \"role\": \"example of younger generation\"\n      },\n      {\n        \"text\": \"technology\",\n        \"type\": \"ARTIFACT\",\n        \"role\": \"catalyst for change\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's fascinating to hear how the library transformed over the years. How did it feel to see the younger generation, like that girl, embracing the technology that was once so foreign to you?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "interest"
+            ],
+            "entities": [
+              {
+                "text": "library",
+                "type": "LOCATION",
+                "role": "context"
+              },
+              {
+                "text": "girl",
+                "type": "PERSON",
+                "role": "example of younger generation"
+              },
+              {
+                "text": "technology",
+                "type": "ARTIFACT",
+                "role": "catalyst for change"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:42:20.117720"
+  },
+  {
+    "sample_id": 15,
+    "file_id": "15_Mary_Annotated.json",
+    "subject_turn": 16,
+    "target_turn": 17,
+    "target_question_gt": "So when did the library eventually close?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's fascinating how you managed to maintain that balance. How did you personally adapt your role as a librarian during this time of change?\"}",
+        "parsed": {
+          "text": "It's fascinating how you managed to maintain that balance. How did you personally adapt your role as a librarian during this time of change?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear about Mrs. Henderson's journey with email! How did you and your team manage to maintain the library's essence while integrating new technologies?\",\n  \"entities\": [\n    {\n      \"text\": \"Mrs. Henderson\",\n      \"type\": \"PERSON\",\n      \"role\": \"patron\"\n    },\n    {\n      \"text\": \"email\",\n      \"type\": \"EVENT\",\n      \"role\": \"technology\"\n    },\n    {\n      \"text\": \"library\",\n      \"type\": \"LOCATION\",\n      \"role\": \"institution\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been quite fulfilling to witness patrons like Mrs. Henderson embracing the new technology. How do you think these changes have influenced the role of libraries today?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like you were able to strike a delicate balance during a challenging time. I'm curious, Mary, do you think that balance has shifted over the years, especially with how libraries have continued to evolve?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"respect\"],\n    \"entities\": [\n      {\n        \"text\": \"Mary\",\n        \"type\": \"PERSON\",\n        \"role\": \"interviewee\"\n      },\n      {\n        \"text\": \"libraries\",\n        \"type\": \"LOCATION\",\n        \"role\": \"institution\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:42:44.722147"
+  },
+  {
+    "sample_id": 16,
+    "file_id": "15_Mary_Annotated.json",
+    "subject_turn": 20,
+    "target_turn": 21,
+    "target_question_gt": "That must have been hard to see such an important place in your life close. How do you feel about the future of libraries in general?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It seems like the library was such a vital part of your life. What do you think it is about libraries that make them such special places for so many people?\"}",
+        "parsed": {
+          "text": "It seems like the library was such a vital part of your life. What do you think it is about libraries that make them such special places for so many people?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's clear that the library meant a lot to you and many others. Do you find yourself visiting other libraries now, or have you found new places that offer a similar sense of peace?\",\n  \"entities\": [\n    {\n      \"text\": \"library\",\n      \"type\": \"LOCATION\",\n      \"role\": \"former workplace\"\n    },\n    {\n      \"text\": \"libraries\",\n      \"type\": \"LOCATION\",\n      \"role\": \"potential new places\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's clear the library meant a lot to you and to so many others. You mentioned it felt like losing a part of yourself. How have you been finding new ways to connect with that sense of sanctuary and community in these recent years?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It’s clear that the library meant so much to you and the community. Have you found any new places or activities that bring you a similar sense of peace and connection?\",\n  \"annotations\": {\n    \"emotions\": [\"empathy\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"library\",\n        \"type\": \"LOCATION\",\n        \"role\": \"place of significance\"\n      },\n      {\n        \"text\": \"community\",\n        \"type\": \"GROUP\",\n        \"role\": \"collective impacted by change\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:43:12.075122"
+  },
+  {
+    "sample_id": 17,
+    "file_id": "16_Pierre_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "That must have been hard, but it sounds like it shaped you into the baker you became. So when did things change?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"What were some of the most challenging moments during your apprenticeship, and how did you deal with them?\"}",
+        "parsed": {
+          "text": "What were some of the most challenging moments during your apprenticeship, and how did you deal with them?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like those experiences with Monsieur Lefevre really shaped your approach to baking. Can you tell me about a specific moment or lesson from that time in Paris that stands out in your memory?\",\n  \"entities\": [\n    {\n      \"text\": \"Monsieur Lefevre\",\n      \"type\": \"PERSON\",\n      \"role\": \"mentor\"\n    },\n    {\n      \"text\": \"Paris\",\n      \"type\": \"LOCATION\",\n      \"role\": \"place of apprenticeship\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It seems like those early lessons in precision and dedication stayed with you throughout your career. Can you share a specific memory or moment when you realized the value of Monsieur Lefevre's teachings?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's fascinating how those early lessons in precision and dedication have likely shaped your career. Can you share a specific moment or achievement in your baking career that you think Monsieur Lefevre would be proud of?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"interest\"],\n    \"entities\": [\n      {\n        \"text\": \"Monsieur Lefevre\",\n        \"type\": \"PERSON\",\n        \"role\": \"mentor\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's fascinating how those early lessons in precision and dedication have likely shaped your career. Can you share a specific moment or achievement in your baking career that you think Monsieur Lefevre would be proud of?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "interest"
+            ],
+            "entities": [
+              {
+                "text": "Monsieur Lefevre",
+                "type": "PERSON",
+                "role": "mentor"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:43:53.599929"
+  },
+  {
+    "sample_id": 18,
+    "file_id": "16_Pierre_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "What was it like starting out in New York?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"What was it like adjusting to life in New York and starting up your own bakery there?\"}",
+        "parsed": {
+          "text": "What was it like adjusting to life in New York and starting up your own bakery there?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Moving to America at such a young age must have been quite an adventure. What were some of the challenges you faced when you first arrived in New York?\",\n  \"entities\": [\n    {\n      \"text\": \"America\",\n      \"type\": \"LOCATION\",\n      \"role\": \"destination\"\n    },\n    {\n      \"text\": \"New York\",\n      \"type\": \"LOCATION\",\n      \"role\": \"arrival location\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like you were very brave to take such a big step at a young age. What were some of the challenges you faced when you first arrived in New York?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"Deciding to move to America at 22 is indeed a brave decision. How did you find the transition from Paris to New York, both personally and professionally?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"admiration\"],\n    \"entities\": [\n      {\n        \"text\": \"Paris\",\n        \"type\": \"LOCATION\",\n        \"role\": \"origin\"\n      },\n      {\n        \"text\": \"New York\",\n        \"type\": \"LOCATION\",\n        \"role\": \"destination\"\n      },\n      {\n        \"text\": \"22\",\n        \"type\": \"AGE\",\n        \"role\": \"life stage\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "Deciding to move to America at 22 is indeed a brave decision. How did you find the transition from Paris to New York, both personally and professionally?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "admiration"
+            ],
+            "entities": [
+              {
+                "text": "Paris",
+                "type": "LOCATION",
+                "role": "origin"
+              },
+              {
+                "text": "New York",
+                "type": "LOCATION",
+                "role": "destination"
+              },
+              {
+                "text": "22",
+                "type": "AGE",
+                "role": "life stage"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:44:05.488861"
+  },
+  {
+    "sample_id": 19,
+    "file_id": "16_Pierre_Annotated.json",
+    "subject_turn": 12,
+    "target_turn": 13,
+    "target_question_gt": "That sounds like a significant turning point. What was it like realizing you were losing your sense of smell?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Losing your sense of smell must have been devastating, especially for a baker. How did you cope with that, and what impact did it have on your work?\"}",
+        "parsed": {
+          "text": "Losing your sense of smell must have been devastating, especially for a baker. How did you cope with that, and what impact did it have on your work?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Losing your sense of smell must have been devastating, especially for a baker. How did you cope with that, and did it affect your business in New York?\",\n  \"entities\": [\n    {\n      \"text\": \"baker\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"Pierre's occupation\"\n    },\n    {\n      \"text\": \"New York\",\n      \"type\": \"LOCATION\",\n      \"role\": \"place of Pierre's business\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"Losing your sense of smell must have been incredibly difficult, especially for a baker. How did you cope with that challenge and what impact did it have on your work?\",\n  \"emotions\": [\"concern\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"Losing your sense of smell must have been incredibly challenging as a baker. How did you cope with that, and how did it affect your work?\",\n  \"annotations\": {\n    \"emotions\": [\"concern\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"sense of smell\",\n        \"type\": \"HEALTH\",\n        \"role\": \"situation\"\n      },\n      {\n        \"text\": \"baker\",\n        \"type\": \"OCCUPATION\",\n        \"role\": \"profession\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "Losing your sense of smell must have been incredibly challenging as a baker. How did you cope with that, and how did it affect your work?",
+          "annotations": {
+            "emotions": [
+              "concern",
+              "empathy"
+            ],
+            "entities": [
+              {
+                "text": "sense of smell",
+                "type": "HEALTH",
+                "role": "situation"
+              },
+              {
+                "text": "baker",
+                "type": "OCCUPATION",
+                "role": "profession"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:44:16.997755"
+  },
+  {
+    "sample_id": 20,
+    "file_id": "16_Pierre_Annotated.json",
+    "subject_turn": 16,
+    "target_turn": 17,
+    "target_question_gt": "It sounds like you've faced quite a few challenges throughout your life. How do you feel looking back on everything now?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's inspiring to hear how you adapted and continued despite such a challenge. Can you tell me more about how your team supported you during that time?\"}",
+        "parsed": {
+          "text": "It's inspiring to hear how you adapted and continued despite such a challenge. Can you tell me more about how your team supported you during that time?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring to hear how you found ways to adapt despite such a significant challenge, Pierre. How did your team play a role in helping you navigate this new phase of your baking career?\",\n  \"entities\": [\n    {\n      \"text\": \"Pierre\",\n      \"type\": \"PERSON\",\n      \"role\": \"subject\"\n    },\n    {\n      \"text\": \"team\",\n      \"type\": \"PERSON\",\n      \"role\": \"support system\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring to hear how you adapted and continued despite such a personal challenge. How did your team support you during this time, and what did it mean for your relationship with them?\",\n  \"emotions\": [\"admiration\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring to hear how you adapted and continued your passion despite such a challenge. Can you tell me more about the team that supported you during this time?\",\n  \"annotations\": {\n    \"emotions\": [\"inspiration\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"team\",\n        \"type\": \"PERSON\",\n        \"role\": \"support system\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:44:28.551430"
+  },
+  {
+    "sample_id": 21,
+    "file_id": "04_Carlos_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "That must have been terrifying. How did you cope with the possibility of losing your hearing?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That sounds incredibly challenging. How did you cope with the possibility of losing something so integral to your life and identity?\"}",
+        "parsed": {
+          "text": "That sounds incredibly challenging. How did you cope with the possibility of losing something so integral to your life and identity?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"That sounds incredibly challenging. How did you cope with the possibility of losing your ability to play music, and what steps did you take to address your hearing issues?\",\n  \"entities\": [\n    {\n      \"text\": \"music\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"subject's passion\"\n    },\n    {\n      \"text\": \"hearing\",\n      \"type\": \"HEALTH_CONDITION\",\n      \"role\": \"subject's health concern\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"That sounds incredibly challenging, Carlos. How did you cope with the fear of losing something so central to your life? Did it change your relationship with music?\",\n  \"emotions\": [\"empathy\", \"concern\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"That must have been a really difficult experience, Carlos. How did you manage to navigate through that period when you were worried about your hearing and your future in music?\",\n  \"annotations\": {\n    \"emotions\": [\"empathy\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"Carlos\",\n        \"type\": \"PERSON\",\n        \"role\": \"subject\"\n      },\n      {\n        \"text\": \"hearing\",\n        \"type\": \"PHYSICAL_ATTRIBUTE\",\n        \"role\": \"challenge faced\"\n      },\n      {\n        \"text\": \"music\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"career and identity\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "That must have been a really difficult experience, Carlos. How did you manage to navigate through that period when you were worried about your hearing and your future in music?",
+          "annotations": {
+            "emotions": [
+              "empathy",
+              "curiosity"
+            ],
+            "entities": [
+              {
+                "text": "Carlos",
+                "type": "PERSON",
+                "role": "subject"
+              },
+              {
+                "text": "hearing",
+                "type": "PHYSICAL_ATTRIBUTE",
+                "role": "challenge faced"
+              },
+              {
+                "text": "music",
+                "type": "ORGANIZATION",
+                "role": "career and identity"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:44:53.530441"
+  },
+  {
+    "sample_id": 22,
+    "file_id": "04_Carlos_Annotated.json",
+    "subject_turn": 8,
+    "target_turn": 9,
+    "target_question_gt": "N/A",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's good to hear that your hearing stabilized. How did this experience change your perspective on performing and your relationship with music?\"}",
+        "parsed": {
+          "text": "It's good to hear that your hearing stabilized. How did this experience change your perspective on performing and your relationship with music?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"I'm glad to hear your hearing stabilized, Carlos. How did this experience change your relationship with music, and did it influence the kind of projects or collaborations you pursued afterward?\",\n  \"entities\": [\n    {\n      \"text\": \"Carlos\",\n      \"type\": \"PERSON\",\n      \"role\": \"subject\"\n    },\n    {\n      \"text\": \"music\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"topic\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been such a relief to find your hearing stabilized. Did that experience change the way you approach your music now, knowing how close you came to losing it?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"That must have been such a relief, knowing your hearing was stable again. How did that experience change your relationship with music? Did it influence the way you approached your performances or music creation afterward?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"hearing\",\n        \"type\": \"HEALTH\",\n        \"role\": \"subject's concern\"\n      },\n      {\n        \"text\": \"music\",\n        \"type\": \"ART\",\n        \"role\": \"subject's passion\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:45:21.148328"
+  },
+  {
+    "sample_id": 23,
+    "file_id": "04_Carlos_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "It sounds like you found a new appreciation for music during that time. How did your relationship with music evolve after that experience?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"I'm glad to hear that your hearing stabilized. Did your approach to music or performing change after going through that experience?\"}",
+        "parsed": {
+          "text": "I'm glad to hear that your hearing stabilized. Did your approach to music or performing change after going through that experience?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"I'm glad to hear that your hearing stabilized. It sounds like playing music for yourself was a pivotal experience. Did that change how you approached your music going forward?\",\n  \"entities\": [\n    {\n      \"text\": \"music\",\n      \"type\": \"ACTIVITY\",\n      \"role\": \"subject of change\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's incredible how you found a way to continue connecting with music even during such a challenging time. How did this experience change your perspective on performing and your career overall?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's a relief to hear that your hearing stabilized. How did that experience change your relationship with music?\",\n  \"annotations\": {\n    \"emotions\": [\"relief\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"hearing\",\n        \"type\": \"PHYSICAL_CONDITION\",\n        \"role\": \"subject's health\"\n      },\n      {\n        \"text\": \"music\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"subject's passion\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:45:30.821577"
+  },
+  {
+    "sample_id": 24,
+    "file_id": "04_Carlos_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "I'd love to hear what your music means to you now, in this current stage of your life.",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Teaching must have been a rewarding experience. What was it like to pass on your knowledge and passion for music to younger musicians?\"}",
+        "parsed": {
+          "text": "Teaching must have been a rewarding experience. What was it like to pass on your knowledge and passion for music to younger musicians?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Teaching sounds like a wonderful way to give back. How did you start getting involved with teaching younger musicians, and what was it like to share your experiences from the road with them?\",\n  \"entities\": [\n    {\n      \"text\": \"Teaching\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"activity\"\n    },\n    {\n      \"text\": \"younger musicians\",\n      \"type\": \"PERSON\",\n      \"role\": \"students\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"Teaching sounds like a wonderful way to pass on your love for music. How has working with young musicians influenced your own musical journey?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It’s wonderful to hear that you not only adapted but also found a way to give back through teaching. What has been the most rewarding part of mentoring younger musicians?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"admiration\"],\n    \"entities\": [\n      {\n        \"text\": \"younger musicians\",\n        \"type\": \"PERSON\",\n        \"role\": \"students\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:45:40.866648"
+  },
+  {
+    "sample_id": 25,
+    "file_id": "24_Yuri_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "So when did things change for you after you settled in the West?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"How did your experiences in the ballet community in the West compare to what you were used to back home?\"}",
+        "parsed": {
+          "text": "How did your experiences in the ballet community in the West compare to what you were used to back home?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's great to hear that the ballet community could provide such support. Did you have any specific mentors or figures in the ballet world who helped guide you during that time?\",\n  \"entities\": [\n    {\n      \"text\": \"ballet community\",\n      \"type\": \"PERSON\",\n      \"role\": \"support group\"\n    },\n    {\n      \"text\": \"mentors\",\n      \"type\": \"PERSON\",\n      \"role\": \"guides\"\n    },\n    {\n      \"text\": \"ballet world\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"industry\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like the dance community really played a crucial role in your transition. What were some of the ways they supported you during those early days?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear that the ballet community was so supportive. Can you share more about how your career developed in the West and any memorable performances you had?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"ballet community\",\n        \"type\": \"PERSON\",\n        \"role\": \"support system\"\n      },\n      {\n        \"text\": \"career\",\n        \"type\": \"EVENT\",\n        \"role\": \"professional development\"\n      },\n      {\n        \"text\": \"performances\",\n        \"type\": \"EVENT\",\n        \"role\": \"significant achievements\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:45:49.812115"
+  },
+  {
+    "sample_id": 26,
+    "file_id": "24_Yuri_Annotated.json",
+    "subject_turn": 8,
+    "target_turn": 9,
+    "target_question_gt": "That must have been devastating, especially for a dancer. How did it happen?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That sounds like a significant moment. How did you handle the injury, and what impact did it have on your career?\"}",
+        "parsed": {
+          "text": "That sounds like a significant moment. How did you handle the injury, and what impact did it have on your career?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"That must have been a challenging period. How did your injury affect your career in ballet, and what steps did you take afterward?\",\n  \"entities\": [\n    {\n      \"text\": \"injury\",\n      \"type\": \"EVENT\",\n      \"role\": \"contextual role\"\n    },\n    {\n      \"text\": \"ballet\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"career\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"That sounds like a significant moment in your life. How did you adapt to this new reality after your injury?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"An injury like that must have been challenging, especially in such a demanding profession as ballet. How did you manage to adapt and find a new path after your knee injury?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"knee\",\n        \"type\": \"ARTIFACT\",\n        \"role\": \"cause of change\"\n      },\n      {\n        \"text\": \"ballet\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"profession\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:02.566405"
+  },
+  {
+    "sample_id": 27,
+    "file_id": "24_Yuri_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "What were some of the core challenges you faced during your recovery?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That sounds incredibly challenging. How did you manage the recovery process, both physically and mentally?\"}",
+        "parsed": {
+          "text": "That sounds incredibly challenging. How did you manage the recovery process, both physically and mentally?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"I'm sorry to hear that. How did the injury affect your career in ballet, and what steps did you take to recover and adapt?\",\n  \"entities\": [\n    {\n      \"text\": \"injury\",\n      \"type\": \"EVENT\",\n      \"role\": \"career impact\"\n    },\n    {\n      \"text\": \"ballet\",\n      \"type\": \"FIELD\",\n      \"role\": \"career\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"I'm so sorry to hear that, Yuri. It sounds like it was a very difficult moment in your career. How did you manage to cope with such a significant injury, and did it change how you viewed your life and career in ballet?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"I'm so sorry to hear that, Yuri. It must have been a significant challenge for you. How did you handle the recovery process, and did it change your perspective on your career and life?\",\n  \"annotations\": {\n    \"emotions\": [\"empathy\", \"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"Yuri\",\n        \"type\": \"PERSON\",\n        \"role\": \"subject\"\n      },\n      {\n        \"text\": \"recovery process\",\n        \"type\": \"EVENT\",\n        \"role\": \"key event\"\n      },\n      {\n        \"text\": \"career\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"aspect of life\"\n      },\n      {\n        \"text\": \"life\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"aspect of life\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:15.071391"
+  },
+  {
+    "sample_id": 28,
+    "file_id": "24_Yuri_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "Teaching must have been a big adjustment. What was it like transitioning from performing to teaching?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"What was it like transitioning from performer to teacher, and how did you find fulfillment in this new role?\"}",
+        "parsed": {
+          "text": "What was it like transitioning from performer to teacher, and how did you find fulfillment in this new role?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Transitioning to teaching is a significant shift. What was that experience like for you, and how did it impact your relationship with ballet?\",\n  \"entities\": [\n    {\n      \"text\": \"ballet\",\n      \"type\": \"EVENT\",\n      \"role\": \"passion\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"Teaching must have brought its own set of challenges and rewards. What was it like stepping into that new role?\",\n  \"emotions\": [\"curiosity\", \"encouragement\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful that you found a way to continue sharing your passion for ballet. How did your students respond to your transition from performer to teacher?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"admiration\"],\n    \"entities\": [\n      {\n        \"text\": \"students\",\n        \"type\": \"PERSON\",\n        \"role\": \"those learning from Yuri\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:26.352420"
+  },
+  {
+    "sample_id": 29,
+    "file_id": "29_Hans_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "So when did things change for you in the clockmaking world?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Your father's approach to teaching sounds truly unique and insightful. Can you recall a particular story or lesson he shared with you that has stayed with you throughout your life?\"}",
+        "parsed": {
+          "text": "Your father's approach to teaching sounds truly unique and insightful. Can you recall a particular story or lesson he shared with you that has stayed with you throughout your life?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It seems like your father not only taught you about clockmaking but also instilled a deeper appreciation for the craft. Can you share a particular memory or lesson from those early days that has stayed with you throughout your career?\",\n  \"entities\": [\n    {\n      \"text\": \"father\",\n      \"type\": \"PERSON\",\n      \"role\": \"teacher\"\n    },\n    {\n      \"text\": \"clockmaking\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"profession\"\n    },\n    {\n      \"text\": \"career\",\n      \"type\": \"TIME\",\n      \"role\": \"life period\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been wonderful to share that passion with your father. Can you recall a specific moment or project that stands out from those early days together?\",\n  \"emotions\": [\"curiosity\", \"warmth\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's wonderful to hear about such a deep connection through your shared work. Did your father's teaching style influence how you approached your own work or perhaps how you taught others?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\"],\n    \"entities\": [\n      {\n        \"text\": \"father\",\n        \"type\": \"PERSON\",\n        \"role\": \"mentor\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's wonderful to hear about such a deep connection through your shared work. Did your father's teaching style influence how you approached your own work or perhaps how you taught others?",
+          "annotations": {
+            "emotions": [
+              "curiosity"
+            ],
+            "entities": [
+              {
+                "text": "father",
+                "type": "PERSON",
+                "role": "mentor"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:34.730246"
+  },
+  {
+    "sample_id": 30,
+    "file_id": "29_Hans_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "That must have been hard, seeing the world move in a direction that felt so different from your life's work.",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"How did you adapt to these changes in the industry, and what kept you motivated during that time?\"}",
+        "parsed": {
+          "text": "How did you adapt to these changes in the industry, and what kept you motivated during that time?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"The Quartz Crisis seems to have been a pivotal moment for you and many in your field. How did you and your fellow clockmakers adapt to this shift in the industry?\",\n  \"entities\": [\n    {\n      \"text\": \" Quartz Crisis\",\n      \"type\": \"EVENT\",\n      \"role\": \"historical context\"\n    },\n    {\n      \"text\": \"clockmakers\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"affected group\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been challenging to see such a shift in the industry. How did you adapt to these changes, and what kept you motivated to continue your craft during those times?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"The Quartz Crisis seems to have had a profound impact on traditional clockmakers like yourself. How did you and your peers adapt to this shift in the industry?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"Quartz Crisis\",\n        \"type\": \"EVENT\",\n        \"role\": \"historical context\"\n      },\n      {\n        \"text\": \"traditional clockmakers\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"affected group\"\n      },\n      {\n        \"text\": \"industry shift\",\n        \"type\": \"EVENT\",\n        \"role\": \"consequence\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:45.536492"
+  },
+  {
+    "sample_id": 31,
+    "file_id": "29_Hans_Annotated.json",
+    "subject_turn": 8,
+    "target_turn": 9,
+    "target_question_gt": "I'd love to hear how you coped with those changes. Did you find a way to adapt?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"How did you personally navigate those changes? Did you find a way to adapt, or did you choose to focus on preserving traditional methods?\"}",
+        "parsed": {
+          "text": "How did you personally navigate those changes? Did you find a way to adapt, or did you choose to focus on preserving traditional methods?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that period was challenging for many artisans. How did you personally navigate through those changes, and what kept your passion for clockmaking alive during the Quartz Crisis?\",\n  \"entities\": [\n    {\n      \"text\": \"Quartz Crisis\",\n      \"type\": \"EVENT\",\n      \"role\": \"historical challenge\"\n    },\n    {\n      \"text\": \"artisans\",\n      \"type\": \"PERSON\",\n      \"role\": \"community of craftsmen\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like that period brought a lot of challenges and changes to your craft. How did you and your colleagues cope with these feelings of loss and the need to adapt? Did it change your perspective on clockmaking?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's clear how much you value the artistry in clockmaking. Can you share a moment or a project during that time which reminded you why you loved the craft, despite the changes?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"artistry\",\n        \"type\": \"CONCEPT\",\n        \"role\": \"core value\"\n      },\n      {\n        \"text\": \"clockmaking\",\n        \"type\": \"OCCUPATION\",\n        \"role\": \"subject of discussion\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:46:54.845854"
+  },
+  {
+    "sample_id": 32,
+    "file_id": "29_Hans_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "It sounds like those were challenging times. How did you find a way to maintain your passion for clockmaking during that period?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's fascinating how you found a niche in repairing antique clocks. What stories or history have you uncovered through these old timepieces?\"}",
+        "parsed": {
+          "text": "It's fascinating how you found a niche in repairing antique clocks. What stories or history have you uncovered through these old timepieces?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's impressive that you found a way to continue working with the antique clocks. Did you have a favorite piece or a memorable restoration project that stands out from those years?\",\n  \"entities\": [\n    {\n      \"text\": \"antique clocks\",\n      \"type\": \"ARTIFACT\",\n      \"role\": \"subject of adaptation\"\n    },\n    {\n      \"text\": \"restoration project\",\n      \"type\": \"EVENT\",\n      \"role\": \"specific memory\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"Your dedication to preserving the art of clockmaking is truly inspiring. I'm curious, have you found any moments or experiences in recent years that have reignited your passion for this craft?\",\n  \"emotions\": [\"curiosity\", \"admiration\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's inspiring to hear how you found a way to keep the essence of your craft alive. How did your focus on repairing antique clocks influence your appreciation for the craftsmanship involved?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"respect\"],\n    \"entities\": [\n      {\n        \"text\": \"antique clocks\",\n        \"type\": \"ARTIFACT\",\n        \"role\": \"subject of adaptation\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:47:06.975197"
+  },
+  {
+    "sample_id": 33,
+    "file_id": "38_Helen_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "That must have been hard, keeping everything in check. So when did things change for you in your career?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"You've mentioned some challenges, but I'm curious about how they shaped your career or influenced your approach to editing. Can you tell me more about that?\"}",
+        "parsed": {
+          "text": "You've mentioned some challenges, but I'm curious about how they shaped your career or influenced your approach to editing. Can you tell me more about that?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "{\n  \"text\": \"It's fascinating to hear about the challenges you encountered. Could you share a particular moment or project that stands out in your memory during your time at the magazine?\",\n  \"entities\": [\n    {\n      \"text\": \"magazine\",\n      \"type\": \"ORGANIZATION\",\n      \"role\": \"workplace\"\n    }\n  ]\n}",
+        "parsed": {
+          "text": "It's fascinating to hear about the challenges you encountered. Could you share a particular moment or project that stands out in your memory during your time at the magazine?",
+          "entities": [
+            {
+              "text": "magazine",
+              "type": "ORGANIZATION",
+              "role": "workplace"
+            }
+          ]
+        },
+        "format": "json"
+      },
+      "C": {
+        "raw_output": "{\n  \"text\": \"It seems like you navigated quite a few challenges with grace and resilience. Could you share a specific moment or experience from that time that stands out to you, perhaps something that taught you an important lesson or shaped your career in a significant way?\",\n  \"emotions\": [\"curiosity\", \"respect\"]\n}",
+        "parsed": {
+          "text": "It seems like you navigated quite a few challenges with grace and resilience. Could you share a specific moment or experience from that time that stands out to you, perhaps something that taught you an important lesson or shaped your career in a significant way?",
+          "emotions": [
+            "curiosity",
+            "respect"
+          ]
+        },
+        "format": "json"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"You mentioned earlier how the fast-paced environment of the fashion closet was both exhilarating and overwhelming at times. Can you share a particular moment or experience that stands out to you from those early days?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"interest\"],\n    \"entities\": [\n      {\n        \"text\": \"fashion closet\",\n        \"type\": \"LOCATION\",\n        \"role\": \"workplace\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "You mentioned earlier how the fast-paced environment of the fashion closet was both exhilarating and overwhelming at times. Can you share a particular moment or experience that stands out to you from those early days?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "interest"
+            ],
+            "entities": [
+              {
+                "text": "fashion closet",
+                "type": "LOCATION",
+                "role": "workplace"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:47:21.003657"
+  },
+  {
+    "sample_id": 34,
+    "file_id": "38_Helen_Annotated.json",
+    "subject_turn": 12,
+    "target_turn": 13,
+    "target_question_gt": "It sounds like your journey with print and digital was quite transformative. Can you share more about the challenges you faced during the shift from print to digital?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's interesting to hear your perspective on the digital shift. How do you think the rise of digital media has changed the landscape for new editors entering the field today?\"}",
+        "parsed": {
+          "text": "It's interesting to hear your perspective on the digital shift. How do you think the rise of digital media has changed the landscape for new editors entering the field today?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "{\n  \"text\": \"It's fascinating to hear how you've adapted over the years. Could you talk about a specific project or moment in your career that made you realize the importance of digital media?\",\n  \"entities\": [\n    {\n      \"text\": \"digital media\",\n      \"type\": \"TECHNOLOGY\",\n      \"role\": \"focus of career transition\"\n    }\n  ]\n}",
+        "parsed": {
+          "text": "It's fascinating to hear how you've adapted over the years. Could you talk about a specific project or moment in your career that made you realize the importance of digital media?",
+          "entities": [
+            {
+              "text": "digital media",
+              "type": "TECHNOLOGY",
+              "role": "focus of career transition"
+            }
+          ]
+        },
+        "format": "json"
+      },
+      "C": {
+        "raw_output": "{\n  \"text\": \"It sounds like that shift was both challenging and exciting. How did your experiences and skills from the traditional magazine world help you adapt to the digital landscape?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}",
+        "parsed": {
+          "text": "It sounds like that shift was both challenging and exciting. How did your experiences and skills from the traditional magazine world help you adapt to the digital landscape?",
+          "emotions": [
+            "curiosity",
+            "empathy"
+          ]
+        },
+        "format": "json"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It's fascinating to hear how you navigated those changes. Given your experience, what do you think are the most significant differences between print and digital media today?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"respect\"],\n    \"entities\": [\n      {\n        \"text\": \"print and digital media\",\n        \"type\": \"TOPIC\",\n        \"role\": \"subject of discussion\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:47:30.623117"
+  },
+  {
+    "sample_id": 35,
+    "file_id": "38_Helen_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "That must have been quite the learning curve. How did you manage to adapt to these new digital demands while maintaining the quality you were used to in print?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"It's interesting to hear about those challenges. How did you navigate the changes in your team or your own role during that transition?\"}",
+        "parsed": {
+          "text": "It's interesting to hear about those challenges. How did you navigate the changes in your team or your own role during that transition?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been fascinating to witness such a pivotal shift. During that transition, were there any particular projects or innovations that you spearheaded or were particularly proud of?\",\n  \"entities\": []\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It seems like adapting to digital was both exciting and daunting. Were there specific skills you found invaluable during that transition, or perhaps skills you wish you had focused on more?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's fascinating to hear how you navigated those shifts. Looking back, were there any particular moments or decisions that you think were pivotal in helping you adapt to the changes in the industry?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"admiration\"],\n    \"entities\": [\n      {\n        \"text\": \"industry\",\n        \"type\": \"GENERAL\",\n        \"role\": \"context\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's fascinating to hear how you navigated those shifts. Looking back, were there any particular moments or decisions that you think were pivotal in helping you adapt to the changes in the industry?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "admiration"
+            ],
+            "entities": [
+              {
+                "text": "industry",
+                "type": "GENERAL",
+                "role": "context"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:47:46.189192"
+  },
+  {
+    "sample_id": 36,
+    "file_id": "38_Helen_Annotated.json",
+    "subject_turn": 22,
+    "target_turn": 23,
+    "target_question_gt": "Reading sounds like such a lovely way to spend your time. What kind of books do you find yourself reaching for now?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That sounds like a wonderful way to spend your time. Have you found any new hobbies or passions since stepping away from the magazine world?\"}",
+        "parsed": {
+          "text": "That sounds like a wonderful way to spend your time. Have you found any new hobbies or passions since stepping away from the magazine world?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear that you're finding joy in your new pursuits. I'm curious, Helen, are there any aspects of your editorial career that you find yourself applying to your current projects or hobbies?\",\n  \"entities\": [\n    {\n      \"text\": \"Helen\",\n      \"type\": \"PERSON\",\n      \"role\": \"subject\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It's wonderful to hear how you've found new ways to enjoy your time. What activities or hobbies have you been most passionate about since stepping away from your editorial role?\",\n  \"emotions\": [\"curiosity\", \"warmth\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It's great to hear that you're finding joy in your current pursuits. Given your extensive experience in the magazine industry, have you ever considered mentoring young editors or writers who are just starting out?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"encouragement\"],\n    \"entities\": [\n      {\n        \"text\": \"magazine industry\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"contextual role\"\n      },\n      {\n        \"text\": \"young editors or writers\",\n        \"type\": \"PERSON\",\n        \"role\": \"potential mentees\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It's great to hear that you're finding joy in your current pursuits. Given your extensive experience in the magazine industry, have you ever considered mentoring young editors or writers who are just starting out?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "encouragement"
+            ],
+            "entities": [
+              {
+                "text": "magazine industry",
+                "type": "ORGANIZATION",
+                "role": "contextual role"
+              },
+              {
+                "text": "young editors or writers",
+                "type": "PERSON",
+                "role": "potential mentees"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:47:56.740218"
+  },
+  {
+    "sample_id": 37,
+    "file_id": "28_Donna_Annotated.json",
+    "subject_turn": 4,
+    "target_turn": 5,
+    "target_question_gt": "That must have been hard, balancing those emotions. So when did things change for you in your career?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Building trust in such situations can be incredibly challenging. What strategies did you find most effective in connecting with Tommy?\"}",
+        "parsed": {
+          "text": "Building trust in such situations can be incredibly challenging. What strategies did you find most effective in connecting with Tommy?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like building that connection with Tommy was a significant part of your early career. Can you share more about the strategies or approaches you used to gain his trust?\",\n  \"entities\": [\n    {\n      \"text\": \"Tommy\",\n      \"type\": \"PERSON\",\n      \"role\": \"focus of discussion\"\n    },\n    {\n      \"text\": \"career\",\n      \"type\": \"EVENT\",\n      \"role\": \"context\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It must have been incredibly rewarding to see him open up to you. What were some of the challenges you faced in gaining his trust, and how did you overcome them?\",\n  \"emotions\": [\"curiosity\", \"empathy\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like building trust with Tommy was a gradual process. Can you share a specific moment or breakthrough that was particularly meaningful in your journey with him?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"Tommy\",\n        \"type\": \"PERSON\",\n        \"role\": \"child in foster care\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like building trust with Tommy was a gradual process. Can you share a specific moment or breakthrough that was particularly meaningful in your journey with him?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "empathy"
+            ],
+            "entities": [
+              {
+                "text": "Tommy",
+                "type": "PERSON",
+                "role": "child in foster care"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:48:08.384663"
+  },
+  {
+    "sample_id": 38,
+    "file_id": "28_Donna_Annotated.json",
+    "subject_turn": 6,
+    "target_turn": 7,
+    "target_question_gt": "That must have been quite a challenging period. How did that phase of your life come to an end?",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"How did you manage to cope with the growing demands and the feelings of burnout during that period?\"}",
+        "parsed": {
+          "text": "How did you manage to cope with the growing demands and the feelings of burnout during that period?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like the late '80s were a challenging period for you. How did you manage to cope with the burnout, and was there a particular moment or event that helped you decide to continue in your role as a social worker?\",\n  \"entities\": [\n    {\n      \"text\": \"late '80s\",\n      \"type\": \"DATE\",\n      \"role\": \"time period\"\n    },\n    {\n      \"text\": \"social worker\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"career role\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like a very challenging time for you. How did you manage to cope with the burnout and keep going in such a demanding field?\",\n  \"emotions\": [\"empathy\", \"concern\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "{\n  \"text\": \"It sounds like a challenging period in your career. How did you manage the burnout and maintain your passion for social work?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"burnout\",\n        \"type\": \"EVENT\",\n        \"role\": \"challenge experienced\"\n      },\n      {\n        \"text\": \"social work\",\n        \"type\": \"FIELD\",\n        \"role\": \"career field\"\n      }\n    ]\n  }\n}",
+        "parsed": {
+          "text": "It sounds like a challenging period in your career. How did you manage the burnout and maintain your passion for social work?",
+          "annotations": {
+            "emotions": [
+              "curiosity",
+              "empathy"
+            ],
+            "entities": [
+              {
+                "text": "burnout",
+                "type": "EVENT",
+                "role": "challenge experienced"
+              },
+              {
+                "text": "social work",
+                "type": "FIELD",
+                "role": "career field"
+              }
+            ]
+          }
+        },
+        "format": "json"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:48:17.937498"
+  },
+  {
+    "sample_id": 39,
+    "file_id": "28_Donna_Annotated.json",
+    "subject_turn": 10,
+    "target_turn": 11,
+    "target_question_gt": "I'd love to hear more about the challenges you faced during those intense years.",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"Adopting a child must have been a transformative experience for you. How did that decision impact your personal and professional life?\"}",
+        "parsed": {
+          "text": "Adopting a child must have been a transformative experience for you. How did that decision impact your personal and professional life?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"Adopting a child sounds like such a profound decision. What inspired you to take that step, and how did it change your perspective on your work as a social worker?\",\n  \"entities\": [\n    {\n      \"text\": \"child\",\n      \"type\": \"PERSON\",\n      \"role\": \"focus of adoption\"\n    },\n    {\n      \"text\": \"social worker\",\n      \"type\": \"OCCUPATION\",\n      \"role\": \"Donna's profession\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"That sounds like a pivotal moment in your life. Can you tell me more about the changes you made during that leave of absence and how they impacted your personal and professional journey?\",\n  \"emotions\": [\"curiosity\", \"support\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like taking a leave of absence was a pivotal moment for you. I'm curious about the changes you made afterward, especially your decision to adopt a child. What inspired you to take that step?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"support\"],\n    \"entities\": [\n      {\n        \"text\": \"leave of absence\",\n        \"type\": \"EVENT\",\n        \"role\": \"turning point\"\n      },\n      {\n        \"text\": \"adopt a child\",\n        \"type\": \"ACTION\",\n        \"role\": \"life decision\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:48:26.836729"
+  },
+  {
+    "sample_id": 40,
+    "file_id": "28_Donna_Annotated.json",
+    "subject_turn": 14,
+    "target_turn": 15,
+    "target_question_gt": "N/A",
+    "generated_questions": {
+      "A": {
+        "raw_output": "{\"text\": \"That sounds incredibly difficult. How did you manage to maintain your motivation and commitment to helping children through those obstacles?\"}",
+        "parsed": {
+          "text": "That sounds incredibly difficult. How did you manage to maintain your motivation and commitment to helping children through those obstacles?"
+        },
+        "format": "json"
+      },
+      "B": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like you faced a lot of systemic challenges. How did you manage to maintain your passion for social work despite these obstacles?\",\n  \"entities\": [\n    {\n      \"text\": \"social work\",\n      \"type\": \"FIELD\",\n      \"role\": \"profession\"\n    }\n  ]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "C": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like navigating the system was incredibly taxing. During those times, how did you maintain your motivation and continue to advocate for the children in your care?\",\n  \"emotions\": [\"empathy\", \"curiosity\"]\n}\n```",
+        "parsed": null,
+        "format": "text"
+      },
+      "D": {
+        "raw_output": "```json\n{\n  \"text\": \"It sounds like navigating the bureaucracy was incredibly taxing. Did you have any strategies or support systems that helped you manage those challenges?\",\n  \"annotations\": {\n    \"emotions\": [\"curiosity\", \"empathy\"],\n    \"entities\": [\n      {\n        \"text\": \"bureaucracy\",\n        \"type\": \"ORGANIZATION\",\n        \"role\": \"challenge\"\n      }\n    ]\n  }\n}\n```",
+        "parsed": null,
+        "format": "text"
+      }
+    },
+    "generation_timestamp": "2025-12-10T17:48:37.800496"
+  }
+]

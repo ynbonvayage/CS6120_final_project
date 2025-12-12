@@ -1,0 +1,56 @@
+{
+  "automatic_metrics": {
+    "A": {
+      "rouge1": 0.27784643800400616,
+      "rougeL": 0.22020642823098951,
+      "bert": 0.5352704867720603,
+      "errors": 0
+    },
+    "B": {
+      "rouge1": 0.24851975831350961,
+      "rougeL": 0.1833515020290359,
+      "bert": 0.5178111825138331,
+      "errors": 0
+    },
+    "C": {
+      "rouge1": 0.265282798213379,
+      "rougeL": 0.19819006806564843,
+      "bert": 0.5300261300057173,
+      "errors": 0
+    },
+    "D": {
+      "rouge1": 0.24155262067823635,
+      "rougeL": 0.18851754263130502,
+      "bert": 0.5156879417598248,
+      "errors": 0
+    }
+  },
+  "llm_metrics": {
+    "A": {
+      "relevance": 4.84375,
+      "depth": 4.78125,
+      "emotional_engagement": 4.8125,
+      "naturalness": 5
+    },
+    "B": {
+      "relevance": 4.896551724137931,
+      "depth": 4.827586206896552,
+      "emotional_engagement": 4.655172413793103,
+      "naturalness": 4.9655172413793105
+    },
+    "C": {
+      "relevance": 4.925925925925926,
+      "depth": 4.925925925925926,
+      "emotional_engagement": 4.925925925925926,
+      "naturalness": 4.962962962962963
+    },
+    "D": {
+      "relevance": 4.962962962962963,
+      "depth": 4.814814814814815,
+      "emotional_engagement": 4.7407407407407405,
+      "naturalness": 5
+    }
+  },
+  "total_samples": 40,
+  "llm_model": "gpt-4o"
+}
