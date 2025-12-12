@@ -1,6 +1,10 @@
+Here is the fully cited `README.md` content in English, ready for you to copy and paste.
+
+---
+
 # 📖 Memoir for Seniors: Oral History Dialogue and Memoir System
 
-This project aims to transform the unstructured transcripts of seniors' oral histories into structured data and emotionally rich, long-form memoirs by integrating Natural Language Processing (NLP), Large Language Models (LLM), and Affective Computing
+This project aims to transform the unstructured transcripts of seniors' oral histories into structured data and emotionally rich, long-form memoirs by integrating Natural Language Processing (NLP), Large Language Models (LLM), and Affective Computing.
 
 ## 🌟 `main` Branch Overview
 
@@ -27,3 +31,16 @@ The project validates and optimizes the system's core components through four di
 | **`exp2`** | **Emotion Classification** | [cite_start]**Goal**: Build the affective module[cite: 254]. [cite_start]Trained a **Linear SVM** (Macro-F1 of 0.561 [cite: 283, 295][cite_start]) on IEMOCAP [cite: 259] [cite_start]to generate reliable fine-grained emotion tags for all 50 interviews[cite: 43]. |
 | **`exp3`** | **Question Generation (QG)** | [cite_start]**Goal**: Quantify the value of structured context on dialogue depth[cite: 45, 50]. [cite_start]Conducted a **GPT-4o Ablation Study (ABCD Groups)** to measure the impact of entity and emotion tags on question quality[cite: 56, 380].  |
 | **`exp4`** | **Memoir Generation** | [cite_start]**Goal**: Explore long-form narrative application and PII-safe rewriting[cite: 70]. [cite_start]Compared four generation strategies (Baseline, RAG, Few-shot, PII-safe) [cite: 509] [cite_start]using BERTScore [cite: 82] [cite_start]and human ratings[cite: 533]. |
+
+---
+
+## 📈 Key Findings Summary (From Final Report)
+
+* **Emotional Context Validation (Exp 3):**
+    * [cite_start]The Emotion Focused Group (C) significantly excelled in **Depth** and **Emotional Engagement** (mean score $\mathbf{4.93}$) [cite: 494][cite_start], proving that emotion tags drive more empathetic inquiries[cite: 495].
+    * [cite_start]The Full Model Group (D) achieved the highest **Relevance** ($\mathbf{4.96}$) [cite: 496][cite_start], confirming that combining factual (Entities) and affective (Emotions) contexts is the most effective approach for conversational fitness[cite: 627].
+* [cite_start]**NER Performance (Exp 1):** The "Aggressive Optimization Strategy" successfully boosted RoBERTa-base **Recall** from $0.52$ to $\mathbf{0.67}$[cite: 230].
+* **Memoir Generation Limitations (Exp 4):**
+    * [cite_start]The **Baseline** (Zero-shot) approach achieved the highest BERTScore F1 and best human ratings for Coverage, Faithfulness, and Chronology[cite: 557, 558].
+    * [cite_start]**Retrieval-Augmented Generation (RAG)** suffered from significant information loss due to retrieval limits, resulting in the lowest BERTScore Recall[cite: 561, 562].
+    * [cite_start]**PII-safe** rewriting, while protecting privacy, sacrificed the narrative specificity and factual basis[cite: 569].
