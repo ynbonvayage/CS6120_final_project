@@ -1,7 +1,3 @@
-Here is the final, clean `README.md` content in English, with all citation tags removed, ready for you to copy and paste.
-
----
-
 # 📖 Memoir for Seniors: Oral History Dialogue and Memoir System
 
 This project aims to transform the unstructured transcripts of seniors' oral histories into structured data and emotionally rich, long-form memoirs by integrating Natural Language Processing (NLP), Large Language Models (LLM), and Affective Computing.
