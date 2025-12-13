@@ -1,14 +1,14 @@
-# 📖 Memoir for Seniors: Oral History Dialogue and Memoir System
+# Memoir for Seniors: Oral History Dialogue and Memoir System
 
 This project aims to transform the unstructured transcripts of seniors' oral histories into structured data and emotionally rich, long-form memoirs by integrating Natural Language Processing (NLP), Large Language Models (LLM), and Affective Computing.
 
-## 🌟 `main` Branch Overview
+## `main` Branch Overview
 
 The `main` branch serves as the **core data and configuration repository** for the project. It contains only the foundational and finalized data files required for the experiments.
 
 **Please Note:** All core code, experimental scripts, and specific processing logic (including the dialogue system modules) reside within the dedicated **`exp1`** through **`exp4`** branches.
 
-### 📁 `main` Branch Data Contents
+### `main` Branch Data Contents
 
 | Folder | Core Content | Data Source and Purpose |
 | :--- | :--- | :--- |
@@ -17,7 +17,7 @@ The `main` branch serves as the **core data and configuration repository** for t
 
 ---
 
-## 🔬 Experimental Goals and Branch Structure
+## Experimental Goals and Branch Structure
 
 The project validates and optimizes the system's core components through four distinct experimental branches:
 
@@ -30,7 +30,7 @@ The project validates and optimizes the system's core components through four di
 
 ---
 
-## 📈 Key Findings Summary (From Final Report)
+## Key Findings Summary (From Final Report)
 
 * **NER Performance (Experiment 1):**
     * The "Aggressive Optimization Strategy" (High LR + Warmup) successfully boosted RoBERTa-base **Recall** from $0.52$ to $\mathbf{0.67}$.
